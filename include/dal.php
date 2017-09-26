@@ -67,19 +67,19 @@ class tDAL
 	{
 		if($this->lstTables)
 			return;
-		$this->lstTables[] = array("name" => "cat_cabcol", "varname" => "desaparecidos_at_localhost__cat_cabcol", "altvarname" => "cat_cabcol", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_cabtam", "varname" => "desaparecidos_at_localhost__cat_cabtam", "altvarname" => "cat_cabtam", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_cabtip", "varname" => "desaparecidos_at_localhost__cat_cabtip", "altvarname" => "cat_cabtip", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_cejas", "varname" => "desaparecidos_at_localhost__cat_cejas", "altvarname" => "cat_cejas", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_comp", "varname" => "desaparecidos_at_localhost__cat_comp", "altvarname" => "cat_comp", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_escolaridad", "varname" => "desaparecidos_at_localhost__cat_escolaridad", "altvarname" => "cat_escolaridad", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_labios", "varname" => "desaparecidos_at_localhost__cat_labios", "altvarname" => "cat_labios", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_menton", "varname" => "desaparecidos_at_localhost__cat_menton", "altvarname" => "cat_menton", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_nariz", "varname" => "desaparecidos_at_localhost__cat_nariz", "altvarname" => "cat_nariz", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_ojos", "varname" => "desaparecidos_at_localhost__cat_ojos", "altvarname" => "cat_ojos", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_piel", "varname" => "desaparecidos_at_localhost__cat_piel", "altvarname" => "cat_piel", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "cat_vfacial", "varname" => "desaparecidos_at_localhost__cat_vfacial", "altvarname" => "cat_vfacial", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "desaparecidos2017", "varname" => "desaparecidos_at_localhost__desaparecidos2017", "altvarname" => "desaparecidos2017", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
+		$this->lstTables[] = array("name" => "cat_cabcol", "varname" => "desaparecidos_at_localhost__cat_cabcol", "altvarname" => "cat_cabcol", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_cabtam", "varname" => "desaparecidos_at_localhost__cat_cabtam", "altvarname" => "cat_cabtam", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_cabtip", "varname" => "desaparecidos_at_localhost__cat_cabtip", "altvarname" => "cat_cabtip", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_cejas", "varname" => "desaparecidos_at_localhost__cat_cejas", "altvarname" => "cat_cejas", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_comp", "varname" => "desaparecidos_at_localhost__cat_comp", "altvarname" => "cat_comp", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_escolaridad", "varname" => "desaparecidos_at_localhost__cat_escolaridad", "altvarname" => "cat_escolaridad", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_labios", "varname" => "desaparecidos_at_localhost__cat_labios", "altvarname" => "cat_labios", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_menton", "varname" => "desaparecidos_at_localhost__cat_menton", "altvarname" => "cat_menton", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_nariz", "varname" => "desaparecidos_at_localhost__cat_nariz", "altvarname" => "cat_nariz", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_ojos", "varname" => "desaparecidos_at_localhost__cat_ojos", "altvarname" => "cat_ojos", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_piel", "varname" => "desaparecidos_at_localhost__cat_piel", "altvarname" => "cat_piel", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "cat_vfacial", "varname" => "desaparecidos_at_localhost__cat_vfacial", "altvarname" => "cat_vfacial", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
+		$this->lstTables[] = array("name" => "desaparecidos2017", "varname" => "desaparecidos_at_localhost__desaparecidos2017", "altvarname" => "desaparecidos2017", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "repupedes at localhost");
 	}
 
 	/**

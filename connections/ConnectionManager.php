@@ -236,11 +236,11 @@ class ConnectionManager
 		$data = array();
 		$data["dbType"] = 0;
 		$data["connId"] = "desaparecidos_at_localhost";
-		$data["connName"] = "desaparecidos at localhost";
+		$data["connName"] = "repupedes at localhost";
 		$data["connStringType"] = "mysql";
-		$data["connectionString"] = "mysql;localhost;web;W3b2015_@;3306;desaparecidos;;1"; //currently unused
+		$data["connectionString"] = "mysql;localhost;web;W3b2015_@;3306;repupedes;;1"; //currently unused
 		
-		$this->_connectionsIdByName["desaparecidos at localhost"] = "desaparecidos_at_localhost";
+		$this->_connectionsIdByName["repupedes at localhost"] = "desaparecidos_at_localhost";
 		
 		$data["connInfo"] = array();
 		$data["ODBCUID"] = "web";
@@ -255,10 +255,10 @@ class ConnectionManager
 		$data["connInfo"][1] = "web";
 		$data["connInfo"][2] = "W3b2015_@";
 		$data["connInfo"][3] = "3306";
-		$data["connInfo"][4] = "desaparecidos";
+		$data["connInfo"][4] = "repupedes";
 		$data["connInfo"][5] = ""; //currently unused
 		$data["connInfo"][6] = "1"; //currently unused
-		$data["ODBCString"] = "DRIVER={MySQL ODBC 3.51 Driver};Server=localhost;Uid=web;Pwd=W3b2015_@;Port=3306;Database=desaparecidos;OPTION=3";
+		$data["ODBCString"] = "DRIVER={MySQL ODBC 3.51 Driver};Server=localhost;Uid=web;Pwd=W3b2015_@;Port=3306;Database=repupedes;OPTION=3";
 		$connectionsData["desaparecidos_at_localhost"] = $data;
 		$this->_connectionsData = $connectionsData;
 	}
