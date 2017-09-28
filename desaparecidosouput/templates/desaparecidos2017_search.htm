@@ -1,0 +1,813 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+{BEGIN searchheader}
+<div  class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}"><span>	<h1>{$pagetitlelabel desaparecidos2017 search}</h1>
+</span></div>{END searchheader}
+
+
+{BEGIN conditions_block}
+<div  class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">	<center>
+	<span class=fieldname>Criterio:&nbsp;</span>	
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$all_checkbox}><label for="all_checkbox"> Todas las condiciones</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$any_checkbox}><label for="any_checkbox"> Ninguna condición</label>
+	</center></div>{END conditions_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}"><table class="fieldGrid">
+	<tr>
+		<td>&nbsp;</td>
+		<td>NO</td>
+		<td colspan=3>&nbsp; </td>
+	</tr>
+	<tr class="{$fielddispclass_Id}">
+	{BEGIN Id_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Id}
+	</td>
+	<td>
+		<input type="checkbox" {$Id_notbox}>
+	</td>
+	<td>
+		{$searchtype_Id}
+	</td>
+	<td>
+		{$Id_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Id_editcontrol1}&nbsp;
+	</td>
+{END Id_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Estado}">
+	{BEGIN Estado_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Estado}
+	</td>
+	<td>
+		<input type="checkbox" {$Estado_notbox}>
+	</td>
+	<td>
+		{$searchtype_Estado}
+	</td>
+	<td>
+		{$Estado_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Estado_editcontrol1}&nbsp;
+	</td>
+{END Estado_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Mun}">
+	{BEGIN Mun_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Mun}
+	</td>
+	<td>
+		<input type="checkbox" {$Mun_notbox}>
+	</td>
+	<td>
+		{$searchtype_Mun}
+	</td>
+	<td>
+		{$Mun_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Mun_editcontrol1}&nbsp;
+	</td>
+{END Mun_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_InvMin}">
+	{BEGIN InvMin_fieldblock}		
+	<td>
+		{$label desaparecidos2017 InvMin}
+	</td>
+	<td>
+		<input type="checkbox" {$InvMin_notbox}>
+	</td>
+	<td>
+		{$searchtype_InvMin}
+	</td>
+	<td>
+		{$InvMin_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$InvMin_editcontrol1}&nbsp;
+	</td>
+{END InvMin_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FInicio}">
+	{BEGIN FInicio_fieldblock}		
+	<td>
+		{$label desaparecidos2017 FInicio}
+	</td>
+	<td>
+		<input type="checkbox" {$FInicio_notbox}>
+	</td>
+	<td>
+		{$searchtype_FInicio}
+	</td>
+	<td>
+		{$FInicio_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FInicio_editcontrol1}&nbsp;
+	</td>
+{END FInicio_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_MinPub}">
+	{BEGIN MinPub_fieldblock}		
+	<td>
+		{$label desaparecidos2017 MinPub}
+	</td>
+	<td>
+		<input type="checkbox" {$MinPub_notbox}>
+	</td>
+	<td>
+		{$searchtype_MinPub}
+	</td>
+	<td>
+		{$MinPub_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$MinPub_editcontrol1}&nbsp;
+	</td>
+{END MinPub_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Ofic}">
+	{BEGIN Ofic_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Ofic}
+	</td>
+	<td>
+		<input type="checkbox" {$Ofic_notbox}>
+	</td>
+	<td>
+		{$searchtype_Ofic}
+	</td>
+	<td>
+		{$Ofic_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Ofic_editcontrol1}&nbsp;
+	</td>
+{END Ofic_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FExtrav}">
+	{BEGIN FExtrav_fieldblock}		
+	<td>
+		{$label desaparecidos2017 FExtrav}
+	</td>
+	<td>
+		<input type="checkbox" {$FExtrav_notbox}>
+	</td>
+	<td>
+		{$searchtype_FExtrav}
+	</td>
+	<td>
+		{$FExtrav_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FExtrav_editcontrol1}&nbsp;
+	</td>
+{END FExtrav_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nombre}">
+	{BEGIN Nombre_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Nombre}
+	</td>
+	<td>
+		<input type="checkbox" {$Nombre_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nombre}
+	</td>
+	<td>
+		{$Nombre_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nombre_editcontrol1}&nbsp;
+	</td>
+{END Nombre_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_APat}">
+	{BEGIN APat_fieldblock}		
+	<td>
+		{$label desaparecidos2017 APat}
+	</td>
+	<td>
+		<input type="checkbox" {$APat_notbox}>
+	</td>
+	<td>
+		{$searchtype_APat}
+	</td>
+	<td>
+		{$APat_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$APat_editcontrol1}&nbsp;
+	</td>
+{END APat_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_AMat}">
+	{BEGIN AMat_fieldblock}		
+	<td>
+		{$label desaparecidos2017 AMat}
+	</td>
+	<td>
+		<input type="checkbox" {$AMat_notbox}>
+	</td>
+	<td>
+		{$searchtype_AMat}
+	</td>
+	<td>
+		{$AMat_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$AMat_editcontrol1}&nbsp;
+	</td>
+{END AMat_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Sexo}">
+	{BEGIN Sexo_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Sexo}
+	</td>
+	<td>
+		<input type="checkbox" {$Sexo_notbox}>
+	</td>
+	<td>
+		{$searchtype_Sexo}
+	</td>
+	<td>
+		{$Sexo_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Sexo_editcontrol1}&nbsp;
+	</td>
+{END Sexo_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_EdadA}">
+	{BEGIN EdadA_fieldblock}		
+	<td>
+		{$label desaparecidos2017 EdadA}
+	</td>
+	<td>
+		<input type="checkbox" {$EdadA_notbox}>
+	</td>
+	<td>
+		{$searchtype_EdadA}
+	</td>
+	<td>
+		{$EdadA_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$EdadA_editcontrol1}&nbsp;
+	</td>
+{END EdadA_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_EdadM}">
+	{BEGIN EdadM_fieldblock}		
+	<td>
+		{$label desaparecidos2017 EdadM}
+	</td>
+	<td>
+		<input type="checkbox" {$EdadM_notbox}>
+	</td>
+	<td>
+		{$searchtype_EdadM}
+	</td>
+	<td>
+		{$EdadM_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$EdadM_editcontrol1}&nbsp;
+	</td>
+{END EdadM_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nac}">
+	{BEGIN Nac_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Nac}
+	</td>
+	<td>
+		<input type="checkbox" {$Nac_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nac}
+	</td>
+	<td>
+		{$Nac_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nac_editcontrol1}&nbsp;
+	</td>
+{END Nac_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Origen}">
+	{BEGIN Origen_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Origen}
+	</td>
+	<td>
+		<input type="checkbox" {$Origen_notbox}>
+	</td>
+	<td>
+		{$searchtype_Origen}
+	</td>
+	<td>
+		{$Origen_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Origen_editcontrol1}&nbsp;
+	</td>
+{END Origen_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Escolaridad}">
+	{BEGIN Escolaridad_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Escolaridad}
+	</td>
+	<td>
+		<input type="checkbox" {$Escolaridad_notbox}>
+	</td>
+	<td>
+		{$searchtype_Escolaridad}
+	</td>
+	<td>
+		{$Escolaridad_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Escolaridad_editcontrol1}&nbsp;
+	</td>
+{END Escolaridad_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Est}">
+	{BEGIN Est_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Est}
+	</td>
+	<td>
+		<input type="checkbox" {$Est_notbox}>
+	</td>
+	<td>
+		{$searchtype_Est}
+	</td>
+	<td>
+		{$Est_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Est_editcontrol1}&nbsp;
+	</td>
+{END Est_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Compl}">
+	{BEGIN Compl_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Compl}
+	</td>
+	<td>
+		<input type="checkbox" {$Compl_notbox}>
+	</td>
+	<td>
+		{$searchtype_Compl}
+	</td>
+	<td>
+		{$Compl_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Compl_editcontrol1}&nbsp;
+	</td>
+{END Compl_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Ojos}">
+	{BEGIN Ojos_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Ojos}
+	</td>
+	<td>
+		<input type="checkbox" {$Ojos_notbox}>
+	</td>
+	<td>
+		{$searchtype_Ojos}
+	</td>
+	<td>
+		{$Ojos_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Ojos_editcontrol1}&nbsp;
+	</td>
+{END Ojos_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Piel}">
+	{BEGIN Piel_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Piel}
+	</td>
+	<td>
+		<input type="checkbox" {$Piel_notbox}>
+	</td>
+	<td>
+		{$searchtype_Piel}
+	</td>
+	<td>
+		{$Piel_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Piel_editcontrol1}&nbsp;
+	</td>
+{END Piel_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Cab}">
+	{BEGIN Cab_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Cab}
+	</td>
+	<td>
+		<input type="checkbox" {$Cab_notbox}>
+	</td>
+	<td>
+		{$searchtype_Cab}
+	</td>
+	<td>
+		{$Cab_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Cab_editcontrol1}&nbsp;
+	</td>
+{END Cab_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_TCab}">
+	{BEGIN TCab_fieldblock}		
+	<td>
+		{$label desaparecidos2017 TCab}
+	</td>
+	<td>
+		<input type="checkbox" {$TCab_notbox}>
+	</td>
+	<td>
+		{$searchtype_TCab}
+	</td>
+	<td>
+		{$TCab_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$TCab_editcontrol1}&nbsp;
+	</td>
+{END TCab_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Cabcol}">
+	{BEGIN Cabcol_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Cabcol}
+	</td>
+	<td>
+		<input type="checkbox" {$Cabcol_notbox}>
+	</td>
+	<td>
+		{$searchtype_Cabcol}
+	</td>
+	<td>
+		{$Cabcol_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Cabcol_editcontrol1}&nbsp;
+	</td>
+{END Cabcol_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nariz}">
+	{BEGIN Nariz_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Nariz}
+	</td>
+	<td>
+		<input type="checkbox" {$Nariz_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nariz}
+	</td>
+	<td>
+		{$Nariz_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nariz_editcontrol1}&nbsp;
+	</td>
+{END Nariz_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Labios}">
+	{BEGIN Labios_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Labios}
+	</td>
+	<td>
+		<input type="checkbox" {$Labios_notbox}>
+	</td>
+	<td>
+		{$searchtype_Labios}
+	</td>
+	<td>
+		{$Labios_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Labios_editcontrol1}&nbsp;
+	</td>
+{END Labios_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Menton}">
+	{BEGIN Menton_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Menton}
+	</td>
+	<td>
+		<input type="checkbox" {$Menton_notbox}>
+	</td>
+	<td>
+		{$searchtype_Menton}
+	</td>
+	<td>
+		{$Menton_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Menton_editcontrol1}&nbsp;
+	</td>
+{END Menton_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Cejas}">
+	{BEGIN Cejas_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Cejas}
+	</td>
+	<td>
+		<input type="checkbox" {$Cejas_notbox}>
+	</td>
+	<td>
+		{$searchtype_Cejas}
+	</td>
+	<td>
+		{$Cejas_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Cejas_editcontrol1}&nbsp;
+	</td>
+{END Cejas_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_VFacial}">
+	{BEGIN VFacial_fieldblock}		
+	<td>
+		{$label desaparecidos2017 VFacial}
+	</td>
+	<td>
+		<input type="checkbox" {$VFacial_notbox}>
+	</td>
+	<td>
+		{$searchtype_VFacial}
+	</td>
+	<td>
+		{$VFacial_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$VFacial_editcontrol1}&nbsp;
+	</td>
+{END VFacial_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Delito}">
+	{BEGIN Delito_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Delito}
+	</td>
+	<td>
+		<input type="checkbox" {$Delito_notbox}>
+	</td>
+	<td>
+		{$searchtype_Delito}
+	</td>
+	<td>
+		{$Delito_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Delito_editcontrol1}&nbsp;
+	</td>
+{END Delito_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Particularidades}">
+	{BEGIN Particularidades_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Particularidades}
+	</td>
+	<td>
+		<input type="checkbox" {$Particularidades_notbox}>
+	</td>
+	<td>
+		{$searchtype_Particularidades}
+	</td>
+	<td>
+		{$Particularidades_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Particularidades_editcontrol1}&nbsp;
+	</td>
+{END Particularidades_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nota}">
+	{BEGIN Nota_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Nota}
+	</td>
+	<td>
+		<input type="checkbox" {$Nota_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nota}
+	</td>
+	<td>
+		{$Nota_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nota_editcontrol1}&nbsp;
+	</td>
+{END Nota_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_DescHechos}">
+	{BEGIN DescHechos_fieldblock}		
+	<td>
+		{$label desaparecidos2017 DescHechos}
+	</td>
+	<td>
+		<input type="checkbox" {$DescHechos_notbox}>
+	</td>
+	<td>
+		{$searchtype_DescHechos}
+	</td>
+	<td>
+		{$DescHechos_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$DescHechos_editcontrol1}&nbsp;
+	</td>
+{END DescHechos_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Obseva}">
+	{BEGIN Obseva_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Obseva}
+	</td>
+	<td>
+		<input type="checkbox" {$Obseva_notbox}>
+	</td>
+	<td>
+		{$searchtype_Obseva}
+	</td>
+	<td>
+		{$Obseva_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Obseva_editcontrol1}&nbsp;
+	</td>
+{END Obseva_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Status}">
+	{BEGIN Status_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Status}
+	</td>
+	<td>
+		<input type="checkbox" {$Status_notbox}>
+	</td>
+	<td>
+		{$searchtype_Status}
+	</td>
+	<td>
+		{$Status_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Status_editcontrol1}&nbsp;
+	</td>
+{END Status_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FAparicion}">
+	{BEGIN FAparicion_fieldblock}		
+	<td>
+		{$label desaparecidos2017 FAparicion}
+	</td>
+	<td>
+		<input type="checkbox" {$FAparicion_notbox}>
+	</td>
+	<td>
+		{$searchtype_FAparicion}
+	</td>
+	<td>
+		{$FAparicion_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FAparicion_editcontrol1}&nbsp;
+	</td>
+{END FAparicion_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Oficio}">
+	{BEGIN Oficio_fieldblock}		
+	<td>
+		{$label desaparecidos2017 Oficio}
+	</td>
+	<td>
+		<input type="checkbox" {$Oficio_notbox}>
+	</td>
+	<td>
+		{$searchtype_Oficio}
+	</td>
+	<td>
+		{$Oficio_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Oficio_editcontrol1}&nbsp;
+	</td>
+{END Oficio_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_EstApar}">
+	{BEGIN EstApar_fieldblock}		
+	<td>
+		{$label desaparecidos2017 EstApar}
+	</td>
+	<td>
+		<input type="checkbox" {$EstApar_notbox}>
+	</td>
+	<td>
+		{$searchtype_EstApar}
+	</td>
+	<td>
+		{$EstApar_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$EstApar_editcontrol1}&nbsp;
+	</td>
+{END EstApar_fieldblock}
+	</tr>
+
+</table></div>
+
+
+{BEGIN searchbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">{BEGIN search_button}
+<a href="#" class="rnr-button main" {$searchbutton_attrs}>Buscar</a>
+{END search_button} 
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Reiniciar</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Volver a la lista</a>
+{END back_button}</div>{END searchbuttons}
+
+
+</div>
+{END container_fields}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

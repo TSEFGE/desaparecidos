@@ -1,0 +1,1306 @@
+.OfficeDeliciousGray.rnr-s-empty > .rnr-c
+{
+background:none;
+
+}
+.OfficeDeliciousGray.rnr-s-empty > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.OfficeDeliciousGray.rnr-s-empty > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1
+{
+color: #404040;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-empty > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-empty > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2
+{
+color: #000000;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3
+{
+color: #696969;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-empty > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #B4D2EB;
+background: linear-gradient(0.750000turn, #90A8BC, #B4D2EB, #90A8BC);
+;
+color: #404061;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-menu > .rnr-c.rnr-ch
+{
+background-color: #B4D2EB;
+background: linear-gradient(0.750000turn, #90A8BC, #B4D2EB, #90A8BC);
+;
+
+}
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #4097C6;
+background: linear-gradient(0.750000turn, #33789E, #4097C6, #33789E);
+;
+color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3
+{
+background-color: #60A3CF;
+background: linear-gradient(0.750000turn, #4C82A5, #60A3CF, #4C82A5);
+;
+color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-menu > .rnr-c .rnr-leftbricks
+{
+margin-right: 0px;
+}
+.OfficeDeliciousGray.rnr-s-menu > .rnr-c .rnr-rightbricks
+{
+margin-left: 0px;
+}
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-menu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-menu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-menu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > .rnr-c
+{
+background:none;
+
+}
+.OfficeDeliciousGray.rnr-s-hmenu > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1
+{
+color: #FFFF00;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 6px 4px;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2
+{
+color: #FFFF00;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3
+{
+color: #FFFF00;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-hmenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #EFEFEF;
+background: linear-gradient(0.000000turn, #BFBFBF, #EFEFEF, #BFBFBF);
+;
+color: #696969;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > .rnr-c.rnr-ch
+{
+background-color: #EFEFEF;
+background: linear-gradient(0.000000turn, #BFBFBF, #EFEFEF, #BFBFBF);
+;
+
+}
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > .rnr-c .rnr-leftbricks
+{
+margin-right: 0px;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > .rnr-c .rnr-rightbricks
+{
+margin-left: 0px;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-undermenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-c
+{
+border-top-right-radius: 3px;border-top-left-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 3px; padding-right: 1px;
+border-bottom-right-radius: 3px; padding-right: 1px;
+
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 3px; padding-left: 1px;
+border-bottom-left-radius: 3px; padding-left: 1px;
+
+}
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #EBF0F5;
+background: linear-gradient(0.000000turn, #F7F9FB, #EBF0F5);
+;
+color: #404040;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-c.rnr-ch
+{
+background-color: #EBF0F5;
+background: linear-gradient(0.000000turn, #F7F9FB, #EBF0F5);
+;
+
+}
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #ACD1E6;
+background: linear-gradient(0.000000turn, #A1C4D8, #ACD1E6, #A1C4D8);
+;
+color: #FFFFFF;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #EFEFEF;color: #404040;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-c .rnr-leftbricks
+{
+margin-right: 3px;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-c .rnr-rightbricks
+{
+margin-left: 3px;
+}
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 7px 6px;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-fields > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 8px 10px;
+}
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-fields > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 8px 4px;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-c
+{
+border-top-right-radius: 10px;border-top-left-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-form > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #C2D2E4;color: #404061;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #C2D2E4;
+}
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-form > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-form > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #003366;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-form > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-form > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-form > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-form > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-form > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-c
+{
+border: solid #C0C0C0 1px;border-top-right-radius: 4px;border-top-left-radius: 4px;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 3px; padding-right: 2px;
+border-bottom-right-radius: 3px; padding-right: 2px;
+
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 3px; padding-left: 2px;
+border-bottom-left-radius: 3px; padding-left: 2px;
+
+}
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #6699CC;
+background: linear-gradient(0.750000turn, #517AA3, #6699CC, #517AA3);
+;
+color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-c.rnr-ch
+{
+background-color: #6699CC;
+background: linear-gradient(0.750000turn, #517AA3, #6699CC, #517AA3);
+;
+
+}
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #0050A0;
+background: linear-gradient(0.000000turn, #004B96, #0050A0, #004B96);
+;
+color: #FFFFFF;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #4097C6;color: #D1EEEE;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-c .rnr-leftbricks
+{
+margin-right: 4px;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-c .rnr-rightbricks
+{
+margin-left: 4px;
+}
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-1 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 8px 10px;
+}
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-1 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 10px;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-c
+{
+border-top-right-radius: 2px;border-top-left-radius: 2px;border-bottom-right-radius: 2px;border-bottom-left-radius: 2px;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 2px; padding-right: 1px;
+border-bottom-right-radius: 2px; padding-right: 1px;
+
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 2px; padding-left: 1px;
+border-bottom-left-radius: 2px; padding-left: 1px;
+
+}
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #F8F8F8;
+background: linear-gradient(0.000000turn, #FCFCFC, #F8F8F8);
+;
+color: #696969;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-c.rnr-ch
+{
+background-color: #F8F8F8;
+background: linear-gradient(0.000000turn, #FCFCFC, #F8F8F8);
+;
+
+}
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #3366FF;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #FFFF00;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-c .rnr-leftbricks
+{
+margin-right: 2px;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-c .rnr-rightbricks
+{
+margin-left: 2px;
+}
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 7px 4px;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-2 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-2 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-c
+{
+border-top-right-radius: 10px;border-top-left-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style1,
+.OfficeDeliciousGray.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #4E6373;
+background: linear-gradient(0.750000turn, #3E4F5C, #4E6373, #3E4F5C);
+;
+color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-c.rnr-ch
+{
+background-color: #4E6373;
+background: linear-gradient(0.750000turn, #3E4F5C, #4E6373, #3E4F5C);
+;
+
+}
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style2,
+.OfficeDeliciousGray.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #000080;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style3,
+.OfficeDeliciousGray.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1,
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-3 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2,
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.OfficeDeliciousGray.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3,
+.OfficeDeliciousGray.rnr-s-3 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > th:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > th:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > td:not(.rnr-cs)
+{
+background-color: #1382AC; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;padding: 5px 6px;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-bottomrow > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-bottomrow > td:not(.rnr-cs)
+{
+background-color: #4E6373; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td:not(.rnr-cs)
+{
+background-color: #F7F7F7; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #404040;color: #404040;padding: 5px 4px;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs)
+{
+background-color: #EDEDED; background-image: none;color: #404040;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td.rnr-selected,
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td.rnr-selected
+{
+background-color: #DCDCDC; background-image: none;color: #404040;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected,
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected
+{
+background-color: #C0C0C0; background-image: none;color: #404040;
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > thead > tr:last-child > th:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > thead > tr:last-child > th:not(.rnr-cs)
+{
+border-bottom: solid #DCDCDC 1px;
+
+}
+.OfficeDeliciousGray.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs),
+.OfficeDeliciousGray.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs)
+{
+border-top: solid #DCDCDC 1px;
+
+}
+.OfficeDeliciousGray .rnr-search-highlight
+{
+color: #FF0000; background-color: transparent;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > *,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *:not(.subitem)
+{
+background-color: #ECECEC;
+background: linear-gradient(0.750000turn, #BCBCBC, #ECECEC, #BCBCBC);
+;
+color:#404040;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > hr,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *:not(.subitem) > hr
+{
+border-color:#404040;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > *:hover:not(.expanded):not(.menuSeparator),
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #CFCFCF;
+background: linear-gradient(0.750000turn, #A5A5A5, #CFCFCF, #A5A5A5);
+;
+color:#404040;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > *.current.current.current,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *:not(.subitem).current.current.current
+{
+background-color: #DCDCDC;
+background: linear-gradient(0.750000turn, #B0B0B0, #DCDCDC, #B0B0B0);
+;
+color:#404040;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > *:hover:hover:hover.expanded
+{
+background-color: #DCDCDC;
+background: linear-gradient(0.750000turn, #B0B0B0, #DCDCDC, #B0B0B0);
+;
+color:#000000;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > ul li,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *.subitem
+{
+background-color: #FFFFFF;
+background: linear-gradient(0.750000turn, #FFFFFF, #FFFFFF, #FFFFFF);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > ul li > hr,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *.subitem > hr
+{
+border-color:#404061;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *.subitem:hover:not(.menuSeparator)
+{
+background-image:none; background-color: #4097C6;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > ul li.current.current.current,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *.subitem.current.current.current
+{
+background-image:none; background-color: #FFFFFF;color:#404061;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > ul li:hover:hover:hover.expanded
+{
+background-image:none; background-color: #DCDCDC;color:#000000;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *.subitem > div
+{
+padding: 7px 7px; margin:1px 3px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > * > ul li > :not(ul) > *
+{
+padding: 7px 7px; margin:1px 3px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main >  * ul > li:not(:first-child)
+{
+border-top: solid #C0C0C0 1px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.main > *:not(:first-child),
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *:not(.subitem):not(:first-child)
+{
+border-top:solid #000000 1px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.tree.main > *.subitem:not(:first-child)
+{
+border-top: solid #C0C0C0 1px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > *,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *:not(.subitem)
+{
+background-color: #000000;
+background: linear-gradient(0.000000turn, #999999, #000000);
+;
+color:#000000;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > hr,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *:not(.subitem) > hr
+{
+border-color:#000000;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > *:hover:not(.expanded):not(.menuSeparator),
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #000000;
+background: linear-gradient(0.000000turn, #999999, #000000);
+;
+color:#000000;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > *.current.current.current,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *:not(.subitem).current.current.current
+{
+background-color: #000000;
+background: linear-gradient(0.000000turn, #999999, #000000);
+;
+color:#000000;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > *:hover:hover:hover.expanded
+{
+background-color: #000000;
+background: linear-gradient(0.000000turn, #999999, #000000);
+;
+color:#000000;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > ul li,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *.subitem
+{
+background-image:none; background-color: #000000;color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > ul li > hr,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *.subitem > hr
+{
+border-color:#000000;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *.subitem:hover:not(.menuSeparator)
+{
+background-image:none; background-color: #000000;color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > ul li.current.current.current,
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *.subitem.current.current.current
+{
+background-image:none; background-color: #000000;color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > ul li:hover:hover:hover.expanded
+{
+background-image:none; background-color: #000000;color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.tree.second > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.OfficeDeliciousGray .rnr-b-vmenu.simple.second >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > div:not(.rnr-hseparator)
+{
+background: transparent;color:#404040;font-family: Tahoma, sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;padding: 19px 20px;border: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main
+{
+background-color: #ECECEC;
+background: linear-gradient(0.000000turn, #BCBCBC, #ECECEC, #BCBCBC);
+;
+
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > div:not(.rnr-hseparator) > hr
+{
+border-color:#404040;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background: transparent;color:#404040;font-family: Tahoma, sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main:hover:not(.expanded)
+{
+background-color: #CFCFCF;
+background: linear-gradient(0.000000turn, #A5A5A5, #CFCFCF, #A5A5A5);
+;
+
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main.current.current > div:not(.rnr-hseparator)
+{
+background: transparent;color:#404040;font-family: Tahoma, sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main.current.current
+{
+background-color: #DCDCDC;
+background: linear-gradient(0.000000turn, #B0B0B0, #DCDCDC, #B0B0B0);
+;
+
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main:hover.expanded > div:not(.rnr-hseparator)
+{
+background: transparent;color:#000000;font-family: Tahoma, sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main:hover.expanded
+{
+background-color: #CFCFCF;
+background: linear-gradient(0.000000turn, #A5A5A5, #CFCFCF, #A5A5A5);
+;
+
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > ul li
+{
+background-image:none; background-color: #FFFFFF;color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > ul li > hr
+{
+border-color:#404061;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #4097C6;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > ul li.current.current
+{
+background-image:none; background-color: #FFFFFF;color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > ul li:hover.expanded
+{
+background-image:none; background-color: #DCDCDC;color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main > ul li > div > div
+{
+padding: 9px 14px; margin:1px 6px;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.main:not(:last-child)
+{
+border-right: solid #DCDCDC 1px;
+}
+.OfficeDeliciousGray :not(.rnr-b-hmenu):not(.main) + .rnr-b-hmenu.main
+{
+border-left: solid #DCDCDC 1px;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > div:not(.rnr-hseparator)
+{
+background-color: #ECECEC;
+background: linear-gradient(0.000000turn, #BCBCBC, #ECECEC, #BCBCBC);
+;
+color:#404040;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-left-radius: 8px;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > div:not(.rnr-hseparator) > hr
+{
+border-color:#404040;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-color: #CFCFCF;
+background: linear-gradient(0.000000turn, #A5A5A5, #CFCFCF, #A5A5A5);
+;
+color:#404040;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second.current.current > div:not(.rnr-hseparator)
+{
+background-color: #DCDCDC;
+background: linear-gradient(0.000000turn, #B0B0B0, #DCDCDC, #B0B0B0);
+;
+color:#404040;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second:hover.expanded > div:not(.rnr-hseparator)
+{
+background-color: #CFCFCF;
+background: linear-gradient(0.000000turn, #A5A5A5, #CFCFCF, #A5A5A5);
+;
+color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > ul li
+{
+background-image:none; background-color: #FFFFFF;color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > ul li > hr
+{
+border-color:#404061;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #4097C6;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > ul li.current.current
+{
+background-image:none; background-color: #FFFFFF;color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > ul li:hover.expanded
+{
+background-image:none; background-color: #DCDCDC;color:#000000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.OfficeDeliciousGray .rnr-b-hmenu.second.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+body.OfficeDeliciousGray
+{
+
+background-color:#F8F8F8;
+}
+.OfficeDeliciousGray .rnr-list
+{
+color: #404040;background-color: #F7F7F7;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;border: solid #C0C0C0 1px;box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.OfficeDeliciousGray .rnr-tab.selected
+{
+background-color:#005BB7;
+border-top-right-radius:4px;
+border-top-left-radius:4px;
+
+}
+.OfficeDeliciousGray .rnr-tab
+{
+background-color:#EFEFEF;
+border-top-right-radius:4px;
+border-top-left-radius:4px;
+border: solid #A9A9A9 1px; border-bottom-width:0;
+}
+.OfficeDeliciousGray .rnr-tab.selected > a
+{
+color: #FFFFFF;
+
+}
+.OfficeDeliciousGray .rnr-tab > a
+{
+color: #000000;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .yui-navset .yui-content
+{
+border: solid #005BB7 1px;border-top-width: 5px;
+}
+.OfficeDeliciousGray .rnr-stepnav > a.active,
+.OfficeDeliciousGray .rnr-stepnav > a:hover:not(.active)
+{
+background-color: #ECECEC;
+background: linear-gradient(0.000000turn, #F9F9F9, #ECECEC);
+;
+color: #000000;
+
+}
+.OfficeDeliciousGray .rnr-stepnav > a.active:after,
+.OfficeDeliciousGray .rnr-stepnav > a:hover:not(.active):after
+{
+background-color: #ECECEC;
+background: linear-gradient(0.875000turn, #F9F9F9, #ECECEC);
+;
+
+}
+.OfficeDeliciousGray .rnr-stepnav > a:not(.active),
+.OfficeDeliciousGray .rnr-stepnav > a:not(.active):after
+{
+background-image: none; background-color: #C0C0C0;
+
+}
+.OfficeDeliciousGray .rnr-stepnav > a:before
+{
+background-image: none; background: #E6E6E6;
+
+}
+.OfficeDeliciousGray .rnr-stepnav > a:not(.active)
+{
+color: #696969;
+
+}
+.OfficeDeliciousGray .rnr-stepnav > a:before 
+{
+color: #000000;
+
+}
+.OfficeDeliciousGray .rnr-stepnav > a,
+ .rnr-pagewrapper .OfficeDeliciousGray .rnr-stepnav > a,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .rnr-stepnav > a
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray  .rnr-message
+{
+background-color: #FCFCFC;border: solid #DCDCDC 2px;color: #404040;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray  .rnr-error.rnr-error
+{
+color: #A80000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .yui3-panel-content.yui3-panel-content
+{
+border: solid #C0C0C0 1px;border-radius: 4px;
+}
+.OfficeDeliciousGray  .yui3-panel .yui3-widget-hd.yui3-widget-hd.yui3-widget-hd
+{
+background-color: #0050A0;
+background: linear-gradient(0.000000turn, #004B96, #0050A0, #004B96);
+;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.OfficeDeliciousGray  .yui3-widget-ft
+{
+background-color: #ACD1E6;
+background: linear-gradient(0.000000turn, #A1C4D8, #ACD1E6, #A1C4D8);
+;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.OfficeDeliciousGray .rnr-dbbordered
+{
+border: solid #C0C0C0 1px;border-radius: 4px;
+}
+.OfficeDeliciousGray  .rnr-dbelemheader
+{
+background-color: #0050A0;
+background: linear-gradient(0.000000turn, #004B96, #0050A0, #004B96);
+;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.OfficeDeliciousGray  .rnr-dbelemfooter
+{
+background-color: #D8D8D8;
+background: linear-gradient(0.000000turn, #CBCBCB, #D8D8D8, #CBCBCB);
+;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #000000;
+}
+.OfficeDeliciousGray  .rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow
+{
+background-color: #FFFACD; background-image: none;color: #4C4951;
+}
+.OfficeDeliciousGray .rnr-dashboard
+{
+background-color: #FFFFFF;
+}
+.OfficeDeliciousGray .rnr-button.rnr-button,
+.OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.OfficeDeliciousGray .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .OfficeDeliciousGray .rnr-button.rnr-button,
+ .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #ECECEC;
+background: linear-gradient(0.000000turn, #F9F9F9, #ECECEC);
+;
+border-color: #A9A9A9;color: #000000;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .rnr-button.rnr-button.img,
+.OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.OfficeDeliciousGray .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .OfficeDeliciousGray .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.OfficeDeliciousGray .rnr-button:hover,
+.OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.OfficeDeliciousGray .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .OfficeDeliciousGray .rnr-button:hover,
+ .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button:hover
+{
+background-color: #E6E6E6;
+background: linear-gradient(0.000000turn, #F8F8F8, #E6E6E6);
+;
+border-color: #A9A9A9;color: #000000;
+
+}
+.OfficeDeliciousGray .rnr-button:active,
+.OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+.OfficeDeliciousGray .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .OfficeDeliciousGray .rnr-button:active,
+ .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button:active
+{
+background-color: #E6E6E6;
+background: linear-gradient(0.000000turn, #F8F8F8, #E6E6E6);
+;
+border-color: #A9A9A9;color: #000000;
+
+}
+.OfficeDeliciousGray .rnr-button.disabled,
+.OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.OfficeDeliciousGray .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .OfficeDeliciousGray .rnr-button.disabled,
+ .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .button.button.button.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: linear-gradient(0.000000turn, #EDEDED, #C0C0C0);
+;
+border-color: #A9A9A9;color: #696969;
+
+}
+.OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.OfficeDeliciousGray .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button.rnr-button
+{
+background: none; border: none; ;
+border: none;border-radius: 0px;padding: 4px 8px 4px;color: #004080;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.OfficeDeliciousGray .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button.rnr-button.img
+{
+padding: 4px;
+
+}
+.OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.OfficeDeliciousGray .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button:hover
+{
+color: #FE4F29;
+
+}
+.OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+.OfficeDeliciousGray .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button:active
+{
+color: #004080;
+
+}
+.OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.OfficeDeliciousGray .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .link.link.link.rnr-button.disabled
+{
+color: #FFFF00;
+
+}
+.OfficeDeliciousGray .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 12px 4px;background-image: none; background-color: #004CCC;
+border-color: #01529A;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.OfficeDeliciousGray .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.OfficeDeliciousGray .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button:hover
+{
+background-image: none; background-color: #0040C6;
+border-color: #01529A;color: #FFFFFF;
+
+}
+.OfficeDeliciousGray .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button:active
+{
+background-image: none; background-color: #0040C6;
+border-color: #01529A;color: #FFFFFF;
+
+}
+.OfficeDeliciousGray .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .OfficeDeliciousGray .main.main.main.rnr-button.disabled
+{
+background-image: none; background-color: #C0C0C0;
+border-color: #7A5367;color: #696969;
+
+}
+ .rnr-left, .rnr-center {
+ background: #ffffff !important;
+ }
+ 
