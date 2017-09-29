@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_cabcol[""] = array();
 	$fieldToolTipscat_cabcol[""] = array();
 	$pageTitlescat_cabcol[""] = array();
+	$fieldLabelscat_cabcol[""]["idcabcol"] = "Idcabcol";
+	$fieldToolTipscat_cabcol[""]["idcabcol"] = "";
+	$fieldLabelscat_cabcol[""]["cabcol"] = "Cabcol";
+	$fieldToolTipscat_cabcol[""]["cabcol"] = "";
 	if (count($fieldToolTipscat_cabcol[""]))
 		$tdatacat_cabcol[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_cabcol[".listAjax"] = false;
 
 	$tdatacat_cabcol[".locking"] = false;
 
-$tdatacat_cabcol[".edit"] = true;
-$tdatacat_cabcol[".afterEditAction"] = 1;
-$tdatacat_cabcol[".closePopupAfterEdit"] = 1;
-$tdatacat_cabcol[".afterEditActionDetTable"] = "";
 
-$tdatacat_cabcol[".add"] = true;
-$tdatacat_cabcol[".afterAddAction"] = 1;
-$tdatacat_cabcol[".closePopupAfterAdd"] = 1;
-$tdatacat_cabcol[".afterAddActionDetTable"] = "";
 
-$tdatacat_cabcol[".list"] = true;
 
-$tdatacat_cabcol[".inlineEdit"] = true;
-$tdatacat_cabcol[".inlineAdd"] = true;
-$tdatacat_cabcol[".view"] = true;
 
-$tdatacat_cabcol[".import"] = true;
 
-$tdatacat_cabcol[".exportTo"] = true;
 
-$tdatacat_cabcol[".printFriendly"] = true;
 
-$tdatacat_cabcol[".delete"] = true;
 
 $tdatacat_cabcol[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_cabcol[".allSearchFields"] = array();
 $tdatacat_cabcol[".filterFields"] = array();
 $tdatacat_cabcol[".requiredSearchFields"] = array();
 
-$tdatacat_cabcol[".allSearchFields"][] = "idcabcol";
-	$tdatacat_cabcol[".allSearchFields"][] = "cabcol";
-	
+
 
 $tdatacat_cabcol[".googleLikeFields"] = array();
 $tdatacat_cabcol[".googleLikeFields"][] = "idcabcol";
@@ -285,8 +271,7 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

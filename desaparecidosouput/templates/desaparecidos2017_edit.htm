@@ -73,18 +73,54 @@
                                   </SPAN>
                                 </DIV>
                               {END Mun_fieldblock}
-                              {BEGIN InvMin_fieldblock}
-                                <DIV class="rnr-field style1 {$fielddispclass_InvMin}" data-fieldname="InvMin">
+                              {BEGIN uipj_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_uipj}" data-fieldname="uipj">
                                   <SPAN class=rnr-label>
-                                    {BEGIN InvMin_label}
-                                      {$label desaparecidos2017 InvMin}
-                                    {END InvMin_label}
+                                    {BEGIN uipj_label}
+                                      {$label desaparecidos2017 uipj}
+                                    {END uipj_label}
                                   </SPAN>
                                   <SPAN class="rnr-control style3">
-                                    {$InvMin_editcontrol}
+                                    {$uipj_editcontrol}
                                   </SPAN>
                                 </DIV>
-                              {END InvMin_fieldblock}
+                              {END uipj_fieldblock}
+                              {BEGIN numFiscal_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_numFiscal}" data-fieldname="numFiscal">
+                                  <SPAN class=rnr-label>
+                                    {BEGIN numFiscal_label}
+                                      {$label desaparecidos2017 numFiscal}
+                                    {END numFiscal_label}
+                                  </SPAN>
+                                  <SPAN class="rnr-control style3">
+                                    {$numFiscal_editcontrol}
+                                  </SPAN>
+                                </DIV>
+                              {END numFiscal_fieldblock}
+                              {BEGIN a_oInv_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_a_oInv}" data-fieldname="a_oInv">
+                                  <SPAN class=rnr-label>
+                                    {BEGIN a_oInv_label}
+                                      {$label desaparecidos2017 a_oInv}
+                                    {END a_oInv_label}
+                                  </SPAN>
+                                  <SPAN class="rnr-control style3">
+                                    {$a_oInv_editcontrol}
+                                  </SPAN>
+                                </DIV>
+                              {END a_oInv_fieldblock}
+                              {BEGIN numInv_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_numInv}" data-fieldname="numInv">
+                                  <SPAN class=rnr-label>
+                                    {BEGIN numInv_label}
+                                      {$label desaparecidos2017 numInv}
+                                    {END numInv_label}
+                                  </SPAN>
+                                  <SPAN class="rnr-control style3">
+                                    {$numInv_editcontrol}
+                                  </SPAN>
+                                </DIV>
+                              {END numInv_fieldblock}
                               {BEGIN FInicio_fieldblock}
                                 <DIV class="rnr-field style1 {$fielddispclass_FInicio}" data-fieldname="FInicio">
                                   <SPAN class=rnr-label>
@@ -325,9 +361,7 @@
                                   </SPAN>
                                 </DIV>
                               {END Cabcol_fieldblock}
-                            </TD>
-                            <TD>
-                              {BEGIN Nariz_fieldblock}
+																{BEGIN Nariz_fieldblock}
                                 <DIV class="rnr-field style1 {$fielddispclass_Nariz}" data-fieldname="Nariz">
                                   <SPAN class=rnr-label>
                                     {BEGIN Nariz_label}
@@ -351,6 +385,8 @@
                                   </SPAN>
                                 </DIV>
                               {END Labios_fieldblock}
+                            </TD>
+                            <TD>                             
                               {BEGIN Menton_fieldblock}
                                 <DIV class="rnr-field style1 {$fielddispclass_Menton}" data-fieldname="Menton">
                                   <SPAN class=rnr-label>
@@ -459,6 +495,45 @@
                                   </SPAN>
                                 </DIV>
                               {END Status_fieldblock}
+                              {BEGIN fotoChica_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_fotoChica}" data-fieldname="fotoChica">
+                                  <SPAN class=rnr-label>
+                                    {BEGIN fotoChica_label}
+                                      {$label desaparecidos2017 fotoChica}
+                                    {END fotoChica_label}
+                                  </SPAN>
+                                  <SPAN class="rnr-control style3">
+                                    {$fotoChica_editcontrol}
+                                  </SPAN>
+                                </DIV>
+                              {END fotoChica_fieldblock}
+                              {BEGIN fotoGrande_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_fotoGrande}" data-fieldname="fotoGrande">
+                                  <SPAN class=rnr-label>
+                                    {BEGIN fotoGrande_label}
+                                      {$label desaparecidos2017 fotoGrande}
+                                    {END fotoGrande_label}
+                                  </SPAN>
+                                  <SPAN class="rnr-control style3">
+                                    {$fotoGrande_editcontrol}
+                                  </SPAN>
+                                </DIV>
+                              {END fotoGrande_fieldblock}
+                              {BEGIN FAparicion_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_FAparicion}" data-fieldname="FAparicion">
+                                  &nbsp;
+                                </DIV>
+                              {END FAparicion_fieldblock}
+                              {BEGIN FAparicion_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_FAparicion}" align=center data-fieldname="FAparicion">
+                                  <FONT 
+      color=#800080><STRONG>Datos de Localización</STRONG></FONT>
+                                </DIV>
+                              {END FAparicion_fieldblock}
+                              {BEGIN FAparicion_fieldblock}
+                                <DIV class="rnr-field style1 {$fielddispclass_FAparicion}" data-fieldname="FAparicion">
+                                </DIV>
+                              {END FAparicion_fieldblock}
                               {BEGIN FAparicion_fieldblock}
                                 <DIV class="rnr-field style1 {$fielddispclass_FAparicion}" data-fieldname="FAparicion">
                                   <SPAN class=rnr-label>
@@ -558,7 +633,6 @@
           </DIV>
         </DIV>
         <DIV class="rnr-bottom {$blockclass_bottom}">
-          <!--%%bottom%%-->
         </DIV>
       </DIV>
       {$footer}

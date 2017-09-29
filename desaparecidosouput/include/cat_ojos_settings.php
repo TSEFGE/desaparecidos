@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_ojos[""] = array();
 	$fieldToolTipscat_ojos[""] = array();
 	$pageTitlescat_ojos[""] = array();
+	$fieldLabelscat_ojos[""]["idojos"] = "Idojos";
+	$fieldToolTipscat_ojos[""]["idojos"] = "";
+	$fieldLabelscat_ojos[""]["ojos"] = "Ojos";
+	$fieldToolTipscat_ojos[""]["ojos"] = "";
 	if (count($fieldToolTipscat_ojos[""]))
 		$tdatacat_ojos[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_ojos[".listAjax"] = false;
 
 	$tdatacat_ojos[".locking"] = false;
 
-$tdatacat_ojos[".edit"] = true;
-$tdatacat_ojos[".afterEditAction"] = 1;
-$tdatacat_ojos[".closePopupAfterEdit"] = 1;
-$tdatacat_ojos[".afterEditActionDetTable"] = "";
 
-$tdatacat_ojos[".add"] = true;
-$tdatacat_ojos[".afterAddAction"] = 1;
-$tdatacat_ojos[".closePopupAfterAdd"] = 1;
-$tdatacat_ojos[".afterAddActionDetTable"] = "";
 
-$tdatacat_ojos[".list"] = true;
 
-$tdatacat_ojos[".inlineEdit"] = true;
-$tdatacat_ojos[".inlineAdd"] = true;
-$tdatacat_ojos[".view"] = true;
 
-$tdatacat_ojos[".import"] = true;
 
-$tdatacat_ojos[".exportTo"] = true;
 
-$tdatacat_ojos[".printFriendly"] = true;
 
-$tdatacat_ojos[".delete"] = true;
 
 $tdatacat_ojos[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_ojos[".allSearchFields"] = array();
 $tdatacat_ojos[".filterFields"] = array();
 $tdatacat_ojos[".requiredSearchFields"] = array();
 
-$tdatacat_ojos[".allSearchFields"][] = "idojos";
-	$tdatacat_ojos[".allSearchFields"][] = "ojos";
-	
+
 
 $tdatacat_ojos[".googleLikeFields"] = array();
 $tdatacat_ojos[".googleLikeFields"][] = "idojos";
@@ -285,8 +271,7 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

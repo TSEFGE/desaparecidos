@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_delito[""] = array();
 	$fieldToolTipscat_delito[""] = array();
 	$pageTitlescat_delito[""] = array();
+	$fieldLabelscat_delito[""]["id"] = "Id";
+	$fieldToolTipscat_delito[""]["id"] = "";
+	$fieldLabelscat_delito[""]["delito"] = "Delito";
+	$fieldToolTipscat_delito[""]["delito"] = "";
 	if (count($fieldToolTipscat_delito[""]))
 		$tdatacat_delito[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_delito[".listAjax"] = false;
 
 	$tdatacat_delito[".locking"] = false;
 
-$tdatacat_delito[".edit"] = true;
-$tdatacat_delito[".afterEditAction"] = 1;
-$tdatacat_delito[".closePopupAfterEdit"] = 1;
-$tdatacat_delito[".afterEditActionDetTable"] = "";
 
-$tdatacat_delito[".add"] = true;
-$tdatacat_delito[".afterAddAction"] = 1;
-$tdatacat_delito[".closePopupAfterAdd"] = 1;
-$tdatacat_delito[".afterAddActionDetTable"] = "";
 
-$tdatacat_delito[".list"] = true;
 
-$tdatacat_delito[".inlineEdit"] = true;
-$tdatacat_delito[".inlineAdd"] = true;
-$tdatacat_delito[".view"] = true;
 
-$tdatacat_delito[".import"] = true;
 
-$tdatacat_delito[".exportTo"] = true;
 
-$tdatacat_delito[".printFriendly"] = true;
 
-$tdatacat_delito[".delete"] = true;
 
 $tdatacat_delito[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_delito[".allSearchFields"] = array();
 $tdatacat_delito[".filterFields"] = array();
 $tdatacat_delito[".requiredSearchFields"] = array();
 
-$tdatacat_delito[".allSearchFields"][] = "id";
-	$tdatacat_delito[".allSearchFields"][] = "delito";
-	
+
 
 $tdatacat_delito[".googleLikeFields"] = array();
 $tdatacat_delito[".googleLikeFields"][] = "id";
@@ -285,8 +271,7 @@ $tdatacat_delito[".printFields"][] = "delito";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_delito[".printFields"][] = "delito";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_delito[".printFields"][] = "delito";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_delito[".printFields"][] = "delito";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

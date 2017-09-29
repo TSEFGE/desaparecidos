@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_sexo[""] = array();
 	$fieldToolTipscat_sexo[""] = array();
 	$pageTitlescat_sexo[""] = array();
+	$fieldLabelscat_sexo[""]["id"] = "Id";
+	$fieldToolTipscat_sexo[""]["id"] = "";
+	$fieldLabelscat_sexo[""]["sexo"] = "Sexo";
+	$fieldToolTipscat_sexo[""]["sexo"] = "";
 	if (count($fieldToolTipscat_sexo[""]))
 		$tdatacat_sexo[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_sexo[".listAjax"] = false;
 
 	$tdatacat_sexo[".locking"] = false;
 
-$tdatacat_sexo[".edit"] = true;
-$tdatacat_sexo[".afterEditAction"] = 1;
-$tdatacat_sexo[".closePopupAfterEdit"] = 1;
-$tdatacat_sexo[".afterEditActionDetTable"] = "";
 
-$tdatacat_sexo[".add"] = true;
-$tdatacat_sexo[".afterAddAction"] = 1;
-$tdatacat_sexo[".closePopupAfterAdd"] = 1;
-$tdatacat_sexo[".afterAddActionDetTable"] = "";
 
-$tdatacat_sexo[".list"] = true;
 
-$tdatacat_sexo[".inlineEdit"] = true;
-$tdatacat_sexo[".inlineAdd"] = true;
-$tdatacat_sexo[".view"] = true;
 
-$tdatacat_sexo[".import"] = true;
 
-$tdatacat_sexo[".exportTo"] = true;
 
-$tdatacat_sexo[".printFriendly"] = true;
 
-$tdatacat_sexo[".delete"] = true;
 
 $tdatacat_sexo[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_sexo[".allSearchFields"] = array();
 $tdatacat_sexo[".filterFields"] = array();
 $tdatacat_sexo[".requiredSearchFields"] = array();
 
-$tdatacat_sexo[".allSearchFields"][] = "id";
-	$tdatacat_sexo[".allSearchFields"][] = "sexo";
-	
+
 
 $tdatacat_sexo[".googleLikeFields"] = array();
 $tdatacat_sexo[".googleLikeFields"][] = "id";
@@ -285,8 +271,7 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

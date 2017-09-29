@@ -355,7 +355,47 @@
 									</th>
 									{END checkbox_column}
 
-																																			{BEGIN Id_fieldheadercolumn}
+																																			{BEGIN uipj_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$uipj_class}">
+									{BEGIN uipj_fieldheader}
+																				<span {$uipj_orderlinkattrs}>
+											{$label desaparecidos2017 uipj}
+										</span>
+									{END uipj_fieldheader}
+									</th>
+									{END uipj_fieldheadercolumn}
+
+																	{BEGIN numFiscal_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$numFiscal_class}">
+									{BEGIN numFiscal_fieldheader}
+																				<span {$numFiscal_orderlinkattrs}>
+											{$label desaparecidos2017 numFiscal}
+										</span>
+									{END numFiscal_fieldheader}
+									</th>
+									{END numFiscal_fieldheadercolumn}
+
+																	{BEGIN a_oInv_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$a_oInv_class}">
+									{BEGIN a_oInv_fieldheader}
+																				<span {$a_oInv_orderlinkattrs}>
+											{$label desaparecidos2017 a_oInv}
+										</span>
+									{END a_oInv_fieldheader}
+									</th>
+									{END a_oInv_fieldheadercolumn}
+
+																	{BEGIN numInv_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$numInv_class}">
+									{BEGIN numInv_fieldheader}
+																				<span {$numInv_orderlinkattrs}>
+											{$label desaparecidos2017 numInv}
+										</span>
+									{END numInv_fieldheader}
+									</th>
+									{END numInv_fieldheadercolumn}
+
+																	{BEGIN Id_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$Id_class}">
 									{BEGIN Id_fieldheader}
 																				<span {$Id_orderlinkattrs}>
@@ -384,16 +424,6 @@
 									{END Mun_fieldheader}
 									</th>
 									{END Mun_fieldheadercolumn}
-
-																	{BEGIN InvMin_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$InvMin_class}">
-									{BEGIN InvMin_fieldheader}
-																				<span {$InvMin_orderlinkattrs}>
-											{$label desaparecidos2017 InvMin}
-										</span>
-									{END InvMin_fieldheader}
-									</th>
-									{END InvMin_fieldheadercolumn}
 
 																	{BEGIN FInicio_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$FInicio_class}">
@@ -785,7 +815,31 @@
 									{END checkbox_column}
 
 									
-										{BEGIN Id_fieldcolumn}
+										{BEGIN uipj_fieldcolumn}
+	<td class="{$uipj_class}" {$uipj_style} {$recordattrs}>
+		{$uipj_value}
+	</td>
+{END uipj_fieldcolumn}
+
+	{BEGIN numFiscal_fieldcolumn}
+	<td class="{$numFiscal_class}" {$numFiscal_style} {$recordattrs}>
+		{$numFiscal_value}
+	</td>
+{END numFiscal_fieldcolumn}
+
+	{BEGIN a_oInv_fieldcolumn}
+	<td class="{$a_oInv_class}" {$a_oInv_style} {$recordattrs}>
+		{$a_oInv_value}
+	</td>
+{END a_oInv_fieldcolumn}
+
+	{BEGIN numInv_fieldcolumn}
+	<td class="{$numInv_class}" {$numInv_style} {$recordattrs}>
+		{$numInv_value}
+	</td>
+{END numInv_fieldcolumn}
+
+	{BEGIN Id_fieldcolumn}
 	<td class="{$Id_class}" {$Id_style} {$recordattrs}>
 		{$Id_value}
 	</td>
@@ -802,12 +856,6 @@
 		{$Mun_value}
 	</td>
 {END Mun_fieldcolumn}
-
-	{BEGIN InvMin_fieldcolumn}
-	<td class="{$InvMin_class}" {$InvMin_style} {$recordattrs}>
-		{$InvMin_value}
-	</td>
-{END InvMin_fieldcolumn}
 
 	{BEGIN FInicio_fieldcolumn}
 	<td class="{$FInicio_class}" {$FInicio_style} {$recordattrs}>

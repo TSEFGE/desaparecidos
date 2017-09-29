@@ -307,6 +307,82 @@ class AuditTrailTable
 		{
 			return false;
 		}
+		if($table=="cat_mpos")
+		{
+			return false;
+		}
+		if($table=="cat_edos")
+		{
+			return false;
+		}
+		if($table=="cat_sexo")
+		{
+			return false;
+		}
+		if($table=="catnacionalidad")
+		{
+			return false;
+		}
+		if($table=="cat_escolaridad")
+		{
+			return false;
+		}
+		if($table=="cat_comp")
+		{
+			return false;
+		}
+		if($table=="cat_ojos")
+		{
+			return false;
+		}
+		if($table=="cat_piel")
+		{
+			return false;
+		}
+		if($table=="cat_cabtip")
+		{
+			return false;
+		}
+		if($table=="cat_cabcol")
+		{
+			return false;
+		}
+		if($table=="cat_nariz")
+		{
+			return false;
+		}
+		if($table=="cat_labios")
+		{
+			return false;
+		}
+		if($table=="cat_menton")
+		{
+			return false;
+		}
+		if($table=="cat_cejas")
+		{
+			return false;
+		}
+		if($table=="cat_vfacial")
+		{
+			return false;
+		}
+		if($table=="cat_delito")
+		{
+			return false;
+		}
+		if($table=="cat_estatus")
+		{
+			return false;
+		}
+		if($table=="cat_est_apar")
+		{
+			return false;
+		}
+		if($table=="unidad")
+		{
+			return false;
+		}
 	}
 	
 	protected function insert($datetime, $ip, $user, $table, $action, $description)
@@ -607,6 +683,82 @@ class AuditTrailFile
 	function logValueEnable($table)
 	{
 		if($table=="desaparecidos2017")
+		{
+			return false;
+		}
+		if($table=="cat_mpos")
+		{
+			return false;
+		}
+		if($table=="cat_edos")
+		{
+			return false;
+		}
+		if($table=="cat_sexo")
+		{
+			return false;
+		}
+		if($table=="catnacionalidad")
+		{
+			return false;
+		}
+		if($table=="cat_escolaridad")
+		{
+			return false;
+		}
+		if($table=="cat_comp")
+		{
+			return false;
+		}
+		if($table=="cat_ojos")
+		{
+			return false;
+		}
+		if($table=="cat_piel")
+		{
+			return false;
+		}
+		if($table=="cat_cabtip")
+		{
+			return false;
+		}
+		if($table=="cat_cabcol")
+		{
+			return false;
+		}
+		if($table=="cat_nariz")
+		{
+			return false;
+		}
+		if($table=="cat_labios")
+		{
+			return false;
+		}
+		if($table=="cat_menton")
+		{
+			return false;
+		}
+		if($table=="cat_cejas")
+		{
+			return false;
+		}
+		if($table=="cat_vfacial")
+		{
+			return false;
+		}
+		if($table=="cat_delito")
+		{
+			return false;
+		}
+		if($table=="cat_estatus")
+		{
+			return false;
+		}
+		if($table=="cat_est_apar")
+		{
+			return false;
+		}
+		if($table=="unidad")
 		{
 			return false;
 		}

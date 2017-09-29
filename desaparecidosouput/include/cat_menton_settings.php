@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_menton[""] = array();
 	$fieldToolTipscat_menton[""] = array();
 	$pageTitlescat_menton[""] = array();
+	$fieldLabelscat_menton[""]["idmenton"] = "Idmenton";
+	$fieldToolTipscat_menton[""]["idmenton"] = "";
+	$fieldLabelscat_menton[""]["menton"] = "Menton";
+	$fieldToolTipscat_menton[""]["menton"] = "";
 	if (count($fieldToolTipscat_menton[""]))
 		$tdatacat_menton[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_menton[".listAjax"] = false;
 
 	$tdatacat_menton[".locking"] = false;
 
-$tdatacat_menton[".edit"] = true;
-$tdatacat_menton[".afterEditAction"] = 1;
-$tdatacat_menton[".closePopupAfterEdit"] = 1;
-$tdatacat_menton[".afterEditActionDetTable"] = "";
 
-$tdatacat_menton[".add"] = true;
-$tdatacat_menton[".afterAddAction"] = 1;
-$tdatacat_menton[".closePopupAfterAdd"] = 1;
-$tdatacat_menton[".afterAddActionDetTable"] = "";
 
-$tdatacat_menton[".list"] = true;
 
-$tdatacat_menton[".inlineEdit"] = true;
-$tdatacat_menton[".inlineAdd"] = true;
-$tdatacat_menton[".view"] = true;
 
-$tdatacat_menton[".import"] = true;
 
-$tdatacat_menton[".exportTo"] = true;
 
-$tdatacat_menton[".printFriendly"] = true;
 
-$tdatacat_menton[".delete"] = true;
 
 $tdatacat_menton[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_menton[".allSearchFields"] = array();
 $tdatacat_menton[".filterFields"] = array();
 $tdatacat_menton[".requiredSearchFields"] = array();
 
-$tdatacat_menton[".allSearchFields"][] = "idmenton";
-	$tdatacat_menton[".allSearchFields"][] = "menton";
-	
+
 
 $tdatacat_menton[".googleLikeFields"] = array();
 $tdatacat_menton[".googleLikeFields"][] = "idmenton";
@@ -285,8 +271,7 @@ $tdatacat_menton[".printFields"][] = "menton";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_menton[".printFields"][] = "menton";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_menton[".printFields"][] = "menton";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_menton[".printFields"][] = "menton";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

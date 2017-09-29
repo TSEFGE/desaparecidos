@@ -773,6 +773,16 @@ function fileCustomExpression($file, $data, $field, $ptype, $table="")
 	global $strTableName;
 	if(!$table)
 		$table = $strTableName;
+				if($table=="desaparecidos2017" && $field=="fotoChica")
+	{
+		;
+		return $value;
+	}	
+				if($table=="desaparecidos2017" && $field=="fotoGrande")
+	{
+		;
+		return $value;
+	}	
 	return $value;
 }
 
@@ -804,6 +814,10 @@ function GetDefaultValue($field, $ptype, $table="")
 	{
 		return $_SESSION["UserName"];
 	}
+				if($table=="desaparecidos2017" && $field=="Nac") 
+	{
+		return 85;
+	}
 				if($table=="desaparecidos2017" && $field=="Origen") 
 	{
 		return 30;
@@ -834,6 +848,12 @@ function GetUploadFolderExpression($field, $file, $table="")
 	global $strTableName;
 	if(!$table)
 		$table = $strTableName;
+	if($table=="desaparecidos2017" && $field=="fotoChica") 
+	{
+		$folder = "files";
+;
+		return $folder;
+	}
 	return "";
 }
 

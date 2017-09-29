@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_est_apar[""] = array();
 	$fieldToolTipscat_est_apar[""] = array();
 	$pageTitlescat_est_apar[""] = array();
+	$fieldLabelscat_est_apar[""]["id"] = "Id";
+	$fieldToolTipscat_est_apar[""]["id"] = "";
+	$fieldLabelscat_est_apar[""]["Estatus"] = "Estatus";
+	$fieldToolTipscat_est_apar[""]["Estatus"] = "";
 	if (count($fieldToolTipscat_est_apar[""]))
 		$tdatacat_est_apar[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_est_apar[".listAjax"] = false;
 
 	$tdatacat_est_apar[".locking"] = false;
 
-$tdatacat_est_apar[".edit"] = true;
-$tdatacat_est_apar[".afterEditAction"] = 1;
-$tdatacat_est_apar[".closePopupAfterEdit"] = 1;
-$tdatacat_est_apar[".afterEditActionDetTable"] = "";
 
-$tdatacat_est_apar[".add"] = true;
-$tdatacat_est_apar[".afterAddAction"] = 1;
-$tdatacat_est_apar[".closePopupAfterAdd"] = 1;
-$tdatacat_est_apar[".afterAddActionDetTable"] = "";
 
-$tdatacat_est_apar[".list"] = true;
 
-$tdatacat_est_apar[".inlineEdit"] = true;
-$tdatacat_est_apar[".inlineAdd"] = true;
-$tdatacat_est_apar[".view"] = true;
 
-$tdatacat_est_apar[".import"] = true;
 
-$tdatacat_est_apar[".exportTo"] = true;
 
-$tdatacat_est_apar[".printFriendly"] = true;
 
-$tdatacat_est_apar[".delete"] = true;
 
 $tdatacat_est_apar[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_est_apar[".allSearchFields"] = array();
 $tdatacat_est_apar[".filterFields"] = array();
 $tdatacat_est_apar[".requiredSearchFields"] = array();
 
-$tdatacat_est_apar[".allSearchFields"][] = "id";
-	$tdatacat_est_apar[".allSearchFields"][] = "Estatus";
-	
+
 
 $tdatacat_est_apar[".googleLikeFields"] = array();
 $tdatacat_est_apar[".googleLikeFields"][] = "id";
@@ -285,8 +271,7 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

@@ -70,6 +70,7 @@ class tDAL
 	var $tbldesaparecidos_at_localhost__desaparecidos_uggroups;
 	var $tbldesaparecidos_at_localhost__desaparecidos_ugmembers;
 	var $tbldesaparecidos_at_localhost__desaparecidos_ugrights;
+	var $tbldesaparecidos_at_localhost__unidad;
 	var $lstTables;
 	var $Table = array();
 
@@ -100,6 +101,7 @@ class tDAL
 		$this->lstTables[] = array("name" => "desaparecidos_uggroups", "varname" => "desaparecidos_at_localhost__desaparecidos_uggroups", "altvarname" => "desaparecidos_uggroups", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "desaparecidos_ugmembers", "varname" => "desaparecidos_at_localhost__desaparecidos_ugmembers", "altvarname" => "desaparecidos_ugmembers", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "desaparecidos_ugrights", "varname" => "desaparecidos_at_localhost__desaparecidos_ugrights", "altvarname" => "desaparecidos_ugrights", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
+		$this->lstTables[] = array("name" => "unidad", "varname" => "desaparecidos_at_localhost__unidad", "altvarname" => "unidad", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 	}
 
 	/**

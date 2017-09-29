@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_cejas[""] = array();
 	$fieldToolTipscat_cejas[""] = array();
 	$pageTitlescat_cejas[""] = array();
+	$fieldLabelscat_cejas[""]["idcejas"] = "Idcejas";
+	$fieldToolTipscat_cejas[""]["idcejas"] = "";
+	$fieldLabelscat_cejas[""]["cejas"] = "Cejas";
+	$fieldToolTipscat_cejas[""]["cejas"] = "";
 	if (count($fieldToolTipscat_cejas[""]))
 		$tdatacat_cejas[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_cejas[".listAjax"] = false;
 
 	$tdatacat_cejas[".locking"] = false;
 
-$tdatacat_cejas[".edit"] = true;
-$tdatacat_cejas[".afterEditAction"] = 1;
-$tdatacat_cejas[".closePopupAfterEdit"] = 1;
-$tdatacat_cejas[".afterEditActionDetTable"] = "";
 
-$tdatacat_cejas[".add"] = true;
-$tdatacat_cejas[".afterAddAction"] = 1;
-$tdatacat_cejas[".closePopupAfterAdd"] = 1;
-$tdatacat_cejas[".afterAddActionDetTable"] = "";
 
-$tdatacat_cejas[".list"] = true;
 
-$tdatacat_cejas[".inlineEdit"] = true;
-$tdatacat_cejas[".inlineAdd"] = true;
-$tdatacat_cejas[".view"] = true;
 
-$tdatacat_cejas[".import"] = true;
 
-$tdatacat_cejas[".exportTo"] = true;
 
-$tdatacat_cejas[".printFriendly"] = true;
 
-$tdatacat_cejas[".delete"] = true;
 
 $tdatacat_cejas[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_cejas[".allSearchFields"] = array();
 $tdatacat_cejas[".filterFields"] = array();
 $tdatacat_cejas[".requiredSearchFields"] = array();
 
-$tdatacat_cejas[".allSearchFields"][] = "idcejas";
-	$tdatacat_cejas[".allSearchFields"][] = "cejas";
-	
+
 
 $tdatacat_cejas[".googleLikeFields"] = array();
 $tdatacat_cejas[".googleLikeFields"][] = "idcejas";
@@ -285,8 +271,7 @@ $tdatacat_cejas[".printFields"][] = "cejas";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_cejas[".printFields"][] = "cejas";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_cejas[".printFields"][] = "cejas";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_cejas[".printFields"][] = "cejas";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

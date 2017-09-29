@@ -486,9 +486,47 @@ $tableCaptions["Spanish"] = array();
 $tableCaptions["Spanish"][""] = "";
 $tableCaptions["Spanish"]["desaparecidos2017"] = "Desaparecidos2017";
 $tableCaptions["Spanish"][""] = "";
+$tableCaptions["Spanish"]["cat_mpos"] = "Cat Mpos";
+$tableCaptions["Spanish"]["cat_edos"] = "Cat Edos";
+$tableCaptions["Spanish"]["cat_sexo"] = "Cat Sexo";
+$tableCaptions["Spanish"]["catnacionalidad"] = "Catnacionalidad";
+$tableCaptions["Spanish"]["cat_escolaridad"] = "Cat Escolaridad";
+$tableCaptions["Spanish"]["cat_comp"] = "Cat Comp";
+$tableCaptions["Spanish"]["cat_ojos"] = "Cat Ojos";
+$tableCaptions["Spanish"]["cat_piel"] = "Cat Piel";
+$tableCaptions["Spanish"]["cat_cabtip"] = "Cat Cabtip";
+$tableCaptions["Spanish"]["cat_cabcol"] = "Cat Cabcol";
+$tableCaptions["Spanish"]["cat_nariz"] = "Cat Nariz";
+$tableCaptions["Spanish"]["cat_labios"] = "Cat Labios";
+$tableCaptions["Spanish"]["cat_menton"] = "Cat Menton";
+$tableCaptions["Spanish"]["cat_cejas"] = "Cat Cejas";
+$tableCaptions["Spanish"]["cat_vfacial"] = "Cat Vfacial";
+$tableCaptions["Spanish"]["cat_delito"] = "Cat Delito";
+$tableCaptions["Spanish"]["cat_estatus"] = "Cat Estatus";
+$tableCaptions["Spanish"]["cat_est_apar"] = "Cat Est Apar";
+$tableCaptions["Spanish"]["unidad"] = "Unidad";
 $tableCaptions[""] = array();
 $tableCaptions[""][""] = "";
 $tableCaptions[""]["desaparecidos2017"] = "Desaparecidos2017";
+$tableCaptions[""]["cat_mpos"] = "Cat Mpos";
+$tableCaptions[""]["cat_edos"] = "Cat Edos";
+$tableCaptions[""]["cat_sexo"] = "Cat Sexo";
+$tableCaptions[""]["catnacionalidad"] = "Catnacionalidad";
+$tableCaptions[""]["cat_escolaridad"] = "Cat Escolaridad";
+$tableCaptions[""]["cat_comp"] = "Cat Comp";
+$tableCaptions[""]["cat_ojos"] = "Cat Ojos";
+$tableCaptions[""]["cat_piel"] = "Cat Piel";
+$tableCaptions[""]["cat_cabtip"] = "Cat Cabtip";
+$tableCaptions[""]["cat_cabcol"] = "Cat Cabcol";
+$tableCaptions[""]["cat_nariz"] = "Cat Nariz";
+$tableCaptions[""]["cat_labios"] = "Cat Labios";
+$tableCaptions[""]["cat_menton"] = "Cat Menton";
+$tableCaptions[""]["cat_cejas"] = "Cat Cejas";
+$tableCaptions[""]["cat_vfacial"] = "Cat Vfacial";
+$tableCaptions[""]["cat_delito"] = "Cat Delito";
+$tableCaptions[""]["cat_estatus"] = "Cat Estatus";
+$tableCaptions[""]["cat_est_apar"] = "Cat Est Apar";
+$tableCaptions[""]["unidad"] = "Unidad";
 
 
 $globalEvents = new class_GlobalEvents;
@@ -528,7 +566,7 @@ $scriptname = getFileNameFromURL();
 
 $isGroupSecurity = false;
 
-$isUseRTEBasic = false;
+$isUseRTEBasic = true;
 
 $isUseRTECK = false;
 

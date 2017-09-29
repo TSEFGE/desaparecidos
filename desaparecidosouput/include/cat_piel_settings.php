@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_piel[""] = array();
 	$fieldToolTipscat_piel[""] = array();
 	$pageTitlescat_piel[""] = array();
+	$fieldLabelscat_piel[""]["idpiel"] = "Idpiel";
+	$fieldToolTipscat_piel[""]["idpiel"] = "";
+	$fieldLabelscat_piel[""]["piel"] = "Piel";
+	$fieldToolTipscat_piel[""]["piel"] = "";
 	if (count($fieldToolTipscat_piel[""]))
 		$tdatacat_piel[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_piel[".listAjax"] = false;
 
 	$tdatacat_piel[".locking"] = false;
 
-$tdatacat_piel[".edit"] = true;
-$tdatacat_piel[".afterEditAction"] = 1;
-$tdatacat_piel[".closePopupAfterEdit"] = 1;
-$tdatacat_piel[".afterEditActionDetTable"] = "";
 
-$tdatacat_piel[".add"] = true;
-$tdatacat_piel[".afterAddAction"] = 1;
-$tdatacat_piel[".closePopupAfterAdd"] = 1;
-$tdatacat_piel[".afterAddActionDetTable"] = "";
 
-$tdatacat_piel[".list"] = true;
 
-$tdatacat_piel[".inlineEdit"] = true;
-$tdatacat_piel[".inlineAdd"] = true;
-$tdatacat_piel[".view"] = true;
 
-$tdatacat_piel[".import"] = true;
 
-$tdatacat_piel[".exportTo"] = true;
 
-$tdatacat_piel[".printFriendly"] = true;
 
-$tdatacat_piel[".delete"] = true;
 
 $tdatacat_piel[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_piel[".allSearchFields"] = array();
 $tdatacat_piel[".filterFields"] = array();
 $tdatacat_piel[".requiredSearchFields"] = array();
 
-$tdatacat_piel[".allSearchFields"][] = "idpiel";
-	$tdatacat_piel[".allSearchFields"][] = "piel";
-	
+
 
 $tdatacat_piel[".googleLikeFields"] = array();
 $tdatacat_piel[".googleLikeFields"][] = "idpiel";
@@ -285,8 +271,7 @@ $tdatacat_piel[".printFields"][] = "piel";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_piel[".printFields"][] = "piel";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_piel[".printFields"][] = "piel";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_piel[".printFields"][] = "piel";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

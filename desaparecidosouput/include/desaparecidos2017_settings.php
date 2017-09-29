@@ -27,8 +27,6 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldToolTipsdesaparecidos2017["Spanish"]["Estado"] = "";
 	$fieldLabelsdesaparecidos2017["Spanish"]["Mun"] = "Municipio";
 	$fieldToolTipsdesaparecidos2017["Spanish"]["Mun"] = "";
-	$fieldLabelsdesaparecidos2017["Spanish"]["InvMin"] = "Carpeta de <br>Investigación";
-	$fieldToolTipsdesaparecidos2017["Spanish"]["InvMin"] = "";
 	$fieldLabelsdesaparecidos2017["Spanish"]["FInicio"] = "Fecha de Inicio";
 	$fieldToolTipsdesaparecidos2017["Spanish"]["FInicio"] = "";
 	$fieldLabelsdesaparecidos2017["Spanish"]["MinPub"] = "Fiscal";
@@ -115,6 +113,20 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldToolTipsdesaparecidos2017["Spanish"]["TipoDoc"] = "";
 	$fieldLabelsdesaparecidos2017["Spanish"]["Usuario"] = "Usuario";
 	$fieldToolTipsdesaparecidos2017["Spanish"]["Usuario"] = "";
+	$fieldLabelsdesaparecidos2017["Spanish"]["fotoChica"] = "Foto Chica";
+	$fieldToolTipsdesaparecidos2017["Spanish"]["fotoChica"] = "";
+	$fieldLabelsdesaparecidos2017["Spanish"]["fotoGrande"] = "Foto Grande";
+	$fieldToolTipsdesaparecidos2017["Spanish"]["fotoGrande"] = "";
+	$fieldLabelsdesaparecidos2017["Spanish"]["uipj"] = "UIPJ";
+	$fieldToolTipsdesaparecidos2017["Spanish"]["uipj"] = "";
+	$fieldLabelsdesaparecidos2017["Spanish"]["numFiscal"] = "Número de Fiscal";
+	$fieldToolTipsdesaparecidos2017["Spanish"]["numFiscal"] = "";
+	$fieldLabelsdesaparecidos2017["Spanish"]["a_oInv"] = "Año de Investigación";
+	$fieldToolTipsdesaparecidos2017["Spanish"]["añoInv"] = "";
+	$fieldLabelsdesaparecidos2017["Spanish"]["numInv"] = "Número de Investigación";
+	$fieldToolTipsdesaparecidos2017["Spanish"]["numInv"] = "";
+	$pageTitlesdesaparecidos2017["Spanish"]["add"] = "Registro Público de Personas Desaparecidas";
+	$pageTitlesdesaparecidos2017["Spanish"]["edit"] = "Registro Público de Personas Desaparecidas";
 	if (count($fieldToolTipsdesaparecidos2017["Spanish"]))
 		$tdatadesaparecidos2017[".isUseToolTips"] = true;
 }
@@ -125,6 +137,18 @@ if(mlang_getcurrentlang()=="")
 	$pageTitlesdesaparecidos2017[""] = array();
 	$fieldLabelsdesaparecidos2017[""]["Id"] = "Id";
 	$fieldToolTipsdesaparecidos2017[""]["Id"] = "";
+	$fieldLabelsdesaparecidos2017[""]["fotoChica"] = "Foto Chica";
+	$fieldToolTipsdesaparecidos2017[""]["fotoChica"] = "";
+	$fieldLabelsdesaparecidos2017[""]["fotoGrande"] = "Foto Grande";
+	$fieldToolTipsdesaparecidos2017[""]["fotoGrande"] = "";
+	$fieldLabelsdesaparecidos2017[""]["uipj"] = "Uipj";
+	$fieldToolTipsdesaparecidos2017[""]["uipj"] = "";
+	$fieldLabelsdesaparecidos2017[""]["numFiscal"] = "Num Fiscal";
+	$fieldToolTipsdesaparecidos2017[""]["numFiscal"] = "";
+	$fieldLabelsdesaparecidos2017[""]["a_oInv"] = "Año Inv";
+	$fieldToolTipsdesaparecidos2017[""]["añoInv"] = "";
+	$fieldLabelsdesaparecidos2017[""]["numInv"] = "Num Inv";
+	$fieldToolTipsdesaparecidos2017[""]["numInv"] = "";
 	if (count($fieldToolTipsdesaparecidos2017[""]))
 		$tdatadesaparecidos2017[".isUseToolTips"] = true;
 }
@@ -224,7 +248,10 @@ $tdatadesaparecidos2017[".requiredSearchFields"] = array();
 $tdatadesaparecidos2017[".allSearchFields"][] = "Id";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "Estado";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "Mun";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "InvMin";
+	$tdatadesaparecidos2017[".allSearchFields"][] = "uipj";
+	$tdatadesaparecidos2017[".allSearchFields"][] = "numFiscal";
+	$tdatadesaparecidos2017[".allSearchFields"][] = "añoInv";
+	$tdatadesaparecidos2017[".allSearchFields"][] = "numInv";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "FInicio";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "MinPub";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "Ofic";
@@ -265,7 +292,10 @@ $tdatadesaparecidos2017[".googleLikeFields"] = array();
 $tdatadesaparecidos2017[".googleLikeFields"][] = "Id";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "Estado";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "Mun";
-$tdatadesaparecidos2017[".googleLikeFields"][] = "InvMin";
+$tdatadesaparecidos2017[".googleLikeFields"][] = "uipj";
+$tdatadesaparecidos2017[".googleLikeFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".googleLikeFields"][] = "añoInv";
+$tdatadesaparecidos2017[".googleLikeFields"][] = "numInv";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "FInicio";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "MinPub";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "Agencia";
@@ -309,13 +339,18 @@ $tdatadesaparecidos2017[".googleLikeFields"][] = "RutFoto";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "FCaptura";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "TipoDoc";
 $tdatadesaparecidos2017[".googleLikeFields"][] = "Usuario";
+$tdatadesaparecidos2017[".googleLikeFields"][] = "fotoChica";
+$tdatadesaparecidos2017[".googleLikeFields"][] = "fotoGrande";
 
 
 $tdatadesaparecidos2017[".advSearchFields"] = array();
 $tdatadesaparecidos2017[".advSearchFields"][] = "Id";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Estado";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Mun";
-$tdatadesaparecidos2017[".advSearchFields"][] = "InvMin";
+$tdatadesaparecidos2017[".advSearchFields"][] = "uipj";
+$tdatadesaparecidos2017[".advSearchFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".advSearchFields"][] = "añoInv";
+$tdatadesaparecidos2017[".advSearchFields"][] = "numInv";
 $tdatadesaparecidos2017[".advSearchFields"][] = "FInicio";
 $tdatadesaparecidos2017[".advSearchFields"][] = "MinPub";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Ofic";
@@ -391,7 +426,7 @@ $tdatadesaparecidos2017[".strOrderBy"] = $tstrOrderBy;
 
 $tdatadesaparecidos2017[".orderindexes"] = array();
 
-$tdatadesaparecidos2017[".sqlHead"] = "SELECT Id,  	Estado,  	Mun,  	InvMin,  	FInicio,  	MinPub,  	Agencia,  	Ofic,  	FExtrav,  	Nombre,  	APat,  	AMat,  	Sexo,  	EdadA,  	EdadM,  	Nac,  	Origen,  	Escolaridad,  	Est,  	Compl,  	Ojos,  	Piel,  	Cab,  	TCab,  	Cabcol,  	Nariz,  	Labios,  	Menton,  	Cejas,  	VFacial,  	Delito,  	Particularidades,  	Nota,  	DescHechos,  	Obseva,  	Status,  	FAparicion,  	Oficio,  	EstApar,  	Tipo,  	FRecib,  	UsrBaja,  	FecBaja,  	RutFoto,  	FCaptura,  	TipoDoc,  	Usuario";
+$tdatadesaparecidos2017[".sqlHead"] = "SELECT Id,  	Estado,  	Mun,  	uipj,  	numFiscal,  	`añoInv`,  	numInv,  	FInicio,  	MinPub,  	Agencia,  	Ofic,  	FExtrav,  	Nombre,  	APat,  	AMat,  	Sexo,  	EdadA,  	EdadM,  	Nac,  	Origen,  	Escolaridad,  	Est,  	Compl,  	Ojos,  	Piel,  	Cab,  	TCab,  	Cabcol,  	Nariz,  	Labios,  	Menton,  	Cejas,  	VFacial,  	Delito,  	Particularidades,  	Nota,  	DescHechos,  	Obseva,  	Status,  	FAparicion,  	Oficio,  	EstApar,  	Tipo,  	FRecib,  	UsrBaja,  	FecBaja,  	RutFoto,  	FCaptura,  	TipoDoc,  	Usuario,  	fotoChica,  	fotoGrande";
 $tdatadesaparecidos2017[".sqlFrom"] = "FROM desaparecidos2017";
 $tdatadesaparecidos2017[".sqlWhereExpr"] = "";
 $tdatadesaparecidos2017[".sqlTail"] = "";
@@ -433,10 +468,13 @@ $tableKeysdesaparecidos2017[] = "Id";
 $tdatadesaparecidos2017[".Keys"] = $tableKeysdesaparecidos2017;
 
 $tdatadesaparecidos2017[".listFields"] = array();
+$tdatadesaparecidos2017[".listFields"][] = "uipj";
+$tdatadesaparecidos2017[".listFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".listFields"][] = "añoInv";
+$tdatadesaparecidos2017[".listFields"][] = "numInv";
 $tdatadesaparecidos2017[".listFields"][] = "Id";
 $tdatadesaparecidos2017[".listFields"][] = "Estado";
 $tdatadesaparecidos2017[".listFields"][] = "Mun";
-$tdatadesaparecidos2017[".listFields"][] = "InvMin";
 $tdatadesaparecidos2017[".listFields"][] = "FInicio";
 $tdatadesaparecidos2017[".listFields"][] = "MinPub";
 $tdatadesaparecidos2017[".listFields"][] = "Ofic";
@@ -479,7 +517,10 @@ $tdatadesaparecidos2017[".viewFields"] = array();
 $tdatadesaparecidos2017[".viewFields"][] = "Id";
 $tdatadesaparecidos2017[".viewFields"][] = "Estado";
 $tdatadesaparecidos2017[".viewFields"][] = "Mun";
-$tdatadesaparecidos2017[".viewFields"][] = "InvMin";
+$tdatadesaparecidos2017[".viewFields"][] = "uipj";
+$tdatadesaparecidos2017[".viewFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".viewFields"][] = "añoInv";
+$tdatadesaparecidos2017[".viewFields"][] = "numInv";
 $tdatadesaparecidos2017[".viewFields"][] = "FInicio";
 $tdatadesaparecidos2017[".viewFields"][] = "MinPub";
 $tdatadesaparecidos2017[".viewFields"][] = "Ofic";
@@ -514,12 +555,18 @@ $tdatadesaparecidos2017[".viewFields"][] = "Status";
 $tdatadesaparecidos2017[".viewFields"][] = "FAparicion";
 $tdatadesaparecidos2017[".viewFields"][] = "Oficio";
 $tdatadesaparecidos2017[".viewFields"][] = "EstApar";
+$tdatadesaparecidos2017[".viewFields"][] = "fotoChica";
+$tdatadesaparecidos2017[".viewFields"][] = "fotoGrande";
 
 $tdatadesaparecidos2017[".addFields"] = array();
 $tdatadesaparecidos2017[".addFields"][] = "Estado";
 $tdatadesaparecidos2017[".addFields"][] = "Mun";
-$tdatadesaparecidos2017[".addFields"][] = "InvMin";
+$tdatadesaparecidos2017[".addFields"][] = "uipj";
+$tdatadesaparecidos2017[".addFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".addFields"][] = "añoInv";
+$tdatadesaparecidos2017[".addFields"][] = "numInv";
 $tdatadesaparecidos2017[".addFields"][] = "FInicio";
+$tdatadesaparecidos2017[".addFields"][] = "MinPub";
 $tdatadesaparecidos2017[".addFields"][] = "Ofic";
 $tdatadesaparecidos2017[".addFields"][] = "FExtrav";
 $tdatadesaparecidos2017[".addFields"][] = "Nombre";
@@ -552,12 +599,17 @@ $tdatadesaparecidos2017[".addFields"][] = "Status";
 $tdatadesaparecidos2017[".addFields"][] = "FAparicion";
 $tdatadesaparecidos2017[".addFields"][] = "Oficio";
 $tdatadesaparecidos2017[".addFields"][] = "EstApar";
+$tdatadesaparecidos2017[".addFields"][] = "fotoChica";
+$tdatadesaparecidos2017[".addFields"][] = "fotoGrande";
 
 $tdatadesaparecidos2017[".masterListFields"] = array();
 $tdatadesaparecidos2017[".masterListFields"][] = "Id";
 $tdatadesaparecidos2017[".masterListFields"][] = "Estado";
 $tdatadesaparecidos2017[".masterListFields"][] = "Mun";
-$tdatadesaparecidos2017[".masterListFields"][] = "InvMin";
+$tdatadesaparecidos2017[".masterListFields"][] = "uipj";
+$tdatadesaparecidos2017[".masterListFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".masterListFields"][] = "añoInv";
+$tdatadesaparecidos2017[".masterListFields"][] = "numInv";
 $tdatadesaparecidos2017[".masterListFields"][] = "FInicio";
 $tdatadesaparecidos2017[".masterListFields"][] = "MinPub";
 $tdatadesaparecidos2017[".masterListFields"][] = "Agencia";
@@ -601,11 +653,16 @@ $tdatadesaparecidos2017[".masterListFields"][] = "RutFoto";
 $tdatadesaparecidos2017[".masterListFields"][] = "FCaptura";
 $tdatadesaparecidos2017[".masterListFields"][] = "TipoDoc";
 $tdatadesaparecidos2017[".masterListFields"][] = "Usuario";
+$tdatadesaparecidos2017[".masterListFields"][] = "fotoChica";
+$tdatadesaparecidos2017[".masterListFields"][] = "fotoGrande";
 
 $tdatadesaparecidos2017[".inlineAddFields"] = array();
+$tdatadesaparecidos2017[".inlineAddFields"][] = "uipj";
+$tdatadesaparecidos2017[".inlineAddFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".inlineAddFields"][] = "añoInv";
+$tdatadesaparecidos2017[".inlineAddFields"][] = "numInv";
 $tdatadesaparecidos2017[".inlineAddFields"][] = "Estado";
 $tdatadesaparecidos2017[".inlineAddFields"][] = "Mun";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "InvMin";
 $tdatadesaparecidos2017[".inlineAddFields"][] = "FInicio";
 $tdatadesaparecidos2017[".inlineAddFields"][] = "Ofic";
 $tdatadesaparecidos2017[".inlineAddFields"][] = "FExtrav";
@@ -643,7 +700,10 @@ $tdatadesaparecidos2017[".inlineAddFields"][] = "EstApar";
 $tdatadesaparecidos2017[".editFields"] = array();
 $tdatadesaparecidos2017[".editFields"][] = "Estado";
 $tdatadesaparecidos2017[".editFields"][] = "Mun";
-$tdatadesaparecidos2017[".editFields"][] = "InvMin";
+$tdatadesaparecidos2017[".editFields"][] = "uipj";
+$tdatadesaparecidos2017[".editFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".editFields"][] = "añoInv";
+$tdatadesaparecidos2017[".editFields"][] = "numInv";
 $tdatadesaparecidos2017[".editFields"][] = "FInicio";
 $tdatadesaparecidos2017[".editFields"][] = "MinPub";
 $tdatadesaparecidos2017[".editFields"][] = "Ofic";
@@ -678,11 +738,16 @@ $tdatadesaparecidos2017[".editFields"][] = "Status";
 $tdatadesaparecidos2017[".editFields"][] = "FAparicion";
 $tdatadesaparecidos2017[".editFields"][] = "Oficio";
 $tdatadesaparecidos2017[".editFields"][] = "EstApar";
+$tdatadesaparecidos2017[".editFields"][] = "fotoChica";
+$tdatadesaparecidos2017[".editFields"][] = "fotoGrande";
 
 $tdatadesaparecidos2017[".inlineEditFields"] = array();
+$tdatadesaparecidos2017[".inlineEditFields"][] = "uipj";
+$tdatadesaparecidos2017[".inlineEditFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".inlineEditFields"][] = "añoInv";
+$tdatadesaparecidos2017[".inlineEditFields"][] = "numInv";
 $tdatadesaparecidos2017[".inlineEditFields"][] = "Estado";
 $tdatadesaparecidos2017[".inlineEditFields"][] = "Mun";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "InvMin";
 $tdatadesaparecidos2017[".inlineEditFields"][] = "FInicio";
 $tdatadesaparecidos2017[".inlineEditFields"][] = "MinPub";
 $tdatadesaparecidos2017[".inlineEditFields"][] = "Ofic";
@@ -722,7 +787,10 @@ $tdatadesaparecidos2017[".exportFields"] = array();
 $tdatadesaparecidos2017[".exportFields"][] = "Id";
 $tdatadesaparecidos2017[".exportFields"][] = "Estado";
 $tdatadesaparecidos2017[".exportFields"][] = "Mun";
-$tdatadesaparecidos2017[".exportFields"][] = "InvMin";
+$tdatadesaparecidos2017[".exportFields"][] = "uipj";
+$tdatadesaparecidos2017[".exportFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".exportFields"][] = "añoInv";
+$tdatadesaparecidos2017[".exportFields"][] = "numInv";
 $tdatadesaparecidos2017[".exportFields"][] = "FInicio";
 $tdatadesaparecidos2017[".exportFields"][] = "MinPub";
 $tdatadesaparecidos2017[".exportFields"][] = "Ofic";
@@ -762,7 +830,10 @@ $tdatadesaparecidos2017[".importFields"] = array();
 $tdatadesaparecidos2017[".importFields"][] = "Id";
 $tdatadesaparecidos2017[".importFields"][] = "Estado";
 $tdatadesaparecidos2017[".importFields"][] = "Mun";
-$tdatadesaparecidos2017[".importFields"][] = "InvMin";
+$tdatadesaparecidos2017[".importFields"][] = "uipj";
+$tdatadesaparecidos2017[".importFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".importFields"][] = "añoInv";
+$tdatadesaparecidos2017[".importFields"][] = "numInv";
 $tdatadesaparecidos2017[".importFields"][] = "FInicio";
 $tdatadesaparecidos2017[".importFields"][] = "MinPub";
 $tdatadesaparecidos2017[".importFields"][] = "Ofic";
@@ -802,7 +873,10 @@ $tdatadesaparecidos2017[".printFields"] = array();
 $tdatadesaparecidos2017[".printFields"][] = "Id";
 $tdatadesaparecidos2017[".printFields"][] = "Estado";
 $tdatadesaparecidos2017[".printFields"][] = "Mun";
-$tdatadesaparecidos2017[".printFields"][] = "InvMin";
+$tdatadesaparecidos2017[".printFields"][] = "uipj";
+$tdatadesaparecidos2017[".printFields"][] = "numFiscal";
+$tdatadesaparecidos2017[".printFields"][] = "añoInv";
+$tdatadesaparecidos2017[".printFields"][] = "numInv";
 $tdatadesaparecidos2017[".printFields"][] = "FInicio";
 $tdatadesaparecidos2017[".printFields"][] = "MinPub";
 $tdatadesaparecidos2017[".printFields"][] = "Ofic";
@@ -837,6 +911,8 @@ $tdatadesaparecidos2017[".printFields"][] = "Status";
 $tdatadesaparecidos2017[".printFields"][] = "FAparicion";
 $tdatadesaparecidos2017[".printFields"][] = "Oficio";
 $tdatadesaparecidos2017[".printFields"][] = "EstApar";
+$tdatadesaparecidos2017[".printFields"][] = "fotoChica";
+$tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 
 //	Id
 //	Custom field settings
@@ -1035,9 +1111,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_edos";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -1054,8 +1129,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 				//dependent dropdowns	
 	$edata["DependentLookups"] = array();
 	$edata["DependentLookups"][] = "Mun";
@@ -1067,7 +1141,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 // End Lookup Settings
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -1086,7 +1161,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-								
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -1187,9 +1263,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_mpos";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -1209,8 +1284,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["categoryFields"][] = array( "main" => "Estado", "lookup" => "fkEdo" );
 		
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -1219,7 +1293,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 // End Lookup Settings
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -1239,7 +1314,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-								
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -1267,15 +1343,15 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 
 	
 	$tdatadesaparecidos2017["Mun"] = $fdata;
-//	InvMin
+//	uipj
 //	Custom field settings
 	$fdata = array();
 	$fdata["Index"] = 4;
-	$fdata["strName"] = "InvMin";
-	$fdata["GoodName"] = "InvMin";
+	$fdata["strName"] = "uipj";
+	$fdata["GoodName"] = "uipj";
 	$fdata["ownerTable"] = "desaparecidos2017";
-	$fdata["Label"] = GetFieldLabel("desaparecidos2017","InvMin"); 
-	$fdata["FieldType"] = 200;
+	$fdata["Label"] = GetFieldLabel("desaparecidos2017","uipj"); 
+	$fdata["FieldType"] = 3;
 	
 		
 		
@@ -1299,10 +1375,160 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 		$fdata["bExportPage"] = true; 
 	
-		$fdata["strField"] = "InvMin"; 
+		$fdata["strField"] = "uipj"; 
 	
 		$fdata["isSQLExpression"] = true;
-	$fdata["FullName"] = "InvMin";
+	$fdata["FullName"] = "uipj";
+	
+		
+		
+				$fdata["FieldPermissions"] = true;
+	
+				$fdata["UploadFolder"] = "files";
+		
+//  Begin View Formats
+	$fdata["ViewFormats"] = array();
+	
+	$vdata = array("ViewFormat" => "");
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		$vdata["NeedEncode"] = true;
+	
+	$fdata["ViewFormats"]["view"] = $vdata;
+//  End View Formats
+
+//	Begin Edit Formats 	
+	$fdata["EditFormats"] = array();
+	
+	$edata = array("EditFormat" => "Lookup wizard");
+	
+			
+	
+	
+// Begin Lookup settings
+				$edata["LookupType"] = 2;
+	$edata["LookupTable"] = "unidad";
+		$edata["autoCompleteFieldsOnEdit"] = 0;
+	$edata["autoCompleteFields"] = array();
+		$edata["LCType"] = 0;
+		
+		
+			
+	$edata["LinkField"] = "id";
+	$edata["LinkFieldType"] = 3;
+	$edata["DisplayField"] = "nombre";
+	
+		
+	$edata["LookupOrderBy"] = "nombre";
+	
+		
+			
+		
+				
+	
+	
+		
+		$edata["SelectSize"] = 1;
+		
+// End Lookup Settings
+
+
+		$edata["IsRequired"] = true; 
+	
+		
+		
+		
+			$edata["acceptFileTypes"] = ".+$";
+	
+		$edata["maxNumberOfFiles"] = 1;
+	
+		
+		
+		
+		
+		
+		
+		$edata["controlWidth"] = 200;
+	
+//	Begin validation
+	$edata["validateAs"] = array();
+	$edata["validateAs"]["basicValidate"] = array();
+	$edata["validateAs"]["customMessages"] = array();
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
+		
+	//	End validation
+	
+		
+				
+		
+	
+		
+	$fdata["EditFormats"]["edit"] = $edata;
+//	End Edit Formats
+	
+	
+	$fdata["isSeparate"] = false;
+	
+	
+	
+	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
+
+	
+
+	
+	$tdatadesaparecidos2017["uipj"] = $fdata;
+//	numFiscal
+//	Custom field settings
+	$fdata = array();
+	$fdata["Index"] = 5;
+	$fdata["strName"] = "numFiscal";
+	$fdata["GoodName"] = "numFiscal";
+	$fdata["ownerTable"] = "desaparecidos2017";
+	$fdata["Label"] = GetFieldLabel("desaparecidos2017","numFiscal"); 
+	$fdata["FieldType"] = 3;
+	
+		
+		
+		
+				
+		$fdata["bListPage"] = true; 
+	
+		$fdata["bAddPage"] = true; 
+	
+		$fdata["bInlineAdd"] = true; 
+	
+		$fdata["bEditPage"] = true; 
+	
+		$fdata["bInlineEdit"] = true; 
+	
+		$fdata["bViewPage"] = true; 
+	
+		$fdata["bAdvancedSearch"] = true; 
+	
+		$fdata["bPrinterPage"] = true; 
+	
+		$fdata["bExportPage"] = true; 
+	
+		$fdata["strField"] = "numFiscal"; 
+	
+		$fdata["isSQLExpression"] = true;
+	$fdata["FullName"] = "numFiscal";
 	
 		
 		
@@ -1341,7 +1567,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -1353,18 +1580,19 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 		
 		
-			$edata["HTML5InuptType"] = "text";
+			$edata["HTML5InuptType"] = "number";
 	
 		$edata["EditParams"] = "";
-			$edata["EditParams"].= " maxlength=50";
-	
-		$edata["controlWidth"] = 150;
+			
+		$edata["controlWidth"] = 170;
 	
 //	Begin validation
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+				$edata["validateAs"]["basicValidate"][] = getJsValidatorName("Number");	
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -1385,17 +1613,271 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 // the field's search options settings
 		
 			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
 // the end of search options settings	
 
 	
 
 	
-	$tdatadesaparecidos2017["InvMin"] = $fdata;
+	$tdatadesaparecidos2017["numFiscal"] = $fdata;
+//	añoInv
+//	Custom field settings
+	$fdata = array();
+	$fdata["Index"] = 6;
+	$fdata["strName"] = "añoInv";
+	$fdata["GoodName"] = "a_oInv";
+	$fdata["ownerTable"] = "desaparecidos2017";
+	$fdata["Label"] = GetFieldLabel("desaparecidos2017","a_oInv"); 
+	$fdata["FieldType"] = 3;
+	
+		
+		
+		
+				
+		$fdata["bListPage"] = true; 
+	
+		$fdata["bAddPage"] = true; 
+	
+		$fdata["bInlineAdd"] = true; 
+	
+		$fdata["bEditPage"] = true; 
+	
+		$fdata["bInlineEdit"] = true; 
+	
+		$fdata["bViewPage"] = true; 
+	
+		$fdata["bAdvancedSearch"] = true; 
+	
+		$fdata["bPrinterPage"] = true; 
+	
+		$fdata["bExportPage"] = true; 
+	
+		$fdata["strField"] = "añoInv"; 
+	
+		$fdata["isSQLExpression"] = true;
+	$fdata["FullName"] = "`añoInv`";
+	
+		
+		
+				$fdata["FieldPermissions"] = true;
+	
+				$fdata["UploadFolder"] = "files";
+		
+//  Begin View Formats
+	$fdata["ViewFormats"] = array();
+	
+	$vdata = array("ViewFormat" => "");
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		$vdata["NeedEncode"] = true;
+	
+	$fdata["ViewFormats"]["view"] = $vdata;
+//  End View Formats
+
+//	Begin Edit Formats 	
+	$fdata["EditFormats"] = array();
+	
+	$edata = array("EditFormat" => "Text field");
+	
+			
+	
+	
+
+
+		$edata["IsRequired"] = true; 
+	
+		
+		
+		
+			$edata["acceptFileTypes"] = ".+$";
+	
+		$edata["maxNumberOfFiles"] = 1;
+	
+		
+		
+		
+		
+			$edata["HTML5InuptType"] = "number";
+	
+		$edata["EditParams"] = "";
+			
+		$edata["controlWidth"] = 150;
+	
+//	Begin validation
+	$edata["validateAs"] = array();
+	$edata["validateAs"]["basicValidate"] = array();
+	$edata["validateAs"]["customMessages"] = array();
+				$edata["validateAs"]["basicValidate"][] = getJsValidatorName("Number");	
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
+		
+	//	End validation
+	
+		
+				
+		
+	
+		
+	$fdata["EditFormats"]["edit"] = $edata;
+//	End Edit Formats
+	
+	
+	$fdata["isSeparate"] = false;
+	
+	
+	
+	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
+
+	
+
+	
+	$tdatadesaparecidos2017["añoInv"] = $fdata;
+//	numInv
+//	Custom field settings
+	$fdata = array();
+	$fdata["Index"] = 7;
+	$fdata["strName"] = "numInv";
+	$fdata["GoodName"] = "numInv";
+	$fdata["ownerTable"] = "desaparecidos2017";
+	$fdata["Label"] = GetFieldLabel("desaparecidos2017","numInv"); 
+	$fdata["FieldType"] = 3;
+	
+		
+		
+		
+				
+		$fdata["bListPage"] = true; 
+	
+		$fdata["bAddPage"] = true; 
+	
+		$fdata["bInlineAdd"] = true; 
+	
+		$fdata["bEditPage"] = true; 
+	
+		$fdata["bInlineEdit"] = true; 
+	
+		$fdata["bViewPage"] = true; 
+	
+		$fdata["bAdvancedSearch"] = true; 
+	
+		$fdata["bPrinterPage"] = true; 
+	
+		$fdata["bExportPage"] = true; 
+	
+		$fdata["strField"] = "numInv"; 
+	
+		$fdata["isSQLExpression"] = true;
+	$fdata["FullName"] = "numInv";
+	
+		
+		
+				$fdata["FieldPermissions"] = true;
+	
+				$fdata["UploadFolder"] = "files";
+		
+//  Begin View Formats
+	$fdata["ViewFormats"] = array();
+	
+	$vdata = array("ViewFormat" => "");
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		$vdata["NeedEncode"] = true;
+	
+	$fdata["ViewFormats"]["view"] = $vdata;
+//  End View Formats
+
+//	Begin Edit Formats 	
+	$fdata["EditFormats"] = array();
+	
+	$edata = array("EditFormat" => "Text field");
+	
+			
+	
+	
+
+
+		$edata["IsRequired"] = true; 
+	
+		
+		
+		
+			$edata["acceptFileTypes"] = ".+$";
+	
+		$edata["maxNumberOfFiles"] = 1;
+	
+		
+		
+		
+		
+			$edata["HTML5InuptType"] = "number";
+	
+		$edata["EditParams"] = "";
+			
+		$edata["controlWidth"] = 130;
+	
+//	Begin validation
+	$edata["validateAs"] = array();
+	$edata["validateAs"]["basicValidate"] = array();
+	$edata["validateAs"]["customMessages"] = array();
+				$edata["validateAs"]["basicValidate"][] = getJsValidatorName("Number");	
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
+		
+	//	End validation
+	
+		
+				
+		
+	
+		
+	$fdata["EditFormats"]["edit"] = $edata;
+//	End Edit Formats
+	
+	
+	$fdata["isSeparate"] = false;
+	
+	
+	
+	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
+
+	
+
+	
+	$tdatadesaparecidos2017["numInv"] = $fdata;
 //	FInicio
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 5;
+	$fdata["Index"] = 8;
 	$fdata["strName"] = "FInicio";
 	$fdata["GoodName"] = "FInicio";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -1461,13 +1943,13 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	$edata = array("EditFormat" => "Date");
 	
-		$edata["ShowTime"] = true; 
-		
+			
 	
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -1490,7 +1972,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -1521,7 +2004,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	MinPub
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 6;
+	$fdata["Index"] = 9;
 	$fdata["strName"] = "MinPub";
 	$fdata["GoodName"] = "MinPub";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -1534,7 +2017,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 				
 		$fdata["bListPage"] = true; 
 	
-		
+		$fdata["bAddPage"] = true; 
+	
 		
 		$fdata["bEditPage"] = true; 
 	
@@ -1641,7 +2125,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Agencia
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 7;
+	$fdata["Index"] = 10;
 	$fdata["strName"] = "Agencia";
 	$fdata["GoodName"] = "Agencia";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -1751,7 +2235,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Ofic
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 8;
+	$fdata["Index"] = 11;
 	$fdata["strName"] = "Ofic";
 	$fdata["GoodName"] = "Ofic";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -1822,7 +2306,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -1845,7 +2330,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -1876,7 +2362,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	FExtrav
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 9;
+	$fdata["Index"] = 12;
 	$fdata["strName"] = "FExtrav";
 	$fdata["GoodName"] = "FExtrav";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -1942,13 +2428,13 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	$edata = array("EditFormat" => "Date");
 	
-		$edata["ShowTime"] = true; 
-		
+			
 	
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -1971,7 +2457,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -2002,7 +2489,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Nombre
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 10;
+	$fdata["Index"] = 13;
 	$fdata["strName"] = "Nombre";
 	$fdata["GoodName"] = "Nombre";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2073,7 +2560,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -2096,7 +2584,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -2127,7 +2616,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	APat
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 11;
+	$fdata["Index"] = 14;
 	$fdata["strName"] = "APat";
 	$fdata["GoodName"] = "APat";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2198,7 +2687,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -2221,7 +2711,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -2252,7 +2743,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	AMat
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 12;
+	$fdata["Index"] = 15;
 	$fdata["strName"] = "AMat";
 	$fdata["GoodName"] = "AMat";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2377,7 +2868,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Sexo
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 13;
+	$fdata["Index"] = 16;
 	$fdata["strName"] = "Sexo";
 	$fdata["GoodName"] = "Sexo";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2447,9 +2938,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_sexo";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -2466,8 +2956,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -2476,7 +2965,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 // End Lookup Settings
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -2496,7 +2986,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -2527,7 +3018,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	EdadA
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 14;
+	$fdata["Index"] = 17;
 	$fdata["strName"] = "EdadA";
 	$fdata["GoodName"] = "EdadA";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2652,7 +3143,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	EdadM
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 15;
+	$fdata["Index"] = 18;
 	$fdata["strName"] = "EdadM";
 	$fdata["GoodName"] = "EdadM";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2777,7 +3268,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Nac
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 16;
+	$fdata["Index"] = 19;
 	$fdata["strName"] = "Nac";
 	$fdata["GoodName"] = "Nac";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2847,9 +3338,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "catnacionalidad";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -2866,8 +3356,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -2876,7 +3365,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 // End Lookup Settings
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -2896,7 +3386,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -2927,7 +3418,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Origen
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 17;
+	$fdata["Index"] = 20;
 	$fdata["strName"] = "Origen";
 	$fdata["GoodName"] = "Origen";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -2997,9 +3488,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_edos";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -3016,8 +3506,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -3077,7 +3566,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Escolaridad
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 18;
+	$fdata["Index"] = 21;
 	$fdata["strName"] = "Escolaridad";
 	$fdata["GoodName"] = "Escolaridad";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -3147,9 +3636,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_escolaridad";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -3166,8 +3654,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -3227,7 +3714,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Est
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 19;
+	$fdata["Index"] = 22;
 	$fdata["strName"] = "Est";
 	$fdata["GoodName"] = "Est";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -3353,7 +3840,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Compl
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 20;
+	$fdata["Index"] = 23;
 	$fdata["strName"] = "Compl";
 	$fdata["GoodName"] = "Compl";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -3423,9 +3910,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_comp";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -3442,8 +3928,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -3503,7 +3988,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Ojos
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 21;
+	$fdata["Index"] = 24;
 	$fdata["strName"] = "Ojos";
 	$fdata["GoodName"] = "Ojos";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -3573,9 +4058,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_ojos";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -3592,8 +4076,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -3653,7 +4136,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Piel
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 22;
+	$fdata["Index"] = 25;
 	$fdata["strName"] = "Piel";
 	$fdata["GoodName"] = "Piel";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -3723,9 +4206,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_piel";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -3742,8 +4224,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -3803,7 +4284,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Cab
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 23;
+	$fdata["Index"] = 26;
 	$fdata["strName"] = "Cab";
 	$fdata["GoodName"] = "Cab";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -3953,7 +4434,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	TCab
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 24;
+	$fdata["Index"] = 27;
 	$fdata["strName"] = "TCab";
 	$fdata["GoodName"] = "TCab";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4023,9 +4504,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_cabtip";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4042,8 +4522,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -4103,7 +4582,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Cabcol
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 25;
+	$fdata["Index"] = 28;
 	$fdata["strName"] = "Cabcol";
 	$fdata["GoodName"] = "Cabcol";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4173,9 +4652,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_cabcol";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4192,8 +4670,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -4253,7 +4730,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Nariz
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 26;
+	$fdata["Index"] = 29;
 	$fdata["strName"] = "Nariz";
 	$fdata["GoodName"] = "Nariz";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4323,9 +4800,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_nariz";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4342,8 +4818,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -4403,7 +4878,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Labios
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 27;
+	$fdata["Index"] = 30;
 	$fdata["strName"] = "Labios";
 	$fdata["GoodName"] = "Labios";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4473,9 +4948,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_labios";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4492,8 +4966,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -4553,7 +5026,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Menton
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 28;
+	$fdata["Index"] = 31;
 	$fdata["strName"] = "Menton";
 	$fdata["GoodName"] = "Menton";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4623,9 +5096,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_menton";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4642,8 +5114,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -4703,7 +5174,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Cejas
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 29;
+	$fdata["Index"] = 32;
 	$fdata["strName"] = "Cejas";
 	$fdata["GoodName"] = "Cejas";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4773,9 +5244,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_cejas";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4792,8 +5262,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -4853,7 +5322,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	VFacial
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 30;
+	$fdata["Index"] = 33;
 	$fdata["strName"] = "VFacial";
 	$fdata["GoodName"] = "VFacial";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -4923,9 +5392,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_vfacial";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -4942,8 +5410,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -5003,7 +5470,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Delito
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 31;
+	$fdata["Index"] = 34;
 	$fdata["strName"] = "Delito";
 	$fdata["GoodName"] = "Delito";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5073,9 +5540,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_delito";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -5092,8 +5558,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -5153,7 +5618,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Particularidades
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 32;
+	$fdata["Index"] = 35;
 	$fdata["strName"] = "Particularidades";
 	$fdata["GoodName"] = "Particularidades";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5224,7 +5689,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -5246,7 +5712,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -5277,7 +5744,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Nota
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 33;
+	$fdata["Index"] = 36;
 	$fdata["strName"] = "Nota";
 	$fdata["GoodName"] = "Nota";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5401,7 +5868,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	DescHechos
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 34;
+	$fdata["Index"] = 37;
 	$fdata["strName"] = "DescHechos";
 	$fdata["GoodName"] = "DescHechos";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5472,7 +5939,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -5494,7 +5962,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-		
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -5525,7 +5994,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Obseva
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 35;
+	$fdata["Index"] = 38;
 	$fdata["strName"] = "Obseva";
 	$fdata["GoodName"] = "Obseva";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5649,7 +6118,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Status
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 36;
+	$fdata["Index"] = 39;
 	$fdata["strName"] = "Status";
 	$fdata["GoodName"] = "Status";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5720,9 +6189,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_estatus";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -5739,8 +6207,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -5749,7 +6216,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 // End Lookup Settings
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -5769,7 +6237,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-								
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	
@@ -5800,7 +6269,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	FAparicion
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 37;
+	$fdata["Index"] = 40;
 	$fdata["strName"] = "FAparicion";
 	$fdata["GoodName"] = "FAparicion";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -5926,7 +6395,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Oficio
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 38;
+	$fdata["Index"] = 41;
 	$fdata["strName"] = "Oficio";
 	$fdata["GoodName"] = "Oficio";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6051,7 +6520,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	EstApar
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 39;
+	$fdata["Index"] = 42;
 	$fdata["strName"] = "EstApar";
 	$fdata["GoodName"] = "EstApar";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6121,9 +6590,8 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 	
 	
 // Begin Lookup settings
-				$edata["LookupType"] = 1;
+				$edata["LookupType"] = 2;
 	$edata["LookupTable"] = "cat_est_apar";
-	$edata["LookupConnId"] = "desaparecidos_at_localhost";
 		$edata["autoCompleteFieldsOnEdit"] = 0;
 	$edata["autoCompleteFields"] = array();
 		$edata["LCType"] = 0;
@@ -6140,8 +6608,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 		
 			
 		
-		$edata["SimpleAdd"] = true;
-			
+				
 	
 	
 		
@@ -6201,7 +6668,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Tipo
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 40;
+	$fdata["Index"] = 43;
 	$fdata["strName"] = "Tipo";
 	$fdata["GoodName"] = "Tipo";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6311,7 +6778,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	FRecib
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 41;
+	$fdata["Index"] = 44;
 	$fdata["strName"] = "FRecib";
 	$fdata["GoodName"] = "FRecib";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6422,7 +6889,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	UsrBaja
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 42;
+	$fdata["Index"] = 45;
 	$fdata["strName"] = "UsrBaja";
 	$fdata["GoodName"] = "UsrBaja";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6532,7 +6999,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	FecBaja
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 43;
+	$fdata["Index"] = 46;
 	$fdata["strName"] = "FecBaja";
 	$fdata["GoodName"] = "FecBaja";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6643,7 +7110,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	RutFoto
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 44;
+	$fdata["Index"] = 47;
 	$fdata["strName"] = "RutFoto";
 	$fdata["GoodName"] = "RutFoto";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6753,7 +7220,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	FCaptura
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 45;
+	$fdata["Index"] = 48;
 	$fdata["strName"] = "FCaptura";
 	$fdata["GoodName"] = "FCaptura";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6863,7 +7330,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	TipoDoc
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 46;
+	$fdata["Index"] = 49;
 	$fdata["strName"] = "TipoDoc";
 	$fdata["GoodName"] = "TipoDoc";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -6973,7 +7440,7 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 //	Usuario
 //	Custom field settings
 	$fdata = array();
-	$fdata["Index"] = 47;
+	$fdata["Index"] = 50;
 	$fdata["strName"] = "Usuario";
 	$fdata["GoodName"] = "Usuario";
 	$fdata["ownerTable"] = "desaparecidos2017";
@@ -7077,6 +7544,236 @@ $tdatadesaparecidos2017[".printFields"][] = "EstApar";
 
 	
 	$tdatadesaparecidos2017["Usuario"] = $fdata;
+//	fotoChica
+//	Custom field settings
+	$fdata = array();
+	$fdata["Index"] = 51;
+	$fdata["strName"] = "fotoChica";
+	$fdata["GoodName"] = "fotoChica";
+	$fdata["ownerTable"] = "desaparecidos2017";
+	$fdata["Label"] = GetFieldLabel("desaparecidos2017","fotoChica"); 
+	$fdata["FieldType"] = 200;
+	
+		
+		
+		
+				
+		
+		$fdata["bAddPage"] = true; 
+	
+		
+		$fdata["bEditPage"] = true; 
+	
+		
+		$fdata["bViewPage"] = true; 
+	
+		
+		$fdata["bPrinterPage"] = true; 
+	
+		
+		$fdata["strField"] = "fotoChica"; 
+	
+		$fdata["isSQLExpression"] = true;
+	$fdata["FullName"] = "fotoChica";
+	
+		
+		
+				$fdata["FieldPermissions"] = true;
+	
+		$fdata["UploadCodeExpression"] = true;
+		
+//  Begin View Formats
+	$fdata["ViewFormats"] = array();
+	
+	$vdata = array("ViewFormat" => "Document Download");
+	
+		
+		
+		
+								$vdata["ShowIcon"] = true; 
+			
+		
+		
+		
+		
+		
+		
+		
+		
+	$fdata["ViewFormats"]["view"] = $vdata;
+//  End View Formats
+
+//	Begin Edit Formats 	
+	$fdata["EditFormats"] = array();
+	
+	$edata = array("EditFormat" => "Document upload");
+	
+			
+	
+	
+
+
+		
+		
+		
+		
+			$edata["acceptFileTypes"] = ".+$";
+	
+		$edata["maxNumberOfFiles"] = 1;
+	
+		
+		
+		
+		
+		
+		
+		$edata["controlWidth"] = 200;
+	
+//	Begin validation
+	$edata["validateAs"] = array();
+	$edata["validateAs"]["basicValidate"] = array();
+	$edata["validateAs"]["customMessages"] = array();
+		
+		
+	//	End validation
+	
+		
+				$edata["ResizeImage"] = true;
+				$edata["NewSize"] = 80;
+	
+		
+	
+		
+	$fdata["EditFormats"]["edit"] = $edata;
+//	End Edit Formats
+	
+	
+	$fdata["isSeparate"] = false;
+	
+	
+	$fdata["Absolute"] = true;
+	
+	
+
+	
+
+	
+	$tdatadesaparecidos2017["fotoChica"] = $fdata;
+//	fotoGrande
+//	Custom field settings
+	$fdata = array();
+	$fdata["Index"] = 52;
+	$fdata["strName"] = "fotoGrande";
+	$fdata["GoodName"] = "fotoGrande";
+	$fdata["ownerTable"] = "desaparecidos2017";
+	$fdata["Label"] = GetFieldLabel("desaparecidos2017","fotoGrande"); 
+	$fdata["FieldType"] = 200;
+	
+		
+		
+		
+				
+		
+		$fdata["bAddPage"] = true; 
+	
+		
+		$fdata["bEditPage"] = true; 
+	
+		
+		$fdata["bViewPage"] = true; 
+	
+		
+		$fdata["bPrinterPage"] = true; 
+	
+		
+		$fdata["strField"] = "fotoGrande"; 
+	
+		$fdata["isSQLExpression"] = true;
+	$fdata["FullName"] = "fotoGrande";
+	
+		
+		
+				$fdata["FieldPermissions"] = true;
+	
+				$fdata["UploadFolder"] = "files";
+		
+//  Begin View Formats
+	$fdata["ViewFormats"] = array();
+	
+	$vdata = array("ViewFormat" => "Document Download");
+	
+		
+		
+		
+								$vdata["ShowIcon"] = true; 
+			
+		
+		
+		
+		
+		
+		
+		
+		
+	$fdata["ViewFormats"]["view"] = $vdata;
+//  End View Formats
+
+//	Begin Edit Formats 	
+	$fdata["EditFormats"] = array();
+	
+	$edata = array("EditFormat" => "Document upload");
+	
+			
+	
+	
+
+
+		
+		
+		
+		
+			$edata["acceptFileTypes"] = ".+$";
+	
+		$edata["maxNumberOfFiles"] = 1;
+	
+		
+		
+		
+		
+		
+		
+		$edata["controlWidth"] = 200;
+	
+//	Begin validation
+	$edata["validateAs"] = array();
+	$edata["validateAs"]["basicValidate"] = array();
+	$edata["validateAs"]["customMessages"] = array();
+		
+		
+	//	End validation
+	
+		
+				$edata["ResizeImage"] = true;
+				$edata["NewSize"] = 200;
+	
+		
+	
+		
+	$fdata["EditFormats"]["edit"] = $edata;
+//	End Edit Formats
+	
+	
+	$fdata["isSeparate"] = false;
+	
+	
+	$fdata["Absolute"] = true;
+	
+	
+
+	
+
+	
+	$tdatadesaparecidos2017["fotoGrande"] = $fdata;
 
 	
 $tables_data["desaparecidos2017"]=&$tdatadesaparecidos2017;
@@ -7109,7 +7806,7 @@ function createSqlQuery_desaparecidos2017()
 {
 $proto0=array();
 $proto0["m_strHead"] = "SELECT";
-$proto0["m_strFieldList"] = "Id,  	Estado,  	Mun,  	InvMin,  	FInicio,  	MinPub,  	Agencia,  	Ofic,  	FExtrav,  	Nombre,  	APat,  	AMat,  	Sexo,  	EdadA,  	EdadM,  	Nac,  	Origen,  	Escolaridad,  	Est,  	Compl,  	Ojos,  	Piel,  	Cab,  	TCab,  	Cabcol,  	Nariz,  	Labios,  	Menton,  	Cejas,  	VFacial,  	Delito,  	Particularidades,  	Nota,  	DescHechos,  	Obseva,  	Status,  	FAparicion,  	Oficio,  	EstApar,  	Tipo,  	FRecib,  	UsrBaja,  	FecBaja,  	RutFoto,  	FCaptura,  	TipoDoc,  	Usuario";
+$proto0["m_strFieldList"] = "Id,  	Estado,  	Mun,  	uipj,  	numFiscal,  	`añoInv`,  	numInv,  	FInicio,  	MinPub,  	Agencia,  	Ofic,  	FExtrav,  	Nombre,  	APat,  	AMat,  	Sexo,  	EdadA,  	EdadM,  	Nac,  	Origen,  	Escolaridad,  	Est,  	Compl,  	Ojos,  	Piel,  	Cab,  	TCab,  	Cabcol,  	Nariz,  	Labios,  	Menton,  	Cejas,  	VFacial,  	Delito,  	Particularidades,  	Nota,  	DescHechos,  	Obseva,  	Status,  	FAparicion,  	Oficio,  	EstApar,  	Tipo,  	FRecib,  	UsrBaja,  	FecBaja,  	RutFoto,  	FCaptura,  	TipoDoc,  	Usuario,  	fotoChica,  	fotoGrande";
 $proto0["m_strFrom"] = "FROM desaparecidos2017";
 $proto0["m_strWhere"] = "";
 $proto0["m_strOrderBy"] = "";
@@ -7192,12 +7889,12 @@ $obj = new SQLFieldListItem($proto9);
 $proto0["m_fieldlist"][]=$obj;
 						$proto11=array();
 			$obj = new SQLField(array(
-	"m_strName" => "InvMin",
+	"m_strName" => "uipj",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto11["m_sql"] = "InvMin";
+$proto11["m_sql"] = "uipj";
 $proto11["m_srcTableName"] = "desaparecidos2017";
 $proto11["m_expr"]=$obj;
 $proto11["m_alias"] = "";
@@ -7206,12 +7903,12 @@ $obj = new SQLFieldListItem($proto11);
 $proto0["m_fieldlist"][]=$obj;
 						$proto13=array();
 			$obj = new SQLField(array(
-	"m_strName" => "FInicio",
+	"m_strName" => "numFiscal",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto13["m_sql"] = "FInicio";
+$proto13["m_sql"] = "numFiscal";
 $proto13["m_srcTableName"] = "desaparecidos2017";
 $proto13["m_expr"]=$obj;
 $proto13["m_alias"] = "";
@@ -7220,12 +7917,12 @@ $obj = new SQLFieldListItem($proto13);
 $proto0["m_fieldlist"][]=$obj;
 						$proto15=array();
 			$obj = new SQLField(array(
-	"m_strName" => "MinPub",
+	"m_strName" => "añoInv",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto15["m_sql"] = "MinPub";
+$proto15["m_sql"] = "`añoInv`";
 $proto15["m_srcTableName"] = "desaparecidos2017";
 $proto15["m_expr"]=$obj;
 $proto15["m_alias"] = "";
@@ -7234,12 +7931,12 @@ $obj = new SQLFieldListItem($proto15);
 $proto0["m_fieldlist"][]=$obj;
 						$proto17=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Agencia",
+	"m_strName" => "numInv",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto17["m_sql"] = "Agencia";
+$proto17["m_sql"] = "numInv";
 $proto17["m_srcTableName"] = "desaparecidos2017";
 $proto17["m_expr"]=$obj;
 $proto17["m_alias"] = "";
@@ -7248,12 +7945,12 @@ $obj = new SQLFieldListItem($proto17);
 $proto0["m_fieldlist"][]=$obj;
 						$proto19=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Ofic",
+	"m_strName" => "FInicio",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto19["m_sql"] = "Ofic";
+$proto19["m_sql"] = "FInicio";
 $proto19["m_srcTableName"] = "desaparecidos2017";
 $proto19["m_expr"]=$obj;
 $proto19["m_alias"] = "";
@@ -7262,12 +7959,12 @@ $obj = new SQLFieldListItem($proto19);
 $proto0["m_fieldlist"][]=$obj;
 						$proto21=array();
 			$obj = new SQLField(array(
-	"m_strName" => "FExtrav",
+	"m_strName" => "MinPub",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto21["m_sql"] = "FExtrav";
+$proto21["m_sql"] = "MinPub";
 $proto21["m_srcTableName"] = "desaparecidos2017";
 $proto21["m_expr"]=$obj;
 $proto21["m_alias"] = "";
@@ -7276,12 +7973,12 @@ $obj = new SQLFieldListItem($proto21);
 $proto0["m_fieldlist"][]=$obj;
 						$proto23=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Nombre",
+	"m_strName" => "Agencia",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto23["m_sql"] = "Nombre";
+$proto23["m_sql"] = "Agencia";
 $proto23["m_srcTableName"] = "desaparecidos2017";
 $proto23["m_expr"]=$obj;
 $proto23["m_alias"] = "";
@@ -7290,12 +7987,12 @@ $obj = new SQLFieldListItem($proto23);
 $proto0["m_fieldlist"][]=$obj;
 						$proto25=array();
 			$obj = new SQLField(array(
-	"m_strName" => "APat",
+	"m_strName" => "Ofic",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto25["m_sql"] = "APat";
+$proto25["m_sql"] = "Ofic";
 $proto25["m_srcTableName"] = "desaparecidos2017";
 $proto25["m_expr"]=$obj;
 $proto25["m_alias"] = "";
@@ -7304,12 +8001,12 @@ $obj = new SQLFieldListItem($proto25);
 $proto0["m_fieldlist"][]=$obj;
 						$proto27=array();
 			$obj = new SQLField(array(
-	"m_strName" => "AMat",
+	"m_strName" => "FExtrav",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto27["m_sql"] = "AMat";
+$proto27["m_sql"] = "FExtrav";
 $proto27["m_srcTableName"] = "desaparecidos2017";
 $proto27["m_expr"]=$obj;
 $proto27["m_alias"] = "";
@@ -7318,12 +8015,12 @@ $obj = new SQLFieldListItem($proto27);
 $proto0["m_fieldlist"][]=$obj;
 						$proto29=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Sexo",
+	"m_strName" => "Nombre",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto29["m_sql"] = "Sexo";
+$proto29["m_sql"] = "Nombre";
 $proto29["m_srcTableName"] = "desaparecidos2017";
 $proto29["m_expr"]=$obj;
 $proto29["m_alias"] = "";
@@ -7332,12 +8029,12 @@ $obj = new SQLFieldListItem($proto29);
 $proto0["m_fieldlist"][]=$obj;
 						$proto31=array();
 			$obj = new SQLField(array(
-	"m_strName" => "EdadA",
+	"m_strName" => "APat",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto31["m_sql"] = "EdadA";
+$proto31["m_sql"] = "APat";
 $proto31["m_srcTableName"] = "desaparecidos2017";
 $proto31["m_expr"]=$obj;
 $proto31["m_alias"] = "";
@@ -7346,12 +8043,12 @@ $obj = new SQLFieldListItem($proto31);
 $proto0["m_fieldlist"][]=$obj;
 						$proto33=array();
 			$obj = new SQLField(array(
-	"m_strName" => "EdadM",
+	"m_strName" => "AMat",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto33["m_sql"] = "EdadM";
+$proto33["m_sql"] = "AMat";
 $proto33["m_srcTableName"] = "desaparecidos2017";
 $proto33["m_expr"]=$obj;
 $proto33["m_alias"] = "";
@@ -7360,12 +8057,12 @@ $obj = new SQLFieldListItem($proto33);
 $proto0["m_fieldlist"][]=$obj;
 						$proto35=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Nac",
+	"m_strName" => "Sexo",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto35["m_sql"] = "Nac";
+$proto35["m_sql"] = "Sexo";
 $proto35["m_srcTableName"] = "desaparecidos2017";
 $proto35["m_expr"]=$obj;
 $proto35["m_alias"] = "";
@@ -7374,12 +8071,12 @@ $obj = new SQLFieldListItem($proto35);
 $proto0["m_fieldlist"][]=$obj;
 						$proto37=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Origen",
+	"m_strName" => "EdadA",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto37["m_sql"] = "Origen";
+$proto37["m_sql"] = "EdadA";
 $proto37["m_srcTableName"] = "desaparecidos2017";
 $proto37["m_expr"]=$obj;
 $proto37["m_alias"] = "";
@@ -7388,12 +8085,12 @@ $obj = new SQLFieldListItem($proto37);
 $proto0["m_fieldlist"][]=$obj;
 						$proto39=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Escolaridad",
+	"m_strName" => "EdadM",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto39["m_sql"] = "Escolaridad";
+$proto39["m_sql"] = "EdadM";
 $proto39["m_srcTableName"] = "desaparecidos2017";
 $proto39["m_expr"]=$obj;
 $proto39["m_alias"] = "";
@@ -7402,12 +8099,12 @@ $obj = new SQLFieldListItem($proto39);
 $proto0["m_fieldlist"][]=$obj;
 						$proto41=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Est",
+	"m_strName" => "Nac",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto41["m_sql"] = "Est";
+$proto41["m_sql"] = "Nac";
 $proto41["m_srcTableName"] = "desaparecidos2017";
 $proto41["m_expr"]=$obj;
 $proto41["m_alias"] = "";
@@ -7416,12 +8113,12 @@ $obj = new SQLFieldListItem($proto41);
 $proto0["m_fieldlist"][]=$obj;
 						$proto43=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Compl",
+	"m_strName" => "Origen",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto43["m_sql"] = "Compl";
+$proto43["m_sql"] = "Origen";
 $proto43["m_srcTableName"] = "desaparecidos2017";
 $proto43["m_expr"]=$obj;
 $proto43["m_alias"] = "";
@@ -7430,12 +8127,12 @@ $obj = new SQLFieldListItem($proto43);
 $proto0["m_fieldlist"][]=$obj;
 						$proto45=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Ojos",
+	"m_strName" => "Escolaridad",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto45["m_sql"] = "Ojos";
+$proto45["m_sql"] = "Escolaridad";
 $proto45["m_srcTableName"] = "desaparecidos2017";
 $proto45["m_expr"]=$obj;
 $proto45["m_alias"] = "";
@@ -7444,12 +8141,12 @@ $obj = new SQLFieldListItem($proto45);
 $proto0["m_fieldlist"][]=$obj;
 						$proto47=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Piel",
+	"m_strName" => "Est",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto47["m_sql"] = "Piel";
+$proto47["m_sql"] = "Est";
 $proto47["m_srcTableName"] = "desaparecidos2017";
 $proto47["m_expr"]=$obj;
 $proto47["m_alias"] = "";
@@ -7458,12 +8155,12 @@ $obj = new SQLFieldListItem($proto47);
 $proto0["m_fieldlist"][]=$obj;
 						$proto49=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Cab",
+	"m_strName" => "Compl",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto49["m_sql"] = "Cab";
+$proto49["m_sql"] = "Compl";
 $proto49["m_srcTableName"] = "desaparecidos2017";
 $proto49["m_expr"]=$obj;
 $proto49["m_alias"] = "";
@@ -7472,12 +8169,12 @@ $obj = new SQLFieldListItem($proto49);
 $proto0["m_fieldlist"][]=$obj;
 						$proto51=array();
 			$obj = new SQLField(array(
-	"m_strName" => "TCab",
+	"m_strName" => "Ojos",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto51["m_sql"] = "TCab";
+$proto51["m_sql"] = "Ojos";
 $proto51["m_srcTableName"] = "desaparecidos2017";
 $proto51["m_expr"]=$obj;
 $proto51["m_alias"] = "";
@@ -7486,12 +8183,12 @@ $obj = new SQLFieldListItem($proto51);
 $proto0["m_fieldlist"][]=$obj;
 						$proto53=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Cabcol",
+	"m_strName" => "Piel",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto53["m_sql"] = "Cabcol";
+$proto53["m_sql"] = "Piel";
 $proto53["m_srcTableName"] = "desaparecidos2017";
 $proto53["m_expr"]=$obj;
 $proto53["m_alias"] = "";
@@ -7500,12 +8197,12 @@ $obj = new SQLFieldListItem($proto53);
 $proto0["m_fieldlist"][]=$obj;
 						$proto55=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Nariz",
+	"m_strName" => "Cab",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto55["m_sql"] = "Nariz";
+$proto55["m_sql"] = "Cab";
 $proto55["m_srcTableName"] = "desaparecidos2017";
 $proto55["m_expr"]=$obj;
 $proto55["m_alias"] = "";
@@ -7514,12 +8211,12 @@ $obj = new SQLFieldListItem($proto55);
 $proto0["m_fieldlist"][]=$obj;
 						$proto57=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Labios",
+	"m_strName" => "TCab",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto57["m_sql"] = "Labios";
+$proto57["m_sql"] = "TCab";
 $proto57["m_srcTableName"] = "desaparecidos2017";
 $proto57["m_expr"]=$obj;
 $proto57["m_alias"] = "";
@@ -7528,12 +8225,12 @@ $obj = new SQLFieldListItem($proto57);
 $proto0["m_fieldlist"][]=$obj;
 						$proto59=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Menton",
+	"m_strName" => "Cabcol",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto59["m_sql"] = "Menton";
+$proto59["m_sql"] = "Cabcol";
 $proto59["m_srcTableName"] = "desaparecidos2017";
 $proto59["m_expr"]=$obj;
 $proto59["m_alias"] = "";
@@ -7542,12 +8239,12 @@ $obj = new SQLFieldListItem($proto59);
 $proto0["m_fieldlist"][]=$obj;
 						$proto61=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Cejas",
+	"m_strName" => "Nariz",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto61["m_sql"] = "Cejas";
+$proto61["m_sql"] = "Nariz";
 $proto61["m_srcTableName"] = "desaparecidos2017";
 $proto61["m_expr"]=$obj;
 $proto61["m_alias"] = "";
@@ -7556,12 +8253,12 @@ $obj = new SQLFieldListItem($proto61);
 $proto0["m_fieldlist"][]=$obj;
 						$proto63=array();
 			$obj = new SQLField(array(
-	"m_strName" => "VFacial",
+	"m_strName" => "Labios",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto63["m_sql"] = "VFacial";
+$proto63["m_sql"] = "Labios";
 $proto63["m_srcTableName"] = "desaparecidos2017";
 $proto63["m_expr"]=$obj;
 $proto63["m_alias"] = "";
@@ -7570,12 +8267,12 @@ $obj = new SQLFieldListItem($proto63);
 $proto0["m_fieldlist"][]=$obj;
 						$proto65=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Delito",
+	"m_strName" => "Menton",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto65["m_sql"] = "Delito";
+$proto65["m_sql"] = "Menton";
 $proto65["m_srcTableName"] = "desaparecidos2017";
 $proto65["m_expr"]=$obj;
 $proto65["m_alias"] = "";
@@ -7584,12 +8281,12 @@ $obj = new SQLFieldListItem($proto65);
 $proto0["m_fieldlist"][]=$obj;
 						$proto67=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Particularidades",
+	"m_strName" => "Cejas",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto67["m_sql"] = "Particularidades";
+$proto67["m_sql"] = "Cejas";
 $proto67["m_srcTableName"] = "desaparecidos2017";
 $proto67["m_expr"]=$obj;
 $proto67["m_alias"] = "";
@@ -7598,12 +8295,12 @@ $obj = new SQLFieldListItem($proto67);
 $proto0["m_fieldlist"][]=$obj;
 						$proto69=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Nota",
+	"m_strName" => "VFacial",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto69["m_sql"] = "Nota";
+$proto69["m_sql"] = "VFacial";
 $proto69["m_srcTableName"] = "desaparecidos2017";
 $proto69["m_expr"]=$obj;
 $proto69["m_alias"] = "";
@@ -7612,12 +8309,12 @@ $obj = new SQLFieldListItem($proto69);
 $proto0["m_fieldlist"][]=$obj;
 						$proto71=array();
 			$obj = new SQLField(array(
-	"m_strName" => "DescHechos",
+	"m_strName" => "Delito",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto71["m_sql"] = "DescHechos";
+$proto71["m_sql"] = "Delito";
 $proto71["m_srcTableName"] = "desaparecidos2017";
 $proto71["m_expr"]=$obj;
 $proto71["m_alias"] = "";
@@ -7626,12 +8323,12 @@ $obj = new SQLFieldListItem($proto71);
 $proto0["m_fieldlist"][]=$obj;
 						$proto73=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Obseva",
+	"m_strName" => "Particularidades",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto73["m_sql"] = "Obseva";
+$proto73["m_sql"] = "Particularidades";
 $proto73["m_srcTableName"] = "desaparecidos2017";
 $proto73["m_expr"]=$obj;
 $proto73["m_alias"] = "";
@@ -7640,12 +8337,12 @@ $obj = new SQLFieldListItem($proto73);
 $proto0["m_fieldlist"][]=$obj;
 						$proto75=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Status",
+	"m_strName" => "Nota",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto75["m_sql"] = "Status";
+$proto75["m_sql"] = "Nota";
 $proto75["m_srcTableName"] = "desaparecidos2017";
 $proto75["m_expr"]=$obj;
 $proto75["m_alias"] = "";
@@ -7654,12 +8351,12 @@ $obj = new SQLFieldListItem($proto75);
 $proto0["m_fieldlist"][]=$obj;
 						$proto77=array();
 			$obj = new SQLField(array(
-	"m_strName" => "FAparicion",
+	"m_strName" => "DescHechos",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto77["m_sql"] = "FAparicion";
+$proto77["m_sql"] = "DescHechos";
 $proto77["m_srcTableName"] = "desaparecidos2017";
 $proto77["m_expr"]=$obj;
 $proto77["m_alias"] = "";
@@ -7668,12 +8365,12 @@ $obj = new SQLFieldListItem($proto77);
 $proto0["m_fieldlist"][]=$obj;
 						$proto79=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Oficio",
+	"m_strName" => "Obseva",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto79["m_sql"] = "Oficio";
+$proto79["m_sql"] = "Obseva";
 $proto79["m_srcTableName"] = "desaparecidos2017";
 $proto79["m_expr"]=$obj;
 $proto79["m_alias"] = "";
@@ -7682,12 +8379,12 @@ $obj = new SQLFieldListItem($proto79);
 $proto0["m_fieldlist"][]=$obj;
 						$proto81=array();
 			$obj = new SQLField(array(
-	"m_strName" => "EstApar",
+	"m_strName" => "Status",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto81["m_sql"] = "EstApar";
+$proto81["m_sql"] = "Status";
 $proto81["m_srcTableName"] = "desaparecidos2017";
 $proto81["m_expr"]=$obj;
 $proto81["m_alias"] = "";
@@ -7696,12 +8393,12 @@ $obj = new SQLFieldListItem($proto81);
 $proto0["m_fieldlist"][]=$obj;
 						$proto83=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Tipo",
+	"m_strName" => "FAparicion",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto83["m_sql"] = "Tipo";
+$proto83["m_sql"] = "FAparicion";
 $proto83["m_srcTableName"] = "desaparecidos2017";
 $proto83["m_expr"]=$obj;
 $proto83["m_alias"] = "";
@@ -7710,12 +8407,12 @@ $obj = new SQLFieldListItem($proto83);
 $proto0["m_fieldlist"][]=$obj;
 						$proto85=array();
 			$obj = new SQLField(array(
-	"m_strName" => "FRecib",
+	"m_strName" => "Oficio",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto85["m_sql"] = "FRecib";
+$proto85["m_sql"] = "Oficio";
 $proto85["m_srcTableName"] = "desaparecidos2017";
 $proto85["m_expr"]=$obj;
 $proto85["m_alias"] = "";
@@ -7724,12 +8421,12 @@ $obj = new SQLFieldListItem($proto85);
 $proto0["m_fieldlist"][]=$obj;
 						$proto87=array();
 			$obj = new SQLField(array(
-	"m_strName" => "UsrBaja",
+	"m_strName" => "EstApar",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto87["m_sql"] = "UsrBaja";
+$proto87["m_sql"] = "EstApar";
 $proto87["m_srcTableName"] = "desaparecidos2017";
 $proto87["m_expr"]=$obj;
 $proto87["m_alias"] = "";
@@ -7738,12 +8435,12 @@ $obj = new SQLFieldListItem($proto87);
 $proto0["m_fieldlist"][]=$obj;
 						$proto89=array();
 			$obj = new SQLField(array(
-	"m_strName" => "FecBaja",
+	"m_strName" => "Tipo",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto89["m_sql"] = "FecBaja";
+$proto89["m_sql"] = "Tipo";
 $proto89["m_srcTableName"] = "desaparecidos2017";
 $proto89["m_expr"]=$obj;
 $proto89["m_alias"] = "";
@@ -7752,12 +8449,12 @@ $obj = new SQLFieldListItem($proto89);
 $proto0["m_fieldlist"][]=$obj;
 						$proto91=array();
 			$obj = new SQLField(array(
-	"m_strName" => "RutFoto",
+	"m_strName" => "FRecib",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto91["m_sql"] = "RutFoto";
+$proto91["m_sql"] = "FRecib";
 $proto91["m_srcTableName"] = "desaparecidos2017";
 $proto91["m_expr"]=$obj;
 $proto91["m_alias"] = "";
@@ -7766,12 +8463,12 @@ $obj = new SQLFieldListItem($proto91);
 $proto0["m_fieldlist"][]=$obj;
 						$proto93=array();
 			$obj = new SQLField(array(
-	"m_strName" => "FCaptura",
+	"m_strName" => "UsrBaja",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto93["m_sql"] = "FCaptura";
+$proto93["m_sql"] = "UsrBaja";
 $proto93["m_srcTableName"] = "desaparecidos2017";
 $proto93["m_expr"]=$obj;
 $proto93["m_alias"] = "";
@@ -7780,12 +8477,12 @@ $obj = new SQLFieldListItem($proto93);
 $proto0["m_fieldlist"][]=$obj;
 						$proto95=array();
 			$obj = new SQLField(array(
-	"m_strName" => "TipoDoc",
+	"m_strName" => "FecBaja",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto95["m_sql"] = "TipoDoc";
+$proto95["m_sql"] = "FecBaja";
 $proto95["m_srcTableName"] = "desaparecidos2017";
 $proto95["m_expr"]=$obj;
 $proto95["m_alias"] = "";
@@ -7794,95 +8491,170 @@ $obj = new SQLFieldListItem($proto95);
 $proto0["m_fieldlist"][]=$obj;
 						$proto97=array();
 			$obj = new SQLField(array(
-	"m_strName" => "Usuario",
+	"m_strName" => "RutFoto",
 	"m_strTable" => "desaparecidos2017",
 	"m_srcTableName" => "desaparecidos2017"
 ));
 
-$proto97["m_sql"] = "Usuario";
+$proto97["m_sql"] = "RutFoto";
 $proto97["m_srcTableName"] = "desaparecidos2017";
 $proto97["m_expr"]=$obj;
 $proto97["m_alias"] = "";
 $obj = new SQLFieldListItem($proto97);
 
 $proto0["m_fieldlist"][]=$obj;
-$proto0["m_fromlist"] = array();
-												$proto99=array();
-$proto99["m_link"] = "SQLL_MAIN";
-			$proto100=array();
-$proto100["m_strName"] = "desaparecidos2017";
-$proto100["m_srcTableName"] = "desaparecidos2017";
-$proto100["m_columns"] = array();
-$proto100["m_columns"][] = "Id";
-$proto100["m_columns"][] = "Estado";
-$proto100["m_columns"][] = "Mun";
-$proto100["m_columns"][] = "InvMin";
-$proto100["m_columns"][] = "FInicio";
-$proto100["m_columns"][] = "MinPub";
-$proto100["m_columns"][] = "Agencia";
-$proto100["m_columns"][] = "Ofic";
-$proto100["m_columns"][] = "FExtrav";
-$proto100["m_columns"][] = "Nombre";
-$proto100["m_columns"][] = "APat";
-$proto100["m_columns"][] = "AMat";
-$proto100["m_columns"][] = "Sexo";
-$proto100["m_columns"][] = "EdadA";
-$proto100["m_columns"][] = "EdadM";
-$proto100["m_columns"][] = "Nac";
-$proto100["m_columns"][] = "Origen";
-$proto100["m_columns"][] = "Escolaridad";
-$proto100["m_columns"][] = "Est";
-$proto100["m_columns"][] = "Compl";
-$proto100["m_columns"][] = "Ojos";
-$proto100["m_columns"][] = "Piel";
-$proto100["m_columns"][] = "Cab";
-$proto100["m_columns"][] = "TCab";
-$proto100["m_columns"][] = "Cabcol";
-$proto100["m_columns"][] = "Nariz";
-$proto100["m_columns"][] = "Labios";
-$proto100["m_columns"][] = "Menton";
-$proto100["m_columns"][] = "Cejas";
-$proto100["m_columns"][] = "VFacial";
-$proto100["m_columns"][] = "Delito";
-$proto100["m_columns"][] = "Particularidades";
-$proto100["m_columns"][] = "Nota";
-$proto100["m_columns"][] = "DescHechos";
-$proto100["m_columns"][] = "Obseva";
-$proto100["m_columns"][] = "Status";
-$proto100["m_columns"][] = "FAparicion";
-$proto100["m_columns"][] = "Oficio";
-$proto100["m_columns"][] = "EstApar";
-$proto100["m_columns"][] = "Tipo";
-$proto100["m_columns"][] = "FRecib";
-$proto100["m_columns"][] = "UsrBaja";
-$proto100["m_columns"][] = "FecBaja";
-$proto100["m_columns"][] = "RutFoto";
-$proto100["m_columns"][] = "FCaptura";
-$proto100["m_columns"][] = "TipoDoc";
-$proto100["m_columns"][] = "Usuario";
-$obj = new SQLTable($proto100);
+						$proto99=array();
+			$obj = new SQLField(array(
+	"m_strName" => "FCaptura",
+	"m_strTable" => "desaparecidos2017",
+	"m_srcTableName" => "desaparecidos2017"
+));
 
-$proto99["m_table"] = $obj;
-$proto99["m_sql"] = "desaparecidos2017";
-$proto99["m_alias"] = "";
+$proto99["m_sql"] = "FCaptura";
 $proto99["m_srcTableName"] = "desaparecidos2017";
-$proto101=array();
-$proto101["m_sql"] = "";
-$proto101["m_uniontype"] = "SQLL_UNKNOWN";
+$proto99["m_expr"]=$obj;
+$proto99["m_alias"] = "";
+$obj = new SQLFieldListItem($proto99);
+
+$proto0["m_fieldlist"][]=$obj;
+						$proto101=array();
+			$obj = new SQLField(array(
+	"m_strName" => "TipoDoc",
+	"m_strTable" => "desaparecidos2017",
+	"m_srcTableName" => "desaparecidos2017"
+));
+
+$proto101["m_sql"] = "TipoDoc";
+$proto101["m_srcTableName"] = "desaparecidos2017";
+$proto101["m_expr"]=$obj;
+$proto101["m_alias"] = "";
+$obj = new SQLFieldListItem($proto101);
+
+$proto0["m_fieldlist"][]=$obj;
+						$proto103=array();
+			$obj = new SQLField(array(
+	"m_strName" => "Usuario",
+	"m_strTable" => "desaparecidos2017",
+	"m_srcTableName" => "desaparecidos2017"
+));
+
+$proto103["m_sql"] = "Usuario";
+$proto103["m_srcTableName"] = "desaparecidos2017";
+$proto103["m_expr"]=$obj;
+$proto103["m_alias"] = "";
+$obj = new SQLFieldListItem($proto103);
+
+$proto0["m_fieldlist"][]=$obj;
+						$proto105=array();
+			$obj = new SQLField(array(
+	"m_strName" => "fotoChica",
+	"m_strTable" => "desaparecidos2017",
+	"m_srcTableName" => "desaparecidos2017"
+));
+
+$proto105["m_sql"] = "fotoChica";
+$proto105["m_srcTableName"] = "desaparecidos2017";
+$proto105["m_expr"]=$obj;
+$proto105["m_alias"] = "";
+$obj = new SQLFieldListItem($proto105);
+
+$proto0["m_fieldlist"][]=$obj;
+						$proto107=array();
+			$obj = new SQLField(array(
+	"m_strName" => "fotoGrande",
+	"m_strTable" => "desaparecidos2017",
+	"m_srcTableName" => "desaparecidos2017"
+));
+
+$proto107["m_sql"] = "fotoGrande";
+$proto107["m_srcTableName"] = "desaparecidos2017";
+$proto107["m_expr"]=$obj;
+$proto107["m_alias"] = "";
+$obj = new SQLFieldListItem($proto107);
+
+$proto0["m_fieldlist"][]=$obj;
+$proto0["m_fromlist"] = array();
+												$proto109=array();
+$proto109["m_link"] = "SQLL_MAIN";
+			$proto110=array();
+$proto110["m_strName"] = "desaparecidos2017";
+$proto110["m_srcTableName"] = "desaparecidos2017";
+$proto110["m_columns"] = array();
+$proto110["m_columns"][] = "Id";
+$proto110["m_columns"][] = "Estado";
+$proto110["m_columns"][] = "Mun";
+$proto110["m_columns"][] = "uipj";
+$proto110["m_columns"][] = "numFiscal";
+$proto110["m_columns"][] = "añoInv";
+$proto110["m_columns"][] = "numInv";
+$proto110["m_columns"][] = "FInicio";
+$proto110["m_columns"][] = "MinPub";
+$proto110["m_columns"][] = "Agencia";
+$proto110["m_columns"][] = "Ofic";
+$proto110["m_columns"][] = "FExtrav";
+$proto110["m_columns"][] = "Nombre";
+$proto110["m_columns"][] = "APat";
+$proto110["m_columns"][] = "AMat";
+$proto110["m_columns"][] = "Sexo";
+$proto110["m_columns"][] = "EdadA";
+$proto110["m_columns"][] = "EdadM";
+$proto110["m_columns"][] = "Nac";
+$proto110["m_columns"][] = "Origen";
+$proto110["m_columns"][] = "Escolaridad";
+$proto110["m_columns"][] = "Est";
+$proto110["m_columns"][] = "Compl";
+$proto110["m_columns"][] = "Ojos";
+$proto110["m_columns"][] = "Piel";
+$proto110["m_columns"][] = "Cab";
+$proto110["m_columns"][] = "TCab";
+$proto110["m_columns"][] = "Cabcol";
+$proto110["m_columns"][] = "Nariz";
+$proto110["m_columns"][] = "Labios";
+$proto110["m_columns"][] = "Menton";
+$proto110["m_columns"][] = "Cejas";
+$proto110["m_columns"][] = "VFacial";
+$proto110["m_columns"][] = "Delito";
+$proto110["m_columns"][] = "Particularidades";
+$proto110["m_columns"][] = "Nota";
+$proto110["m_columns"][] = "DescHechos";
+$proto110["m_columns"][] = "Obseva";
+$proto110["m_columns"][] = "Status";
+$proto110["m_columns"][] = "FAparicion";
+$proto110["m_columns"][] = "Oficio";
+$proto110["m_columns"][] = "EstApar";
+$proto110["m_columns"][] = "Tipo";
+$proto110["m_columns"][] = "FRecib";
+$proto110["m_columns"][] = "UsrBaja";
+$proto110["m_columns"][] = "FecBaja";
+$proto110["m_columns"][] = "RutFoto";
+$proto110["m_columns"][] = "FCaptura";
+$proto110["m_columns"][] = "TipoDoc";
+$proto110["m_columns"][] = "Usuario";
+$proto110["m_columns"][] = "fotoChica";
+$proto110["m_columns"][] = "fotoGrande";
+$obj = new SQLTable($proto110);
+
+$proto109["m_table"] = $obj;
+$proto109["m_sql"] = "desaparecidos2017";
+$proto109["m_alias"] = "";
+$proto109["m_srcTableName"] = "desaparecidos2017";
+$proto111=array();
+$proto111["m_sql"] = "";
+$proto111["m_uniontype"] = "SQLL_UNKNOWN";
 	$obj = new SQLNonParsed(array(
 	"m_sql" => ""
 ));
 
-$proto101["m_column"]=$obj;
-$proto101["m_contained"] = array();
-$proto101["m_strCase"] = "";
-$proto101["m_havingmode"] = false;
-$proto101["m_inBrackets"] = false;
-$proto101["m_useAlias"] = false;
-$obj = new SQLLogicalExpr($proto101);
+$proto111["m_column"]=$obj;
+$proto111["m_contained"] = array();
+$proto111["m_strCase"] = "";
+$proto111["m_havingmode"] = false;
+$proto111["m_inBrackets"] = false;
+$proto111["m_useAlias"] = false;
+$obj = new SQLLogicalExpr($proto111);
 
-$proto99["m_joinon"] = $obj;
-$obj = new SQLFromListItem($proto99);
+$proto109["m_joinon"] = $obj;
+$obj = new SQLFromListItem($proto109);
 
 $proto0["m_fromlist"][]=$obj;
 $proto0["m_groupby"] = array();
@@ -7896,7 +8668,7 @@ $queryData_desaparecidos2017 = createSqlQuery_desaparecidos2017();
 
 
 	
-																																															
+																																																				
 	
 $tdatadesaparecidos2017[".sqlquery"] = $queryData_desaparecidos2017;
 

@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_comp[""] = array();
 	$fieldToolTipscat_comp[""] = array();
 	$pageTitlescat_comp[""] = array();
+	$fieldLabelscat_comp[""]["idcomp"] = "Idcomp";
+	$fieldToolTipscat_comp[""]["idcomp"] = "";
+	$fieldLabelscat_comp[""]["complexion"] = "Complexion";
+	$fieldToolTipscat_comp[""]["complexion"] = "";
 	if (count($fieldToolTipscat_comp[""]))
 		$tdatacat_comp[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_comp[".listAjax"] = false;
 
 	$tdatacat_comp[".locking"] = false;
 
-$tdatacat_comp[".edit"] = true;
-$tdatacat_comp[".afterEditAction"] = 1;
-$tdatacat_comp[".closePopupAfterEdit"] = 1;
-$tdatacat_comp[".afterEditActionDetTable"] = "";
 
-$tdatacat_comp[".add"] = true;
-$tdatacat_comp[".afterAddAction"] = 1;
-$tdatacat_comp[".closePopupAfterAdd"] = 1;
-$tdatacat_comp[".afterAddActionDetTable"] = "";
 
-$tdatacat_comp[".list"] = true;
 
-$tdatacat_comp[".inlineEdit"] = true;
-$tdatacat_comp[".inlineAdd"] = true;
-$tdatacat_comp[".view"] = true;
 
-$tdatacat_comp[".import"] = true;
 
-$tdatacat_comp[".exportTo"] = true;
 
-$tdatacat_comp[".printFriendly"] = true;
 
-$tdatacat_comp[".delete"] = true;
 
 $tdatacat_comp[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_comp[".allSearchFields"] = array();
 $tdatacat_comp[".filterFields"] = array();
 $tdatacat_comp[".requiredSearchFields"] = array();
 
-$tdatacat_comp[".allSearchFields"][] = "idcomp";
-	$tdatacat_comp[".allSearchFields"][] = "complexion";
-	
+
 
 $tdatacat_comp[".googleLikeFields"] = array();
 $tdatacat_comp[".googleLikeFields"][] = "idcomp";
@@ -285,8 +271,7 @@ $tdatacat_comp[".printFields"][] = "complexion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_comp[".printFields"][] = "complexion";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_comp[".printFields"][] = "complexion";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_comp[".printFields"][] = "complexion";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

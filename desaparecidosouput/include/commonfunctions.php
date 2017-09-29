@@ -266,6 +266,44 @@ function checkTableName($shortTName, $type=false)
 	
 	if ("desaparecidos2017" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
+	if ("cat_mpos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_edos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_sexo" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("catnacionalidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_escolaridad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_comp" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_ojos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_piel" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_cabtip" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_cabcol" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_nariz" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_labios" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_menton" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_cejas" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_vfacial" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_delito" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_estatus" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_est_apar" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("unidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
 	return false;
 }
 
@@ -316,6 +354,25 @@ function GetTablesList($pdfMode = false)
 {
 	$arr = array();
 		$arr[]="desaparecidos2017";
+		$arr[]="cat_mpos";
+		$arr[]="cat_edos";
+		$arr[]="cat_sexo";
+		$arr[]="catnacionalidad";
+		$arr[]="cat_escolaridad";
+		$arr[]="cat_comp";
+		$arr[]="cat_ojos";
+		$arr[]="cat_piel";
+		$arr[]="cat_cabtip";
+		$arr[]="cat_cabcol";
+		$arr[]="cat_nariz";
+		$arr[]="cat_labios";
+		$arr[]="cat_menton";
+		$arr[]="cat_cejas";
+		$arr[]="cat_vfacial";
+		$arr[]="cat_delito";
+		$arr[]="cat_estatus";
+		$arr[]="cat_est_apar";
+		$arr[]="unidad";
 	return $arr;
 }
 
@@ -919,6 +976,120 @@ function GetUserPermissionsStatic( $table )
 	$sUserGroup=@$_SESSION["GroupID"];
 //	default permissions	
 	if($table=="desaparecidos2017")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_mpos")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_edos")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_sexo")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="catnacionalidad")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_escolaridad")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_comp")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_ojos")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_piel")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_cabtip")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_cabcol")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_nariz")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_labios")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_menton")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_cejas")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_vfacial")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_delito")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_estatus")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="cat_est_apar")
+	{
+		// grant all by default
+		return "ADESPI".$extraPerm;	
+	}
+//	default permissions	
+	if($table=="unidad")
 	{
 		// grant all by default
 		return "ADESPI".$extraPerm;	

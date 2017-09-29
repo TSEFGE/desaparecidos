@@ -33,6 +33,10 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_escolaridad[""] = array();
 	$fieldToolTipscat_escolaridad[""] = array();
 	$pageTitlescat_escolaridad[""] = array();
+	$fieldLabelscat_escolaridad[""]["idescolaridad"] = "Idescolaridad";
+	$fieldToolTipscat_escolaridad[""]["idescolaridad"] = "";
+	$fieldLabelscat_escolaridad[""]["escolaridad"] = "Escolaridad";
+	$fieldToolTipscat_escolaridad[""]["escolaridad"] = "";
 	if (count($fieldToolTipscat_escolaridad[""]))
 		$tdatacat_escolaridad[".isUseToolTips"] = true;
 }
@@ -74,29 +78,13 @@ $tdatacat_escolaridad[".listAjax"] = false;
 
 	$tdatacat_escolaridad[".locking"] = false;
 
-$tdatacat_escolaridad[".edit"] = true;
-$tdatacat_escolaridad[".afterEditAction"] = 1;
-$tdatacat_escolaridad[".closePopupAfterEdit"] = 1;
-$tdatacat_escolaridad[".afterEditActionDetTable"] = "";
 
-$tdatacat_escolaridad[".add"] = true;
-$tdatacat_escolaridad[".afterAddAction"] = 1;
-$tdatacat_escolaridad[".closePopupAfterAdd"] = 1;
-$tdatacat_escolaridad[".afterAddActionDetTable"] = "";
 
-$tdatacat_escolaridad[".list"] = true;
 
-$tdatacat_escolaridad[".inlineEdit"] = true;
-$tdatacat_escolaridad[".inlineAdd"] = true;
-$tdatacat_escolaridad[".view"] = true;
 
-$tdatacat_escolaridad[".import"] = true;
 
-$tdatacat_escolaridad[".exportTo"] = true;
 
-$tdatacat_escolaridad[".printFriendly"] = true;
 
-$tdatacat_escolaridad[".delete"] = true;
 
 $tdatacat_escolaridad[".showSimpleSearchOptions"] = false;
 
@@ -129,9 +117,7 @@ $tdatacat_escolaridad[".allSearchFields"] = array();
 $tdatacat_escolaridad[".filterFields"] = array();
 $tdatacat_escolaridad[".requiredSearchFields"] = array();
 
-$tdatacat_escolaridad[".allSearchFields"][] = "idescolaridad";
-	$tdatacat_escolaridad[".allSearchFields"][] = "escolaridad";
-	
+
 
 $tdatacat_escolaridad[".googleLikeFields"] = array();
 $tdatacat_escolaridad[".googleLikeFields"][] = "idescolaridad";
@@ -285,8 +271,7 @@ $tdatacat_escolaridad[".printFields"][] = "escolaridad";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -376,11 +361,6 @@ $tdatacat_escolaridad[".printFields"][] = "escolaridad";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -412,8 +392,7 @@ $tdatacat_escolaridad[".printFields"][] = "escolaridad";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -501,11 +480,6 @@ $tdatacat_escolaridad[".printFields"][] = "escolaridad";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

@@ -41,6 +41,18 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_mpos[""] = array();
 	$fieldToolTipscat_mpos[""] = array();
 	$pageTitlescat_mpos[""] = array();
+	$fieldLabelscat_mpos[""]["id"] = "Id";
+	$fieldToolTipscat_mpos[""]["id"] = "";
+	$fieldLabelscat_mpos[""]["fkEdo"] = "Fk Edo";
+	$fieldToolTipscat_mpos[""]["fkEdo"] = "";
+	$fieldLabelscat_mpos[""]["cve_mun"] = "Cve Mun";
+	$fieldToolTipscat_mpos[""]["cve_mun"] = "";
+	$fieldLabelscat_mpos[""]["nombre"] = "Nombre";
+	$fieldToolTipscat_mpos[""]["nombre"] = "";
+	$fieldLabelscat_mpos[""]["cve_cab"] = "Cve Cab";
+	$fieldToolTipscat_mpos[""]["cve_cab"] = "";
+	$fieldLabelscat_mpos[""]["nom_cab"] = "Nom Cab";
+	$fieldToolTipscat_mpos[""]["nom_cab"] = "";
 	if (count($fieldToolTipscat_mpos[""]))
 		$tdatacat_mpos[".isUseToolTips"] = true;
 }
@@ -82,29 +94,13 @@ $tdatacat_mpos[".listAjax"] = false;
 
 	$tdatacat_mpos[".locking"] = false;
 
-$tdatacat_mpos[".edit"] = true;
-$tdatacat_mpos[".afterEditAction"] = 1;
-$tdatacat_mpos[".closePopupAfterEdit"] = 1;
-$tdatacat_mpos[".afterEditActionDetTable"] = "";
 
-$tdatacat_mpos[".add"] = true;
-$tdatacat_mpos[".afterAddAction"] = 1;
-$tdatacat_mpos[".closePopupAfterAdd"] = 1;
-$tdatacat_mpos[".afterAddActionDetTable"] = "";
 
-$tdatacat_mpos[".list"] = true;
 
-$tdatacat_mpos[".inlineEdit"] = true;
-$tdatacat_mpos[".inlineAdd"] = true;
-$tdatacat_mpos[".view"] = true;
 
-$tdatacat_mpos[".import"] = true;
 
-$tdatacat_mpos[".exportTo"] = true;
 
-$tdatacat_mpos[".printFriendly"] = true;
 
-$tdatacat_mpos[".delete"] = true;
 
 $tdatacat_mpos[".showSimpleSearchOptions"] = false;
 
@@ -137,13 +133,7 @@ $tdatacat_mpos[".allSearchFields"] = array();
 $tdatacat_mpos[".filterFields"] = array();
 $tdatacat_mpos[".requiredSearchFields"] = array();
 
-$tdatacat_mpos[".allSearchFields"][] = "id";
-	$tdatacat_mpos[".allSearchFields"][] = "fkEdo";
-	$tdatacat_mpos[".allSearchFields"][] = "cve_mun";
-	$tdatacat_mpos[".allSearchFields"][] = "nombre";
-	$tdatacat_mpos[".allSearchFields"][] = "cve_cab";
-	$tdatacat_mpos[".allSearchFields"][] = "nom_cab";
-	
+
 
 $tdatacat_mpos[".googleLikeFields"] = array();
 $tdatacat_mpos[".googleLikeFields"][] = "id";
@@ -345,8 +335,7 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -436,11 +425,6 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -472,8 +456,7 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -561,11 +544,6 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -597,8 +575,7 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -686,11 +663,6 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -722,8 +694,7 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -811,11 +782,6 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -847,8 +813,7 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -936,11 +901,6 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -972,8 +932,7 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -1061,11 +1020,6 @@ $tdatacat_mpos[".printFields"][] = "nom_cab";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
