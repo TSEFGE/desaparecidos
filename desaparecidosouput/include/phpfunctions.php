@@ -810,6 +810,14 @@ function GetDefaultValue($field, $ptype, $table="")
 	{
 		return 30;
 	}
+				if($table=="desaparecidos2017" && $field=="añoInv") 
+	{
+		return strftime("%Y");
+	}
+				if($table=="desaparecidos2017" && $field=="FInicio") 
+	{
+		return strftime("%Y-%m-%d");
+	}
 				if($table=="desaparecidos2017" && $field=="MinPub") 
 	{
 		return $_SESSION["UserName"];

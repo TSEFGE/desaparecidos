@@ -79,7 +79,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldToolTipsdesaparecidos2017["Spanish"]["Cejas"] = "";
 	$fieldLabelsdesaparecidos2017["Spanish"]["VFacial"] = "Vello Facial";
 	$fieldToolTipsdesaparecidos2017["Spanish"]["VFacial"] = "";
-	$fieldLabelsdesaparecidos2017["Spanish"]["Delito"] = "Delito";
+	$fieldLabelsdesaparecidos2017["Spanish"]["Delito"] = "Tipo de Desaparición";
 	$fieldToolTipsdesaparecidos2017["Spanish"]["Delito"] = "";
 	$fieldLabelsdesaparecidos2017["Spanish"]["Particularidades"] = "Particularidades";
 	$fieldToolTipsdesaparecidos2017["Spanish"]["Particularidades"] = "";
@@ -5567,7 +5567,8 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 // End Lookup Settings
 
 
-		
+		$edata["IsRequired"] = true; 
+	
 		
 		
 		
@@ -5581,13 +5582,14 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 		
-		$edata["controlWidth"] = 200;
+		$edata["controlWidth"] = 180;
 	
 //	Begin validation
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-								
+						$edata["validateAs"]["basicValidate"][] = "IsRequired";
+			
 		
 	//	End validation
 	

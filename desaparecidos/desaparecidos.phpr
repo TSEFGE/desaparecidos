@@ -1446,7 +1446,7 @@ FROM desaparecidos2017</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue>strftime("%Y")</m_strDefaultValue>
 							<m_strAutoUpdateValue></m_strAutoUpdateValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
@@ -1880,7 +1880,7 @@ FROM desaparecidos2017</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue>strftime("%Y-%m-%d")</m_strDefaultValue>
 							<m_strAutoUpdateValue></m_strAutoUpdateValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs></m_strValidateAs>
@@ -7516,9 +7516,9 @@ FROM desaparecidos2017</m_strSQL>
 					</m_viewFormats>
 					<m_editFormats>
 						<v>
-							<m_nSize>200</m_nSize>
+							<m_nSize>180</m_nSize>
 							<m_nMaxLength>0</m_nMaxLength>
-							<m_bRequired>0</m_bRequired>
+							<m_bRequired>1</m_bRequired>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
@@ -59554,7 +59554,7 @@ FROM catnacionalidad </m_sql>
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
-								<m_strLabel>Delito</m_strLabel>
+								<m_strLabel>Tipo de Desaparición</m_strLabel>
 								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
@@ -60567,8 +60567,8 @@ FROM catnacionalidad </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>-523803264</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30619983</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>1797139184</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30619996</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -63486,7 +63486,7 @@ FROM catnacionalidad </m_sql>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRConnectionID></m_strWRConnectionID>
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>73</m_projectBuildNumber>
+	<m_projectBuildNumber>80</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
