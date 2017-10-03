@@ -205,10 +205,7 @@
 		<a href="desaparecidos2017_add.php" class="rnr-button" {$addlink_attrs}>Añadir nuevo</a>
 	{END add_link}
 
-		{BEGIN inlineadd_link}
-		<a href="#" class="rnr-button" {$inlineaddlink_attrs}>Añadir nuevo</a>
-	{END inlineadd_link}
-
+	
 
 </div>
 {END newrecord_controls_block}
@@ -220,18 +217,8 @@
 <a class="rnr-button {$withSelectedClass}" href="#" id="selectButtonsToggler{$id}">Con los seleccionados...</a>
 <ul class="rnr-list" id="selectButtonsGroup{$id}">
 
-		{BEGIN editselected_link}
-<li>
-		<a href="#" class="rnr-button link" {$editselectedlink_attrs} {$editselectedlink_span}>Editar</a>
-</li>
-	{END editselected_link}
-
-		{BEGIN deleteselected_link}
-<li>
-		<a href="#" class="rnr-button link" {$deleteselectedlink_attrs} {$deleteselectedlink_span}>Borrar</a>
-</li>
-	{END deleteselected_link}
-
+	
+	
 		{BEGIN exportselected_link}
 <li>
 		<a href="#" class="rnr-button link" {$exportselectedlink_attrs} {$exportselectedlink_span}>Exportar</a>
@@ -241,13 +228,7 @@
 </ul>
 </span>
 {END widhtSelected}
-		{BEGIN saveall_link}
-		<a href="#" class="rnr-button" {$savealllink_attrs} {$savealllink_span}>Guardar todo</a>
-	{END saveall_link}
-	{BEGIN cancelall_link}
-		<a href="#" class="rnr-button" {$cancelalllink_attrs} {$cancelalllink_span}>Cancelar</a>
-	{END cancelall_link}
-</div>
+	</div>
 {END record_controls_block}
 
 
@@ -355,37 +336,7 @@
 									</th>
 									{END checkbox_column}
 
-																																			{BEGIN uipj_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$uipj_class}">
-									{BEGIN uipj_fieldheader}
-																				<span {$uipj_orderlinkattrs}>
-											{$label desaparecidos2017 uipj}
-										</span>
-									{END uipj_fieldheader}
-									</th>
-									{END uipj_fieldheadercolumn}
-
-																	{BEGIN numFiscal_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$numFiscal_class}">
-									{BEGIN numFiscal_fieldheader}
-																				<span {$numFiscal_orderlinkattrs}>
-											{$label desaparecidos2017 numFiscal}
-										</span>
-									{END numFiscal_fieldheader}
-									</th>
-									{END numFiscal_fieldheadercolumn}
-
-																	{BEGIN a_oInv_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$a_oInv_class}">
-									{BEGIN a_oInv_fieldheader}
-																				<span {$a_oInv_orderlinkattrs}>
-											{$label desaparecidos2017 a_oInv}
-										</span>
-									{END a_oInv_fieldheader}
-									</th>
-									{END a_oInv_fieldheadercolumn}
-
-																	{BEGIN numInv_fieldheadercolumn}
+																																			{BEGIN numInv_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$numInv_class}">
 									{BEGIN numInv_fieldheader}
 																				<span {$numInv_orderlinkattrs}>
@@ -394,16 +345,6 @@
 									{END numInv_fieldheader}
 									</th>
 									{END numInv_fieldheadercolumn}
-
-																	{BEGIN Id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Id_class}">
-									{BEGIN Id_fieldheader}
-																				<span {$Id_orderlinkattrs}>
-											{$label desaparecidos2017 Id}
-										</span>
-									{END Id_fieldheader}
-									</th>
-									{END Id_fieldheadercolumn}
 
 																	{BEGIN Estado_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$Estado_class}">
@@ -445,16 +386,6 @@
 									</th>
 									{END MinPub_fieldheadercolumn}
 
-																	{BEGIN Ofic_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Ofic_class}">
-									{BEGIN Ofic_fieldheader}
-																				<span {$Ofic_orderlinkattrs}>
-											{$label desaparecidos2017 Ofic}
-										</span>
-									{END Ofic_fieldheader}
-									</th>
-									{END Ofic_fieldheadercolumn}
-
 																	{BEGIN FExtrav_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$FExtrav_class}">
 									{BEGIN FExtrav_fieldheader}
@@ -495,236 +426,6 @@
 									</th>
 									{END AMat_fieldheadercolumn}
 
-																	{BEGIN Sexo_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Sexo_class}">
-									{BEGIN Sexo_fieldheader}
-																				<span {$Sexo_orderlinkattrs}>
-											{$label desaparecidos2017 Sexo}
-										</span>
-									{END Sexo_fieldheader}
-									</th>
-									{END Sexo_fieldheadercolumn}
-
-																	{BEGIN EdadA_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$EdadA_class}">
-									{BEGIN EdadA_fieldheader}
-																				<span {$EdadA_orderlinkattrs}>
-											{$label desaparecidos2017 EdadA}
-										</span>
-									{END EdadA_fieldheader}
-									</th>
-									{END EdadA_fieldheadercolumn}
-
-																	{BEGIN EdadM_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$EdadM_class}">
-									{BEGIN EdadM_fieldheader}
-																				<span {$EdadM_orderlinkattrs}>
-											{$label desaparecidos2017 EdadM}
-										</span>
-									{END EdadM_fieldheader}
-									</th>
-									{END EdadM_fieldheadercolumn}
-
-																	{BEGIN Nac_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Nac_class}">
-									{BEGIN Nac_fieldheader}
-																				<span {$Nac_orderlinkattrs}>
-											{$label desaparecidos2017 Nac}
-										</span>
-									{END Nac_fieldheader}
-									</th>
-									{END Nac_fieldheadercolumn}
-
-																	{BEGIN Origen_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Origen_class}">
-									{BEGIN Origen_fieldheader}
-																				<span {$Origen_orderlinkattrs}>
-											{$label desaparecidos2017 Origen}
-										</span>
-									{END Origen_fieldheader}
-									</th>
-									{END Origen_fieldheadercolumn}
-
-																	{BEGIN Escolaridad_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Escolaridad_class}">
-									{BEGIN Escolaridad_fieldheader}
-																				<span {$Escolaridad_orderlinkattrs}>
-											{$label desaparecidos2017 Escolaridad}
-										</span>
-									{END Escolaridad_fieldheader}
-									</th>
-									{END Escolaridad_fieldheadercolumn}
-
-																	{BEGIN Est_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Est_class}">
-									{BEGIN Est_fieldheader}
-																				<span {$Est_orderlinkattrs}>
-											{$label desaparecidos2017 Est}
-										</span>
-									{END Est_fieldheader}
-									</th>
-									{END Est_fieldheadercolumn}
-
-																	{BEGIN Compl_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Compl_class}">
-									{BEGIN Compl_fieldheader}
-																				<span {$Compl_orderlinkattrs}>
-											{$label desaparecidos2017 Compl}
-										</span>
-									{END Compl_fieldheader}
-									</th>
-									{END Compl_fieldheadercolumn}
-
-																	{BEGIN Ojos_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Ojos_class}">
-									{BEGIN Ojos_fieldheader}
-																				<span {$Ojos_orderlinkattrs}>
-											{$label desaparecidos2017 Ojos}
-										</span>
-									{END Ojos_fieldheader}
-									</th>
-									{END Ojos_fieldheadercolumn}
-
-																	{BEGIN Piel_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Piel_class}">
-									{BEGIN Piel_fieldheader}
-																				<span {$Piel_orderlinkattrs}>
-											{$label desaparecidos2017 Piel}
-										</span>
-									{END Piel_fieldheader}
-									</th>
-									{END Piel_fieldheadercolumn}
-
-																	{BEGIN Cab_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Cab_class}">
-									{BEGIN Cab_fieldheader}
-																				<span {$Cab_orderlinkattrs}>
-											{$label desaparecidos2017 Cab}
-										</span>
-									{END Cab_fieldheader}
-									</th>
-									{END Cab_fieldheadercolumn}
-
-																	{BEGIN TCab_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$TCab_class}">
-									{BEGIN TCab_fieldheader}
-																				<span {$TCab_orderlinkattrs}>
-											{$label desaparecidos2017 TCab}
-										</span>
-									{END TCab_fieldheader}
-									</th>
-									{END TCab_fieldheadercolumn}
-
-																	{BEGIN Cabcol_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Cabcol_class}">
-									{BEGIN Cabcol_fieldheader}
-																				<span {$Cabcol_orderlinkattrs}>
-											{$label desaparecidos2017 Cabcol}
-										</span>
-									{END Cabcol_fieldheader}
-									</th>
-									{END Cabcol_fieldheadercolumn}
-
-																	{BEGIN Nariz_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Nariz_class}">
-									{BEGIN Nariz_fieldheader}
-																				<span {$Nariz_orderlinkattrs}>
-											{$label desaparecidos2017 Nariz}
-										</span>
-									{END Nariz_fieldheader}
-									</th>
-									{END Nariz_fieldheadercolumn}
-
-																	{BEGIN Labios_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Labios_class}">
-									{BEGIN Labios_fieldheader}
-																				<span {$Labios_orderlinkattrs}>
-											{$label desaparecidos2017 Labios}
-										</span>
-									{END Labios_fieldheader}
-									</th>
-									{END Labios_fieldheadercolumn}
-
-																	{BEGIN Menton_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Menton_class}">
-									{BEGIN Menton_fieldheader}
-																				<span {$Menton_orderlinkattrs}>
-											{$label desaparecidos2017 Menton}
-										</span>
-									{END Menton_fieldheader}
-									</th>
-									{END Menton_fieldheadercolumn}
-
-																	{BEGIN Cejas_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Cejas_class}">
-									{BEGIN Cejas_fieldheader}
-																				<span {$Cejas_orderlinkattrs}>
-											{$label desaparecidos2017 Cejas}
-										</span>
-									{END Cejas_fieldheader}
-									</th>
-									{END Cejas_fieldheadercolumn}
-
-																	{BEGIN VFacial_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$VFacial_class}">
-									{BEGIN VFacial_fieldheader}
-																				<span {$VFacial_orderlinkattrs}>
-											{$label desaparecidos2017 VFacial}
-										</span>
-									{END VFacial_fieldheader}
-									</th>
-									{END VFacial_fieldheadercolumn}
-
-																	{BEGIN Delito_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Delito_class}">
-									{BEGIN Delito_fieldheader}
-																				<span {$Delito_orderlinkattrs}>
-											{$label desaparecidos2017 Delito}
-										</span>
-									{END Delito_fieldheader}
-									</th>
-									{END Delito_fieldheadercolumn}
-
-																	{BEGIN Particularidades_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Particularidades_class}">
-									{BEGIN Particularidades_fieldheader}
-																				<span {$Particularidades_orderlinkattrs}>
-											{$label desaparecidos2017 Particularidades}
-										</span>
-									{END Particularidades_fieldheader}
-									</th>
-									{END Particularidades_fieldheadercolumn}
-
-																	{BEGIN Nota_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Nota_class}">
-									{BEGIN Nota_fieldheader}
-																				<span {$Nota_orderlinkattrs}>
-											{$label desaparecidos2017 Nota}
-										</span>
-									{END Nota_fieldheader}
-									</th>
-									{END Nota_fieldheadercolumn}
-
-																	{BEGIN DescHechos_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$DescHechos_class}">
-									{BEGIN DescHechos_fieldheader}
-																				<span {$DescHechos_orderlinkattrs}>
-											{$label desaparecidos2017 DescHechos}
-										</span>
-									{END DescHechos_fieldheader}
-									</th>
-									{END DescHechos_fieldheadercolumn}
-
-																	{BEGIN Obseva_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Obseva_class}">
-									{BEGIN Obseva_fieldheader}
-																				<span {$Obseva_orderlinkattrs}>
-											{$label desaparecidos2017 Obseva}
-										</span>
-									{END Obseva_fieldheader}
-									</th>
-									{END Obseva_fieldheadercolumn}
-
 																	{BEGIN Status_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$Status_class}">
 									{BEGIN Status_fieldheader}
@@ -744,26 +445,6 @@
 									{END FAparicion_fieldheader}
 									</th>
 									{END FAparicion_fieldheadercolumn}
-
-																	{BEGIN Oficio_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$Oficio_class}">
-									{BEGIN Oficio_fieldheader}
-																				<span {$Oficio_orderlinkattrs}>
-											{$label desaparecidos2017 Oficio}
-										</span>
-									{END Oficio_fieldheader}
-									</th>
-									{END Oficio_fieldheadercolumn}
-
-																	{BEGIN EstApar_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$EstApar_class}">
-									{BEGIN EstApar_fieldheader}
-																				<span {$EstApar_orderlinkattrs}>
-											{$label desaparecidos2017 EstApar}
-										</span>
-									{END EstApar_fieldheader}
-									</th>
-									{END EstApar_fieldheadercolumn}
 
 
 									
@@ -791,12 +472,7 @@
 									{END edit_link}
 									{END edit_column}
 
-																		{BEGIN inlineedit_column}
-									{BEGIN inlineedit_link}
-																			<a class="rnr-button-img" {$inlineeditlink_attrs} data-icon="inlineedit" title="Editar"></a>
-									{END inlineedit_link}
-									{END inlineedit_column}
-
+									
 									
 																		{BEGIN view_column}
 									{BEGIN view_link}
@@ -815,35 +491,11 @@
 									{END checkbox_column}
 
 									
-										{BEGIN uipj_fieldcolumn}
-	<td class="{$uipj_class}" {$uipj_style} {$recordattrs}>
-		{$uipj_value}
-	</td>
-{END uipj_fieldcolumn}
-
-	{BEGIN numFiscal_fieldcolumn}
-	<td class="{$numFiscal_class}" {$numFiscal_style} {$recordattrs}>
-		{$numFiscal_value}
-	</td>
-{END numFiscal_fieldcolumn}
-
-	{BEGIN a_oInv_fieldcolumn}
-	<td class="{$a_oInv_class}" {$a_oInv_style} {$recordattrs}>
-		{$a_oInv_value}
-	</td>
-{END a_oInv_fieldcolumn}
-
-	{BEGIN numInv_fieldcolumn}
+										{BEGIN numInv_fieldcolumn}
 	<td class="{$numInv_class}" {$numInv_style} {$recordattrs}>
 		{$numInv_value}
 	</td>
 {END numInv_fieldcolumn}
-
-	{BEGIN Id_fieldcolumn}
-	<td class="{$Id_class}" {$Id_style} {$recordattrs}>
-		{$Id_value}
-	</td>
-{END Id_fieldcolumn}
 
 	{BEGIN Estado_fieldcolumn}
 	<td class="{$Estado_class}" {$Estado_style} {$recordattrs}>
@@ -869,12 +521,6 @@
 	</td>
 {END MinPub_fieldcolumn}
 
-	{BEGIN Ofic_fieldcolumn}
-	<td class="{$Ofic_class}" {$Ofic_style} {$recordattrs}>
-		{$Ofic_value}
-	</td>
-{END Ofic_fieldcolumn}
-
 	{BEGIN FExtrav_fieldcolumn}
 	<td class="{$FExtrav_class}" {$FExtrav_style} {$recordattrs}>
 		{$FExtrav_value}
@@ -899,144 +545,6 @@
 	</td>
 {END AMat_fieldcolumn}
 
-	{BEGIN Sexo_fieldcolumn}
-	<td class="{$Sexo_class}" {$Sexo_style} {$recordattrs}>
-		{$Sexo_value}
-	</td>
-{END Sexo_fieldcolumn}
-
-	{BEGIN EdadA_fieldcolumn}
-	<td class="{$EdadA_class}" {$EdadA_style} {$recordattrs}>
-		{$EdadA_value}
-	</td>
-{END EdadA_fieldcolumn}
-
-	{BEGIN EdadM_fieldcolumn}
-	<td class="{$EdadM_class}" {$EdadM_style} {$recordattrs}>
-		{$EdadM_value}
-	</td>
-{END EdadM_fieldcolumn}
-
-	{BEGIN Nac_fieldcolumn}
-	<td class="{$Nac_class}" {$Nac_style} {$recordattrs}>
-		{$Nac_value}
-	</td>
-{END Nac_fieldcolumn}
-
-	{BEGIN Origen_fieldcolumn}
-	<td class="{$Origen_class}" {$Origen_style} {$recordattrs}>
-		{$Origen_value}
-	</td>
-{END Origen_fieldcolumn}
-
-	{BEGIN Escolaridad_fieldcolumn}
-	<td class="{$Escolaridad_class}" {$Escolaridad_style} {$recordattrs}>
-		{$Escolaridad_value}
-	</td>
-{END Escolaridad_fieldcolumn}
-
-	{BEGIN Est_fieldcolumn}
-	<td class="{$Est_class}" {$Est_style} {$recordattrs}>
-		{$Est_value}
-	</td>
-{END Est_fieldcolumn}
-
-	{BEGIN Compl_fieldcolumn}
-	<td class="{$Compl_class}" {$Compl_style} {$recordattrs}>
-		{$Compl_value}
-	</td>
-{END Compl_fieldcolumn}
-
-	{BEGIN Ojos_fieldcolumn}
-	<td class="{$Ojos_class}" {$Ojos_style} {$recordattrs}>
-		{$Ojos_value}
-	</td>
-{END Ojos_fieldcolumn}
-
-	{BEGIN Piel_fieldcolumn}
-	<td class="{$Piel_class}" {$Piel_style} {$recordattrs}>
-		{$Piel_value}
-	</td>
-{END Piel_fieldcolumn}
-
-	{BEGIN Cab_fieldcolumn}
-	<td class="{$Cab_class}" {$Cab_style} {$recordattrs}>
-		{$Cab_value}
-	</td>
-{END Cab_fieldcolumn}
-
-	{BEGIN TCab_fieldcolumn}
-	<td class="{$TCab_class}" {$TCab_style} {$recordattrs}>
-		{$TCab_value}
-	</td>
-{END TCab_fieldcolumn}
-
-	{BEGIN Cabcol_fieldcolumn}
-	<td class="{$Cabcol_class}" {$Cabcol_style} {$recordattrs}>
-		{$Cabcol_value}
-	</td>
-{END Cabcol_fieldcolumn}
-
-	{BEGIN Nariz_fieldcolumn}
-	<td class="{$Nariz_class}" {$Nariz_style} {$recordattrs}>
-		{$Nariz_value}
-	</td>
-{END Nariz_fieldcolumn}
-
-	{BEGIN Labios_fieldcolumn}
-	<td class="{$Labios_class}" {$Labios_style} {$recordattrs}>
-		{$Labios_value}
-	</td>
-{END Labios_fieldcolumn}
-
-	{BEGIN Menton_fieldcolumn}
-	<td class="{$Menton_class}" {$Menton_style} {$recordattrs}>
-		{$Menton_value}
-	</td>
-{END Menton_fieldcolumn}
-
-	{BEGIN Cejas_fieldcolumn}
-	<td class="{$Cejas_class}" {$Cejas_style} {$recordattrs}>
-		{$Cejas_value}
-	</td>
-{END Cejas_fieldcolumn}
-
-	{BEGIN VFacial_fieldcolumn}
-	<td class="{$VFacial_class}" {$VFacial_style} {$recordattrs}>
-		{$VFacial_value}
-	</td>
-{END VFacial_fieldcolumn}
-
-	{BEGIN Delito_fieldcolumn}
-	<td class="{$Delito_class}" {$Delito_style} {$recordattrs}>
-		{$Delito_value}
-	</td>
-{END Delito_fieldcolumn}
-
-	{BEGIN Particularidades_fieldcolumn}
-	<td class="{$Particularidades_class}" {$Particularidades_style} {$recordattrs}>
-		{$Particularidades_value}
-	</td>
-{END Particularidades_fieldcolumn}
-
-	{BEGIN Nota_fieldcolumn}
-	<td class="{$Nota_class}" {$Nota_style} {$recordattrs}>
-		{$Nota_value}
-	</td>
-{END Nota_fieldcolumn}
-
-	{BEGIN DescHechos_fieldcolumn}
-	<td class="{$DescHechos_class}" {$DescHechos_style} {$recordattrs}>
-		{$DescHechos_value}
-	</td>
-{END DescHechos_fieldcolumn}
-
-	{BEGIN Obseva_fieldcolumn}
-	<td class="{$Obseva_class}" {$Obseva_style} {$recordattrs}>
-		{$Obseva_value}
-	</td>
-{END Obseva_fieldcolumn}
-
 	{BEGIN Status_fieldcolumn}
 	<td class="{$Status_class}" {$Status_style} {$recordattrs}>
 		{$Status_value}
@@ -1048,18 +556,6 @@
 		{$FAparicion_value}
 	</td>
 {END FAparicion_fieldcolumn}
-
-	{BEGIN Oficio_fieldcolumn}
-	<td class="{$Oficio_class}" {$Oficio_style} {$recordattrs}>
-		{$Oficio_value}
-	</td>
-{END Oficio_fieldcolumn}
-
-	{BEGIN EstApar_fieldcolumn}
-	<td class="{$EstApar_class}" {$EstApar_style} {$recordattrs}>
-		{$EstApar_value}
-	</td>
-{END EstApar_fieldcolumn}
 
 
 									<td class="rnr-edge" {$recordattrs}>&nbsp;</td>

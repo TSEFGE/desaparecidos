@@ -202,8 +202,6 @@ $tdatadesaparecidos2017[".afterAddActionDetTable"] = "";
 
 $tdatadesaparecidos2017[".list"] = true;
 
-$tdatadesaparecidos2017[".inlineEdit"] = true;
-$tdatadesaparecidos2017[".inlineAdd"] = true;
 $tdatadesaparecidos2017[".view"] = true;
 
 $tdatadesaparecidos2017[".import"] = true;
@@ -212,7 +210,6 @@ $tdatadesaparecidos2017[".exportTo"] = true;
 
 $tdatadesaparecidos2017[".printFriendly"] = true;
 
-$tdatadesaparecidos2017[".delete"] = true;
 
 $tdatadesaparecidos2017[".showSimpleSearchOptions"] = false;
 
@@ -245,47 +242,17 @@ $tdatadesaparecidos2017[".allSearchFields"] = array();
 $tdatadesaparecidos2017[".filterFields"] = array();
 $tdatadesaparecidos2017[".requiredSearchFields"] = array();
 
-$tdatadesaparecidos2017[".allSearchFields"][] = "Id";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Estado";
+$tdatadesaparecidos2017[".allSearchFields"][] = "Estado";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "Mun";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "uipj";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "numFiscal";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "añoInv";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "numInv";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "FInicio";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "MinPub";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Ofic";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "FExtrav";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "Nombre";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "APat";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "AMat";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Sexo";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "EdadA";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "EdadM";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Nac";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Origen";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Escolaridad";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Est";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Compl";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Ojos";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Piel";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Cab";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "TCab";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Cabcol";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Nariz";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Labios";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Menton";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Cejas";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "VFacial";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Delito";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Particularidades";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Nota";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "DescHechos";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Obseva";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "Status";
 	$tdatadesaparecidos2017[".allSearchFields"][] = "FAparicion";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "Oficio";
-	$tdatadesaparecidos2017[".allSearchFields"][] = "EstApar";
 	
 
 $tdatadesaparecidos2017[".googleLikeFields"] = array();
@@ -344,47 +311,17 @@ $tdatadesaparecidos2017[".googleLikeFields"][] = "fotoGrande";
 
 
 $tdatadesaparecidos2017[".advSearchFields"] = array();
-$tdatadesaparecidos2017[".advSearchFields"][] = "Id";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Estado";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Mun";
-$tdatadesaparecidos2017[".advSearchFields"][] = "uipj";
-$tdatadesaparecidos2017[".advSearchFields"][] = "numFiscal";
-$tdatadesaparecidos2017[".advSearchFields"][] = "añoInv";
 $tdatadesaparecidos2017[".advSearchFields"][] = "numInv";
 $tdatadesaparecidos2017[".advSearchFields"][] = "FInicio";
 $tdatadesaparecidos2017[".advSearchFields"][] = "MinPub";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Ofic";
 $tdatadesaparecidos2017[".advSearchFields"][] = "FExtrav";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Nombre";
 $tdatadesaparecidos2017[".advSearchFields"][] = "APat";
 $tdatadesaparecidos2017[".advSearchFields"][] = "AMat";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Sexo";
-$tdatadesaparecidos2017[".advSearchFields"][] = "EdadA";
-$tdatadesaparecidos2017[".advSearchFields"][] = "EdadM";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Nac";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Origen";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Escolaridad";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Est";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Compl";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Ojos";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Piel";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Cab";
-$tdatadesaparecidos2017[".advSearchFields"][] = "TCab";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Cabcol";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Nariz";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Labios";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Menton";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Cejas";
-$tdatadesaparecidos2017[".advSearchFields"][] = "VFacial";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Delito";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Particularidades";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Nota";
-$tdatadesaparecidos2017[".advSearchFields"][] = "DescHechos";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Obseva";
 $tdatadesaparecidos2017[".advSearchFields"][] = "Status";
 $tdatadesaparecidos2017[".advSearchFields"][] = "FAparicion";
-$tdatadesaparecidos2017[".advSearchFields"][] = "Oficio";
-$tdatadesaparecidos2017[".advSearchFields"][] = "EstApar";
 
 $tdatadesaparecidos2017[".tableType"] = "list";
 
@@ -468,47 +405,17 @@ $tableKeysdesaparecidos2017[] = "Id";
 $tdatadesaparecidos2017[".Keys"] = $tableKeysdesaparecidos2017;
 
 $tdatadesaparecidos2017[".listFields"] = array();
-$tdatadesaparecidos2017[".listFields"][] = "uipj";
-$tdatadesaparecidos2017[".listFields"][] = "numFiscal";
-$tdatadesaparecidos2017[".listFields"][] = "añoInv";
 $tdatadesaparecidos2017[".listFields"][] = "numInv";
-$tdatadesaparecidos2017[".listFields"][] = "Id";
 $tdatadesaparecidos2017[".listFields"][] = "Estado";
 $tdatadesaparecidos2017[".listFields"][] = "Mun";
 $tdatadesaparecidos2017[".listFields"][] = "FInicio";
 $tdatadesaparecidos2017[".listFields"][] = "MinPub";
-$tdatadesaparecidos2017[".listFields"][] = "Ofic";
 $tdatadesaparecidos2017[".listFields"][] = "FExtrav";
 $tdatadesaparecidos2017[".listFields"][] = "Nombre";
 $tdatadesaparecidos2017[".listFields"][] = "APat";
 $tdatadesaparecidos2017[".listFields"][] = "AMat";
-$tdatadesaparecidos2017[".listFields"][] = "Sexo";
-$tdatadesaparecidos2017[".listFields"][] = "EdadA";
-$tdatadesaparecidos2017[".listFields"][] = "EdadM";
-$tdatadesaparecidos2017[".listFields"][] = "Nac";
-$tdatadesaparecidos2017[".listFields"][] = "Origen";
-$tdatadesaparecidos2017[".listFields"][] = "Escolaridad";
-$tdatadesaparecidos2017[".listFields"][] = "Est";
-$tdatadesaparecidos2017[".listFields"][] = "Compl";
-$tdatadesaparecidos2017[".listFields"][] = "Ojos";
-$tdatadesaparecidos2017[".listFields"][] = "Piel";
-$tdatadesaparecidos2017[".listFields"][] = "Cab";
-$tdatadesaparecidos2017[".listFields"][] = "TCab";
-$tdatadesaparecidos2017[".listFields"][] = "Cabcol";
-$tdatadesaparecidos2017[".listFields"][] = "Nariz";
-$tdatadesaparecidos2017[".listFields"][] = "Labios";
-$tdatadesaparecidos2017[".listFields"][] = "Menton";
-$tdatadesaparecidos2017[".listFields"][] = "Cejas";
-$tdatadesaparecidos2017[".listFields"][] = "VFacial";
-$tdatadesaparecidos2017[".listFields"][] = "Delito";
-$tdatadesaparecidos2017[".listFields"][] = "Particularidades";
-$tdatadesaparecidos2017[".listFields"][] = "Nota";
-$tdatadesaparecidos2017[".listFields"][] = "DescHechos";
-$tdatadesaparecidos2017[".listFields"][] = "Obseva";
 $tdatadesaparecidos2017[".listFields"][] = "Status";
 $tdatadesaparecidos2017[".listFields"][] = "FAparicion";
-$tdatadesaparecidos2017[".listFields"][] = "Oficio";
-$tdatadesaparecidos2017[".listFields"][] = "EstApar";
 
 $tdatadesaparecidos2017[".hideMobileList"] = array();
 
@@ -657,45 +564,6 @@ $tdatadesaparecidos2017[".masterListFields"][] = "fotoChica";
 $tdatadesaparecidos2017[".masterListFields"][] = "fotoGrande";
 
 $tdatadesaparecidos2017[".inlineAddFields"] = array();
-$tdatadesaparecidos2017[".inlineAddFields"][] = "uipj";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "numFiscal";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "añoInv";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "numInv";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Estado";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Mun";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "FInicio";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Ofic";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "FExtrav";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Nombre";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "APat";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "AMat";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Sexo";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "EdadA";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "EdadM";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Nac";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Origen";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Escolaridad";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Est";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Compl";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Ojos";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Piel";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Cab";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "TCab";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Cabcol";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Nariz";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Labios";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Menton";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Cejas";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "VFacial";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Delito";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Particularidades";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Nota";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "DescHechos";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Obseva";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Status";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "FAparicion";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "Oficio";
-$tdatadesaparecidos2017[".inlineAddFields"][] = "EstApar";
 
 $tdatadesaparecidos2017[".editFields"] = array();
 $tdatadesaparecidos2017[".editFields"][] = "Estado";
@@ -742,46 +610,6 @@ $tdatadesaparecidos2017[".editFields"][] = "fotoChica";
 $tdatadesaparecidos2017[".editFields"][] = "fotoGrande";
 
 $tdatadesaparecidos2017[".inlineEditFields"] = array();
-$tdatadesaparecidos2017[".inlineEditFields"][] = "uipj";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "numFiscal";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "añoInv";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "numInv";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Estado";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Mun";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "FInicio";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "MinPub";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Ofic";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "FExtrav";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Nombre";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "APat";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "AMat";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Sexo";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "EdadA";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "EdadM";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Nac";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Origen";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Escolaridad";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Est";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Compl";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Ojos";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Piel";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Cab";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "TCab";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Cabcol";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Nariz";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Labios";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Menton";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Cejas";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "VFacial";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Delito";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Particularidades";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Nota";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "DescHechos";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Obseva";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Status";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "FAparicion";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "Oficio";
-$tdatadesaparecidos2017[".inlineEditFields"][] = "EstApar";
 
 $tdatadesaparecidos2017[".exportFields"] = array();
 $tdatadesaparecidos2017[".exportFields"][] = "Id";
@@ -929,16 +757,14 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		
 		
 		
 		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -1028,11 +854,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -1056,12 +877,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -1208,12 +1027,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -1357,20 +1174,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -1483,11 +1296,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -1507,20 +1315,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -1610,11 +1414,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -1634,20 +1433,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -1737,11 +1532,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -1765,12 +1555,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -1892,12 +1680,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -2022,8 +1808,7 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -2246,20 +2031,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -2349,11 +2130,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -2377,12 +2153,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -2504,12 +2278,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -2631,12 +2403,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -2758,12 +2528,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -2879,20 +2647,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3005,11 +2769,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -3029,20 +2788,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3130,11 +2885,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -3154,20 +2904,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3255,11 +3001,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -3279,20 +3020,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3405,11 +3142,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -3429,20 +3161,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3553,11 +3281,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -3577,20 +3300,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3701,11 +3420,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -3725,20 +3439,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3827,11 +3537,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -3851,20 +3556,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3975,11 +3676,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -3999,20 +3695,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4123,11 +3815,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -4147,20 +3834,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4271,11 +3954,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -4295,20 +3973,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4421,11 +4095,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -4445,20 +4114,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4569,11 +4234,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -4593,20 +4253,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4717,11 +4373,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -4741,20 +4392,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4865,11 +4512,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -4889,20 +4531,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5013,11 +4651,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -5037,20 +4670,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5161,11 +4790,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -5185,20 +4809,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5309,11 +4929,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -5333,20 +4948,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5457,11 +5068,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -5481,20 +5087,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5607,11 +5209,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -5631,20 +5228,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5733,11 +5326,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -5757,20 +5345,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5857,11 +5441,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -5881,20 +5460,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5983,11 +5558,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -6007,20 +5577,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -6107,11 +5673,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -6135,12 +5696,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -6286,12 +5845,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
 		$fdata["bAdvancedSearch"] = true; 
@@ -6408,20 +5965,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -6509,11 +6062,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
@@ -6533,20 +6081,16 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
+		
 		$fdata["bAddPage"] = true; 
 	
-		$fdata["bInlineAdd"] = true; 
-	
+		
 		$fdata["bEditPage"] = true; 
 	
-		$fdata["bInlineEdit"] = true; 
-	
+		
 		$fdata["bViewPage"] = true; 
 	
-		$fdata["bAdvancedSearch"] = true; 
-	
+		
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -6657,11 +6201,6 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 
