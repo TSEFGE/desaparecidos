@@ -2486,6 +2486,10 @@ function GetTableURL($table = "")
 		return "cat_est_apar";
 	if("unidad" == $table) 
 		return "unidad";
+	if("admin_rights" == $table) 
+		return "admin_rights";
+	if("admin_admembers" == $table) 
+		return "admin_admembers";
 
 	return "";
 }
@@ -2536,6 +2540,10 @@ function GetTableByShort($shortTName = "")
 		return "cat_est_apar";
 	if("unidad" == $shortTName) 
 		return "unidad";
+	if("admin_rights" == $shortTName) 
+		return "admin_rights";
+	if("admin_admembers" == $shortTName) 
+		return "admin_admembers";
 }
 
 //	A

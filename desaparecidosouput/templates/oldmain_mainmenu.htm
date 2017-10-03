@@ -27,6 +27,20 @@
 		<td class="runner-cr"></td>
 	</tr>	
 	{END item1_menulink}
+	{BEGIN adminarea_link}
+	<tr id="itemAAS" view="topitem" class="runner-b-vmenu runner-vmenu simple Separator">
+	<td class="runner-cl"></td>	
+	<td class="runner-cc">{$itemAAS_separator}</td>
+	<td class="runner-cr"></td>
+</tr>
+<tr id="itemAA" view="topitem" class="runner-b-vmenu runner-vmenu simple Leaf">
+	<td class="runner-cl"></td>	
+	<td class="runner-cc">
+		<a {$itemAA_menulink_attrs} {$adminarealink_attrs}>{$itemAA_title}</a>
+	</td>
+	<td class="runner-cr"></td>
+</tr>
+	{END adminarea_link}
 
 {END treeLikeTypeMenu}
 	
@@ -43,10 +57,42 @@
 		<td class="runner-cr"></td>
 	</tr>
 	{END item1_menulink}
+	{BEGIN adminarea_link}
+	<tr id="itemAAS" view="topitem" class="runner-b-vmenu runner-vmenu simple Separator">
+	<td class="runner-cl"></td>	
+	<td class="runner-cc">{$itemAAS_separator}</td>
+	<td class="runner-cr"></td>
+</tr>
+<tr id="itemAA" view="topitem" class="runner-b-vmenu runner-vmenu simple Leaf">
+	<td class="runner-cl"></td>	
+	<td class="runner-cc">
+		<a {$itemAA_menulink_attrs} {$adminarealink_attrs}>{$itemAA_title}</a>
+	</td>
+	<td class="runner-cr"></td>
+</tr>
+	{END adminarea_link}
 
 {END simpleTypeMenu}
 
 {BEGIN adminAreaTypeMenu}
+{BEGIN item1_menulink}
+<tr id="item1" view="topitem" class="runner-b-vmenu runner-vmenu simple Leaf{BEGIN item1_current} current{END item1_current}">
+	<td class="runner-cl"></td>	
+	<td class="runner-cc">
+		<a {$item1_menulink_attrs}>{$item1_title}</a>
+	</td>
+	<td class="runner-cr"></td>
+</tr>
+{END item1_menulink}
+{BEGIN item2_menulink}
+<tr id="item2" view="topitem" class="runner-b-vmenu runner-vmenu simple Leaf{BEGIN item2_current} current{END item2_current}">
+	<td class="runner-cl"></td>	
+	<td class="runner-cc">
+		<a {$item2_menulink_attrs}>{$item2_title}</a>
+	</td>
+	<td class="runner-cr"></td>
+</tr>
+{END item2_menulink}
 
 {END adminAreaTypeMenu}
 {END mainmenu_block}

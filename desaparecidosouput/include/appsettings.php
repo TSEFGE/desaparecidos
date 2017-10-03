@@ -384,6 +384,11 @@ $customLDAPSettings = array(); //#9409
 
 $adNestedPermissions = false;
 
+$globalSettings["isDynamicPerm"] = true;
+
+	$globalSettings["ADAdmins"] = array();
+		$globalSettings["ADAdmins"][] = "Gamers";
+	
 
 $globalSettings["ADSingleSign"] = 0;
 $globalSettings["ADLogin"] = "";
@@ -465,6 +470,8 @@ $cEmailFieldType = 200;
 $useFlashChartLibrary = true;
 
 
+$gPermissionsRefreshTime = 0;
+$gPermissionsRead = false;
 
 $useAJAX = true;
 $suggestAllContent = true;
@@ -505,6 +512,8 @@ $tableCaptions["Spanish"]["cat_delito"] = "Cat Delito";
 $tableCaptions["Spanish"]["cat_estatus"] = "Cat Estatus";
 $tableCaptions["Spanish"]["cat_est_apar"] = "Cat Est Apar";
 $tableCaptions["Spanish"]["unidad"] = "Unidad";
+$tableCaptions["Spanish"]["admin_rights"] = "Admin Rights";
+$tableCaptions["Spanish"]["admin_admembers"] = "Admin:AD users and groups";
 $tableCaptions[""] = array();
 $tableCaptions[""][""] = "";
 $tableCaptions[""]["desaparecidos2017"] = "Desaparecidos2017";
@@ -527,6 +536,8 @@ $tableCaptions[""]["cat_delito"] = "Cat Delito";
 $tableCaptions[""]["cat_estatus"] = "Cat Estatus";
 $tableCaptions[""]["cat_est_apar"] = "Cat Est Apar";
 $tableCaptions[""]["unidad"] = "Unidad";
+$tableCaptions[""]["admin_rights"] = "Admin Rights";
+$tableCaptions[""]["admin_admembers"] = "Admin Admembers";
 
 
 $globalEvents = new class_GlobalEvents;
@@ -564,7 +575,7 @@ $scriptname = getFileNameFromURL();
 
 
 
-$isGroupSecurity = false;
+$isGroupSecurity = true;
 
 $isUseRTEBasic = true;
 

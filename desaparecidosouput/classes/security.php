@@ -215,6 +215,11 @@ class Security
 	
 	public static function doGuestLogin()
 	{
+			$allowGuest = guestHasPermissions();
+	if( !$allowGuest )
+		return;
+		
+	DoLogin(true);
 	}	
 }
 ?>

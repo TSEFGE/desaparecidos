@@ -112,6 +112,7 @@ class LoginPage_AD extends LoginPage
 				
 				$userGroups = $this->getUserGroups( $pUsername, $entries[0]);
 				
+				$this->addGroupsFromAD($userGroups);
 				$_SESSION["GroupID"] = implode(",",$userGroups);
 				if($this->auditObj)	{
 					$this->auditObj->LogLogin($pUsername);

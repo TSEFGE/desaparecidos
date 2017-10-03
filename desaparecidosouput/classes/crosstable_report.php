@@ -1302,6 +1302,10 @@ class CrossTableReport
 			$isDB = true;
 		if("unidad" == $this->xml_array['tables'][0])
 			$isDB = true;
+		if("desaparecidos_ugrights" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("desaparecidos_uggroups" == $this->xml_array['tables'][0])
+			$isDB = true;
 		return $isDB;
 	}
 	

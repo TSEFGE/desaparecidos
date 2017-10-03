@@ -304,6 +304,10 @@ function checkTableName($shortTName, $type=false)
 		return true;
 	if ("unidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
+	if ("admin_rights" == $shortTName && ($type===false || ($type!==false && $type == 1)))
+		return true;
+	if ("admin_admembers" == $shortTName && ($type===false || ($type!==false && $type == 1)))
+		return true;
 	return false;
 }
 
@@ -353,26 +357,116 @@ function GetEmailField($table = "")
 function GetTablesList($pdfMode = false)
 {
 	$arr = array();
+	$strPerm = GetUserPermissions("desaparecidos2017");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="desaparecidos2017";
+	}
+	$strPerm = GetUserPermissions("cat_mpos");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_mpos";
+	}
+	$strPerm = GetUserPermissions("cat_edos");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_edos";
+	}
+	$strPerm = GetUserPermissions("cat_sexo");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_sexo";
+	}
+	$strPerm = GetUserPermissions("catnacionalidad");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="catnacionalidad";
+	}
+	$strPerm = GetUserPermissions("cat_escolaridad");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_escolaridad";
+	}
+	$strPerm = GetUserPermissions("cat_comp");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_comp";
+	}
+	$strPerm = GetUserPermissions("cat_ojos");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_ojos";
+	}
+	$strPerm = GetUserPermissions("cat_piel");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_piel";
+	}
+	$strPerm = GetUserPermissions("cat_cabtip");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_cabtip";
+	}
+	$strPerm = GetUserPermissions("cat_cabcol");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_cabcol";
+	}
+	$strPerm = GetUserPermissions("cat_nariz");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_nariz";
+	}
+	$strPerm = GetUserPermissions("cat_labios");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_labios";
+	}
+	$strPerm = GetUserPermissions("cat_menton");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_menton";
+	}
+	$strPerm = GetUserPermissions("cat_cejas");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_cejas";
+	}
+	$strPerm = GetUserPermissions("cat_vfacial");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_vfacial";
+	}
+	$strPerm = GetUserPermissions("cat_delito");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_delito";
+	}
+	$strPerm = GetUserPermissions("cat_estatus");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_estatus";
+	}
+	$strPerm = GetUserPermissions("cat_est_apar");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="cat_est_apar";
+	}
+	$strPerm = GetUserPermissions("unidad");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
 		$arr[]="unidad";
+	}
+	$strPerm = GetUserPermissions("admin_rights");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="admin_rights";
+	}
+	$strPerm = GetUserPermissions("admin_admembers");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="admin_admembers";
+	}
 	return $arr;
 }
 
@@ -962,143 +1056,226 @@ function IsBigInt($type)
 ////////////////////////////////////////////////////////////////////////////////
 // security functions
 ////////////////////////////////////////////////////////////////////////////////
- //the bDynamicPermissions block
+/**
+ * @param String userID
+ * @intellisense
+ */
+function ReadUserPermissions($userID = "")
+{
+	global $gPermissionsRead, $gPermissionsRefreshTime, $caseInsensitiveUsername, $cman;
+	
+	if (!strlen($userID))
+		$userID = $_SESSION["UserID"];
+		
+	$needreload = false;
+	if( !isset( $_SESSION["UserRights"] ) )
+		$needreload = true;
+	elseif( !isset( $_SESSION["UserRights"][ $userID ] ) )
+		$needreload = true;
+		
+	if(!$needreload && ($gPermissionsRead || time()-@$_SESSION["LastReadRights"]<=$gPermissionsRefreshTime))
+		return;
+		
+	$groups = array();
+	$bIsAdmin = false;
+	if($userID != "Guest")
+	{
+		$userGroups = explode(',', $_SESSION['GroupID']);
+		$userGroups[] = $userID;
+		
+		$grConnection = $cman->getDefault();
+
+		$atIdx = strpos( $userID, '@' );
+		if( $atIdx !== false && substr( $userID, $atIdx + 1 ) == GetGlobalData("ADDomain","") )
+			$userGroups[] = substr( $userID, 0, $atIdx );
+		
+		
+		$groupstr = "";
+		foreach($userGroups as $g)
+		{
+			if($groupstr != "")
+				$groupstr.= ",";
+			$groupstr.= $grConnection->upper( $grConnection->prepareString($g) );
+			if($g == -1)
+				$bIsAdmin = true;
+		}
+		
+		$sql = "select ". $grConnection->addFieldWrappers( "GroupID" ) 
+			." from ". $grConnection->addTableWrappers( "desaparecidos_uggroups" )
+			." where ".$grConnection->upper( $grConnection->addFieldWrappers( "Label" ) )." in (".$groupstr.")";
+
+		$qResult = $grConnection->query( $sql );
+		while( $data = $qResult->fetchNumeric() )
+		{
+			$groups[] = $data[0];
+		}
+		
+		if( !count($groups) )
+			$groups[] = -2;
+	}
+	else
+		$groups[] = -3;
+	
+	$rConnection = $cman->getForUserGroups();
+	
+	$groupstr = "";
+	foreach($groups as $g)
+	{
+		if($groupstr != "")
+			$groupstr.= ",";
+		$groupstr.= $g;
+		if($g == -1)
+			$bIsAdmin = true;
+	}
+	$rights = array();
+	
+	$sql = "select ". $rConnection->addFieldWrappers( "TableName" )
+		.", ". $rConnection->addFieldWrappers( "AccessMask" )
+		." from ". $rConnection->addTableWrappers( "desaparecidos_ugrights" )
+		." where ". $rConnection->addFieldWrappers( "GroupID" ) ." in (".$groupstr.")";
+	
+	$qResult = $rConnection->query( $sql );	
+	while( $data = $qResult->fetchNumeric() )
+	{
+		if(!array_key_exists($data[0], $rights))
+		{
+			$rights[ $data[0] ] = $data[1];
+			continue;
+		}
+		for($i = 0; $i < strlen($data[1]); $i++)
+		{
+			if( strpos($rights[ $data[0] ], substr($data[1], $i, 1)) === false )
+				$rights[ $data[0] ].= substr($data[1], $i, 1);
+		}
+	} 
+	
+	if(!array_key_exists("UserRights", $_SESSION))
+		$_SESSION["UserRights"] = array();
+		
+	$adminUsers = GetGlobalData("ADAdmins", array());
+	if ($caseInsensitiveUsername)
+	{
+		if (in_array($userID, $adminUsers)) 
+		{
+			$rights[".IsAdmin"] = true;
+		}
+		else 
+		{
+			$userGr = explode(',', $_SESSION['GroupID']);
+			foreach ($userGr as $gr)
+			{
+				if (in_array($gr, $adminUsers))
+				{
+					$rights[".IsAdmin"] = true;
+					break;
+				}
+			}
+		}
+	}
+	else 
+	{
+		if (in_arrayi($userID, $adminUsers))
+		{
+			$rights[".IsAdmin"] = true;
+		}
+		else 
+		{
+			$userGr = explode(',', $_SESSION['GroupID']);
+			foreach ($userGr as $gr)
+			{
+				if (in_arrayi($gr, $adminUsers))
+				{
+					$rights[".IsAdmin"] = true;
+					break;
+				}
+			}
+		}
+	}
+	$rights[".Groups"] = $groups;
+	$_SESSION["UserRights"][ $userID ] = &$rights;
+	$_SESSION["LastReadRights"] = time();
+	
+	$gPermissionsRead = true;
+}
 
 /**
  * @intellisense
  */
-function GetUserPermissionsStatic( $table )
+function guestHasPermissions() 
+{	
+	ReadUserPermissions("Guest");
+	if(!count($_SESSION["UserRights"]["Guest"]))
+		return false;
+	if(array_key_exists("desaparecidos2017",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_mpos",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_edos",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_sexo",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("catnacionalidad",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_escolaridad",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_comp",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_ojos",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_piel",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_cabtip",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_cabcol",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_nariz",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_labios",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_menton",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_cejas",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_vfacial",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_delito",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_estatus",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_est_apar",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("unidad",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("admin_rights",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("admin_admembers",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	return false;
+}
+
+/**
+ * @intellisense
+ */
+function GetUserPermissionsDynamic($table="")
 {
 	if( !isLogged() ) 
 		return "";
+	global $strTableName,$gPermissionsRefreshTime,$gPermissionsRead;
+	if(!$table)
+		$table=$strTableName;
+		
+	ReadUserPermissions();
+	if(IsAdmin())
+	{
+		if($table=="admin_rights")
+			return "ADESPIM";
+		if($table=="admin_admembers")
+			return "ADESPIM";
+	}
 
-	$extraPerm = $_SESSION["AccessLevel"] == ACCESS_LEVEL_ADMINGROUP ? 'M' : '';
-	$sUserGroup=@$_SESSION["GroupID"];
-//	default permissions	
-	if($table=="desaparecidos2017")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_mpos")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_edos")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_sexo")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="catnacionalidad")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_escolaridad")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_comp")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_ojos")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_piel")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_cabtip")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_cabcol")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_nariz")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_labios")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_menton")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_cejas")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_vfacial")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_delito")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_estatus")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="cat_est_apar")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-//	default permissions	
-	if($table=="unidad")
-	{
-		// grant all by default
-		return "ADESPI".$extraPerm;	
-	}
-	// grant nothing by default
-	return "";
+	return @$_SESSION["UserRights"][$_SESSION["UserID"]][$table];
 }
 
-// end of the bDynamicPermissions block
 // end of the bCreateLoginPage block
 
 
@@ -1109,7 +1286,9 @@ function GetUserPermissionsStatic( $table )
  */
 function IsAdmin()
 {
-	return false;
+	global $gPermissionsRefreshTime, $gPermissionsRead;
+	ReadUserPermissions();
+	return array_key_exists(".IsAdmin", @$_SESSION["UserRights"][ $_SESSION["UserID"] ]);		
 }
 
 /**
@@ -1131,7 +1310,7 @@ function GetUserPermissions($table="")
 	$permissions = "";
 	if( !IsLogged() )
 		return "";
-		$permissions =  GetUserPermissionsStatic($table);
+		$permissions =  GetUserPermissionsDynamic($table);
 	
 	if($globalEvents->exists("GetTablePermissions", $table))
 	{
@@ -1254,7 +1433,18 @@ function CheckSecurity($strValue, $strAction, $table = "")
 				return false;
 		}
 	}
+	//	 check user group permissions
+	$localAction = strtolower($strAction);
+	if($localAction=="add" && !(strpos($strPerm, "A")===false) ||
+	   $localAction=="edit" && !(strpos($strPerm, "E")===false) ||
+	   $localAction=="delete" && !(strpos($strPerm, "D")===false) ||
+	   $localAction=="search" && !(strpos($strPerm, "S")===false) ||
+	   $localAction=="import" && !(strpos($strPerm, "I")===false) ||
+	   $localAction=="export" && !(strpos($strPerm, "P")===false) )
 		return true;
+	else
+		return false;
+	return true;
 }
 
 /**
@@ -1310,7 +1500,7 @@ function SecuritySQL($strAction, $table="", $strPerm="")
 	if(!strlen($strPerm))
 		$strPerm = GetUserPermissions($table);
 
-	if( strpos($strPerm, "M") === false )
+	if(strpos($strPerm,"M")===false)
 	{
 		if($table=="desaparecidos2017")
 		{
@@ -2778,6 +2968,9 @@ function isLoggedAsGuest()
  */
 function isGuestLoginAvailable()
 {
+	// if guest have any permissions
+	if(guestHasPermissions())
+		return true;		
 	return false;
 }
 

@@ -496,6 +496,10 @@ class Chart
 			return true;
 		if("unidad" == $this->chrt_array['tables'][0])
 			return true;
+		if("desaparecidos_ugrights" == $this->chrt_array['tables'][0])
+			return true;
+		if("desaparecidos_uggroups" == $this->chrt_array['tables'][0])
+			return true;
 		return false;
 	}
 	

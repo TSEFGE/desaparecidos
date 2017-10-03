@@ -40,9 +40,18 @@
 	<a class="rnr-button" href="login.php?a=logout" {$logoutlink_attrs}>Desconectarse</a>
 	{END logoutbutton}
 <!-- Permissions -->
+  {BEGIN adminarea_link}
+<div>
+	<a class="rnr-button" href="admin_rights_list.php" {$adminarealink_attrs}>Area Admin</a>
+</div>
+  {END adminarea_link}
 </div>
 </div>{END loggedas_block}
 
+
+{BEGIN menu_block}
+{$menu main}
+{END menu_block}
 
 
 </div>

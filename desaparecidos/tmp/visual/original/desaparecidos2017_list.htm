@@ -42,6 +42,9 @@
 	{BEGIN logoutbutton}
 	<a href="#" class="rnr-button" {$logoutlink_attrs}>Desconectarse</a>
 	{END logoutbutton}
+	{BEGIN adminarea_link}
+	<a href="admin_rights_list.php" class="rnr-button" {$adminarealink_attrs}>Area Admin</a>
+	{END adminarea_link}
 
 </div></div>
 {END security_block}
@@ -141,6 +144,10 @@
 
 {BEGIN container_left}
 <div class="rnr-c rnr-cv rnr-c-left">
+
+{BEGIN menu_block}
+{$menu main}
+{END menu_block}
 
 
 {BEGIN searchPanel}

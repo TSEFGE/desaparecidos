@@ -128,7 +128,7 @@ class ConnectionManager
 	 */	
 	public function getForUserGroups()
 	{
-		return $this->getDefault();
+		return $this->byId( "desaparecidos_at_localhost" );
 	}		
 
 	/**
@@ -290,6 +290,8 @@ class ConnectionManager
 		$connectionsIds["cat_estatus"] = "desaparecidos_at_localhost";
 		$connectionsIds["cat_est_apar"] = "desaparecidos_at_localhost";
 		$connectionsIds["unidad"] = "desaparecidos_at_localhost";
+		$connectionsIds["admin_rights"] = "desaparecidos_at_localhost";
+		$connectionsIds["admin_admembers"] = "desaparecidos_at_localhost";
 		$this->_tablesConnectionIds = $connectionsIds;
 	}
 	

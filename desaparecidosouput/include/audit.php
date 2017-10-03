@@ -383,6 +383,14 @@ class AuditTrailTable
 		{
 			return false;
 		}
+		if($table=="admin_rights")
+		{
+			return false;
+		}
+		if($table=="admin_admembers")
+		{
+			return false;
+		}
 	}
 	
 	protected function insert($datetime, $ip, $user, $table, $action, $description)
@@ -759,6 +767,14 @@ class AuditTrailFile
 			return false;
 		}
 		if($table=="unidad")
+		{
+			return false;
+		}
+		if($table=="admin_rights")
+		{
+			return false;
+		}
+		if($table=="admin_admembers")
 		{
 			return false;
 		}

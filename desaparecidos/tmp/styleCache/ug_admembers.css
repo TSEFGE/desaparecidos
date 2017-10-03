@@ -1,0 +1,156 @@
+body.page-preview
+{
+padding-top:10px; padding-left:10px;
+}
+.page-preview .rnr-c-message,
+  .rnr-pagewrapper .page-preview .rnr-c-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-message
+{
+margin-bottom:5px;
+}
+.page-preview .rnr-c-message,
+  .rnr-pagewrapper .page-preview .rnr-c-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-message
+{
+min-width: 100px;
+}
+.page-preview .rnr-b-message,
+  .rnr-pagewrapper .page-preview .rnr-b-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-message
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-message,
+  .rnr-pagewrapper .page-preview .rnr-b-message,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-message
+{
+text-align: center;
+}
+.page-preview .rnr-b-message > *,
+  .rnr-pagewrapper .page-preview .rnr-b-message > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-message > *
+{
+
+}
+.page-preview .rnr-c-grid .rnr-cs.rnr-cs.rnr-cs.rnr-cs.rnr-cs.rnr-cs,
+  .rnr-pagewrapper .page-preview .rnr-c-grid .rnr-cs.rnr-cs.rnr-cs.rnr-cs.rnr-cs.rnr-cs,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-grid .rnr-cs.rnr-cs.rnr-cs.rnr-cs.rnr-cs.rnr-cs
+{
+width: 10px;
+}
+.page-preview .rnr-c-grid .rnr-rs,
+  .rnr-pagewrapper .page-preview .rnr-c-grid .rnr-rs,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-grid .rnr-rs
+{
+height: 10px;
+}
+.page-preview .rnr-c-grid,
+  .rnr-pagewrapper .page-preview .rnr-c-grid,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-grid
+{
+margin-bottom:5px;
+}
+.page-preview .rnr-b-ugadmemgrid,
+  .rnr-pagewrapper .page-preview .rnr-b-ugadmemgrid,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-ugadmemgrid
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-ugadmemgrid,
+  .rnr-pagewrapper .page-preview .rnr-b-ugadmemgrid,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-ugadmemgrid
+{
+text-align: left;
+}
+.page-preview .rnr-b-ugadmemgrid > *,
+  .rnr-pagewrapper .page-preview .rnr-b-ugadmemgrid > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-ugadmemgrid > *
+{
+
+}
+.page-preview .rnr-c-pagination,
+  .rnr-pagewrapper .page-preview .rnr-c-pagination,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-pagination
+{
+margin-bottom:5px;
+}
+.page-preview .rnr-c-pagination,
+  .rnr-pagewrapper .page-preview .rnr-c-pagination,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-pagination
+{
+min-width: 100px;
+}
+.page-preview .rnr-b-pagination,
+  .rnr-pagewrapper .page-preview .rnr-b-pagination,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-pagination
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-pagination,
+  .rnr-pagewrapper .page-preview .rnr-b-pagination,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-pagination
+{
+text-align: center;
+}
+.page-preview .rnr-b-pagination > *,
+  .rnr-pagewrapper .page-preview .rnr-b-pagination > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-pagination > *
+{
+
+}
+body.page-preview .rnr-center
+{
+padding-right: 5px;
+}
+.page-preview .rnr-c-search,
+  .rnr-pagewrapper .page-preview .rnr-c-search,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-search
+{
+margin-bottom:5px;
+}
+.page-preview .rnr-c-search,
+  .rnr-pagewrapper .page-preview .rnr-c-search,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-search
+{
+min-width: 100px;
+}
+.page-preview .rnr-b-search,
+  .rnr-pagewrapper .page-preview .rnr-b-search,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-search
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-search,
+  .rnr-pagewrapper .page-preview .rnr-b-search,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-search
+{
+text-align: left;
+}
+.page-preview .rnr-b-search > *,
+  .rnr-pagewrapper .page-preview .rnr-b-search > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-search > *
+{
+
+}
+.page-preview .rnr-b-recordcontrolsad,
+  .rnr-pagewrapper .page-preview .rnr-b-recordcontrolsad,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-recordcontrolsad
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-recordcontrolsad,
+  .rnr-pagewrapper .page-preview .rnr-b-recordcontrolsad,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-recordcontrolsad
+{
+text-align: right;
+}
+.page-preview .rnr-b-recordcontrolsad > *,
+  .rnr-pagewrapper .page-preview .rnr-b-recordcontrolsad > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-recordcontrolsad > *
+{
+
+}
+body.page-preview .rnr-top
+{
+padding-right: 5px;
+}

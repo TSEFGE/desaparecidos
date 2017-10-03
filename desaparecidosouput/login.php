@@ -25,6 +25,9 @@ $layout->containers["fields"][] = array("name"=>"message",
 $layout->containers["fields"][] = array("name"=>"loginfields", 
 	"block"=>"", "substyle"=>1  );
 
+$layout->containers["fields"][] = array("name"=>"mesguest", 
+	"block"=>"guestlink_block", "substyle"=>3  );
+
 $layout->containers["fields"][] = array("name"=>"loginbuttons", 
 	"block"=>"loginbuttons", "substyle"=>2  );
 

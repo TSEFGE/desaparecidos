@@ -27,6 +27,9 @@ $layout->container_properties["menu"] = array(  );
 $layout->containers["menu"][] = array("name"=>"login_menu", 
 	"block"=>"loggedas_block", "substyle"=>1  );
 
+$layout->containers["menu"][] = array("name"=>"vmenu", 
+	"block"=>"menu_block", "substyle"=>1  );
+
 $layout->skins["menu"] = "menu";
 
 $layout->blocks["top"][] = "menu";
@@ -101,6 +104,8 @@ $xt->assign("logout_link", true);
 $xt->assign("guestloginbutton", isLoggedAsGuest());
 $xt->assign("logoutbutton", isSingleSign() && !isLoggedAsGuest());
 
+if( IsAdmin() )
+	$xt->assign("adminarea_link", true);
 
 // get redirect location for menu page
 $redirect = $pageObject->getRedirectForMenuPage();
