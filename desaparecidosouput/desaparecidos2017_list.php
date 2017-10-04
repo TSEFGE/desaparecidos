@@ -94,6 +94,9 @@ $layout->blocks["center"][] = "pagination_bottom";
 $layout->blocks["left"] = array();
 $layout->containers["left"] = array();
 $layout->container_properties["left"] = array(  );
+$layout->containers["left"][] = array("name"=>"vmenu", 
+	"block"=>"menu_block", "substyle"=>1  );
+
 $layout->containers["left"][] = array("name"=>"searchpanel", 
 	"block"=>"searchPanel", "substyle"=>1  );
 

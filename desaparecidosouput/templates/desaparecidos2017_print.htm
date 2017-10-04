@@ -75,14 +75,7 @@
 	{BEGIN grid_header}
 <tr class="rnr-toprow style1 {$gridHeader_class}" >
 {BEGIN record_header}
-		{BEGIN Id_fieldheadercolumn}
-<th class="runner-cc {$Id_class}" {$Id_style}>
-	{BEGIN Id_fieldheader}
-	<b>{$label desaparecidos2017 Id}</b>
-	{END Id_fieldheader}
-</th>
-{END Id_fieldheadercolumn}
-	{BEGIN Estado_fieldheadercolumn}
+		{BEGIN Estado_fieldheadercolumn}
 <th class="runner-cc {$Estado_class}" {$Estado_style}>
 	{BEGIN Estado_fieldheader}
 	<b>{$label desaparecidos2017 Estado}</b>
@@ -390,12 +383,7 @@
 	{BEGIN grid_row}
 	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
 		{BEGIN grid_record}
-				{BEGIN Id_fieldcolumn}
-<td  class="runner-cc {$Id_class}" {$Id_style} {$recordattrs}>
-	{$Id_value}
-</td>
-{END Id_fieldcolumn}
-	{BEGIN Estado_fieldcolumn}
+				{BEGIN Estado_fieldcolumn}
 <td  class="runner-cc {$Estado_class}" {$Estado_style} {$recordattrs}>
 	{$Estado_value}
 </td>

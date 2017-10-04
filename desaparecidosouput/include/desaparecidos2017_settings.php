@@ -421,7 +421,6 @@ $tdatadesaparecidos2017[".hideMobileList"] = array();
 
 
 $tdatadesaparecidos2017[".viewFields"] = array();
-$tdatadesaparecidos2017[".viewFields"][] = "Id";
 $tdatadesaparecidos2017[".viewFields"][] = "Estado";
 $tdatadesaparecidos2017[".viewFields"][] = "Mun";
 $tdatadesaparecidos2017[".viewFields"][] = "uipj";
@@ -612,7 +611,6 @@ $tdatadesaparecidos2017[".editFields"][] = "fotoGrande";
 $tdatadesaparecidos2017[".inlineEditFields"] = array();
 
 $tdatadesaparecidos2017[".exportFields"] = array();
-$tdatadesaparecidos2017[".exportFields"][] = "Id";
 $tdatadesaparecidos2017[".exportFields"][] = "Estado";
 $tdatadesaparecidos2017[".exportFields"][] = "Mun";
 $tdatadesaparecidos2017[".exportFields"][] = "uipj";
@@ -655,7 +653,6 @@ $tdatadesaparecidos2017[".exportFields"][] = "Oficio";
 $tdatadesaparecidos2017[".exportFields"][] = "EstApar";
 
 $tdatadesaparecidos2017[".importFields"] = array();
-$tdatadesaparecidos2017[".importFields"][] = "Id";
 $tdatadesaparecidos2017[".importFields"][] = "Estado";
 $tdatadesaparecidos2017[".importFields"][] = "Mun";
 $tdatadesaparecidos2017[".importFields"][] = "uipj";
@@ -698,7 +695,6 @@ $tdatadesaparecidos2017[".importFields"][] = "Oficio";
 $tdatadesaparecidos2017[".importFields"][] = "EstApar";
 
 $tdatadesaparecidos2017[".printFields"] = array();
-$tdatadesaparecidos2017[".printFields"][] = "Id";
 $tdatadesaparecidos2017[".printFields"][] = "Estado";
 $tdatadesaparecidos2017[".printFields"][] = "Mun";
 $tdatadesaparecidos2017[".printFields"][] = "uipj";
@@ -762,13 +758,10 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 		
 		
 		
-		$fdata["bViewPage"] = true; 
-	
 		
-		$fdata["bPrinterPage"] = true; 
-	
-		$fdata["bExportPage"] = true; 
-	
+		
+		
+		
 		$fdata["strField"] = "Id"; 
 	
 		$fdata["isSQLExpression"] = true;
@@ -776,8 +769,7 @@ $tdatadesaparecidos2017[".printFields"][] = "fotoGrande";
 	
 		
 		
-				$fdata["FieldPermissions"] = true;
-	
+				
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
