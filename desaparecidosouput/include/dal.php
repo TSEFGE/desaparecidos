@@ -64,9 +64,11 @@ class tDAL
 	var $tbldesaparecidos_at_localhost__cat_ojos;
 	var $tbldesaparecidos_at_localhost__cat_piel;
 	var $tbldesaparecidos_at_localhost__cat_sexo;
+	var $tbldesaparecidos_at_localhost__cat_valida;
 	var $tbldesaparecidos_at_localhost__cat_vfacial;
 	var $tbldesaparecidos_at_localhost__catnacionalidad;
-	var $tbldesaparecidos_at_localhost__desaparecidos2017;
+	var $tbldesaparecidos_at_localhost__colaboraciones;
+	var $tbldesaparecidos_at_localhost__desaparecidos;
 	var $tbldesaparecidos_at_localhost__desaparecidos_uggroups;
 	var $tbldesaparecidos_at_localhost__desaparecidos_ugmembers;
 	var $tbldesaparecidos_at_localhost__desaparecidos_ugrights;
@@ -95,9 +97,11 @@ class tDAL
 		$this->lstTables[] = array("name" => "cat_ojos", "varname" => "desaparecidos_at_localhost__cat_ojos", "altvarname" => "cat_ojos", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "cat_piel", "varname" => "desaparecidos_at_localhost__cat_piel", "altvarname" => "cat_piel", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "cat_sexo", "varname" => "desaparecidos_at_localhost__cat_sexo", "altvarname" => "cat_sexo", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
+		$this->lstTables[] = array("name" => "cat_valida", "varname" => "desaparecidos_at_localhost__cat_valida", "altvarname" => "cat_valida", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "cat_vfacial", "varname" => "desaparecidos_at_localhost__cat_vfacial", "altvarname" => "cat_vfacial", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "catnacionalidad", "varname" => "desaparecidos_at_localhost__catnacionalidad", "altvarname" => "catnacionalidad", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
-		$this->lstTables[] = array("name" => "desaparecidos2017", "varname" => "desaparecidos_at_localhost__desaparecidos2017", "altvarname" => "desaparecidos2017", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
+		$this->lstTables[] = array("name" => "colaboraciones", "varname" => "desaparecidos_at_localhost__colaboraciones", "altvarname" => "colaboraciones", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
+		$this->lstTables[] = array("name" => "desaparecidos", "varname" => "desaparecidos_at_localhost__desaparecidos", "altvarname" => "desaparecidos", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "desaparecidos_uggroups", "varname" => "desaparecidos_at_localhost__desaparecidos_uggroups", "altvarname" => "desaparecidos_uggroups", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "desaparecidos_ugmembers", "varname" => "desaparecidos_at_localhost__desaparecidos_ugmembers", "altvarname" => "desaparecidos_ugmembers", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");
 		$this->lstTables[] = array("name" => "desaparecidos_ugrights", "varname" => "desaparecidos_at_localhost__desaparecidos_ugrights", "altvarname" => "desaparecidos_ugrights", "connId" => "desaparecidos_at_localhost", "schema" => "", "connName" => "desaparecidos at localhost");

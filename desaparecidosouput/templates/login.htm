@@ -29,11 +29,13 @@
     <TD>{BEGIN remember_password_label}Recordar contraseña: {END remember_password_label}</TD>
     <TD><INPUT type=checkbox {$rememberbox_attrs}> 
   </TD></TR></TBODY></TABLE></DIV>
-{BEGIN loginbuttons}<DIV class="rnr-brickcontents style2 rnr-b-loginbuttons {$brickclass_loginbuttons}"><A class="rnr-button main" href="#" {$loginlink_attrs}>Presentar </A>{BEGIN continue_button}<A class=rnr-button href="#" {$continuebutton_attrs}>Continuar </A>{END continue_button}</DIV>
+{BEGIN guestlink_block}<DIV class="rnr-brickcontents style3 rnr-b-mesguest {$brickclass_mesguest}"><A {$guestlink_attrs}>Conectar como 
+invitado </A></DIV>
+{END guestlink_block}{BEGIN loginbuttons}<DIV class="rnr-brickcontents style2 rnr-b-loginbuttons {$brickclass_loginbuttons}"><A class="rnr-button main" href="#" {$loginlink_attrs}>Presentar </A>{BEGIN continue_button}<A class=rnr-button href="#" {$continuebutton_attrs}>Continuar </A>{END continue_button}</DIV>
 {END loginbuttons}{BEGIN loginbuttons}<DIV class="rnr-brickcontents style2 rnr-b-loginbuttons {$brickclass_loginbuttons}"><A 
 href="http://drive.google.com/open?id=0B3WZvqbqPu3pMWVudVJEc3B2dHM"><IMG border=0 alt src="images/ic_chrome_reader_mode_black_48dp_1x.png"></A> </DIV>
 {END loginbuttons}{BEGIN loginbuttons}<DIV class="rnr-brickcontents style2 rnr-b-loginbuttons {$brickclass_loginbuttons}"><A 
-href="https://drive.google.com/open?id=0B3WZvqbqPu3pMWVudVJEc3B2dHM">Manual de 
+href="http://drive.google.com/open?id=0B3WZvqbqPu3pMWVudVJEc3B2dHM">Manual de 
 Usuario</A> </DIV>{END loginbuttons}</DIV>{END container_fields}</DIV>
 <DIV class=rnr-middle>
 <DIV class="rnr-left {$blockclass_left}"></DIV>

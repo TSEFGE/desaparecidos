@@ -264,49 +264,55 @@ function checkTableName($shortTName, $type=false)
 	if (!$shortTName)
 		return false;
 	
-	if ("desaparecidos2017" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("cat_cabcol" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_mpos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("cat_cabtam" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_edos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("cat_sexo" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("catnacionalidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("cat_escolaridad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("cat_comp" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("cat_ojos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("cat_piel" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("cat_cejas" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
 	if ("cat_cabtip" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_cabcol" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("cat_comp" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_nariz" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("cat_delito" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_edos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_escolaridad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_est_apar" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_estatus" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
 	if ("cat_labios" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
 	if ("cat_menton" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_cejas" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("cat_mpos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_nariz" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_ojos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_piel" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_sexo" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+		return true;
+	if ("cat_valida" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
 	if ("cat_vfacial" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_delito" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("catnacionalidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_estatus" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("colaboraciones" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
-	if ("cat_est_apar" == $shortTName && ($type===false || ($type!==false && $type == 0)))
-		return true;
-	if ("unidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
+	if ("desaparecidos" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
 	if ("admin_rights" == $shortTName && ($type===false || ($type!==false && $type == 1)))
 		return true;
 	if ("admin_admembers" == $shortTName && ($type===false || ($type!==false && $type == 1)))
+		return true;
+	if ("unidad" == $shortTName && ($type===false || ($type!==false && $type == 0)))
 		return true;
 	return false;
 }
@@ -357,65 +363,55 @@ function GetEmailField($table = "")
 function GetTablesList($pdfMode = false)
 {
 	$arr = array();
-	$strPerm = GetUserPermissions("desaparecidos2017");
+	$strPerm = GetUserPermissions("cat_cabcol");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="desaparecidos2017";
+		$arr[]="cat_cabcol";
 	}
-	$strPerm = GetUserPermissions("cat_mpos");
+	$strPerm = GetUserPermissions("cat_cabtam");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_mpos";
+		$arr[]="cat_cabtam";
 	}
-	$strPerm = GetUserPermissions("cat_edos");
+	$strPerm = GetUserPermissions("cat_cejas");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_edos";
-	}
-	$strPerm = GetUserPermissions("cat_sexo");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="cat_sexo";
-	}
-	$strPerm = GetUserPermissions("catnacionalidad");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="catnacionalidad";
-	}
-	$strPerm = GetUserPermissions("cat_escolaridad");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="cat_escolaridad";
-	}
-	$strPerm = GetUserPermissions("cat_comp");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="cat_comp";
-	}
-	$strPerm = GetUserPermissions("cat_ojos");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="cat_ojos";
-	}
-	$strPerm = GetUserPermissions("cat_piel");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="cat_piel";
+		$arr[]="cat_cejas";
 	}
 	$strPerm = GetUserPermissions("cat_cabtip");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
 		$arr[]="cat_cabtip";
 	}
-	$strPerm = GetUserPermissions("cat_cabcol");
+	$strPerm = GetUserPermissions("cat_comp");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_cabcol";
+		$arr[]="cat_comp";
 	}
-	$strPerm = GetUserPermissions("cat_nariz");
+	$strPerm = GetUserPermissions("cat_delito");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_nariz";
+		$arr[]="cat_delito";
+	}
+	$strPerm = GetUserPermissions("cat_edos");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_edos";
+	}
+	$strPerm = GetUserPermissions("cat_escolaridad");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_escolaridad";
+	}
+	$strPerm = GetUserPermissions("cat_est_apar");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_est_apar";
+	}
+	$strPerm = GetUserPermissions("cat_estatus");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_estatus";
 	}
 	$strPerm = GetUserPermissions("cat_labios");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
@@ -427,35 +423,55 @@ function GetTablesList($pdfMode = false)
 	{
 		$arr[]="cat_menton";
 	}
-	$strPerm = GetUserPermissions("cat_cejas");
+	$strPerm = GetUserPermissions("cat_mpos");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_cejas";
+		$arr[]="cat_mpos";
+	}
+	$strPerm = GetUserPermissions("cat_nariz");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_nariz";
+	}
+	$strPerm = GetUserPermissions("cat_ojos");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_ojos";
+	}
+	$strPerm = GetUserPermissions("cat_piel");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_piel";
+	}
+	$strPerm = GetUserPermissions("cat_sexo");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_sexo";
+	}
+	$strPerm = GetUserPermissions("cat_valida");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="cat_valida";
 	}
 	$strPerm = GetUserPermissions("cat_vfacial");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
 		$arr[]="cat_vfacial";
 	}
-	$strPerm = GetUserPermissions("cat_delito");
+	$strPerm = GetUserPermissions("catnacionalidad");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_delito";
+		$arr[]="catnacionalidad";
 	}
-	$strPerm = GetUserPermissions("cat_estatus");
+	$strPerm = GetUserPermissions("colaboraciones");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_estatus";
+		$arr[]="colaboraciones";
 	}
-	$strPerm = GetUserPermissions("cat_est_apar");
+	$strPerm = GetUserPermissions("desaparecidos");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
-		$arr[]="cat_est_apar";
-	}
-	$strPerm = GetUserPermissions("unidad");
-	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
-	{
-		$arr[]="unidad";
+		$arr[]="desaparecidos";
 	}
 	$strPerm = GetUserPermissions("admin_rights");
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
@@ -466,6 +482,11 @@ function GetTablesList($pdfMode = false)
 	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
 	{
 		$arr[]="admin_admembers";
+	}
+	$strPerm = GetUserPermissions("unidad");
+	if(strpos($strPerm, "P")!==false || ($pdfMode && strpos($strPerm, "S")!==false))
+	{
+		$arr[]="unidad";
 	}
 	return $arr;
 }
@@ -1206,49 +1227,55 @@ function guestHasPermissions()
 	ReadUserPermissions("Guest");
 	if(!count($_SESSION["UserRights"]["Guest"]))
 		return false;
-	if(array_key_exists("desaparecidos2017",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("cat_cabcol",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_mpos",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("cat_cabtam",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_edos",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("cat_sexo",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("catnacionalidad",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("cat_escolaridad",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("cat_comp",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("cat_ojos",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("cat_piel",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("cat_cejas",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	if(array_key_exists("cat_cabtip",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_cabcol",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("cat_comp",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_nariz",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("cat_delito",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_edos",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_escolaridad",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_est_apar",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_estatus",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	if(array_key_exists("cat_labios",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	if(array_key_exists("cat_menton",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_cejas",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("cat_mpos",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_nariz",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_ojos",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_piel",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_sexo",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("cat_valida",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	if(array_key_exists("cat_vfacial",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_delito",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("catnacionalidad",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_estatus",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("colaboraciones",$_SESSION["UserRights"]["Guest"]))
 		return true;
-	if(array_key_exists("cat_est_apar",$_SESSION["UserRights"]["Guest"]))
-		return true;
-	if(array_key_exists("unidad",$_SESSION["UserRights"]["Guest"]))
+	if(array_key_exists("desaparecidos",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	if(array_key_exists("admin_rights",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	if(array_key_exists("admin_admembers",$_SESSION["UserRights"]["Guest"]))
+		return true;
+	if(array_key_exists("unidad",$_SESSION["UserRights"]["Guest"]))
 		return true;
 	return false;
 }
@@ -1426,7 +1453,13 @@ function CheckSecurity($strValue, $strAction, $table = "")
 	$strPerm = GetUserPermissions();
 	if( strpos($strPerm, "M") === false )
 	{
-		if($table=="desaparecidos2017")
+		if($table=="colaboraciones")
+		{
+			
+				if(!($pSet->getCaseSensitiveUsername((string)$_SESSION["_".$table."_OwnerID"])===$pSet->getCaseSensitiveUsername((string)$strValue)))
+				return false;
+		}
+		if($table=="desaparecidos")
 		{
 			
 				if(!($pSet->getCaseSensitiveUsername((string)$_SESSION["_".$table."_OwnerID"])===$pSet->getCaseSensitiveUsername((string)$strValue)))
@@ -1502,7 +1535,11 @@ function SecuritySQL($strAction, $table="", $strPerm="")
 
 	if(strpos($strPerm,"M")===false)
 	{
-		if($table=="desaparecidos2017")
+		if($table=="colaboraciones")
+		{
+				$ret = GetFullFieldName($pSet->getTableOwnerID(), $table, false)."=".make_db_value($pSet->getTableOwnerID(), $ownerid, "", "", $table);
+		}
+		if($table=="desaparecidos")
 		{
 				$ret = GetFullFieldName($pSet->getTableOwnerID(), $table, false)."=".make_db_value($pSet->getTableOwnerID(), $ownerid, "", "", $table);
 		}

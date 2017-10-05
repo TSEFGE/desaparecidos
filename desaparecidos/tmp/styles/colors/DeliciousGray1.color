@@ -789,8 +789,6 @@
         }
     },
     "recentColors" : [
-        "#FCFBF7",
-        "#DEE6E8",
         "#F8F8F8",
         "#E3EBF2",
         "#EAEFFA",
@@ -809,9 +807,11 @@
         "#ACD1E6",
         "#FF6215",
         "#FE4F29",
-        null,
         "#9C9A9B",
-        "#7A5367"
+        "",
+        "#EFEFEF",
+        "#7A5367",
+        "#FFFFFF"
     ],
     "runner_build" : "10061",
     "runner_version" : "8",
@@ -988,7 +988,7 @@
             "background" : {
                 "alternative" : {
                     "color" : {
-                        "color" : "#A80000"
+                        "color" : "#EFEFEF"
                     }
                 },
                 "highlight" : {

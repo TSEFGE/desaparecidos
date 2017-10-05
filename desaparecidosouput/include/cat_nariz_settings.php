@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_nariz[""] = array();
 	$fieldToolTipscat_nariz[""] = array();
 	$pageTitlescat_nariz[""] = array();
-	$fieldLabelscat_nariz[""]["idnariz"] = "Idnariz";
-	$fieldToolTipscat_nariz[""]["idnariz"] = "";
-	$fieldLabelscat_nariz[""]["nariz"] = "Nariz";
-	$fieldToolTipscat_nariz[""]["nariz"] = "";
 	if (count($fieldToolTipscat_nariz[""]))
 		$tdatacat_nariz[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_nariz[".allSearchFields"] = array();
 $tdatacat_nariz[".filterFields"] = array();
 $tdatacat_nariz[".requiredSearchFields"] = array();
 
-
+$tdatacat_nariz[".allSearchFields"][] = "idnariz";
+	$tdatacat_nariz[".allSearchFields"][] = "nariz";
+	
 
 $tdatacat_nariz[".googleLikeFields"] = array();
 $tdatacat_nariz[".googleLikeFields"][] = "idnariz";
@@ -271,7 +269,8 @@ $tdatacat_nariz[".printFields"][] = "nariz";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_nariz[".printFields"][] = "nariz";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_nariz[".printFields"][] = "nariz";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_nariz[".printFields"][] = "nariz";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

@@ -35,12 +35,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_edos[""] = array();
 	$fieldToolTipscat_edos[""] = array();
 	$pageTitlescat_edos[""] = array();
-	$fieldLabelscat_edos[""]["id"] = "Id";
-	$fieldToolTipscat_edos[""]["id"] = "";
-	$fieldLabelscat_edos[""]["nom_ent"] = "Nom Ent";
-	$fieldToolTipscat_edos[""]["nom_ent"] = "";
-	$fieldLabelscat_edos[""]["nom_abr"] = "Nom Abr";
-	$fieldToolTipscat_edos[""]["nom_abr"] = "";
 	if (count($fieldToolTipscat_edos[""]))
 		$tdatacat_edos[".isUseToolTips"] = true;
 }
@@ -121,7 +115,10 @@ $tdatacat_edos[".allSearchFields"] = array();
 $tdatacat_edos[".filterFields"] = array();
 $tdatacat_edos[".requiredSearchFields"] = array();
 
-
+$tdatacat_edos[".allSearchFields"][] = "id";
+	$tdatacat_edos[".allSearchFields"][] = "nom_ent";
+	$tdatacat_edos[".allSearchFields"][] = "nom_abr";
+	
 
 $tdatacat_edos[".googleLikeFields"] = array();
 $tdatacat_edos[".googleLikeFields"][] = "id";
@@ -287,7 +284,8 @@ $tdatacat_edos[".printFields"][] = "nom_abr";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -377,6 +375,11 @@ $tdatacat_edos[".printFields"][] = "nom_abr";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -408,7 +411,8 @@ $tdatacat_edos[".printFields"][] = "nom_abr";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -496,6 +500,11 @@ $tdatacat_edos[".printFields"][] = "nom_abr";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -527,7 +536,8 @@ $tdatacat_edos[".printFields"][] = "nom_abr";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -615,6 +625,11 @@ $tdatacat_edos[".printFields"][] = "nom_abr";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

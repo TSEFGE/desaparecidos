@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_est_apar[""] = array();
 	$fieldToolTipscat_est_apar[""] = array();
 	$pageTitlescat_est_apar[""] = array();
-	$fieldLabelscat_est_apar[""]["id"] = "Id";
-	$fieldToolTipscat_est_apar[""]["id"] = "";
-	$fieldLabelscat_est_apar[""]["Estatus"] = "Estatus";
-	$fieldToolTipscat_est_apar[""]["Estatus"] = "";
 	if (count($fieldToolTipscat_est_apar[""]))
 		$tdatacat_est_apar[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_est_apar[".allSearchFields"] = array();
 $tdatacat_est_apar[".filterFields"] = array();
 $tdatacat_est_apar[".requiredSearchFields"] = array();
 
-
+$tdatacat_est_apar[".allSearchFields"][] = "id";
+	$tdatacat_est_apar[".allSearchFields"][] = "Estatus";
+	
 
 $tdatacat_est_apar[".googleLikeFields"] = array();
 $tdatacat_est_apar[".googleLikeFields"][] = "id";
@@ -271,7 +269,8 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_est_apar[".printFields"][] = "Estatus";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

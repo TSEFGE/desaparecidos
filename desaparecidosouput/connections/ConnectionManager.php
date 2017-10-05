@@ -128,7 +128,7 @@ class ConnectionManager
 	 */	
 	public function getForUserGroups()
 	{
-		return $this->byId( "desaparecidos_at_localhost" );
+		return $this->getDefault();
 	}		
 
 	/**
@@ -270,28 +270,31 @@ class ConnectionManager
 	protected function _setTablesConnectionIds()
 	{
 		$connectionsIds = array();
-		$connectionsIds["desaparecidos2017"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_mpos"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_edos"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_sexo"] = "desaparecidos_at_localhost";
-		$connectionsIds["catnacionalidad"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_escolaridad"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_comp"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_ojos"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_piel"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_cabtip"] = "desaparecidos_at_localhost";
 		$connectionsIds["cat_cabcol"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_nariz"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_cabtam"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_cejas"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_cabtip"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_comp"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_delito"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_edos"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_escolaridad"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_est_apar"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_estatus"] = "desaparecidos_at_localhost";
 		$connectionsIds["cat_labios"] = "desaparecidos_at_localhost";
 		$connectionsIds["cat_menton"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_cejas"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_mpos"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_nariz"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_ojos"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_piel"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_sexo"] = "desaparecidos_at_localhost";
+		$connectionsIds["cat_valida"] = "desaparecidos_at_localhost";
 		$connectionsIds["cat_vfacial"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_delito"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_estatus"] = "desaparecidos_at_localhost";
-		$connectionsIds["cat_est_apar"] = "desaparecidos_at_localhost";
-		$connectionsIds["unidad"] = "desaparecidos_at_localhost";
+		$connectionsIds["catnacionalidad"] = "desaparecidos_at_localhost";
+		$connectionsIds["colaboraciones"] = "desaparecidos_at_localhost";
+		$connectionsIds["desaparecidos"] = "desaparecidos_at_localhost";
 		$connectionsIds["admin_rights"] = "desaparecidos_at_localhost";
 		$connectionsIds["admin_admembers"] = "desaparecidos_at_localhost";
+		$connectionsIds["unidad"] = "desaparecidos_at_localhost";
 		$this->_tablesConnectionIds = $connectionsIds;
 	}
 	

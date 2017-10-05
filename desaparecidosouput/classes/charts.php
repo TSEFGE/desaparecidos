@@ -456,49 +456,55 @@ class Chart
 		if( !$this->webchart )
 			return true;
 			
-		if("desaparecidos2017" == $this->chrt_array['tables'][0])
+		if("cat_cabcol" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_mpos" == $this->chrt_array['tables'][0])
+		if("cat_cabtam" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_edos" == $this->chrt_array['tables'][0])
-			return true;
-		if("cat_sexo" == $this->chrt_array['tables'][0])
-			return true;
-		if("catnacionalidad" == $this->chrt_array['tables'][0])
-			return true;
-		if("cat_escolaridad" == $this->chrt_array['tables'][0])
-			return true;
-		if("cat_comp" == $this->chrt_array['tables'][0])
-			return true;
-		if("cat_ojos" == $this->chrt_array['tables'][0])
-			return true;
-		if("cat_piel" == $this->chrt_array['tables'][0])
+		if("cat_cejas" == $this->chrt_array['tables'][0])
 			return true;
 		if("cat_cabtip" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_cabcol" == $this->chrt_array['tables'][0])
+		if("cat_comp" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_nariz" == $this->chrt_array['tables'][0])
+		if("cat_delito" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_edos" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_escolaridad" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_est_apar" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_estatus" == $this->chrt_array['tables'][0])
 			return true;
 		if("cat_labios" == $this->chrt_array['tables'][0])
 			return true;
 		if("cat_menton" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_cejas" == $this->chrt_array['tables'][0])
+		if("cat_mpos" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_nariz" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_ojos" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_piel" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_sexo" == $this->chrt_array['tables'][0])
+			return true;
+		if("cat_valida" == $this->chrt_array['tables'][0])
 			return true;
 		if("cat_vfacial" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_delito" == $this->chrt_array['tables'][0])
+		if("catnacionalidad" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_estatus" == $this->chrt_array['tables'][0])
+		if("colaboraciones" == $this->chrt_array['tables'][0])
 			return true;
-		if("cat_est_apar" == $this->chrt_array['tables'][0])
-			return true;
-		if("unidad" == $this->chrt_array['tables'][0])
+		if("desaparecidos" == $this->chrt_array['tables'][0])
 			return true;
 		if("desaparecidos_ugrights" == $this->chrt_array['tables'][0])
 			return true;
 		if("desaparecidos_uggroups" == $this->chrt_array['tables'][0])
+			return true;
+		if("unidad" == $this->chrt_array['tables'][0])
 			return true;
 		return false;
 	}

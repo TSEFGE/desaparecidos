@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_labios[""] = array();
 	$fieldToolTipscat_labios[""] = array();
 	$pageTitlescat_labios[""] = array();
-	$fieldLabelscat_labios[""]["idlabios"] = "Idlabios";
-	$fieldToolTipscat_labios[""]["idlabios"] = "";
-	$fieldLabelscat_labios[""]["labios"] = "Labios";
-	$fieldToolTipscat_labios[""]["labios"] = "";
 	if (count($fieldToolTipscat_labios[""]))
 		$tdatacat_labios[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_labios[".allSearchFields"] = array();
 $tdatacat_labios[".filterFields"] = array();
 $tdatacat_labios[".requiredSearchFields"] = array();
 
-
+$tdatacat_labios[".allSearchFields"][] = "idlabios";
+	$tdatacat_labios[".allSearchFields"][] = "labios";
+	
 
 $tdatacat_labios[".googleLikeFields"] = array();
 $tdatacat_labios[".googleLikeFields"][] = "idlabios";
@@ -271,7 +269,8 @@ $tdatacat_labios[".printFields"][] = "labios";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_labios[".printFields"][] = "labios";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_labios[".printFields"][] = "labios";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_labios[".printFields"][] = "labios";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

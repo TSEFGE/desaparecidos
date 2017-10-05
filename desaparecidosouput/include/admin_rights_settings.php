@@ -35,12 +35,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelsadmin_rights[""] = array();
 	$fieldToolTipsadmin_rights[""] = array();
 	$pageTitlesadmin_rights[""] = array();
-	$fieldLabelsadmin_rights[""]["TableName"] = "Table Name";
-	$fieldToolTipsadmin_rights[""]["TableName"] = "";
-	$fieldLabelsadmin_rights[""]["GroupID"] = "Group ID";
-	$fieldToolTipsadmin_rights[""]["GroupID"] = "";
-	$fieldLabelsadmin_rights[""]["AccessMask"] = "Access Mask";
-	$fieldToolTipsadmin_rights[""]["AccessMask"] = "";
 	if (count($fieldToolTipsadmin_rights[""]))
 		$tdataadmin_rights[".isUseToolTips"] = true;
 }

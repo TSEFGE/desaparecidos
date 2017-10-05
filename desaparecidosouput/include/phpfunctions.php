@@ -773,12 +773,22 @@ function fileCustomExpression($file, $data, $field, $ptype, $table="")
 	global $strTableName;
 	if(!$table)
 		$table = $strTableName;
-				if($table=="desaparecidos2017" && $field=="fotoChica")
+				if($table=="colaboraciones" && $field=="fotoChica")
 	{
 		;
 		return $value;
 	}	
-				if($table=="desaparecidos2017" && $field=="fotoGrande")
+				if($table=="colaboraciones" && $field=="fotoGrande")
+	{
+		;
+		return $value;
+	}	
+				if($table=="desaparecidos" && $field=="fotoChica")
+	{
+		;
+		return $value;
+	}	
+				if($table=="desaparecidos" && $field=="fotoGrande")
 	{
 		;
 		return $value;
@@ -806,33 +816,45 @@ function GetDefaultValue($field, $ptype, $table="")
 	global $strTableName;
 	if(!$table)
 		$table=$strTableName;
-				if($table=="desaparecidos2017" && $field=="Estado") 
+				if($table=="colaboraciones" && $field=="Estado") 
 	{
 		return 30;
 	}
-				if($table=="desaparecidos2017" && $field=="añoInv") 
+				if($table=="colaboraciones" && $field=="uipj") 
 	{
-		return strftime("%Y");
+		return 47;
 	}
-				if($table=="desaparecidos2017" && $field=="FInicio") 
-	{
-		return strftime("%Y-%m-%d");
-	}
-				if($table=="desaparecidos2017" && $field=="MinPub") 
+				if($table=="colaboraciones" && $field=="MinPub") 
 	{
 		return $_SESSION["UserName"];
 	}
-				if($table=="desaparecidos2017" && $field=="Nac") 
+				if($table=="colaboraciones" && $field=="Nac") 
 	{
 		return 85;
 	}
-				if($table=="desaparecidos2017" && $field=="Origen") 
+				if($table=="colaboraciones" && $field=="Origen") 
 	{
 		return 30;
 	}
-				if($table=="desaparecidos2017" && $field=="Usuario") 
+				if($table=="desaparecidos" && $field=="Estado") 
 	{
-		return $_SESSION["UserID"];
+		return 30;
+	}
+				if($table=="desaparecidos" && $field=="añoInv") 
+	{
+		return strftime("%Y");
+	}
+				if($table=="desaparecidos" && $field=="FInicio") 
+	{
+		return strftime("%Y-%m-%d");
+	}
+				if($table=="desaparecidos" && $field=="MinPub") 
+	{
+		return $_SESSION["UserName"];
+	}
+				if($table=="desaparecidos" && $field=="Origen") 
+	{
+		return 30;
 	}
 	return "";
 }
@@ -856,12 +878,6 @@ function GetUploadFolderExpression($field, $file, $table="")
 	global $strTableName;
 	if(!$table)
 		$table = $strTableName;
-	if($table=="desaparecidos2017" && $field=="fotoChica") 
-	{
-		$folder = "files";
-;
-		return $folder;
-	}
 	return "";
 }
 

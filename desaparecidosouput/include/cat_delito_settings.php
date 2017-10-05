@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_delito[""] = array();
 	$fieldToolTipscat_delito[""] = array();
 	$pageTitlescat_delito[""] = array();
-	$fieldLabelscat_delito[""]["id"] = "Id";
-	$fieldToolTipscat_delito[""]["id"] = "";
-	$fieldLabelscat_delito[""]["delito"] = "Delito";
-	$fieldToolTipscat_delito[""]["delito"] = "";
 	if (count($fieldToolTipscat_delito[""]))
 		$tdatacat_delito[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_delito[".allSearchFields"] = array();
 $tdatacat_delito[".filterFields"] = array();
 $tdatacat_delito[".requiredSearchFields"] = array();
 
-
+$tdatacat_delito[".allSearchFields"][] = "id";
+	$tdatacat_delito[".allSearchFields"][] = "delito";
+	
 
 $tdatacat_delito[".googleLikeFields"] = array();
 $tdatacat_delito[".googleLikeFields"][] = "id";
@@ -271,7 +269,8 @@ $tdatacat_delito[".printFields"][] = "delito";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_delito[".printFields"][] = "delito";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_delito[".printFields"][] = "delito";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_delito[".printFields"][] = "delito";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

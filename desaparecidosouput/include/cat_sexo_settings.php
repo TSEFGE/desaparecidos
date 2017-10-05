@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_sexo[""] = array();
 	$fieldToolTipscat_sexo[""] = array();
 	$pageTitlescat_sexo[""] = array();
-	$fieldLabelscat_sexo[""]["id"] = "Id";
-	$fieldToolTipscat_sexo[""]["id"] = "";
-	$fieldLabelscat_sexo[""]["sexo"] = "Sexo";
-	$fieldToolTipscat_sexo[""]["sexo"] = "";
 	if (count($fieldToolTipscat_sexo[""]))
 		$tdatacat_sexo[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_sexo[".allSearchFields"] = array();
 $tdatacat_sexo[".filterFields"] = array();
 $tdatacat_sexo[".requiredSearchFields"] = array();
 
-
+$tdatacat_sexo[".allSearchFields"][] = "id";
+	$tdatacat_sexo[".allSearchFields"][] = "sexo";
+	
 
 $tdatacat_sexo[".googleLikeFields"] = array();
 $tdatacat_sexo[".googleLikeFields"][] = "id";
@@ -271,7 +269,8 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_sexo[".printFields"][] = "sexo";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

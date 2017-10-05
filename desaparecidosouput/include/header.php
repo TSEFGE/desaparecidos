@@ -1,2 +1,1 @@
-<IMG 
-src="../images/EscudoFGE.jpg">
+<img src="../images/EscudoFGE.jpg">

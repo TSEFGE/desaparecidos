@@ -517,8 +517,8 @@ background-image: none; transparent;
 .preview.rnr-s-fields > :not(.runner-c) > *.style2,
 .preview.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2
 {
-background-color: #ACD1E6;
-background: linear-gradient(0.000000turn, #A1C4D8, #ACD1E6, #A1C4D8);
+background-color: #9C9A9B;
+background: linear-gradient(0.000000turn, #929091, #9C9A9B, #929091);
 ;
 color: #FFFFFF;
 font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
@@ -526,7 +526,7 @@ font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-s
 .preview.rnr-s-fields > :not(.runner-c) > *.style3,
 .preview.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
 {
-background-image: none; background-color: #A80000;color: #404040;
+background-image: none; background-color: #EFEFEF;color: #404040;
 font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
 }
 .preview.rnr-s-fields > .rnr-c .rnr-leftbricks
@@ -594,8 +594,8 @@ background-image: none; transparent;
 .preview.rnr-s-disabled-fields > :not(.runner-c) > *.style2,
 .preview.rnr-s-disabled-fields > * > :not(.rnr-b-wrapper) .style2
 {
-background-color: #E0E0E0;
-background: linear-gradient(0.000000turn, #D2D2D2, #E0E0E0, #D2D2D2);
+background-color: #D2D2D2;
+background: linear-gradient(0.000000turn, #C5C5C5, #D2D2D2, #C5C5C5);
 ;
 color: #F1F1F1;
 font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
@@ -603,7 +603,7 @@ font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-s
 .preview.rnr-s-disabled-fields > :not(.runner-c) > *.style3,
 .preview.rnr-s-disabled-fields > * > :not(.rnr-b-wrapper) .style3
 {
-background-image: none; background-color: #B4B4B4;color: #B7B7B7;
+background-image: none; background-color: #ECECEC;color: #B7B7B7;
 font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
 }
 .preview.rnr-s-disabled-fields > .rnr-c .rnr-leftbricks

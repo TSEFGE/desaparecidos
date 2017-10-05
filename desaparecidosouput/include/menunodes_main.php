@@ -10,7 +10,22 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["name"] = "";
 	$menuNode["href"] = "mypage.htm";
 	$menuNode["type"] = "Leaf";
-	$menuNode["table"] = "desaparecidos2017";
+	$menuNode["table"] = "colaboraciones";
+	$menuNode["style"] = "";
+	$menuNode["params"] = "";
+	$menuNode["parent"] = "0";
+	$menuNode["nameType"] = "Text";
+	$menuNode["linkType"] = "Internal";
+	$menuNode["pageType"] = "Add";//
+	$menuNode["openType"] = "None";
+	$menuNode["title"] = "Colaboraciones";
+	$menuNodesObject->menuNodes["main"][] = $menuNode;
+	$menuNode = array();
+	$menuNode["id"] = "2";
+	$menuNode["name"] = "";
+	$menuNode["href"] = "mypage.htm";
+	$menuNode["type"] = "Leaf";
+	$menuNode["table"] = "desaparecidos";
 	$menuNode["style"] = "";
 	$menuNode["params"] = "";
 	$menuNode["parent"] = "0";
@@ -18,7 +33,7 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["linkType"] = "Internal";
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
-	$menuNode["title"] = "Desaparecidos2017";
+	$menuNode["title"] = "Desaparecidos";
 	$menuNodesObject->menuNodes["main"][] = $menuNode;
 }
 ?>

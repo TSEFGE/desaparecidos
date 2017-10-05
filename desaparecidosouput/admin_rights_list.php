@@ -13,72 +13,56 @@ if( !Security::processAdminPageSecurity( false ) )
 
 $tables = array();
 $pageMask = array();
-$table = "desaparecidos2017";
-$mask="";
-	$mask .= "A";
-	$mask .= "E";
-		$mask .= "S";
-$mask .= "P";
-$mask .= "I";
-$mask .= "M";
-
-$pageMask[$table] = $mask;
-$tables[$table] = array("desaparecidos2017", " " . "Desaparecidos2017");
-$table = "cat_mpos";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_mpos", " " . "Cat Mpos");
-$table = "cat_edos";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_edos", " " . "Cat Edos");
-$table = "cat_sexo";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_sexo", " " . "Cat Sexo");
-$table = "catnacionalidad";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("catnacionalidad", " " . "Catnacionalidad");
-$table = "cat_escolaridad";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_escolaridad", " " . "Cat Escolaridad");
-$table = "cat_comp";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_comp", " " . "Cat Comp");
-$table = "cat_ojos";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_ojos", " " . "Cat Ojos");
-$table = "cat_piel";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_piel", " " . "Cat Piel");
-$table = "cat_cabtip";
-$mask="";
-			
-$pageMask[$table] = $mask;
-$tables[$table] = array("cat_cabtip", " " . "Cat Cabtip");
 $table = "cat_cabcol";
 $mask="";
 			
 $pageMask[$table] = $mask;
 $tables[$table] = array("cat_cabcol", " " . "Cat Cabcol");
-$table = "cat_nariz";
+$table = "cat_cabtam";
 $mask="";
 			
 $pageMask[$table] = $mask;
-$tables[$table] = array("cat_nariz", " " . "Cat Nariz");
+$tables[$table] = array("cat_cabtam", " " . "Cat Cabtam");
+$table = "cat_cejas";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_cejas", " " . "Cat Cejas");
+$table = "cat_cabtip";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_cabtip", " " . "Cat Cabtip");
+$table = "cat_comp";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_comp", " " . "Cat Comp");
+$table = "cat_delito";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_delito", " " . "Cat Delito");
+$table = "cat_edos";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_edos", " " . "Cat Edos");
+$table = "cat_escolaridad";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_escolaridad", " " . "Cat Escolaridad");
+$table = "cat_est_apar";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_est_apar", " " . "Cat Est Apar");
+$table = "cat_estatus";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_estatus", " " . "Cat Estatus");
 $table = "cat_labios";
 $mask="";
 			
@@ -89,31 +73,68 @@ $mask="";
 			
 $pageMask[$table] = $mask;
 $tables[$table] = array("cat_menton", " " . "Cat Menton");
-$table = "cat_cejas";
+$table = "cat_mpos";
 $mask="";
 			
 $pageMask[$table] = $mask;
-$tables[$table] = array("cat_cejas", " " . "Cat Cejas");
+$tables[$table] = array("cat_mpos", " " . "Cat Mpos");
+$table = "cat_nariz";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_nariz", " " . "Cat Nariz");
+$table = "cat_ojos";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_ojos", " " . "Cat Ojos");
+$table = "cat_piel";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_piel", " " . "Cat Piel");
+$table = "cat_sexo";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_sexo", " " . "Cat Sexo");
+$table = "cat_valida";
+$mask="";
+			
+$pageMask[$table] = $mask;
+$tables[$table] = array("cat_valida", " " . "Cat Valida");
 $table = "cat_vfacial";
 $mask="";
 			
 $pageMask[$table] = $mask;
 $tables[$table] = array("cat_vfacial", " " . "Cat Vfacial");
-$table = "cat_delito";
+$table = "catnacionalidad";
 $mask="";
 			
 $pageMask[$table] = $mask;
-$tables[$table] = array("cat_delito", " " . "Cat Delito");
-$table = "cat_estatus";
+$tables[$table] = array("catnacionalidad", " " . "Catnacionalidad");
+$table = "colaboraciones";
 $mask="";
-			
+	$mask .= "A";
+	$mask .= "E";
+		$mask .= "S";
+$mask .= "P";
+$mask .= "I";
+$mask .= "M";
+
 $pageMask[$table] = $mask;
-$tables[$table] = array("cat_estatus", " " . "Cat Estatus");
-$table = "cat_est_apar";
+$tables[$table] = array("colaboraciones", " " . "Colaboraciones");
+$table = "desaparecidos";
 $mask="";
-			
+	$mask .= "A";
+	$mask .= "E";
+		$mask .= "S";
+$mask .= "P";
+$mask .= "I";
+$mask .= "M";
+
 $pageMask[$table] = $mask;
-$tables[$table] = array("cat_est_apar", " " . "Cat Est Apar");
+$tables[$table] = array("desaparecidos", " " . "Desaparecidos");
 $table = "unidad";
 $mask="";
 			

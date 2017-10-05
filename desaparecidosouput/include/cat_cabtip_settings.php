@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_cabtip[""] = array();
 	$fieldToolTipscat_cabtip[""] = array();
 	$pageTitlescat_cabtip[""] = array();
-	$fieldLabelscat_cabtip[""]["idcabtip"] = "Idcabtip";
-	$fieldToolTipscat_cabtip[""]["idcabtip"] = "";
-	$fieldLabelscat_cabtip[""]["cabtip"] = "Cabtip";
-	$fieldToolTipscat_cabtip[""]["cabtip"] = "";
 	if (count($fieldToolTipscat_cabtip[""]))
 		$tdatacat_cabtip[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_cabtip[".allSearchFields"] = array();
 $tdatacat_cabtip[".filterFields"] = array();
 $tdatacat_cabtip[".requiredSearchFields"] = array();
 
-
+$tdatacat_cabtip[".allSearchFields"][] = "idcabtip";
+	$tdatacat_cabtip[".allSearchFields"][] = "cabtip";
+	
 
 $tdatacat_cabtip[".googleLikeFields"] = array();
 $tdatacat_cabtip[".googleLikeFields"][] = "idcabtip";
@@ -271,7 +269,8 @@ $tdatacat_cabtip[".printFields"][] = "cabtip";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_cabtip[".printFields"][] = "cabtip";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_cabtip[".printFields"][] = "cabtip";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_cabtip[".printFields"][] = "cabtip";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

@@ -31,7 +31,7 @@ if(!$accessGranted)
 
 
 
-$layout = new TLayout("search", "OfficeDeliciousGray", "MobileDeliciousGray");
+$layout = new TLayout("search", "Office1DeliciousGray1", "MobileDeliciousGray1");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["fields"] = array();

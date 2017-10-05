@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_ojos[""] = array();
 	$fieldToolTipscat_ojos[""] = array();
 	$pageTitlescat_ojos[""] = array();
-	$fieldLabelscat_ojos[""]["idojos"] = "Idojos";
-	$fieldToolTipscat_ojos[""]["idojos"] = "";
-	$fieldLabelscat_ojos[""]["ojos"] = "Ojos";
-	$fieldToolTipscat_ojos[""]["ojos"] = "";
 	if (count($fieldToolTipscat_ojos[""]))
 		$tdatacat_ojos[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_ojos[".allSearchFields"] = array();
 $tdatacat_ojos[".filterFields"] = array();
 $tdatacat_ojos[".requiredSearchFields"] = array();
 
-
+$tdatacat_ojos[".allSearchFields"][] = "idojos";
+	$tdatacat_ojos[".allSearchFields"][] = "ojos";
+	
 
 $tdatacat_ojos[".googleLikeFields"] = array();
 $tdatacat_ojos[".googleLikeFields"][] = "idojos";
@@ -271,7 +269,8 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_ojos[".printFields"][] = "ojos";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

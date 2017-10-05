@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscat_vfacial[""] = array();
 	$fieldToolTipscat_vfacial[""] = array();
 	$pageTitlescat_vfacial[""] = array();
-	$fieldLabelscat_vfacial[""]["idvfacial"] = "Idvfacial";
-	$fieldToolTipscat_vfacial[""]["idvfacial"] = "";
-	$fieldLabelscat_vfacial[""]["vfacial"] = "Vfacial";
-	$fieldToolTipscat_vfacial[""]["vfacial"] = "";
 	if (count($fieldToolTipscat_vfacial[""]))
 		$tdatacat_vfacial[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacat_vfacial[".allSearchFields"] = array();
 $tdatacat_vfacial[".filterFields"] = array();
 $tdatacat_vfacial[".requiredSearchFields"] = array();
 
-
+$tdatacat_vfacial[".allSearchFields"][] = "idvfacial";
+	$tdatacat_vfacial[".allSearchFields"][] = "vfacial";
+	
 
 $tdatacat_vfacial[".googleLikeFields"] = array();
 $tdatacat_vfacial[".googleLikeFields"][] = "idvfacial";
@@ -271,7 +269,8 @@ $tdatacat_vfacial[".printFields"][] = "vfacial";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -361,6 +360,11 @@ $tdatacat_vfacial[".printFields"][] = "vfacial";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -392,7 +396,8 @@ $tdatacat_vfacial[".printFields"][] = "vfacial";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -480,6 +485,11 @@ $tdatacat_vfacial[".printFields"][] = "vfacial";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

@@ -51,7 +51,8 @@ class LoginPage_AD extends LoginPage
 			$this->auditObj->LoginSuccessful();
 		}	
 			$_SESSION["OwnerID"] = $_SESSION["UserID"];
-		$_SESSION["_desaparecidos2017_OwnerID"] = $_SESSION["UserID"];
+		$_SESSION["_colaboraciones_OwnerID"] = $_SESSION["UserID"];
+			$_SESSION["_desaparecidos_OwnerID"] = $_SESSION["UserID"];
 		return true;
 	}
 	
@@ -125,7 +126,8 @@ class LoginPage_AD extends LoginPage
 					$_SESSION["AccessLevel"] = ACCESS_LEVEL_ADMIN;
 					
 					$_SESSION["OwnerID"] = $_SESSION["UserID"];
-				$_SESSION["_desaparecidos2017_OwnerID"] = $_SESSION["UserID"];
+				$_SESSION["_colaboraciones_OwnerID"] = $_SESSION["UserID"];
+					$_SESSION["_desaparecidos_OwnerID"] = $_SESSION["UserID"];
 									
 				return true;	
 			}

@@ -27,6 +27,21 @@
 		<td class="runner-cr"></td>
 	</tr>	
 	{END item1_menulink}
+	{BEGIN item2_menulink}
+	<tr id="item2" view="topitem" class="runner-b-vmenu runner-vmenu tree Leaf{BEGIN item2_current} current{END item2_current}">
+		<td class="runner-cl"></td>	
+		<td class="runner-cc">
+			{BEGIN item2_groupimage}
+<span><img alt="*" src="images/plus.gif" class="groupImg"></span>
+{END item2_groupimage}
+<a {$item2_menulink_attrs} {BEGIN item2_current}class="curlink"{END item2_current}>{$item2_title}</a>
+
+
+
+		</td>
+		<td class="runner-cr"></td>
+	</tr>	
+	{END item2_menulink}
 	{BEGIN adminarea_link}
 	<tr id="itemAAS" view="topitem" class="runner-b-vmenu runner-vmenu simple Separator">
 	<td class="runner-cl"></td>	
@@ -57,6 +72,18 @@
 		<td class="runner-cr"></td>
 	</tr>
 	{END item1_menulink}
+	{BEGIN item2_menulink}
+	<tr class="runner-b-vmenu runner-vmenu simple Leaf{BEGIN item2_current} current{END item2_current}">
+		<td class="runner-cl"></td>	
+		<td class="runner-cc">
+			<a {$item2_menulink_attrs} {BEGIN item2_current}class="curlink"{END item2_current}>{$item2_title}</a>
+
+
+
+		</td>
+		<td class="runner-cr"></td>
+	</tr>
+	{END item2_menulink}
 	{BEGIN adminarea_link}
 	<tr id="itemAAS" view="topitem" class="runner-b-vmenu runner-vmenu simple Separator">
 	<td class="runner-cl"></td>	

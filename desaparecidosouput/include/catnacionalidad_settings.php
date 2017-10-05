@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelscatnacionalidad[""] = array();
 	$fieldToolTipscatnacionalidad[""] = array();
 	$pageTitlescatnacionalidad[""] = array();
-	$fieldLabelscatnacionalidad[""]["Clave"] = "Clave";
-	$fieldToolTipscatnacionalidad[""]["Clave"] = "";
-	$fieldLabelscatnacionalidad[""]["Nacionalidad"] = "Nacionalidad";
-	$fieldToolTipscatnacionalidad[""]["Nacionalidad"] = "";
 	if (count($fieldToolTipscatnacionalidad[""]))
 		$tdatacatnacionalidad[".isUseToolTips"] = true;
 }
@@ -117,7 +113,9 @@ $tdatacatnacionalidad[".allSearchFields"] = array();
 $tdatacatnacionalidad[".filterFields"] = array();
 $tdatacatnacionalidad[".requiredSearchFields"] = array();
 
-
+$tdatacatnacionalidad[".allSearchFields"][] = "Clave";
+	$tdatacatnacionalidad[".allSearchFields"][] = "Nacionalidad";
+	
 
 $tdatacatnacionalidad[".googleLikeFields"] = array();
 $tdatacatnacionalidad[".googleLikeFields"][] = "Clave";
@@ -270,7 +268,8 @@ $tdatacatnacionalidad[".printFields"][] = "Nacionalidad";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -360,6 +359,11 @@ $tdatacatnacionalidad[".printFields"][] = "Nacionalidad";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -391,7 +395,8 @@ $tdatacatnacionalidad[".printFields"][] = "Nacionalidad";
 	
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -479,6 +484,11 @@ $tdatacatnacionalidad[".printFields"][] = "Nacionalidad";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 

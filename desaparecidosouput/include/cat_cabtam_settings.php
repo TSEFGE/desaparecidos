@@ -74,29 +74,13 @@ $tdatacat_cabtam[".listAjax"] = false;
 
 	$tdatacat_cabtam[".locking"] = false;
 
-$tdatacat_cabtam[".edit"] = true;
-$tdatacat_cabtam[".afterEditAction"] = 1;
-$tdatacat_cabtam[".closePopupAfterEdit"] = 1;
-$tdatacat_cabtam[".afterEditActionDetTable"] = "";
 
-$tdatacat_cabtam[".add"] = true;
-$tdatacat_cabtam[".afterAddAction"] = 1;
-$tdatacat_cabtam[".closePopupAfterAdd"] = 1;
-$tdatacat_cabtam[".afterAddActionDetTable"] = "";
 
-$tdatacat_cabtam[".list"] = true;
 
-$tdatacat_cabtam[".inlineEdit"] = true;
-$tdatacat_cabtam[".inlineAdd"] = true;
-$tdatacat_cabtam[".view"] = true;
 
-$tdatacat_cabtam[".import"] = true;
 
-$tdatacat_cabtam[".exportTo"] = true;
 
-$tdatacat_cabtam[".printFriendly"] = true;
 
-$tdatacat_cabtam[".delete"] = true;
 
 $tdatacat_cabtam[".showSimpleSearchOptions"] = false;
 

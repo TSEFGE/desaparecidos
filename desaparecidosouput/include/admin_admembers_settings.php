@@ -33,10 +33,6 @@ if(mlang_getcurrentlang()=="")
 	$fieldLabelsadmin_admembers[""] = array();
 	$fieldToolTipsadmin_admembers[""] = array();
 	$pageTitlesadmin_admembers[""] = array();
-	$fieldLabelsadmin_admembers[""]["GroupID"] = "Group ID";
-	$fieldToolTipsadmin_admembers[""]["GroupID"] = "";
-	$fieldLabelsadmin_admembers[""]["Label"] = "Label";
-	$fieldToolTipsadmin_admembers[""]["Label"] = "";
 	if (count($fieldToolTipsadmin_admembers[""]))
 		$tdataadmin_admembers[".isUseToolTips"] = true;
 }

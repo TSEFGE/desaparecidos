@@ -1262,49 +1262,55 @@ class CrossTableReport
 			return true;
 			
 		$isDB = false;
-		if("desaparecidos2017" == $this->xml_array['tables'][0])
+		if("cat_cabcol" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_mpos" == $this->xml_array['tables'][0])
+		if("cat_cabtam" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_edos" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("cat_sexo" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("catnacionalidad" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("cat_escolaridad" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("cat_comp" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("cat_ojos" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("cat_piel" == $this->xml_array['tables'][0])
+		if("cat_cejas" == $this->xml_array['tables'][0])
 			$isDB = true;
 		if("cat_cabtip" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_cabcol" == $this->xml_array['tables'][0])
+		if("cat_comp" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_nariz" == $this->xml_array['tables'][0])
+		if("cat_delito" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_edos" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_escolaridad" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_est_apar" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_estatus" == $this->xml_array['tables'][0])
 			$isDB = true;
 		if("cat_labios" == $this->xml_array['tables'][0])
 			$isDB = true;
 		if("cat_menton" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_cejas" == $this->xml_array['tables'][0])
+		if("cat_mpos" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_nariz" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_ojos" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_piel" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_sexo" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("cat_valida" == $this->xml_array['tables'][0])
 			$isDB = true;
 		if("cat_vfacial" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_delito" == $this->xml_array['tables'][0])
+		if("catnacionalidad" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_estatus" == $this->xml_array['tables'][0])
+		if("colaboraciones" == $this->xml_array['tables'][0])
 			$isDB = true;
-		if("cat_est_apar" == $this->xml_array['tables'][0])
-			$isDB = true;
-		if("unidad" == $this->xml_array['tables'][0])
+		if("desaparecidos" == $this->xml_array['tables'][0])
 			$isDB = true;
 		if("desaparecidos_ugrights" == $this->xml_array['tables'][0])
 			$isDB = true;
 		if("desaparecidos_uggroups" == $this->xml_array['tables'][0])
+			$isDB = true;
+		if("unidad" == $this->xml_array['tables'][0])
 			$isDB = true;
 		return $isDB;
 	}

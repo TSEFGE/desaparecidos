@@ -303,39 +303,15 @@ class AuditTrailTable
 	
 	function logValueEnable($table)
 	{
-		if($table=="desaparecidos2017")
+		if($table=="cat_cabcol")
 		{
 			return false;
 		}
-		if($table=="cat_mpos")
+		if($table=="cat_cabtam")
 		{
 			return false;
 		}
-		if($table=="cat_edos")
-		{
-			return false;
-		}
-		if($table=="cat_sexo")
-		{
-			return false;
-		}
-		if($table=="catnacionalidad")
-		{
-			return false;
-		}
-		if($table=="cat_escolaridad")
-		{
-			return false;
-		}
-		if($table=="cat_comp")
-		{
-			return false;
-		}
-		if($table=="cat_ojos")
-		{
-			return false;
-		}
-		if($table=="cat_piel")
+		if($table=="cat_cejas")
 		{
 			return false;
 		}
@@ -343,11 +319,27 @@ class AuditTrailTable
 		{
 			return false;
 		}
-		if($table=="cat_cabcol")
+		if($table=="cat_comp")
 		{
 			return false;
 		}
-		if($table=="cat_nariz")
+		if($table=="cat_delito")
+		{
+			return false;
+		}
+		if($table=="cat_edos")
+		{
+			return false;
+		}
+		if($table=="cat_escolaridad")
+		{
+			return false;
+		}
+		if($table=="cat_est_apar")
+		{
+			return false;
+		}
+		if($table=="cat_estatus")
 		{
 			return false;
 		}
@@ -359,7 +351,27 @@ class AuditTrailTable
 		{
 			return false;
 		}
-		if($table=="cat_cejas")
+		if($table=="cat_mpos")
+		{
+			return false;
+		}
+		if($table=="cat_nariz")
+		{
+			return false;
+		}
+		if($table=="cat_ojos")
+		{
+			return false;
+		}
+		if($table=="cat_piel")
+		{
+			return false;
+		}
+		if($table=="cat_sexo")
+		{
+			return false;
+		}
+		if($table=="cat_valida")
 		{
 			return false;
 		}
@@ -367,19 +379,15 @@ class AuditTrailTable
 		{
 			return false;
 		}
-		if($table=="cat_delito")
+		if($table=="catnacionalidad")
 		{
 			return false;
 		}
-		if($table=="cat_estatus")
+		if($table=="colaboraciones")
 		{
 			return false;
 		}
-		if($table=="cat_est_apar")
-		{
-			return false;
-		}
-		if($table=="unidad")
+		if($table=="desaparecidos")
 		{
 			return false;
 		}
@@ -388,6 +396,10 @@ class AuditTrailTable
 			return false;
 		}
 		if($table=="admin_admembers")
+		{
+			return false;
+		}
+		if($table=="unidad")
 		{
 			return false;
 		}
@@ -690,39 +702,15 @@ class AuditTrailFile
 	
 	function logValueEnable($table)
 	{
-		if($table=="desaparecidos2017")
+		if($table=="cat_cabcol")
 		{
 			return false;
 		}
-		if($table=="cat_mpos")
+		if($table=="cat_cabtam")
 		{
 			return false;
 		}
-		if($table=="cat_edos")
-		{
-			return false;
-		}
-		if($table=="cat_sexo")
-		{
-			return false;
-		}
-		if($table=="catnacionalidad")
-		{
-			return false;
-		}
-		if($table=="cat_escolaridad")
-		{
-			return false;
-		}
-		if($table=="cat_comp")
-		{
-			return false;
-		}
-		if($table=="cat_ojos")
-		{
-			return false;
-		}
-		if($table=="cat_piel")
+		if($table=="cat_cejas")
 		{
 			return false;
 		}
@@ -730,11 +718,27 @@ class AuditTrailFile
 		{
 			return false;
 		}
-		if($table=="cat_cabcol")
+		if($table=="cat_comp")
 		{
 			return false;
 		}
-		if($table=="cat_nariz")
+		if($table=="cat_delito")
+		{
+			return false;
+		}
+		if($table=="cat_edos")
+		{
+			return false;
+		}
+		if($table=="cat_escolaridad")
+		{
+			return false;
+		}
+		if($table=="cat_est_apar")
+		{
+			return false;
+		}
+		if($table=="cat_estatus")
 		{
 			return false;
 		}
@@ -746,7 +750,27 @@ class AuditTrailFile
 		{
 			return false;
 		}
-		if($table=="cat_cejas")
+		if($table=="cat_mpos")
+		{
+			return false;
+		}
+		if($table=="cat_nariz")
+		{
+			return false;
+		}
+		if($table=="cat_ojos")
+		{
+			return false;
+		}
+		if($table=="cat_piel")
+		{
+			return false;
+		}
+		if($table=="cat_sexo")
+		{
+			return false;
+		}
+		if($table=="cat_valida")
 		{
 			return false;
 		}
@@ -754,19 +778,15 @@ class AuditTrailFile
 		{
 			return false;
 		}
-		if($table=="cat_delito")
+		if($table=="catnacionalidad")
 		{
 			return false;
 		}
-		if($table=="cat_estatus")
+		if($table=="colaboraciones")
 		{
 			return false;
 		}
-		if($table=="cat_est_apar")
-		{
-			return false;
-		}
-		if($table=="unidad")
+		if($table=="desaparecidos")
 		{
 			return false;
 		}
@@ -775,6 +795,10 @@ class AuditTrailFile
 			return false;
 		}
 		if($table=="admin_admembers")
+		{
+			return false;
+		}
+		if($table=="unidad")
 		{
 			return false;
 		}

@@ -1,0 +1,644 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+{BEGIN printheader}
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel colaboraciones print}</h1>
+</div>{END printheader}
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Página <span class="rp-pageno">{$pageno}</span> / <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN Estado_fieldheadercolumn}
+<th class="runner-cc {$Estado_class}" {$Estado_style}>
+	{BEGIN Estado_fieldheader}
+	<b>{$label colaboraciones Estado}</b>
+	{END Estado_fieldheader}
+</th>
+{END Estado_fieldheadercolumn}
+	{BEGIN Mun_fieldheadercolumn}
+<th class="runner-cc {$Mun_class}" {$Mun_style}>
+	{BEGIN Mun_fieldheader}
+	<b>{$label colaboraciones Mun}</b>
+	{END Mun_fieldheader}
+</th>
+{END Mun_fieldheadercolumn}
+	{BEGIN uipj_fieldheadercolumn}
+<th class="runner-cc {$uipj_class}" {$uipj_style}>
+	{BEGIN uipj_fieldheader}
+	<b>{$label colaboraciones uipj}</b>
+	{END uipj_fieldheader}
+</th>
+{END uipj_fieldheadercolumn}
+	{BEGIN numFiscal_fieldheadercolumn}
+<th class="runner-cc {$numFiscal_class}" {$numFiscal_style}>
+	{BEGIN numFiscal_fieldheader}
+	<b>{$label colaboraciones numFiscal}</b>
+	{END numFiscal_fieldheader}
+</th>
+{END numFiscal_fieldheadercolumn}
+	{BEGIN a_oInv_fieldheadercolumn}
+<th class="runner-cc {$a_oInv_class}" {$a_oInv_style}>
+	{BEGIN a_oInv_fieldheader}
+	<b>{$label colaboraciones a_oInv}</b>
+	{END a_oInv_fieldheader}
+</th>
+{END a_oInv_fieldheadercolumn}
+	{BEGIN numInv_fieldheadercolumn}
+<th class="runner-cc {$numInv_class}" {$numInv_style}>
+	{BEGIN numInv_fieldheader}
+	<b>{$label colaboraciones numInv}</b>
+	{END numInv_fieldheader}
+</th>
+{END numInv_fieldheadercolumn}
+	{BEGIN FInicio_fieldheadercolumn}
+<th class="runner-cc {$FInicio_class}" {$FInicio_style}>
+	{BEGIN FInicio_fieldheader}
+	<b>{$label colaboraciones FInicio}</b>
+	{END FInicio_fieldheader}
+</th>
+{END FInicio_fieldheadercolumn}
+	{BEGIN MinPub_fieldheadercolumn}
+<th class="runner-cc {$MinPub_class}" {$MinPub_style}>
+	{BEGIN MinPub_fieldheader}
+	<b>{$label colaboraciones MinPub}</b>
+	{END MinPub_fieldheader}
+</th>
+{END MinPub_fieldheadercolumn}
+	{BEGIN Ofic_fieldheadercolumn}
+<th class="runner-cc {$Ofic_class}" {$Ofic_style}>
+	{BEGIN Ofic_fieldheader}
+	<b>{$label colaboraciones Ofic}</b>
+	{END Ofic_fieldheader}
+</th>
+{END Ofic_fieldheadercolumn}
+	{BEGIN FExtrav_fieldheadercolumn}
+<th class="runner-cc {$FExtrav_class}" {$FExtrav_style}>
+	{BEGIN FExtrav_fieldheader}
+	<b>{$label colaboraciones FExtrav}</b>
+	{END FExtrav_fieldheader}
+</th>
+{END FExtrav_fieldheadercolumn}
+	{BEGIN Nombre_fieldheadercolumn}
+<th class="runner-cc {$Nombre_class}" {$Nombre_style}>
+	{BEGIN Nombre_fieldheader}
+	<b>{$label colaboraciones Nombre}</b>
+	{END Nombre_fieldheader}
+</th>
+{END Nombre_fieldheadercolumn}
+	{BEGIN APat_fieldheadercolumn}
+<th class="runner-cc {$APat_class}" {$APat_style}>
+	{BEGIN APat_fieldheader}
+	<b>{$label colaboraciones APat}</b>
+	{END APat_fieldheader}
+</th>
+{END APat_fieldheadercolumn}
+	{BEGIN AMat_fieldheadercolumn}
+<th class="runner-cc {$AMat_class}" {$AMat_style}>
+	{BEGIN AMat_fieldheader}
+	<b>{$label colaboraciones AMat}</b>
+	{END AMat_fieldheader}
+</th>
+{END AMat_fieldheadercolumn}
+	{BEGIN Sexo_fieldheadercolumn}
+<th class="runner-cc {$Sexo_class}" {$Sexo_style}>
+	{BEGIN Sexo_fieldheader}
+	<b>{$label colaboraciones Sexo}</b>
+	{END Sexo_fieldheader}
+</th>
+{END Sexo_fieldheadercolumn}
+	{BEGIN EdadA_fieldheadercolumn}
+<th class="runner-cc {$EdadA_class}" {$EdadA_style}>
+	{BEGIN EdadA_fieldheader}
+	<b>{$label colaboraciones EdadA}</b>
+	{END EdadA_fieldheader}
+</th>
+{END EdadA_fieldheadercolumn}
+	{BEGIN EdadM_fieldheadercolumn}
+<th class="runner-cc {$EdadM_class}" {$EdadM_style}>
+	{BEGIN EdadM_fieldheader}
+	<b>{$label colaboraciones EdadM}</b>
+	{END EdadM_fieldheader}
+</th>
+{END EdadM_fieldheadercolumn}
+	{BEGIN Nac_fieldheadercolumn}
+<th class="runner-cc {$Nac_class}" {$Nac_style}>
+	{BEGIN Nac_fieldheader}
+	<b>{$label colaboraciones Nac}</b>
+	{END Nac_fieldheader}
+</th>
+{END Nac_fieldheadercolumn}
+	{BEGIN Origen_fieldheadercolumn}
+<th class="runner-cc {$Origen_class}" {$Origen_style}>
+	{BEGIN Origen_fieldheader}
+	<b>{$label colaboraciones Origen}</b>
+	{END Origen_fieldheader}
+</th>
+{END Origen_fieldheadercolumn}
+	{BEGIN MpoOrigen_fieldheadercolumn}
+<th class="runner-cc {$MpoOrigen_class}" {$MpoOrigen_style}>
+	{BEGIN MpoOrigen_fieldheader}
+	<b>{$label colaboraciones MpoOrigen}</b>
+	{END MpoOrigen_fieldheader}
+</th>
+{END MpoOrigen_fieldheadercolumn}
+	{BEGIN Escolaridad_fieldheadercolumn}
+<th class="runner-cc {$Escolaridad_class}" {$Escolaridad_style}>
+	{BEGIN Escolaridad_fieldheader}
+	<b>{$label colaboraciones Escolaridad}</b>
+	{END Escolaridad_fieldheader}
+</th>
+{END Escolaridad_fieldheadercolumn}
+	{BEGIN Est_fieldheadercolumn}
+<th class="runner-cc {$Est_class}" {$Est_style}>
+	{BEGIN Est_fieldheader}
+	<b>{$label colaboraciones Est}</b>
+	{END Est_fieldheader}
+</th>
+{END Est_fieldheadercolumn}
+	{BEGIN Compl_fieldheadercolumn}
+<th class="runner-cc {$Compl_class}" {$Compl_style}>
+	{BEGIN Compl_fieldheader}
+	<b>{$label colaboraciones Compl}</b>
+	{END Compl_fieldheader}
+</th>
+{END Compl_fieldheadercolumn}
+	{BEGIN Ojos_fieldheadercolumn}
+<th class="runner-cc {$Ojos_class}" {$Ojos_style}>
+	{BEGIN Ojos_fieldheader}
+	<b>{$label colaboraciones Ojos}</b>
+	{END Ojos_fieldheader}
+</th>
+{END Ojos_fieldheadercolumn}
+	{BEGIN Piel_fieldheadercolumn}
+<th class="runner-cc {$Piel_class}" {$Piel_style}>
+	{BEGIN Piel_fieldheader}
+	<b>{$label colaboraciones Piel}</b>
+	{END Piel_fieldheader}
+</th>
+{END Piel_fieldheadercolumn}
+	{BEGIN Cab_fieldheadercolumn}
+<th class="runner-cc {$Cab_class}" {$Cab_style}>
+	{BEGIN Cab_fieldheader}
+	<b>{$label colaboraciones Cab}</b>
+	{END Cab_fieldheader}
+</th>
+{END Cab_fieldheadercolumn}
+	{BEGIN TCab_fieldheadercolumn}
+<th class="runner-cc {$TCab_class}" {$TCab_style}>
+	{BEGIN TCab_fieldheader}
+	<b>{$label colaboraciones TCab}</b>
+	{END TCab_fieldheader}
+</th>
+{END TCab_fieldheadercolumn}
+	{BEGIN Cabcol_fieldheadercolumn}
+<th class="runner-cc {$Cabcol_class}" {$Cabcol_style}>
+	{BEGIN Cabcol_fieldheader}
+	<b>{$label colaboraciones Cabcol}</b>
+	{END Cabcol_fieldheader}
+</th>
+{END Cabcol_fieldheadercolumn}
+	{BEGIN Nariz_fieldheadercolumn}
+<th class="runner-cc {$Nariz_class}" {$Nariz_style}>
+	{BEGIN Nariz_fieldheader}
+	<b>{$label colaboraciones Nariz}</b>
+	{END Nariz_fieldheader}
+</th>
+{END Nariz_fieldheadercolumn}
+	{BEGIN Labios_fieldheadercolumn}
+<th class="runner-cc {$Labios_class}" {$Labios_style}>
+	{BEGIN Labios_fieldheader}
+	<b>{$label colaboraciones Labios}</b>
+	{END Labios_fieldheader}
+</th>
+{END Labios_fieldheadercolumn}
+	{BEGIN Menton_fieldheadercolumn}
+<th class="runner-cc {$Menton_class}" {$Menton_style}>
+	{BEGIN Menton_fieldheader}
+	<b>{$label colaboraciones Menton}</b>
+	{END Menton_fieldheader}
+</th>
+{END Menton_fieldheadercolumn}
+	{BEGIN Cejas_fieldheadercolumn}
+<th class="runner-cc {$Cejas_class}" {$Cejas_style}>
+	{BEGIN Cejas_fieldheader}
+	<b>{$label colaboraciones Cejas}</b>
+	{END Cejas_fieldheader}
+</th>
+{END Cejas_fieldheadercolumn}
+	{BEGIN VFacial_fieldheadercolumn}
+<th class="runner-cc {$VFacial_class}" {$VFacial_style}>
+	{BEGIN VFacial_fieldheader}
+	<b>{$label colaboraciones VFacial}</b>
+	{END VFacial_fieldheader}
+</th>
+{END VFacial_fieldheadercolumn}
+	{BEGIN Delito_fieldheadercolumn}
+<th class="runner-cc {$Delito_class}" {$Delito_style}>
+	{BEGIN Delito_fieldheader}
+	<b>{$label colaboraciones Delito}</b>
+	{END Delito_fieldheader}
+</th>
+{END Delito_fieldheadercolumn}
+	{BEGIN Particularidades_fieldheadercolumn}
+<th class="runner-cc {$Particularidades_class}" {$Particularidades_style}>
+	{BEGIN Particularidades_fieldheader}
+	<b>{$label colaboraciones Particularidades}</b>
+	{END Particularidades_fieldheader}
+</th>
+{END Particularidades_fieldheadercolumn}
+	{BEGIN Nota_fieldheadercolumn}
+<th class="runner-cc {$Nota_class}" {$Nota_style}>
+	{BEGIN Nota_fieldheader}
+	<b>{$label colaboraciones Nota}</b>
+	{END Nota_fieldheader}
+</th>
+{END Nota_fieldheadercolumn}
+	{BEGIN DescHechos_fieldheadercolumn}
+<th class="runner-cc {$DescHechos_class}" {$DescHechos_style}>
+	{BEGIN DescHechos_fieldheader}
+	<b>{$label colaboraciones DescHechos}</b>
+	{END DescHechos_fieldheader}
+</th>
+{END DescHechos_fieldheadercolumn}
+	{BEGIN Obseva_fieldheadercolumn}
+<th class="runner-cc {$Obseva_class}" {$Obseva_style}>
+	{BEGIN Obseva_fieldheader}
+	<b>{$label colaboraciones Obseva}</b>
+	{END Obseva_fieldheader}
+</th>
+{END Obseva_fieldheadercolumn}
+	{BEGIN Status_fieldheadercolumn}
+<th class="runner-cc {$Status_class}" {$Status_style}>
+	{BEGIN Status_fieldheader}
+	<b>{$label colaboraciones Status}</b>
+	{END Status_fieldheader}
+</th>
+{END Status_fieldheadercolumn}
+	{BEGIN FAparicion_fieldheadercolumn}
+<th class="runner-cc {$FAparicion_class}" {$FAparicion_style}>
+	{BEGIN FAparicion_fieldheader}
+	<b>{$label colaboraciones FAparicion}</b>
+	{END FAparicion_fieldheader}
+</th>
+{END FAparicion_fieldheadercolumn}
+	{BEGIN Oficio_fieldheadercolumn}
+<th class="runner-cc {$Oficio_class}" {$Oficio_style}>
+	{BEGIN Oficio_fieldheader}
+	<b>{$label colaboraciones Oficio}</b>
+	{END Oficio_fieldheader}
+</th>
+{END Oficio_fieldheadercolumn}
+	{BEGIN EstApar_fieldheadercolumn}
+<th class="runner-cc {$EstApar_class}" {$EstApar_style}>
+	{BEGIN EstApar_fieldheader}
+	<b>{$label colaboraciones EstApar}</b>
+	{END EstApar_fieldheader}
+</th>
+{END EstApar_fieldheadercolumn}
+	{BEGIN fotoChica_fieldheadercolumn}
+<th class="runner-cc {$fotoChica_class}" {$fotoChica_style}>
+	{BEGIN fotoChica_fieldheader}
+	<b>{$label colaboraciones fotoChica}</b>
+	{END fotoChica_fieldheader}
+</th>
+{END fotoChica_fieldheadercolumn}
+	{BEGIN fotoGrande_fieldheadercolumn}
+<th class="runner-cc {$fotoGrande_class}" {$fotoGrande_style}>
+	{BEGIN fotoGrande_fieldheader}
+	<b>{$label colaboraciones fotoGrande}</b>
+	{END fotoGrande_fieldheader}
+</th>
+{END fotoGrande_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN Estado_fieldcolumn}
+<td  class="runner-cc {$Estado_class}" {$Estado_style} {$recordattrs}>
+	{$Estado_value}
+</td>
+{END Estado_fieldcolumn}
+	{BEGIN Mun_fieldcolumn}
+<td  class="runner-cc {$Mun_class}" {$Mun_style} {$recordattrs}>
+	{$Mun_value}
+</td>
+{END Mun_fieldcolumn}
+	{BEGIN uipj_fieldcolumn}
+<td  class="runner-cc {$uipj_class}" {$uipj_style} {$recordattrs}>
+	{$uipj_value}
+</td>
+{END uipj_fieldcolumn}
+	{BEGIN numFiscal_fieldcolumn}
+<td  class="runner-cc {$numFiscal_class}" {$numFiscal_style} {$recordattrs}>
+	{$numFiscal_value}
+</td>
+{END numFiscal_fieldcolumn}
+	{BEGIN a_oInv_fieldcolumn}
+<td  class="runner-cc {$a_oInv_class}" {$a_oInv_style} {$recordattrs}>
+	{$a_oInv_value}
+</td>
+{END a_oInv_fieldcolumn}
+	{BEGIN numInv_fieldcolumn}
+<td  class="runner-cc {$numInv_class}" {$numInv_style} {$recordattrs}>
+	{$numInv_value}
+</td>
+{END numInv_fieldcolumn}
+	{BEGIN FInicio_fieldcolumn}
+<td  class="runner-cc {$FInicio_class}" {$FInicio_style} {$recordattrs}>
+	{$FInicio_value}
+</td>
+{END FInicio_fieldcolumn}
+	{BEGIN MinPub_fieldcolumn}
+<td  class="runner-cc {$MinPub_class}" {$MinPub_style} {$recordattrs}>
+	{$MinPub_value}
+</td>
+{END MinPub_fieldcolumn}
+	{BEGIN Ofic_fieldcolumn}
+<td  class="runner-cc {$Ofic_class}" {$Ofic_style} {$recordattrs}>
+	{$Ofic_value}
+</td>
+{END Ofic_fieldcolumn}
+	{BEGIN FExtrav_fieldcolumn}
+<td  class="runner-cc {$FExtrav_class}" {$FExtrav_style} {$recordattrs}>
+	{$FExtrav_value}
+</td>
+{END FExtrav_fieldcolumn}
+	{BEGIN Nombre_fieldcolumn}
+<td  class="runner-cc {$Nombre_class}" {$Nombre_style} {$recordattrs}>
+	{$Nombre_value}
+</td>
+{END Nombre_fieldcolumn}
+	{BEGIN APat_fieldcolumn}
+<td  class="runner-cc {$APat_class}" {$APat_style} {$recordattrs}>
+	{$APat_value}
+</td>
+{END APat_fieldcolumn}
+	{BEGIN AMat_fieldcolumn}
+<td  class="runner-cc {$AMat_class}" {$AMat_style} {$recordattrs}>
+	{$AMat_value}
+</td>
+{END AMat_fieldcolumn}
+	{BEGIN Sexo_fieldcolumn}
+<td  class="runner-cc {$Sexo_class}" {$Sexo_style} {$recordattrs}>
+	{$Sexo_value}
+</td>
+{END Sexo_fieldcolumn}
+	{BEGIN EdadA_fieldcolumn}
+<td  class="runner-cc {$EdadA_class}" {$EdadA_style} {$recordattrs}>
+	{$EdadA_value}
+</td>
+{END EdadA_fieldcolumn}
+	{BEGIN EdadM_fieldcolumn}
+<td  class="runner-cc {$EdadM_class}" {$EdadM_style} {$recordattrs}>
+	{$EdadM_value}
+</td>
+{END EdadM_fieldcolumn}
+	{BEGIN Nac_fieldcolumn}
+<td  class="runner-cc {$Nac_class}" {$Nac_style} {$recordattrs}>
+	{$Nac_value}
+</td>
+{END Nac_fieldcolumn}
+	{BEGIN Origen_fieldcolumn}
+<td  class="runner-cc {$Origen_class}" {$Origen_style} {$recordattrs}>
+	{$Origen_value}
+</td>
+{END Origen_fieldcolumn}
+	{BEGIN MpoOrigen_fieldcolumn}
+<td  class="runner-cc {$MpoOrigen_class}" {$MpoOrigen_style} {$recordattrs}>
+	{$MpoOrigen_value}
+</td>
+{END MpoOrigen_fieldcolumn}
+	{BEGIN Escolaridad_fieldcolumn}
+<td  class="runner-cc {$Escolaridad_class}" {$Escolaridad_style} {$recordattrs}>
+	{$Escolaridad_value}
+</td>
+{END Escolaridad_fieldcolumn}
+	{BEGIN Est_fieldcolumn}
+<td  class="runner-cc {$Est_class}" {$Est_style} {$recordattrs}>
+	{$Est_value}
+</td>
+{END Est_fieldcolumn}
+	{BEGIN Compl_fieldcolumn}
+<td  class="runner-cc {$Compl_class}" {$Compl_style} {$recordattrs}>
+	{$Compl_value}
+</td>
+{END Compl_fieldcolumn}
+	{BEGIN Ojos_fieldcolumn}
+<td  class="runner-cc {$Ojos_class}" {$Ojos_style} {$recordattrs}>
+	{$Ojos_value}
+</td>
+{END Ojos_fieldcolumn}
+	{BEGIN Piel_fieldcolumn}
+<td  class="runner-cc {$Piel_class}" {$Piel_style} {$recordattrs}>
+	{$Piel_value}
+</td>
+{END Piel_fieldcolumn}
+	{BEGIN Cab_fieldcolumn}
+<td  class="runner-cc {$Cab_class}" {$Cab_style} {$recordattrs}>
+	{$Cab_value}
+</td>
+{END Cab_fieldcolumn}
+	{BEGIN TCab_fieldcolumn}
+<td  class="runner-cc {$TCab_class}" {$TCab_style} {$recordattrs}>
+	{$TCab_value}
+</td>
+{END TCab_fieldcolumn}
+	{BEGIN Cabcol_fieldcolumn}
+<td  class="runner-cc {$Cabcol_class}" {$Cabcol_style} {$recordattrs}>
+	{$Cabcol_value}
+</td>
+{END Cabcol_fieldcolumn}
+	{BEGIN Nariz_fieldcolumn}
+<td  class="runner-cc {$Nariz_class}" {$Nariz_style} {$recordattrs}>
+	{$Nariz_value}
+</td>
+{END Nariz_fieldcolumn}
+	{BEGIN Labios_fieldcolumn}
+<td  class="runner-cc {$Labios_class}" {$Labios_style} {$recordattrs}>
+	{$Labios_value}
+</td>
+{END Labios_fieldcolumn}
+	{BEGIN Menton_fieldcolumn}
+<td  class="runner-cc {$Menton_class}" {$Menton_style} {$recordattrs}>
+	{$Menton_value}
+</td>
+{END Menton_fieldcolumn}
+	{BEGIN Cejas_fieldcolumn}
+<td  class="runner-cc {$Cejas_class}" {$Cejas_style} {$recordattrs}>
+	{$Cejas_value}
+</td>
+{END Cejas_fieldcolumn}
+	{BEGIN VFacial_fieldcolumn}
+<td  class="runner-cc {$VFacial_class}" {$VFacial_style} {$recordattrs}>
+	{$VFacial_value}
+</td>
+{END VFacial_fieldcolumn}
+	{BEGIN Delito_fieldcolumn}
+<td  class="runner-cc {$Delito_class}" {$Delito_style} {$recordattrs}>
+	{$Delito_value}
+</td>
+{END Delito_fieldcolumn}
+	{BEGIN Particularidades_fieldcolumn}
+<td  class="runner-cc {$Particularidades_class}" {$Particularidades_style} {$recordattrs}>
+	{$Particularidades_value}
+</td>
+{END Particularidades_fieldcolumn}
+	{BEGIN Nota_fieldcolumn}
+<td  class="runner-cc {$Nota_class}" {$Nota_style} {$recordattrs}>
+	{$Nota_value}
+</td>
+{END Nota_fieldcolumn}
+	{BEGIN DescHechos_fieldcolumn}
+<td  class="runner-cc {$DescHechos_class}" {$DescHechos_style} {$recordattrs}>
+	{$DescHechos_value}
+</td>
+{END DescHechos_fieldcolumn}
+	{BEGIN Obseva_fieldcolumn}
+<td  class="runner-cc {$Obseva_class}" {$Obseva_style} {$recordattrs}>
+	{$Obseva_value}
+</td>
+{END Obseva_fieldcolumn}
+	{BEGIN Status_fieldcolumn}
+<td  class="runner-cc {$Status_class}" {$Status_style} {$recordattrs}>
+	{$Status_value}
+</td>
+{END Status_fieldcolumn}
+	{BEGIN FAparicion_fieldcolumn}
+<td  class="runner-cc {$FAparicion_class}" {$FAparicion_style} {$recordattrs}>
+	{$FAparicion_value}
+</td>
+{END FAparicion_fieldcolumn}
+	{BEGIN Oficio_fieldcolumn}
+<td  class="runner-cc {$Oficio_class}" {$Oficio_style} {$recordattrs}>
+	{$Oficio_value}
+</td>
+{END Oficio_fieldcolumn}
+	{BEGIN EstApar_fieldcolumn}
+<td  class="runner-cc {$EstApar_class}" {$EstApar_style} {$recordattrs}>
+	{$EstApar_value}
+</td>
+{END EstApar_fieldcolumn}
+	{BEGIN fotoChica_fieldcolumn}
+<td  class="runner-cc {$fotoChica_class}" {$fotoChica_style} {$recordattrs}>
+	{$fotoChica_value}
+</td>
+{END fotoChica_fieldcolumn}
+	{BEGIN fotoGrande_fieldcolumn}
+<td  class="runner-cc {$fotoGrande_class}" {$fotoGrande_style} {$recordattrs}>
+	{$fotoGrande_value}
+</td>
+{END fotoGrande_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+	{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

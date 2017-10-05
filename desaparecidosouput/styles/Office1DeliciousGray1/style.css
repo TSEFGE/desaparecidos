@@ -282,7 +282,7 @@ font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-s
 .Office1DeliciousGray1.rnr-s-fields > :not(.runner-c) > *.style3,
 .Office1DeliciousGray1.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
 {
-background-image: none; background-color: #A80000;color: #404040;
+background-image: none; background-color: #EFEFEF;color: #404040;
 font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
 }
 .Office1DeliciousGray1.rnr-s-fields > .rnr-c .rnr-leftbricks

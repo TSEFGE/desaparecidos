@@ -2446,50 +2446,56 @@ function GetTableURL($table = "")
 	global $strTableName, $projectTables;
 	if(!$table)
 		$table=$strTableName;
-	if("desaparecidos2017" == $table) 
-		return "desaparecidos2017";
-	if("cat_mpos" == $table) 
-		return "cat_mpos";
-	if("cat_edos" == $table) 
-		return "cat_edos";
-	if("cat_sexo" == $table) 
-		return "cat_sexo";
-	if("catnacionalidad" == $table) 
-		return "catnacionalidad";
-	if("cat_escolaridad" == $table) 
-		return "cat_escolaridad";
-	if("cat_comp" == $table) 
-		return "cat_comp";
-	if("cat_ojos" == $table) 
-		return "cat_ojos";
-	if("cat_piel" == $table) 
-		return "cat_piel";
-	if("cat_cabtip" == $table) 
-		return "cat_cabtip";
 	if("cat_cabcol" == $table) 
 		return "cat_cabcol";
-	if("cat_nariz" == $table) 
-		return "cat_nariz";
+	if("cat_cabtam" == $table) 
+		return "cat_cabtam";
+	if("cat_cejas" == $table) 
+		return "cat_cejas";
+	if("cat_cabtip" == $table) 
+		return "cat_cabtip";
+	if("cat_comp" == $table) 
+		return "cat_comp";
+	if("cat_delito" == $table) 
+		return "cat_delito";
+	if("cat_edos" == $table) 
+		return "cat_edos";
+	if("cat_escolaridad" == $table) 
+		return "cat_escolaridad";
+	if("cat_est_apar" == $table) 
+		return "cat_est_apar";
+	if("cat_estatus" == $table) 
+		return "cat_estatus";
 	if("cat_labios" == $table) 
 		return "cat_labios";
 	if("cat_menton" == $table) 
 		return "cat_menton";
-	if("cat_cejas" == $table) 
-		return "cat_cejas";
+	if("cat_mpos" == $table) 
+		return "cat_mpos";
+	if("cat_nariz" == $table) 
+		return "cat_nariz";
+	if("cat_ojos" == $table) 
+		return "cat_ojos";
+	if("cat_piel" == $table) 
+		return "cat_piel";
+	if("cat_sexo" == $table) 
+		return "cat_sexo";
+	if("cat_valida" == $table) 
+		return "cat_valida";
 	if("cat_vfacial" == $table) 
 		return "cat_vfacial";
-	if("cat_delito" == $table) 
-		return "cat_delito";
-	if("cat_estatus" == $table) 
-		return "cat_estatus";
-	if("cat_est_apar" == $table) 
-		return "cat_est_apar";
-	if("unidad" == $table) 
-		return "unidad";
+	if("catnacionalidad" == $table) 
+		return "catnacionalidad";
+	if("colaboraciones" == $table) 
+		return "colaboraciones";
+	if("desaparecidos" == $table) 
+		return "desaparecidos";
 	if("admin_rights" == $table) 
 		return "admin_rights";
 	if("admin_admembers" == $table) 
 		return "admin_admembers";
+	if("unidad" == $table) 
+		return "unidad";
 
 	return "";
 }
@@ -2500,50 +2506,56 @@ function GetTableByShort($shortTName = "")
 	global $projectTables;
 	if(!$shortTName)
 		return false;
-	if("desaparecidos2017" == $shortTName) 
-		return "desaparecidos2017";
-	if("cat_mpos" == $shortTName) 
-		return "cat_mpos";
-	if("cat_edos" == $shortTName) 
-		return "cat_edos";
-	if("cat_sexo" == $shortTName) 
-		return "cat_sexo";
-	if("catnacionalidad" == $shortTName) 
-		return "catnacionalidad";
-	if("cat_escolaridad" == $shortTName) 
-		return "cat_escolaridad";
-	if("cat_comp" == $shortTName) 
-		return "cat_comp";
-	if("cat_ojos" == $shortTName) 
-		return "cat_ojos";
-	if("cat_piel" == $shortTName) 
-		return "cat_piel";
-	if("cat_cabtip" == $shortTName) 
-		return "cat_cabtip";
 	if("cat_cabcol" == $shortTName) 
 		return "cat_cabcol";
-	if("cat_nariz" == $shortTName) 
-		return "cat_nariz";
+	if("cat_cabtam" == $shortTName) 
+		return "cat_cabtam";
+	if("cat_cejas" == $shortTName) 
+		return "cat_cejas";
+	if("cat_cabtip" == $shortTName) 
+		return "cat_cabtip";
+	if("cat_comp" == $shortTName) 
+		return "cat_comp";
+	if("cat_delito" == $shortTName) 
+		return "cat_delito";
+	if("cat_edos" == $shortTName) 
+		return "cat_edos";
+	if("cat_escolaridad" == $shortTName) 
+		return "cat_escolaridad";
+	if("cat_est_apar" == $shortTName) 
+		return "cat_est_apar";
+	if("cat_estatus" == $shortTName) 
+		return "cat_estatus";
 	if("cat_labios" == $shortTName) 
 		return "cat_labios";
 	if("cat_menton" == $shortTName) 
 		return "cat_menton";
-	if("cat_cejas" == $shortTName) 
-		return "cat_cejas";
+	if("cat_mpos" == $shortTName) 
+		return "cat_mpos";
+	if("cat_nariz" == $shortTName) 
+		return "cat_nariz";
+	if("cat_ojos" == $shortTName) 
+		return "cat_ojos";
+	if("cat_piel" == $shortTName) 
+		return "cat_piel";
+	if("cat_sexo" == $shortTName) 
+		return "cat_sexo";
+	if("cat_valida" == $shortTName) 
+		return "cat_valida";
 	if("cat_vfacial" == $shortTName) 
 		return "cat_vfacial";
-	if("cat_delito" == $shortTName) 
-		return "cat_delito";
-	if("cat_estatus" == $shortTName) 
-		return "cat_estatus";
-	if("cat_est_apar" == $shortTName) 
-		return "cat_est_apar";
-	if("unidad" == $shortTName) 
-		return "unidad";
+	if("catnacionalidad" == $shortTName) 
+		return "catnacionalidad";
+	if("colaboraciones" == $shortTName) 
+		return "colaboraciones";
+	if("desaparecidos" == $shortTName) 
+		return "desaparecidos";
 	if("admin_rights" == $shortTName) 
 		return "admin_rights";
 	if("admin_admembers" == $shortTName) 
 		return "admin_admembers";
+	if("unidad" == $shortTName) 
+		return "unidad";
 }
 
 //	A

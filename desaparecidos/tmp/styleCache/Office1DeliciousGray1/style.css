@@ -526,7 +526,7 @@ font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-s
 .preview.rnr-s-fields > :not(.runner-c) > *.style3,
 .preview.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
 {
-background-image: none; background-color: #A80000;color: #404040;
+background-image: none; background-color: #EFEFEF;color: #404040;
 font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
 }
 .preview.rnr-s-fields > .rnr-c .rnr-leftbricks
@@ -603,7 +603,7 @@ font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-s
 .preview.rnr-s-disabled-fields > :not(.runner-c) > *.style3,
 .preview.rnr-s-disabled-fields > * > :not(.rnr-b-wrapper) .style3
 {
-background-image: none; background-color: #B4B4B4;color: #B7B7B7;
+background-image: none; background-color: #ECECEC;color: #B7B7B7;
 font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
 }
 .preview.rnr-s-disabled-fields > .rnr-c .rnr-leftbricks
