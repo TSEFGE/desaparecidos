@@ -113,9 +113,7 @@ $tdatacat_cabcol[".allSearchFields"] = array();
 $tdatacat_cabcol[".filterFields"] = array();
 $tdatacat_cabcol[".requiredSearchFields"] = array();
 
-$tdatacat_cabcol[".allSearchFields"][] = "idcabcol";
-	$tdatacat_cabcol[".allSearchFields"][] = "cabcol";
-	
+
 
 $tdatacat_cabcol[".googleLikeFields"] = array();
 $tdatacat_cabcol[".googleLikeFields"][] = "idcabcol";
@@ -208,43 +206,29 @@ $tableKeyscat_cabcol[] = "idcabcol";
 $tdatacat_cabcol[".Keys"] = $tableKeyscat_cabcol;
 
 $tdatacat_cabcol[".listFields"] = array();
-$tdatacat_cabcol[".listFields"][] = "idcabcol";
-$tdatacat_cabcol[".listFields"][] = "cabcol";
 
 $tdatacat_cabcol[".hideMobileList"] = array();
 
 
 $tdatacat_cabcol[".viewFields"] = array();
-$tdatacat_cabcol[".viewFields"][] = "idcabcol";
-$tdatacat_cabcol[".viewFields"][] = "cabcol";
 
 $tdatacat_cabcol[".addFields"] = array();
-$tdatacat_cabcol[".addFields"][] = "cabcol";
 
 $tdatacat_cabcol[".masterListFields"] = array();
 $tdatacat_cabcol[".masterListFields"][] = "idcabcol";
 $tdatacat_cabcol[".masterListFields"][] = "cabcol";
 
 $tdatacat_cabcol[".inlineAddFields"] = array();
-$tdatacat_cabcol[".inlineAddFields"][] = "cabcol";
 
 $tdatacat_cabcol[".editFields"] = array();
-$tdatacat_cabcol[".editFields"][] = "cabcol";
 
 $tdatacat_cabcol[".inlineEditFields"] = array();
-$tdatacat_cabcol[".inlineEditFields"][] = "cabcol";
 
 $tdatacat_cabcol[".exportFields"] = array();
-$tdatacat_cabcol[".exportFields"][] = "idcabcol";
-$tdatacat_cabcol[".exportFields"][] = "cabcol";
 
 $tdatacat_cabcol[".importFields"] = array();
-$tdatacat_cabcol[".importFields"][] = "idcabcol";
-$tdatacat_cabcol[".importFields"][] = "cabcol";
 
 $tdatacat_cabcol[".printFields"] = array();
-$tdatacat_cabcol[".printFields"][] = "idcabcol";
-$tdatacat_cabcol[".printFields"][] = "cabcol";
 
 //	idcabcol
 //	Custom field settings
@@ -261,20 +245,15 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 		
 				
-		$fdata["bListPage"] = true; 
-	
 		
 		
 		
 		
-		$fdata["bViewPage"] = true; 
-	
-		$fdata["bAdvancedSearch"] = true; 
-	
-		$fdata["bPrinterPage"] = true; 
-	
-		$fdata["bExportPage"] = true; 
-	
+		
+		
+		
+		
+		
 		$fdata["strField"] = "idcabcol"; 
 	
 		$fdata["isSQLExpression"] = true;
@@ -282,8 +261,7 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 		
 		
-				$fdata["FieldPermissions"] = true;
-	
+				
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -360,11 +338,6 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
-// the end of search options settings	
 
 	
 
@@ -384,24 +357,15 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 		
 		
 				
-		$fdata["bListPage"] = true; 
-	
-		$fdata["bAddPage"] = true; 
-	
-		$fdata["bInlineAdd"] = true; 
-	
-		$fdata["bEditPage"] = true; 
-	
-		$fdata["bInlineEdit"] = true; 
-	
-		$fdata["bViewPage"] = true; 
-	
-		$fdata["bAdvancedSearch"] = true; 
-	
-		$fdata["bPrinterPage"] = true; 
-	
-		$fdata["bExportPage"] = true; 
-	
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		$fdata["strField"] = "cabcol"; 
 	
 		$fdata["isSQLExpression"] = true;
@@ -409,8 +373,7 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 		
 		
-				$fdata["FieldPermissions"] = true;
-	
+				
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -485,11 +448,6 @@ $tdatacat_cabcol[".printFields"][] = "cabcol";
 	
 	
 	
-// the field's search options settings
-		
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
-// the end of search options settings	
 
 	
 

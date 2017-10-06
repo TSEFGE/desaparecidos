@@ -1,0 +1,376 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+{BEGIN searchheader}
+<div  class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}"><span>	<h1>{$pagetitlelabel desaparecidos search}</h1>
+</span></div>{END searchheader}
+
+
+{BEGIN conditions_block}
+<div  class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">	<center>
+	<span class=fieldname>Criterio:&nbsp;</span>	
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$all_checkbox}><label for="all_checkbox"> Todas las condiciones</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$any_checkbox}><label for="any_checkbox"> Ninguna condición</label>
+	</center></div>{END conditions_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}"><table class="fieldGrid">
+	<tr>
+		<td>&nbsp;</td>
+		<td>NO</td>
+		<td colspan=3>&nbsp; </td>
+	</tr>
+	<tr class="{$fielddispclass_a_oInv}">
+	{BEGIN a_oInv_fieldblock}		
+	<td>
+		{$label desaparecidos a_oInv}
+	</td>
+	<td>
+		<input type="checkbox" {$a_oInv_notbox}>
+	</td>
+	<td>
+		{$searchtype_a_oInv}
+	</td>
+	<td>
+		{$a_oInv_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$a_oInv_editcontrol1}&nbsp;
+	</td>
+{END a_oInv_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_identResg}">
+	{BEGIN identResg_fieldblock}		
+	<td>
+		{$label desaparecidos identResg}
+	</td>
+	<td>
+		<input type="checkbox" {$identResg_notbox}>
+	</td>
+	<td>
+		{$searchtype_identResg}
+	</td>
+	<td>
+		{$identResg_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$identResg_editcontrol1}&nbsp;
+	</td>
+{END identResg_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_uipj}">
+	{BEGIN uipj_fieldblock}		
+	<td>
+		{$label desaparecidos uipj}
+	</td>
+	<td>
+		<input type="checkbox" {$uipj_notbox}>
+	</td>
+	<td>
+		{$searchtype_uipj}
+	</td>
+	<td>
+		{$uipj_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$uipj_editcontrol1}&nbsp;
+	</td>
+{END uipj_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_numFiscal}">
+	{BEGIN numFiscal_fieldblock}		
+	<td>
+		{$label desaparecidos numFiscal}
+	</td>
+	<td>
+		<input type="checkbox" {$numFiscal_notbox}>
+	</td>
+	<td>
+		{$searchtype_numFiscal}
+	</td>
+	<td>
+		{$numFiscal_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$numFiscal_editcontrol1}&nbsp;
+	</td>
+{END numFiscal_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Estado}">
+	{BEGIN Estado_fieldblock}		
+	<td>
+		{$label desaparecidos Estado}
+	</td>
+	<td>
+		<input type="checkbox" {$Estado_notbox}>
+	</td>
+	<td>
+		{$searchtype_Estado}
+	</td>
+	<td>
+		{$Estado_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Estado_editcontrol1}&nbsp;
+	</td>
+{END Estado_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Mun}">
+	{BEGIN Mun_fieldblock}		
+	<td>
+		{$label desaparecidos Mun}
+	</td>
+	<td>
+		<input type="checkbox" {$Mun_notbox}>
+	</td>
+	<td>
+		{$searchtype_Mun}
+	</td>
+	<td>
+		{$Mun_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Mun_editcontrol1}&nbsp;
+	</td>
+{END Mun_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_numInv}">
+	{BEGIN numInv_fieldblock}		
+	<td>
+		{$label desaparecidos numInv}
+	</td>
+	<td>
+		<input type="checkbox" {$numInv_notbox}>
+	</td>
+	<td>
+		{$searchtype_numInv}
+	</td>
+	<td>
+		{$numInv_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$numInv_editcontrol1}&nbsp;
+	</td>
+{END numInv_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FInicio}">
+	{BEGIN FInicio_fieldblock}		
+	<td>
+		{$label desaparecidos FInicio}
+	</td>
+	<td>
+		<input type="checkbox" {$FInicio_notbox}>
+	</td>
+	<td>
+		{$searchtype_FInicio}
+	</td>
+	<td>
+		{$FInicio_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FInicio_editcontrol1}&nbsp;
+	</td>
+{END FInicio_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_MinPub}">
+	{BEGIN MinPub_fieldblock}		
+	<td>
+		{$label desaparecidos MinPub}
+	</td>
+	<td>
+		<input type="checkbox" {$MinPub_notbox}>
+	</td>
+	<td>
+		{$searchtype_MinPub}
+	</td>
+	<td>
+		{$MinPub_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$MinPub_editcontrol1}&nbsp;
+	</td>
+{END MinPub_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FExtrav}">
+	{BEGIN FExtrav_fieldblock}		
+	<td>
+		{$label desaparecidos FExtrav}
+	</td>
+	<td>
+		<input type="checkbox" {$FExtrav_notbox}>
+	</td>
+	<td>
+		{$searchtype_FExtrav}
+	</td>
+	<td>
+		{$FExtrav_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FExtrav_editcontrol1}&nbsp;
+	</td>
+{END FExtrav_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nombre}">
+	{BEGIN Nombre_fieldblock}		
+	<td>
+		{$label desaparecidos Nombre}
+	</td>
+	<td>
+		<input type="checkbox" {$Nombre_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nombre}
+	</td>
+	<td>
+		{$Nombre_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nombre_editcontrol1}&nbsp;
+	</td>
+{END Nombre_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_APat}">
+	{BEGIN APat_fieldblock}		
+	<td>
+		{$label desaparecidos APat}
+	</td>
+	<td>
+		<input type="checkbox" {$APat_notbox}>
+	</td>
+	<td>
+		{$searchtype_APat}
+	</td>
+	<td>
+		{$APat_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$APat_editcontrol1}&nbsp;
+	</td>
+{END APat_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_AMat}">
+	{BEGIN AMat_fieldblock}		
+	<td>
+		{$label desaparecidos AMat}
+	</td>
+	<td>
+		<input type="checkbox" {$AMat_notbox}>
+	</td>
+	<td>
+		{$searchtype_AMat}
+	</td>
+	<td>
+		{$AMat_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$AMat_editcontrol1}&nbsp;
+	</td>
+{END AMat_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Status}">
+	{BEGIN Status_fieldblock}		
+	<td>
+		{$label desaparecidos Status}
+	</td>
+	<td>
+		<input type="checkbox" {$Status_notbox}>
+	</td>
+	<td>
+		{$searchtype_Status}
+	</td>
+	<td>
+		{$Status_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Status_editcontrol1}&nbsp;
+	</td>
+{END Status_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FAparicion}">
+	{BEGIN FAparicion_fieldblock}		
+	<td>
+		{$label desaparecidos FAparicion}
+	</td>
+	<td>
+		<input type="checkbox" {$FAparicion_notbox}>
+	</td>
+	<td>
+		{$searchtype_FAparicion}
+	</td>
+	<td>
+		{$FAparicion_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FAparicion_editcontrol1}&nbsp;
+	</td>
+{END FAparicion_fieldblock}
+	</tr>
+
+</table></div>
+
+
+{BEGIN searchbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">{BEGIN search_button}
+<a href="#" class="rnr-button main" {$searchbutton_attrs}>Buscar</a>
+{END search_button} 
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Reiniciar</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Volver a la lista</a>
+{END back_button}</div>{END searchbuttons}
+
+
+</div>
+{END container_fields}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

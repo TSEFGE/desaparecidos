@@ -64,6 +64,7 @@ function InitLookupLinks()
 	$lookupTableLinks["cat_est_apar"]["colaboraciones.EstApar"]["edit"] = array("table" => "colaboraciones", "field" => "EstApar", "page" => "edit");
 	$lookupTableLinks["cat_edos"]["desaparecidos.Estado"]["edit"] = array("table" => "desaparecidos", "field" => "Estado", "page" => "edit");
 	$lookupTableLinks["cat_mpos"]["desaparecidos.Mun"]["edit"] = array("table" => "desaparecidos", "field" => "Mun", "page" => "edit");
+	$lookupTableLinks["unidad"]["desaparecidos.uipj"]["edit"] = array("table" => "desaparecidos", "field" => "uipj", "page" => "edit");
 	$lookupTableLinks["cat_sexo"]["desaparecidos.Sexo"]["edit"] = array("table" => "desaparecidos", "field" => "Sexo", "page" => "edit");
 	$lookupTableLinks["catnacionalidad"]["desaparecidos.Nac"]["edit"] = array("table" => "desaparecidos", "field" => "Nac", "page" => "edit");
 	$lookupTableLinks["cat_edos"]["desaparecidos.Origen"]["edit"] = array("table" => "desaparecidos", "field" => "Origen", "page" => "edit");

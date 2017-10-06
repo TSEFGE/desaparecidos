@@ -1243,11 +1243,37 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 //	Begin Edit Formats 	
 	$fdata["EditFormats"] = array();
 	
-	$edata = array("EditFormat" => "Text field");
+	$edata = array("EditFormat" => "Lookup wizard");
 	
 			
 	
 	
+// Begin Lookup settings
+				$edata["LookupType"] = 2;
+	$edata["LookupTable"] = "unidad";
+		$edata["autoCompleteFieldsOnEdit"] = 0;
+	$edata["autoCompleteFields"] = array();
+		$edata["LCType"] = 0;
+		
+		
+			
+	$edata["LinkField"] = "id";
+	$edata["LinkFieldType"] = 0;
+	$edata["DisplayField"] = "nombre";
+	
+		
+	$edata["LookupOrderBy"] = "nombre";
+	
+		
+			
+		
+				
+	
+	
+		
+		$edata["SelectSize"] = 1;
+		
+// End Lookup Settings
 
 
 		$edata["IsRequired"] = true; 
@@ -1263,17 +1289,14 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-			$edata["HTML5InuptType"] = "number";
-	
-		$edata["EditParams"] = "";
-			
+		
+		
 		$edata["controlWidth"] = 200;
 	
 //	Begin validation
 	$edata["validateAs"] = array();
 	$edata["validateAs"]["basicValidate"] = array();
 	$edata["validateAs"]["customMessages"] = array();
-				$edata["validateAs"]["basicValidate"][] = getJsValidatorName("Number");	
 						$edata["validateAs"]["basicValidate"][] = "IsRequired";
 			
 		
