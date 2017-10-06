@@ -24,17 +24,17 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelscolaboraciones["Spanish"]["Id"] = "Id";
 	$fieldToolTipscolaboraciones["Spanish"]["Id"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Estado"] = "Estado";
-	$fieldToolTipscolaboraciones["Spanish"]["Estado"] = "";
+	$fieldToolTipscolaboraciones["Spanish"]["Estado"] = "Estado donde se inicia la carpeta de investigación";
 	$fieldLabelscolaboraciones["Spanish"]["Mun"] = "Municipio";
-	$fieldToolTipscolaboraciones["Spanish"]["Mun"] = "";
+	$fieldToolTipscolaboraciones["Spanish"]["Mun"] = "Municipio donde se inicia la carpeta de investigación";
 	$fieldLabelscolaboraciones["Spanish"]["uipj"] = "UIPJ";
 	$fieldToolTipscolaboraciones["Spanish"]["uipj"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["numFiscal"] = "Número de Fiscal";
 	$fieldToolTipscolaboraciones["Spanish"]["numFiscal"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["a_oInv"] = "Año de Investigación";
 	$fieldToolTipscolaboraciones["Spanish"]["añoInv"] = "";
-	$fieldLabelscolaboraciones["Spanish"]["numInv"] = "Número de Investigación";
-	$fieldToolTipscolaboraciones["Spanish"]["numInv"] = "";
+	$fieldLabelscolaboraciones["Spanish"]["numInv"] = "Número de Carpeta";
+	$fieldToolTipscolaboraciones["Spanish"]["numInv"] = "Solo capturar el número correspondiente de la carpeta de investigación";
 	$fieldLabelscolaboraciones["Spanish"]["FInicio"] = "Fecha de Inicio";
 	$fieldToolTipscolaboraciones["Spanish"]["FInicio"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["MinPub"] = "Fiscal";
@@ -42,7 +42,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelscolaboraciones["Spanish"]["Agencia"] = "Agencia";
 	$fieldToolTipscolaboraciones["Spanish"]["Agencia"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Ofic"] = "Oficio de <br>Colaboración";
-	$fieldToolTipscolaboraciones["Spanish"]["Ofic"] = "";
+	$fieldToolTipscolaboraciones["Spanish"]["Ofic"] = "Número de oficio con el que solicitará su publicación a Centro de Información";
 	$fieldLabelscolaboraciones["Spanish"]["FExtrav"] = "Fecha de Extravío";
 	$fieldToolTipscolaboraciones["Spanish"]["FExtrav"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Nombre"] = "Nombre";
@@ -66,7 +66,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelscolaboraciones["Spanish"]["Escolaridad"] = "Escolaridad";
 	$fieldToolTipscolaboraciones["Spanish"]["Escolaridad"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Est"] = "Estatura";
-	$fieldToolTipscolaboraciones["Spanish"]["Est"] = "";
+	$fieldToolTipscolaboraciones["Spanish"]["Est"] = "Ingrese solo número sin abreviaturas o palabras";
 	$fieldLabelscolaboraciones["Spanish"]["Compl"] = "Complexión";
 	$fieldToolTipscolaboraciones["Spanish"]["Compl"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Ojos"] = "Ojos";
@@ -89,16 +89,16 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldToolTipscolaboraciones["Spanish"]["Cejas"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["VFacial"] = "Vello Facial";
 	$fieldToolTipscolaboraciones["Spanish"]["VFacial"] = "";
-	$fieldLabelscolaboraciones["Spanish"]["Delito"] = "Tipo de Desaparición";
+	$fieldLabelscolaboraciones["Spanish"]["Delito"] = "    Tipo de Desaparición";
 	$fieldToolTipscolaboraciones["Spanish"]["Delito"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Particularidades"] = "Particularidades";
-	$fieldToolTipscolaboraciones["Spanish"]["Particularidades"] = "";
+	$fieldToolTipscolaboraciones["Spanish"]["Particularidades"] = "Lunares, tatuajes, perforaciones, etcétera.";
 	$fieldLabelscolaboraciones["Spanish"]["Nota"] = "Vestimenta";
 	$fieldToolTipscolaboraciones["Spanish"]["Nota"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["DescHechos"] = "Hechos";
 	$fieldToolTipscolaboraciones["Spanish"]["DescHechos"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["Obseva"] = "Obsevaciones";
-	$fieldToolTipscolaboraciones["Spanish"]["Obseva"] = "";
+	$fieldToolTipscolaboraciones["Spanish"]["Obseva"] = "Anotación que considere pertinente";
 	$fieldLabelscolaboraciones["Spanish"]["Status"] = "Estatus";
 	$fieldToolTipscolaboraciones["Spanish"]["Status"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["FAparicion"] = "Fecha de Localizado";
@@ -5321,7 +5321,7 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 		
 		
 		
-		$edata["controlWidth"] = 200;
+		$edata["controlWidth"] = 130;
 	
 //	Begin validation
 	$edata["validateAs"] = array();

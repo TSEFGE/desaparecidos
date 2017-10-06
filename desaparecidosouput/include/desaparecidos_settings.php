@@ -24,17 +24,17 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsdesaparecidos["Spanish"]["Id"] = "Id";
 	$fieldToolTipsdesaparecidos["Spanish"]["Id"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Estado"] = "Estado";
-	$fieldToolTipsdesaparecidos["Spanish"]["Estado"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["Estado"] = "Estado donde se inicia la carpeta de investigación";
 	$fieldLabelsdesaparecidos["Spanish"]["Mun"] = "Municipio";
-	$fieldToolTipsdesaparecidos["Spanish"]["Mun"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["Mun"] = "Municipio donde se inicia la carpeta de investigación";
 	$fieldLabelsdesaparecidos["Spanish"]["uipj"] = "UIPJ";
 	$fieldToolTipsdesaparecidos["Spanish"]["uipj"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["numFiscal"] = "Número de Fiscal";
 	$fieldToolTipsdesaparecidos["Spanish"]["numFiscal"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["a_oInv"] = "Año de Investigación";
 	$fieldToolTipsdesaparecidos["Spanish"]["añoInv"] = "";
-	$fieldLabelsdesaparecidos["Spanish"]["numInv"] = "Número de Investigación";
-	$fieldToolTipsdesaparecidos["Spanish"]["numInv"] = "";
+	$fieldLabelsdesaparecidos["Spanish"]["numInv"] = "Número de Carpeta";
+	$fieldToolTipsdesaparecidos["Spanish"]["numInv"] = "Solo capturar el número correspondiente de la carpeta de investigación";
 	$fieldLabelsdesaparecidos["Spanish"]["FInicio"] = "Fecha de Inicio";
 	$fieldToolTipsdesaparecidos["Spanish"]["FInicio"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["MinPub"] = "Fiscal";
@@ -42,7 +42,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsdesaparecidos["Spanish"]["Agencia"] = "Agencia";
 	$fieldToolTipsdesaparecidos["Spanish"]["Agencia"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Ofic"] = "Oficio de <br>Colaboración";
-	$fieldToolTipsdesaparecidos["Spanish"]["Ofic"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["Ofic"] = "Número de oficio con el que solicitará su publicación a Centro de Información";
 	$fieldLabelsdesaparecidos["Spanish"]["FExtrav"] = "Fecha de Extravío";
 	$fieldToolTipsdesaparecidos["Spanish"]["FExtrav"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Nombre"] = "Nombre";
@@ -52,7 +52,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsdesaparecidos["Spanish"]["AMat"] = "Materno";
 	$fieldToolTipsdesaparecidos["Spanish"]["AMat"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["identResg"] = "Identidad <br>Resguardada";
-	$fieldToolTipsdesaparecidos["Spanish"]["identResg"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["identResg"] = "Favor de capturar iniciales o número que se designe para la persona con identidad reguardada ya que es lo que se publicará en el portal";
 	$fieldLabelsdesaparecidos["Spanish"]["Sexo"] = "Sexo";
 	$fieldToolTipsdesaparecidos["Spanish"]["Sexo"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["EdadA"] = "Edad Años";
@@ -68,7 +68,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsdesaparecidos["Spanish"]["Escolaridad"] = "Escolaridad";
 	$fieldToolTipsdesaparecidos["Spanish"]["Escolaridad"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Est"] = "Estatura";
-	$fieldToolTipsdesaparecidos["Spanish"]["Est"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["Est"] = "Ingrese solo número sin abreviaturas o palabras";
 	$fieldLabelsdesaparecidos["Spanish"]["Compl"] = "Complexión";
 	$fieldToolTipsdesaparecidos["Spanish"]["Compl"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Ojos"] = "Ojos";
@@ -94,13 +94,13 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsdesaparecidos["Spanish"]["Delito"] = "Tipo de Desaparición";
 	$fieldToolTipsdesaparecidos["Spanish"]["Delito"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Particularidades"] = "Particularidades";
-	$fieldToolTipsdesaparecidos["Spanish"]["Particularidades"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["Particularidades"] = "Lunares, tatuajes, perforaciones, etcétera.";
 	$fieldLabelsdesaparecidos["Spanish"]["Nota"] = "Vestimenta";
 	$fieldToolTipsdesaparecidos["Spanish"]["Nota"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["DescHechos"] = "Hechos";
 	$fieldToolTipsdesaparecidos["Spanish"]["DescHechos"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["Obseva"] = "Obsevaciones";
-	$fieldToolTipsdesaparecidos["Spanish"]["Obseva"] = "";
+	$fieldToolTipsdesaparecidos["Spanish"]["Obseva"] = "Anotación que considere pertinente";
 	$fieldLabelsdesaparecidos["Spanish"]["Status"] = "Estatus";
 	$fieldToolTipsdesaparecidos["Spanish"]["Status"] = "";
 	$fieldLabelsdesaparecidos["Spanish"]["FAparicion"] = "Fecha de Localizado";
@@ -5487,7 +5487,7 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		$edata["controlWidth"] = 200;
+		$edata["controlWidth"] = 150;
 	
 //	Begin validation
 	$edata["validateAs"] = array();
@@ -5929,7 +5929,7 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 //	Begin Edit Formats 	
 	$fdata["EditFormats"] = array();
 	
-	$edata = array("EditFormat" => "Text field");
+	$edata = array("EditFormat" => "Text area");
 	
 			
 	
@@ -5947,12 +5947,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
+				$edata["nRows"] = 50;
+			$edata["nCols"] = 200;
+	
 		
-			$edata["HTML5InuptType"] = "text";
-	
-		$edata["EditParams"] = "";
-			$edata["EditParams"].= " maxlength=255";
-	
+		
 		$edata["controlWidth"] = 200;
 	
 //	Begin validation

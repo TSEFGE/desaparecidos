@@ -856,6 +856,10 @@ function GetDefaultValue($field, $ptype, $table="")
 	{
 		return 30;
 	}
+				if($table=="desaparecidos" && $field=="Status") 
+	{
+		return 1;
+	}
 	return "";
 }
 
