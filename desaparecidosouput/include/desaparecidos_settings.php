@@ -7551,14 +7551,17 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 //  Begin View Formats
 	$fdata["ViewFormats"] = array();
 	
-	$vdata = array("ViewFormat" => "Document Download");
+	$vdata = array("ViewFormat" => "File-based Image");
 	
 		
 		
+				$vdata["ShowThumbnail"] = true;
+	$vdata["ThumbWidth"] = 72;
+	$vdata["ThumbHeight"] = 72;	
+			$vdata["ImageWidth"] = 457;
+	$vdata["ImageHeight"] = 0;
+	
 		
-				$vdata["ShowThumbnail"] = true; 
-					$vdata["ShowIcon"] = true; 
-			
 		
 		
 		

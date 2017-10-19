@@ -788,11 +788,6 @@ function fileCustomExpression($file, $data, $field, $ptype, $table="")
 		;
 		return $value;
 	}	
-				if($table=="desaparecidos" && $field=="fotoGrande")
-	{
-		;
-		return $value;
-	}	
 	return $value;
 }
 
