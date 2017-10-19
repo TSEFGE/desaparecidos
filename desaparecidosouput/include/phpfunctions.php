@@ -773,21 +773,6 @@ function fileCustomExpression($file, $data, $field, $ptype, $table="")
 	global $strTableName;
 	if(!$table)
 		$table = $strTableName;
-				if($table=="colaboraciones" && $field=="fotoChica")
-	{
-		;
-		return $value;
-	}	
-				if($table=="colaboraciones" && $field=="fotoGrande")
-	{
-		;
-		return $value;
-	}	
-				if($table=="desaparecidos" && $field=="fotoChica")
-	{
-		;
-		return $value;
-	}	
 	return $value;
 }
 
