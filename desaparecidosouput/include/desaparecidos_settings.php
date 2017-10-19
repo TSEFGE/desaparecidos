@@ -7437,7 +7437,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-								$vdata["ShowIcon"] = true; 
+				$vdata["ShowThumbnail"] = true; 
+					$vdata["ShowIcon"] = true; 
 			
 		
 		
@@ -7484,7 +7485,10 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 	//	End validation
 	
-		
+		$edata["CreateThumbnail"] = true;
+	$edata["StrThumbnail"] = "th";
+			$edata["ThumbnailSize"] = 150;
+	
 				$edata["ResizeImage"] = true;
 				$edata["NewSize"] = 80;
 	
@@ -7552,7 +7556,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-								$vdata["ShowIcon"] = true; 
+				$vdata["ShowThumbnail"] = true; 
+					$vdata["ShowIcon"] = true; 
 			
 		
 		
@@ -7599,7 +7604,10 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 	//	End validation
 	
-		
+		$edata["CreateThumbnail"] = true;
+	$edata["StrThumbnail"] = "th";
+			$edata["ThumbnailSize"] = 150;
+	
 				$edata["ResizeImage"] = true;
 				$edata["NewSize"] = 200;
 	
