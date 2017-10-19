@@ -7264,7 +7264,8 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 		
 		
 		
-								$vdata["ShowIcon"] = true; 
+				$vdata["ShowThumbnail"] = true; 
+					$vdata["ShowIcon"] = true; 
 			
 		
 		
@@ -7311,7 +7312,10 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 		
 	//	End validation
 	
-		
+		$edata["CreateThumbnail"] = true;
+	$edata["StrThumbnail"] = "th";
+			$edata["ThumbnailSize"] = 150;
+	
 				$edata["ResizeImage"] = true;
 				$edata["NewSize"] = 80;
 	
@@ -7379,7 +7383,8 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 		
 		
 		
-								$vdata["ShowIcon"] = true; 
+				$vdata["ShowThumbnail"] = true; 
+					$vdata["ShowIcon"] = true; 
 			
 		
 		
@@ -7426,7 +7431,10 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 		
 	//	End validation
 	
-		
+		$edata["CreateThumbnail"] = true;
+	$edata["StrThumbnail"] = "th";
+			$edata["ThumbnailSize"] = 150;
+	
 				$edata["ResizeImage"] = true;
 				$edata["NewSize"] = 200;
 	
