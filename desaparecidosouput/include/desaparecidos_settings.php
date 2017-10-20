@@ -1889,7 +1889,7 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 //	Begin Edit Formats 	
 	$fdata["EditFormats"] = array();
 	
-	$edata = array("EditFormat" => "Readonly");
+	$edata = array("EditFormat" => "Text field");
 	
 			
 	
@@ -1908,8 +1908,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
-		
+			$edata["HTML5InuptType"] = "text";
+	
+		$edata["EditParams"] = "";
+			$edata["EditParams"].= " maxlength=150";
+	
 		$edata["controlWidth"] = 200;
 	
 //	Begin validation
@@ -8717,7 +8720,8 @@ $queryData_desaparecidos = createSqlQuery_desaparecidos();
 	
 $tdatadesaparecidos[".sqlquery"] = $queryData_desaparecidos;
 
-$tableEvents["desaparecidos"] = new eventsBase;
-$tdatadesaparecidos[".hasEvents"] = false;
+include_once(getabspath("include/desaparecidos_events.php"));
+$tableEvents["desaparecidos"] = new eventclass_desaparecidos;
+$tdatadesaparecidos[".hasEvents"] = true;
 
 ?>

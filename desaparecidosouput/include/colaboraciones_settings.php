@@ -1855,7 +1855,7 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 //	Begin Edit Formats 	
 	$fdata["EditFormats"] = array();
 	
-	$edata = array("EditFormat" => "Readonly");
+	$edata = array("EditFormat" => "Text field");
 	
 			
 	
@@ -1874,8 +1874,11 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 		
 		
 		
-		
-		
+			$edata["HTML5InuptType"] = "text";
+	
+		$edata["EditParams"] = "";
+			$edata["EditParams"].= " maxlength=150";
+	
 		$edata["controlWidth"] = 200;
 	
 //	Begin validation
@@ -8375,7 +8378,8 @@ $queryData_colaboraciones = createSqlQuery_colaboraciones();
 	
 $tdatacolaboraciones[".sqlquery"] = $queryData_colaboraciones;
 
-$tableEvents["colaboraciones"] = new eventsBase;
-$tdatacolaboraciones[".hasEvents"] = false;
+include_once(getabspath("include/colaboraciones_events.php"));
+$tableEvents["colaboraciones"] = new eventclass_colaboraciones;
+$tdatacolaboraciones[".hasEvents"] = true;
 
 ?>

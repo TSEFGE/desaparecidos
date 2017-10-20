@@ -17,10 +17,10 @@ FROM cat_cabcol</m_strSQL>
 			<m_sqlHead>SELECT idcabcol,
 	cabcol</m_sqlHead>
 			<m_sqlFrom>FROM cat_cabcol</m_sqlFrom>
-			<m_sqlWhere></m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlWhere />
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy></m_strOrderBy>
+			<m_strOrderBy />
 			<m_nType>0</m_nType>
 			<m_strConnectionID>desaparecidos_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>cat_cabcol</m_strOriginalTable>
@@ -160,7 +160,7 @@ FROM cat_cabcol</m_strSQL>
 					<m_strTable>cat_cabcol</m_strTable>
 					<m_strName>idcabcol</m_strName>
 					<m_strSQLExpression>idcabcol</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -190,7 +190,7 @@ FROM cat_cabcol</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -377,7 +377,7 @@ FROM cat_cabcol</m_strSQL>
 					<m_strTable>cat_cabcol</m_strTable>
 					<m_strName>cabcol</m_strName>
 					<m_strSQLExpression>cabcol</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -407,7 +407,7 @@ FROM cat_cabcol</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -672,14 +672,14 @@ FROM cat_cabcol</m_sql>
 				<m_strFieldList>idcabcol,
 	cabcol</m_strFieldList>
 				<m_strFrom>FROM cat_cabcol</m_strFrom>
-				<m_strWhere></m_strWhere>
-				<m_strOrderBy></m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strWhere />
+				<m_strOrderBy />
+				<m_strTail />
 				<m_where>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -688,10 +688,10 @@ FROM cat_cabcol</m_sql>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -704,9 +704,9 @@ FROM cat_cabcol</m_sql>
 						<m_sql>idcabcol</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>cat_cabcol</m_strTable>
@@ -717,9 +717,9 @@ FROM cat_cabcol</m_sql>
 						<m_sql>cabcol</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>cat_cabcol</m_strTable>
@@ -734,7 +734,7 @@ FROM cat_cabcol</m_sql>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>cat_cabcol</m_strName>
@@ -743,12 +743,12 @@ FROM cat_cabcol</m_sql>
 								<val>cabcol</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -28426,8 +28426,8 @@ FROM colaboraciones</m_strSQL>
 					<m_strTable>colaboraciones</m_strTable>
 					<m_strName>fotoChica</m_strName>
 					<m_strSQLExpression>fotoChica</m_strSQLExpression>
-					<m_strSQLAlias />
-					<m_strTotalsType />
+					<m_strSQLAlias></m_strSQLAlias>
+					<m_strTotalsType></m_strTotalsType>
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -28456,7 +28456,7 @@ FROM colaboraciones</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>52</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -28474,13 +28474,13 @@ FROM colaboraciones</m_strSQL>
 							<m_nImageWidth>457</m_nImageWidth>
 							<m_nImageHeight>0</m_nImageHeight>
 							<m_nImageBorder>0</m_nImageBorder>
-							<m_nThumbWidth>72</m_nThumbWidth>
-							<m_nThumbHeight>72</m_nThumbHeight>
+							<m_nThumbWidth>60</m_nThumbWidth>
+							<m_nThumbHeight>80</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam />
-							<m_strFileCustomExpr />
-							<m_bShowThumbnail>0</m_bShowThumbnail>
+							<m_strhlParam></m_strhlParam>
+							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -28489,29 +28489,29 @@ FROM colaboraciones</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField />
-							<m_sLatField />
-							<m_sLonField />
-							<m_sMapDescription />
-							<m_strhlPrefix />
-							<m_strFilename />
-							<m_strCustomExpr />
-							<m_strMarkerIcon />
+							<m_sAddressField></m_sAddressField>
+							<m_sLatField></m_sLatField>
+							<m_sLonField></m_sLonField>
+							<m_sMapDescription></m_sMapDescription>
+							<m_strhlPrefix></m_strhlPrefix>
+							<m_strFilename></m_strFilename>
+							<m_strCustomExpr></m_strCustomExpr>
+							<m_strMarkerIcon></m_strMarkerIcon>
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField />
+							<m_strTitleField></m_strTitleField>
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat>Document Download</m_strViewFormat>
+							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString />
-							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
+							<m_pluginInitString></m_pluginInitString>
+							<m_strDotNetLanguage></m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -28522,11 +28522,11 @@ FROM colaboraciones</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue />
-							<m_strAutoUpdateValue />
+							<m_strDefaultValue></m_strDefaultValue>
+							<m_strAutoUpdateValue></m_strAutoUpdateValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs />
-							<m_strRegex />
+							<m_strValidateAs></m_strValidateAs>
+							<m_strRegex></m_strRegex>
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -28534,7 +28534,7 @@ FROM colaboraciones</m_strSQL>
 							<m_bTimestamp>0</m_bTimestamp>
 							<m_bResizeOnUpload>1</m_bResizeOnUpload>
 							<m_nNewSize>80</m_nNewSize>
-							<m_bCreateThumbnail>0</m_bCreateThumbnail>
+							<m_bCreateThumbnail>1</m_bCreateThumbnail>
 							<m_strThumbnail>th</m_strThumbnail>
 							<m_nThumbnailSize>150</m_nThumbnailSize>
 							<m_bUseRTE>0</m_bUseRTE>
@@ -28547,11 +28547,11 @@ FROM colaboraciones</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable />
-								<m_strConnectionID />
-								<m_strLinkField />
-								<m_strDisplayField />
-								<m_strOrderBy />
+								<m_strTable></m_strTable>
+								<m_strConnectionID></m_strConnectionID>
+								<m_strLinkField></m_strLinkField>
+								<m_strDisplayField></m_strDisplayField>
+								<m_strOrderBy></m_strOrderBy>
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -28559,7 +28559,7 @@ FROM colaboraciones</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere />
+								<m_strWhere></m_strWhere>
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -28571,13 +28571,13 @@ FROM colaboraciones</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask />
+							<m_strEditMask></m_strEditMask>
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString />
+							<m_pluginInitString></m_pluginInitString>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -28596,15 +28596,15 @@ FROM colaboraciones</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder />
+					<m_codeUploadFolder></m_codeUploadFolder>
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption />
+					<m_strSearchOption></m_strSearchOption>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField />
+						<m_strFilterTotalsField></m_strFilterTotalsField>
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -28635,16 +28635,16 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter />
-					<m_strChildFilter />
+					<m_strParentFilter></m_strParentFilter>
+					<m_strChildFilter></m_strChildFilter>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>colaboraciones</m_strTable>
 					<m_strName>fotoGrande</m_strName>
 					<m_strSQLExpression>fotoGrande</m_strSQLExpression>
-					<m_strSQLAlias />
-					<m_strTotalsType />
+					<m_strSQLAlias></m_strSQLAlias>
+					<m_strTotalsType></m_strTotalsType>
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -28673,7 +28673,7 @@ FROM colaboraciones</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>53</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -28691,13 +28691,13 @@ FROM colaboraciones</m_strSQL>
 							<m_nImageWidth>457</m_nImageWidth>
 							<m_nImageHeight>0</m_nImageHeight>
 							<m_nImageBorder>0</m_nImageBorder>
-							<m_nThumbWidth>72</m_nThumbWidth>
-							<m_nThumbHeight>72</m_nThumbHeight>
+							<m_nThumbWidth>170</m_nThumbWidth>
+							<m_nThumbHeight>200</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam />
-							<m_strFileCustomExpr />
-							<m_bShowThumbnail>0</m_bShowThumbnail>
+							<m_strhlParam></m_strhlParam>
+							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -28706,29 +28706,29 @@ FROM colaboraciones</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField />
-							<m_sLatField />
-							<m_sLonField />
-							<m_sMapDescription />
-							<m_strhlPrefix />
-							<m_strFilename />
-							<m_strCustomExpr />
-							<m_strMarkerIcon />
+							<m_sAddressField></m_sAddressField>
+							<m_sLatField></m_sLatField>
+							<m_sLonField></m_sLonField>
+							<m_sMapDescription></m_sMapDescription>
+							<m_strhlPrefix></m_strhlPrefix>
+							<m_strFilename></m_strFilename>
+							<m_strCustomExpr></m_strCustomExpr>
+							<m_strMarkerIcon></m_strMarkerIcon>
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField />
+							<m_strTitleField></m_strTitleField>
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat>Document Download</m_strViewFormat>
+							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString />
-							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
+							<m_pluginInitString></m_pluginInitString>
+							<m_strDotNetLanguage></m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -28739,11 +28739,11 @@ FROM colaboraciones</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue />
-							<m_strAutoUpdateValue />
+							<m_strDefaultValue></m_strDefaultValue>
+							<m_strAutoUpdateValue></m_strAutoUpdateValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs />
-							<m_strRegex />
+							<m_strValidateAs></m_strValidateAs>
+							<m_strRegex></m_strRegex>
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -28751,7 +28751,7 @@ FROM colaboraciones</m_strSQL>
 							<m_bTimestamp>0</m_bTimestamp>
 							<m_bResizeOnUpload>1</m_bResizeOnUpload>
 							<m_nNewSize>200</m_nNewSize>
-							<m_bCreateThumbnail>0</m_bCreateThumbnail>
+							<m_bCreateThumbnail>1</m_bCreateThumbnail>
 							<m_strThumbnail>th</m_strThumbnail>
 							<m_nThumbnailSize>150</m_nThumbnailSize>
 							<m_bUseRTE>0</m_bUseRTE>
@@ -28764,11 +28764,11 @@ FROM colaboraciones</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable />
-								<m_strConnectionID />
-								<m_strLinkField />
-								<m_strDisplayField />
-								<m_strOrderBy />
+								<m_strTable></m_strTable>
+								<m_strConnectionID></m_strConnectionID>
+								<m_strLinkField></m_strLinkField>
+								<m_strDisplayField></m_strDisplayField>
+								<m_strOrderBy></m_strOrderBy>
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -28776,7 +28776,7 @@ FROM colaboraciones</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere />
+								<m_strWhere></m_strWhere>
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -28788,13 +28788,13 @@ FROM colaboraciones</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask />
+							<m_strEditMask></m_strEditMask>
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString />
+							<m_pluginInitString></m_pluginInitString>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -28813,15 +28813,15 @@ FROM colaboraciones</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder />
+					<m_codeUploadFolder></m_codeUploadFolder>
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption />
+					<m_strSearchOption></m_strSearchOption>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField />
+						<m_strFilterTotalsField></m_strFilterTotalsField>
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -28852,8 +28852,8 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter />
-					<m_strChildFilter />
+					<m_strParentFilter></m_strParentFilter>
+					<m_strChildFilter></m_strChildFilter>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 			</m_arrFieldObj>
@@ -31664,8 +31664,8 @@ FROM desaparecidos</m_strSQL>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>uipj</m_strName>
 					<m_strSQLExpression>uipj</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -31694,7 +31694,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -31716,8 +31716,8 @@ FROM desaparecidos</m_strSQL>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -31727,28 +31727,28 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat></m_strViewFormat>
+							<m_strViewFormat />
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
@@ -31760,11 +31760,11 @@ FROM desaparecidos</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -31797,7 +31797,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -31809,13 +31809,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Lookup wizard</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -31834,15 +31834,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -31873,8 +31873,8 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -39481,8 +39481,8 @@ FROM desaparecidos</m_strSQL>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>Obseva</m_strName>
 					<m_strSQLExpression>Obseva</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -39511,7 +39511,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>40</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -39533,8 +39533,8 @@ FROM desaparecidos</m_strSQL>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -39544,28 +39544,28 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat></m_strViewFormat>
+							<m_strViewFormat />
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
@@ -39577,11 +39577,11 @@ FROM desaparecidos</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>50</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -39602,11 +39602,11 @@ FROM desaparecidos</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strConnectionID></m_strConnectionID>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strConnectionID />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -39614,7 +39614,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -39626,13 +39626,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text area</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -39651,15 +39651,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -39690,16 +39690,16 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>Status</m_strName>
 					<m_strSQLExpression>Status</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -39728,7 +39728,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>5</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>41</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -39750,8 +39750,8 @@ FROM desaparecidos</m_strSQL>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -39761,20 +39761,20 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -39782,7 +39782,7 @@ FROM desaparecidos</m_strSQL>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Number</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
@@ -39795,10 +39795,10 @@ FROM desaparecidos</m_strSQL>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
 							<m_strDefaultValue>1</m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -39831,7 +39831,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -39843,13 +39843,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Lookup wizard</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -39868,15 +39868,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -39907,8 +39907,8 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -42302,8 +42302,8 @@ FROM desaparecidos</m_strSQL>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>fotoChica</m_strName>
 					<m_strSQLExpression>fotoChica</m_strSQLExpression>
-					<m_strSQLAlias />
-					<m_strTotalsType />
+					<m_strSQLAlias></m_strSQLAlias>
+					<m_strTotalsType></m_strTotalsType>
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -42332,7 +42332,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>53</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -42350,13 +42350,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nImageWidth>457</m_nImageWidth>
 							<m_nImageHeight>0</m_nImageHeight>
 							<m_nImageBorder>0</m_nImageBorder>
-							<m_nThumbWidth>72</m_nThumbWidth>
-							<m_nThumbHeight>72</m_nThumbHeight>
+							<m_nThumbWidth>60</m_nThumbWidth>
+							<m_nThumbHeight>80</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam />
-							<m_strFileCustomExpr />
-							<m_bShowThumbnail>0</m_bShowThumbnail>
+							<m_strhlParam></m_strhlParam>
+							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -42365,29 +42365,29 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField />
-							<m_sLatField />
-							<m_sLonField />
-							<m_sMapDescription />
-							<m_strhlPrefix />
-							<m_strFilename />
-							<m_strCustomExpr />
-							<m_strMarkerIcon />
+							<m_sAddressField></m_sAddressField>
+							<m_sLatField></m_sLatField>
+							<m_sLonField></m_sLonField>
+							<m_sMapDescription></m_sMapDescription>
+							<m_strhlPrefix></m_strhlPrefix>
+							<m_strFilename></m_strFilename>
+							<m_strCustomExpr></m_strCustomExpr>
+							<m_strMarkerIcon></m_strMarkerIcon>
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField />
+							<m_strTitleField></m_strTitleField>
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat>Document Download</m_strViewFormat>
+							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString />
-							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
+							<m_pluginInitString></m_pluginInitString>
+							<m_strDotNetLanguage></m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -42398,11 +42398,11 @@ FROM desaparecidos</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue />
-							<m_strAutoUpdateValue />
+							<m_strDefaultValue></m_strDefaultValue>
+							<m_strAutoUpdateValue></m_strAutoUpdateValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs />
-							<m_strRegex />
+							<m_strValidateAs></m_strValidateAs>
+							<m_strRegex></m_strRegex>
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -42410,7 +42410,7 @@ FROM desaparecidos</m_strSQL>
 							<m_bTimestamp>0</m_bTimestamp>
 							<m_bResizeOnUpload>1</m_bResizeOnUpload>
 							<m_nNewSize>80</m_nNewSize>
-							<m_bCreateThumbnail>0</m_bCreateThumbnail>
+							<m_bCreateThumbnail>1</m_bCreateThumbnail>
 							<m_strThumbnail>th</m_strThumbnail>
 							<m_nThumbnailSize>150</m_nThumbnailSize>
 							<m_bUseRTE>0</m_bUseRTE>
@@ -42423,11 +42423,11 @@ FROM desaparecidos</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable />
-								<m_strConnectionID />
-								<m_strLinkField />
-								<m_strDisplayField />
-								<m_strOrderBy />
+								<m_strTable></m_strTable>
+								<m_strConnectionID></m_strConnectionID>
+								<m_strLinkField></m_strLinkField>
+								<m_strDisplayField></m_strDisplayField>
+								<m_strOrderBy></m_strOrderBy>
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -42435,7 +42435,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere />
+								<m_strWhere></m_strWhere>
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -42447,13 +42447,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask />
+							<m_strEditMask></m_strEditMask>
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString />
+							<m_pluginInitString></m_pluginInitString>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -42472,15 +42472,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder />
+					<m_codeUploadFolder></m_codeUploadFolder>
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption />
+					<m_strSearchOption></m_strSearchOption>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField />
+						<m_strFilterTotalsField></m_strFilterTotalsField>
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -42511,16 +42511,16 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter />
-					<m_strChildFilter />
+					<m_strParentFilter></m_strParentFilter>
+					<m_strChildFilter></m_strChildFilter>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>fotoGrande</m_strName>
 					<m_strSQLExpression>fotoGrande</m_strSQLExpression>
-					<m_strSQLAlias />
-					<m_strTotalsType />
+					<m_strSQLAlias></m_strSQLAlias>
+					<m_strTotalsType></m_strTotalsType>
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -42549,7 +42549,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>54</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -42567,13 +42567,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nImageWidth>457</m_nImageWidth>
 							<m_nImageHeight>0</m_nImageHeight>
 							<m_nImageBorder>0</m_nImageBorder>
-							<m_nThumbWidth>72</m_nThumbWidth>
-							<m_nThumbHeight>72</m_nThumbHeight>
+							<m_nThumbWidth>170</m_nThumbWidth>
+							<m_nThumbHeight>200</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam />
-							<m_strFileCustomExpr />
-							<m_bShowThumbnail>0</m_bShowThumbnail>
+							<m_strhlParam></m_strhlParam>
+							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -42582,29 +42582,29 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField />
-							<m_sLatField />
-							<m_sLonField />
-							<m_sMapDescription />
-							<m_strhlPrefix />
-							<m_strFilename />
-							<m_strCustomExpr />
-							<m_strMarkerIcon />
+							<m_sAddressField></m_sAddressField>
+							<m_sLatField></m_sLatField>
+							<m_sLonField></m_sLonField>
+							<m_sMapDescription></m_sMapDescription>
+							<m_strhlPrefix></m_strhlPrefix>
+							<m_strFilename></m_strFilename>
+							<m_strCustomExpr></m_strCustomExpr>
+							<m_strMarkerIcon></m_strMarkerIcon>
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField />
+							<m_strTitleField></m_strTitleField>
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat>Document Download</m_strViewFormat>
+							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString />
-							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
+							<m_pluginInitString></m_pluginInitString>
+							<m_strDotNetLanguage></m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -42615,11 +42615,11 @@ FROM desaparecidos</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue />
-							<m_strAutoUpdateValue />
+							<m_strDefaultValue></m_strDefaultValue>
+							<m_strAutoUpdateValue></m_strAutoUpdateValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs />
-							<m_strRegex />
+							<m_strValidateAs></m_strValidateAs>
+							<m_strRegex></m_strRegex>
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -42627,7 +42627,7 @@ FROM desaparecidos</m_strSQL>
 							<m_bTimestamp>0</m_bTimestamp>
 							<m_bResizeOnUpload>1</m_bResizeOnUpload>
 							<m_nNewSize>200</m_nNewSize>
-							<m_bCreateThumbnail>0</m_bCreateThumbnail>
+							<m_bCreateThumbnail>1</m_bCreateThumbnail>
 							<m_strThumbnail>th</m_strThumbnail>
 							<m_nThumbnailSize>150</m_nThumbnailSize>
 							<m_bUseRTE>0</m_bUseRTE>
@@ -42640,11 +42640,11 @@ FROM desaparecidos</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable />
-								<m_strConnectionID />
-								<m_strLinkField />
-								<m_strDisplayField />
-								<m_strOrderBy />
+								<m_strTable></m_strTable>
+								<m_strConnectionID></m_strConnectionID>
+								<m_strLinkField></m_strLinkField>
+								<m_strDisplayField></m_strDisplayField>
+								<m_strOrderBy></m_strOrderBy>
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -42652,7 +42652,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere />
+								<m_strWhere></m_strWhere>
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -42664,13 +42664,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask />
+							<m_strEditMask></m_strEditMask>
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString />
+							<m_pluginInitString></m_pluginInitString>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -42689,15 +42689,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder />
+					<m_codeUploadFolder></m_codeUploadFolder>
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption />
+					<m_strSearchOption></m_strSearchOption>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField />
+						<m_strFilterTotalsField></m_strFilterTotalsField>
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -42728,8 +42728,8 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter />
-					<m_strChildFilter />
+					<m_strParentFilter></m_strParentFilter>
+					<m_strChildFilter></m_strChildFilter>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -53657,8 +53657,8 @@ FROM unidad </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>151645904</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30621426</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>796993296</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30623999</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -56862,6 +56862,42 @@ FROM unidad </m_sql>
 				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\images\ic_info_black_24dp_1x_1.png</filename>
 				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\images\ic_info_black_24dp_1x_1.png</source>
 			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\btn_next.gif</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\btn_next.gif</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\btn_down.gif</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\btn_down.gif</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\btn_prev.gif</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\btn_prev.gif</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\btn_next.png</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\btn_next.png</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\btn_prev.png</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\btn_prev.png</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\btn_up.gif</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\btn_up.gif</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\images\x.png</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\images\x.png</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\jquery.sudoSlider.js</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\jquery.sudoSlider.js</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\style.css</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\style.css</source>
+			</v>
 		</builtFiles>
 		<m_builtDBTables>
 			<v>cat_cabcol</v>
@@ -56950,9 +56986,9 @@ FROM unidad </m_sql>
 	<m_bSection508Compatibility>0</m_bSection508Compatibility>
 	<m_bOldMysqlLib>0</m_bOldMysqlLib>
 	<m_bWebReports>0</m_bWebReports>
-	<m_strWRConnectionID></m_strWRConnectionID>
+	<m_strWRConnectionID />
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>34</m_projectBuildNumber>
+	<m_projectBuildNumber>49</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />

@@ -51,6 +51,10 @@ $layout->skinsparams["3"] = array("button"=>"button1");
 require_once('include/xtempl.php');
 require_once(getabspath("classes/cipherer.php"));
 
+include_once(getabspath("include/colaboraciones_events.php"));
+$tableEvents["colaboraciones"] = new eventclass_colaboraciones;
+include_once(getabspath("include/desaparecidos_events.php"));
+$tableEvents["desaparecidos"] = new eventclass_desaparecidos;
 
 $xt = new Xtempl();
 
