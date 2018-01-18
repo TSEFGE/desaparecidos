@@ -33,7 +33,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldToolTipscolaboraciones["Spanish"]["numFiscal"] = "";
 	$fieldLabelscolaboraciones["Spanish"]["a_oInv"] = "Año de Investigación";
 	$fieldToolTipscolaboraciones["Spanish"]["añoInv"] = "";
-	$fieldLabelscolaboraciones["Spanish"]["numInv"] = "Número de Carpeta";
+	$fieldLabelscolaboraciones["Spanish"]["numInv"] = "Número de Colaboración";
 	$fieldToolTipscolaboraciones["Spanish"]["numInv"] = "Solo capturar el número correspondiente de la carpeta de investigación";
 	$fieldLabelscolaboraciones["Spanish"]["FInicio"] = "Fecha de Inicio";
 	$fieldToolTipscolaboraciones["Spanish"]["FInicio"] = "";
@@ -474,6 +474,7 @@ $tdatacolaboraciones[".addFields"][] = "Ofic";
 $tdatacolaboraciones[".addFields"][] = "FExtrav";
 $tdatacolaboraciones[".addFields"][] = "Nombre";
 $tdatacolaboraciones[".addFields"][] = "APat";
+$tdatacolaboraciones[".addFields"][] = "fotoGrande";
 $tdatacolaboraciones[".addFields"][] = "Sexo";
 $tdatacolaboraciones[".addFields"][] = "EdadA";
 $tdatacolaboraciones[".addFields"][] = "EdadM";
@@ -503,7 +504,7 @@ $tdatacolaboraciones[".addFields"][] = "FAparicion";
 $tdatacolaboraciones[".addFields"][] = "Oficio";
 $tdatacolaboraciones[".addFields"][] = "EstApar";
 $tdatacolaboraciones[".addFields"][] = "fotoChica";
-$tdatacolaboraciones[".addFields"][] = "fotoGrande";
+$tdatacolaboraciones[".addFields"][] = "AMat";
 
 $tdatacolaboraciones[".masterListFields"] = array();
 $tdatacolaboraciones[".masterListFields"][] = "Id";
@@ -2529,7 +2530,8 @@ $tdatacolaboraciones[".printFields"][] = "fotoGrande";
 				
 		$fdata["bListPage"] = true; 
 	
-		
+		$fdata["bAddPage"] = true; 
+	
 		
 		$fdata["bEditPage"] = true; 
 	

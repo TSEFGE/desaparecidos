@@ -387,7 +387,7 @@ $adNestedPermissions = false;
 $globalSettings["isDynamicPerm"] = true;
 
 	$globalSettings["ADAdmins"] = array();
-		$globalSettings["ADAdmins"][] = "Gamers";
+		$globalSettings["ADAdmins"][] = "aguillen";
 	
 
 $globalSettings["ADSingleSign"] = 0;

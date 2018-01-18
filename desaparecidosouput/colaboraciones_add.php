@@ -21,7 +21,7 @@ AddPage::handleBrokenRequest();
 
 
 
-$layout = new TLayout("add_basic_2col_center", "Office1DeliciousGray1", "MobileDeliciousGray1");
+$layout = new TLayout("basic_2col_center2", "Office1DeliciousGray1", "MobileDeliciousGray1");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["all"] = array();

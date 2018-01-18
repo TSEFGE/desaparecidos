@@ -17089,7 +17089,26 @@ FROM catnacionalidad</m_sql>
 			</query>
 		</v>
 		<v>
-			<m_arrEventHandlers />
+			<m_arrEventHandlers>
+				<v>
+					<m_isRunTime>0</m_isRunTime>
+					<m_strPage>Edit page</m_strPage>
+					<m_strName>EVENT_AFTEREDIT</m_strName>
+					<m_strEventCode>$sql = "UPDATE colaboraciones set UsrBaja='".$_SESSION["UserID"] . "' where ".$where;
+CustomQuery($sql);
+
+// Place event code here.
+// Use </m_strEventCode>
+					<m_strEventID>EVENT_AFTEREDIT</m_strEventID>
+					<m_strWidgetID />
+					<sub />
+					<m_caption>
+						<text />
+						<nameType>Text</nameType>
+					</m_caption>
+					<m_strDotNetLanguage>cs</m_strDotNetLanguage>
+				</v>
+			</m_arrEventHandlers>
 			<DiagramCoordinates>
 				<x1>524</x1>
 				<x2>678</x2>
@@ -19233,7 +19252,7 @@ FROM colaboraciones</m_strSQL>
 							</m_pLookupObj>
 							<m_nInitialYearFactor>100</m_nInitialYearFactor>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
-							<m_strEditFormat>Readonly</m_strEditFormat>
+							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
 							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
@@ -28426,8 +28445,8 @@ FROM colaboraciones</m_strSQL>
 					<m_strTable>colaboraciones</m_strTable>
 					<m_strName>fotoChica</m_strName>
 					<m_strSQLExpression>fotoChica</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -28456,7 +28475,7 @@ FROM colaboraciones</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>52</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -28478,8 +28497,8 @@ FROM colaboraciones</m_strSQL>
 							<m_nThumbHeight>80</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -28489,20 +28508,20 @@ FROM colaboraciones</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -28510,8 +28529,8 @@ FROM colaboraciones</m_strSQL>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
-							<m_strDotNetLanguage></m_strDotNetLanguage>
+							<m_pluginInitString />
+							<m_strDotNetLanguage />
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -28522,11 +28541,11 @@ FROM colaboraciones</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -28547,11 +28566,11 @@ FROM colaboraciones</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strConnectionID></m_strConnectionID>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strConnectionID />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -28559,7 +28578,7 @@ FROM colaboraciones</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -28571,13 +28590,13 @@ FROM colaboraciones</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -28596,15 +28615,15 @@ FROM colaboraciones</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -28635,16 +28654,16 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>colaboraciones</m_strTable>
 					<m_strName>fotoGrande</m_strName>
 					<m_strSQLExpression>fotoGrande</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -28673,7 +28692,7 @@ FROM colaboraciones</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>53</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -28695,8 +28714,8 @@ FROM colaboraciones</m_strSQL>
 							<m_nThumbHeight>200</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -28706,20 +28725,20 @@ FROM colaboraciones</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -28727,8 +28746,8 @@ FROM colaboraciones</m_strSQL>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
-							<m_strDotNetLanguage></m_strDotNetLanguage>
+							<m_pluginInitString />
+							<m_strDotNetLanguage />
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -28739,11 +28758,11 @@ FROM colaboraciones</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -28764,11 +28783,11 @@ FROM colaboraciones</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strConnectionID></m_strConnectionID>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strConnectionID />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -28776,7 +28795,7 @@ FROM colaboraciones</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -28788,13 +28807,13 @@ FROM colaboraciones</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -28813,15 +28832,15 @@ FROM colaboraciones</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -28852,8 +28871,8 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 			</m_arrFieldObj>
@@ -30744,7 +30763,26 @@ FROM colaboraciones</m_sql>
 			</query>
 		</v>
 		<v>
-			<m_arrEventHandlers />
+			<m_arrEventHandlers>
+				<v>
+					<m_isRunTime>0</m_isRunTime>
+					<m_strPage>Edit page</m_strPage>
+					<m_strName>EVENT_AFTEREDIT</m_strName>
+					<m_strEventCode>$sql = "UPDATE desaparecidos set UsrBaja='".$_SESSION["UserID"] . "' where ".$where;
+CustomQuery($sql);
+
+// Place event code here.
+// Use </m_strEventCode>
+					<m_strEventID>EVENT_AFTEREDIT</m_strEventID>
+					<m_strWidgetID />
+					<sub />
+					<m_caption>
+						<text />
+						<nameType>Text</nameType>
+					</m_caption>
+					<m_strDotNetLanguage>cs</m_strDotNetLanguage>
+				</v>
+			</m_arrEventHandlers>
 			<DiagramCoordinates>
 				<x1>708</x1>
 				<x2>859</x2>
@@ -32892,7 +32930,7 @@ FROM desaparecidos</m_strSQL>
 							</m_pLookupObj>
 							<m_nInitialYearFactor>100</m_nInitialYearFactor>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
-							<m_strEditFormat>Readonly</m_strEditFormat>
+							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
 							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
@@ -42302,8 +42340,8 @@ FROM desaparecidos</m_strSQL>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>fotoChica</m_strName>
 					<m_strSQLExpression>fotoChica</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -42332,7 +42370,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>53</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -42354,8 +42392,8 @@ FROM desaparecidos</m_strSQL>
 							<m_nThumbHeight>80</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -42365,20 +42403,20 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -42386,8 +42424,8 @@ FROM desaparecidos</m_strSQL>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
-							<m_strDotNetLanguage></m_strDotNetLanguage>
+							<m_pluginInitString />
+							<m_strDotNetLanguage />
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -42398,11 +42436,11 @@ FROM desaparecidos</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -42423,11 +42461,11 @@ FROM desaparecidos</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strConnectionID></m_strConnectionID>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strConnectionID />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -42435,7 +42473,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -42447,13 +42485,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -42472,15 +42510,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -42511,16 +42549,16 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>desaparecidos</m_strTable>
 					<m_strName>fotoGrande</m_strName>
 					<m_strSQLExpression>fotoGrande</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -42549,7 +42587,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>54</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -42571,8 +42609,8 @@ FROM desaparecidos</m_strSQL>
 							<m_nThumbHeight>200</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>1</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -42582,20 +42620,20 @@ FROM desaparecidos</m_strSQL>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
-							<m_strMarkerIcon></m_strMarkerIcon>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
+							<m_strMarkerIcon />
 							<m_bUseMarkerIconExpr>0</m_bUseMarkerIconExpr>
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -42603,8 +42641,8 @@ FROM desaparecidos</m_strSQL>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>File-based Image</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
-							<m_strDotNetLanguage></m_strDotNetLanguage>
+							<m_pluginInitString />
+							<m_strDotNetLanguage />
 						</v>
 					</m_viewFormats>
 					<m_editFormats>
@@ -42615,11 +42653,11 @@ FROM desaparecidos</m_strSQL>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -42640,11 +42678,11 @@ FROM desaparecidos</m_strSQL>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strConnectionID></m_strConnectionID>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strConnectionID />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
@@ -42652,7 +42690,7 @@ FROM desaparecidos</m_strSQL>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
 								<m_arrDependentFields />
-								<m_strWhere></m_strWhere>
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -42664,13 +42702,13 @@ FROM desaparecidos</m_strSQL>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Document upload</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -42689,15 +42727,15 @@ FROM desaparecidos</m_strSQL>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>1</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -42728,8 +42766,8 @@ FROM desaparecidos</m_strSQL>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -52470,8 +52508,8 @@ FROM unidad </m_sql>
 				<m_strLanguage>Spanish</m_strLanguage>
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -52482,12 +52520,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabcol</m_strField>
 								<m_strLabel>Idcabcol</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cabcol</m_strField>
 								<m_strLabel>Cabcol</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52499,12 +52537,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabtam</m_strField>
 								<m_strLabel>Idcabtam</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cabtam</m_strField>
 								<m_strLabel>Cabtam</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52516,12 +52554,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcejas</m_strField>
 								<m_strLabel>Idcejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52533,12 +52571,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabtip</m_strField>
 								<m_strLabel>Idcabtip</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cabtip</m_strField>
 								<m_strLabel>Cabtip</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52550,12 +52588,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcomp</m_strField>
 								<m_strLabel>Idcomp</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>complexion</m_strField>
 								<m_strLabel>Complexion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52567,12 +52605,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>delito</m_strField>
 								<m_strLabel>Delito</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52584,17 +52622,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nom_ent</m_strField>
 								<m_strLabel>Nom Ent</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nom_abr</m_strField>
 								<m_strLabel>Nom Abr</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52606,12 +52644,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idescolaridad</m_strField>
 								<m_strLabel>Idescolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52623,12 +52661,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Estatus</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52640,12 +52678,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>estatus</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52657,12 +52695,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idlabios</m_strField>
 								<m_strLabel>Idlabios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52674,12 +52712,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idmenton</m_strField>
 								<m_strLabel>Idmenton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52691,32 +52729,32 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fkEdo</m_strField>
 								<m_strLabel>Fk Edo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cve_mun</m_strField>
 								<m_strLabel>Cve Mun</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cve_cab</m_strField>
 								<m_strLabel>Cve Cab</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nom_cab</m_strField>
 								<m_strLabel>Nom Cab</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52728,12 +52766,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idnariz</m_strField>
 								<m_strLabel>Idnariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52745,12 +52783,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idojos</m_strField>
 								<m_strLabel>Idojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52762,12 +52800,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idpiel</m_strField>
 								<m_strLabel>Idpiel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52779,12 +52817,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52796,12 +52834,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idValida</m_strField>
 								<m_strLabel>Id Valida</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52813,12 +52851,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idvfacial</m_strField>
 								<m_strLabel>Idvfacial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>vfacial</m_strField>
 								<m_strLabel>Vfacial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52830,12 +52868,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Clave</m_strField>
 								<m_strLabel>Clave</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nacionalidad</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52847,7 +52885,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Estado</m_strField>
@@ -52862,17 +52900,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>uipj</m_strField>
 								<m_strLabel>UIPJ</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numFiscal</m_strField>
 								<m_strLabel>Número de Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>añoInv</m_strField>
 								<m_strLabel>Año de Investigación</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numInv</m_strField>
@@ -52882,17 +52920,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FInicio</m_strField>
 								<m_strLabel>Fecha de Inicio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MinPub</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Agencia</m_strField>
 								<m_strLabel>Agencia</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ofic</m_strField>
@@ -52902,57 +52940,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FExtrav</m_strField>
 								<m_strLabel>Fecha de Extravío</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>APat</m_strField>
 								<m_strLabel>Paterno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AMat</m_strField>
 								<m_strLabel>Materno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadA</m_strField>
 								<m_strLabel>Edad Años</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadM</m_strField>
 								<m_strLabel>Edad Meses</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nac</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Origen</m_strField>
 								<m_strLabel>Estado de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MpoOrigen</m_strField>
 								<m_strLabel>Municipio de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Est</m_strField>
@@ -52962,62 +53000,62 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Compl</m_strField>
 								<m_strLabel>Complexión</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cab</m_strField>
 								<m_strLabel>Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TCab</m_strField>
 								<m_strLabel>Tipo de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cabcol</m_strField>
 								<m_strLabel>Color de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>VFacial</m_strField>
 								<m_strLabel>Vello Facial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
 								<m_strLabel>    Tipo de Desaparición</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Particularidades</m_strField>
@@ -53027,12 +53065,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Nota</m_strField>
 								<m_strLabel>Vestimenta</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>DescHechos</m_strField>
 								<m_strLabel>Hechos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Obseva</m_strField>
@@ -53042,72 +53080,72 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FAparicion</m_strField>
 								<m_strLabel>Fecha de Localizado</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Oficio</m_strField>
 								<m_strLabel>Oficio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EstApar</m_strField>
 								<m_strLabel>Estado del Aparecido</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Tipo</m_strField>
 								<m_strLabel>Tipo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FRecib</m_strField>
 								<m_strLabel>FRecib</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>UsrBaja</m_strField>
 								<m_strLabel>Usr Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FecBaja</m_strField>
 								<m_strLabel>Fec Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>RutFoto</m_strField>
 								<m_strLabel>Rut Foto</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FCaptura</m_strField>
 								<m_strLabel>FCaptura</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TipoDoc</m_strField>
 								<m_strLabel>Tipo Doc</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Usuario</m_strField>
 								<m_strLabel>Usuario</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoChica</m_strField>
 								<m_strLabel>Foto Chica</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoGrande</m_strField>
 								<m_strLabel>Foto Grande</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels>
@@ -53124,7 +53162,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Estado</m_strField>
@@ -53139,17 +53177,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>uipj</m_strField>
 								<m_strLabel>UIPJ</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numFiscal</m_strField>
 								<m_strLabel>Número de Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>añoInv</m_strField>
 								<m_strLabel>Año de Investigación</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numInv</m_strField>
@@ -53159,17 +53197,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FInicio</m_strField>
 								<m_strLabel>Fecha de Inicio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MinPub</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Agencia</m_strField>
 								<m_strLabel>Agencia</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ofic</m_strField>
@@ -53179,22 +53217,22 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FExtrav</m_strField>
 								<m_strLabel>Fecha de Extravío</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>APat</m_strField>
 								<m_strLabel>Paterno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AMat</m_strField>
 								<m_strLabel>Materno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>identResg</m_strField>
@@ -53204,37 +53242,37 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadA</m_strField>
 								<m_strLabel>Edad Años</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadM</m_strField>
 								<m_strLabel>Edad Meses</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nac</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Origen</m_strField>
 								<m_strLabel>Estado de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MpoOrigen</m_strField>
 								<m_strLabel>Municipio de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Est</m_strField>
@@ -53244,62 +53282,62 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Compl</m_strField>
 								<m_strLabel>Complexión</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cab</m_strField>
 								<m_strLabel>Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TCab</m_strField>
 								<m_strLabel>Tipo de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cabcol</m_strField>
 								<m_strLabel>Color de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>VFacial</m_strField>
 								<m_strLabel>Vello Facial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
 								<m_strLabel>Tipo de Desaparición</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Particularidades</m_strField>
@@ -53309,12 +53347,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Nota</m_strField>
 								<m_strLabel>Vestimenta</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>DescHechos</m_strField>
 								<m_strLabel>Hechos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Obseva</m_strField>
@@ -53324,77 +53362,77 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FAparicion</m_strField>
 								<m_strLabel>Fecha de Localizado</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Oficio</m_strField>
 								<m_strLabel>Oficio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EstApar</m_strField>
 								<m_strLabel>Estado del Aparecido</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Tipo</m_strField>
 								<m_strLabel>Tipo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FRecib</m_strField>
 								<m_strLabel>FRecib</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>UsrBaja</m_strField>
 								<m_strLabel>Usr Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FecBaja</m_strField>
 								<m_strLabel>Fec Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>RutFoto</m_strField>
 								<m_strLabel>Rut Foto</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FCaptura</m_strField>
 								<m_strLabel>FCaptura</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TipoDoc</m_strField>
 								<m_strLabel>Tipo Doc</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Usuario</m_strField>
 								<m_strLabel>Usuario</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoChica</m_strField>
 								<m_strLabel>Foto Chica</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoGrande</m_strField>
 								<m_strLabel>Foto Grande</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>validacion</m_strField>
 								<m_strLabel>Validación</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels>
@@ -53411,17 +53449,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>TableName</m_strField>
 								<m_strLabel>Table Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AccessMask</m_strField>
 								<m_strLabel>Access Mask</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53433,19 +53471,19 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Label</m_strField>
 								<m_strLabel>Label</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
 					</v>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -53456,57 +53494,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>direccion</m_strField>
 								<m_strLabel>Direccion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>latitud</m_strField>
 								<m_strLabel>Latitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>longitud</m_strField>
 								<m_strLabel>Longitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fiscal</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>distrito</m_strField>
 								<m_strLabel>Distrito</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>region</m_strField>
 								<m_strLabel>Region</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidad</m_strField>
 								<m_strLabel>Unidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>idFiscal</m_strField>
 								<m_strLabel>Id Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53514,11 +53552,11 @@ FROM unidad </m_sql>
 				</m_arrTableLabels>
 			</v>
 			<v>
-				<m_strLanguage></m_strLanguage>
+				<m_strLanguage />
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -53529,7 +53567,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53541,7 +53579,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53553,57 +53591,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>direccion</m_strField>
 								<m_strLabel>Direccion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>latitud</m_strField>
 								<m_strLabel>Latitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>longitud</m_strField>
 								<m_strLabel>Longitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fiscal</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>distrito</m_strField>
 								<m_strLabel>Distrito</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>region</m_strField>
 								<m_strLabel>Region</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidad</m_strField>
 								<m_strLabel>Unidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>idFiscal</m_strField>
 								<m_strLabel>Id Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53657,8 +53695,8 @@ FROM unidad </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>796993296</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30623999</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>-1558291984</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30633678</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -56898,6 +56936,22 @@ FROM unidad </m_sql>
 				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\sudo\style.css</filename>
 				<source>C:\Program Files\PHPRunner8.1\source\include\common\sudo\style.css</source>
 			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\colaboraciones_events.php</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\events.php</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\desaparecidos_events.php</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\events.php</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\runnerJS\events\pageevents_colaboraciones.js</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\runnerJS\events\pageevents.js</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\runnerJS\events\pageevents_desaparecidos.js</filename>
+				<source>C:\Program Files\PHPRunner8.1\source\include\common\runnerJS\events\pageevents.js</source>
+			</v>
 		</builtFiles>
 		<m_builtDBTables>
 			<v>cat_cabcol</v>
@@ -56960,7 +57014,7 @@ FROM unidad </m_sql>
 	<m_ADDomain>fiscaliaveracruz.gob.mx</m_ADDomain>
 	<m_ADServer>192.108.24.107</m_ADServer>
 	<m_ADAdmins>
-		<v>Gamers</v>
+		<v>aguillen</v>
 	</m_ADAdmins>
 	<m_ADSingleSignOn>0</m_ADSingleSignOn>
 	<m_ADLogin></m_ADLogin>
@@ -56986,9 +57040,9 @@ FROM unidad </m_sql>
 	<m_bSection508Compatibility>0</m_bSection508Compatibility>
 	<m_bOldMysqlLib>0</m_bOldMysqlLib>
 	<m_bWebReports>0</m_bWebReports>
-	<m_strWRConnectionID />
+	<m_strWRConnectionID></m_strWRConnectionID>
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>49</m_projectBuildNumber>
+	<m_projectBuildNumber>55</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
