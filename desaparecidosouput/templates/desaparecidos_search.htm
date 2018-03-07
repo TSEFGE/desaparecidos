@@ -48,43 +48,62 @@
 		<td>NO</td>
 		<td colspan=3>&nbsp; </td>
 	</tr>
-	<tr class="{$fielddispclass_a_oInv}">
-	{BEGIN a_oInv_fieldblock}		
+	<tr class="{$fielddispclass_Id}">
+	{BEGIN Id_fieldblock}		
 	<td>
-		{$label desaparecidos a_oInv}
+		{$label desaparecidos Id}
 	</td>
 	<td>
-		<input type="checkbox" {$a_oInv_notbox}>
+		<input type="checkbox" {$Id_notbox}>
 	</td>
 	<td>
-		{$searchtype_a_oInv}
+		{$searchtype_Id}
 	</td>
 	<td>
-		{$a_oInv_editcontrol}&nbsp;
+		{$Id_editcontrol}&nbsp;
 	</td>
 	<td>
-		{$a_oInv_editcontrol1}&nbsp;
+		{$Id_editcontrol1}&nbsp;
 	</td>
-{END a_oInv_fieldblock}
+{END Id_fieldblock}
 	</tr>
-	<tr class="{$fielddispclass_identResg}">
-	{BEGIN identResg_fieldblock}		
+	<tr class="{$fielddispclass_Usuario}">
+	{BEGIN Usuario_fieldblock}		
 	<td>
-		{$label desaparecidos identResg}
+		{$label desaparecidos Usuario}
 	</td>
 	<td>
-		<input type="checkbox" {$identResg_notbox}>
+		<input type="checkbox" {$Usuario_notbox}>
 	</td>
 	<td>
-		{$searchtype_identResg}
+		{$searchtype_Usuario}
 	</td>
 	<td>
-		{$identResg_editcontrol}&nbsp;
+		{$Usuario_editcontrol}&nbsp;
 	</td>
 	<td>
-		{$identResg_editcontrol1}&nbsp;
+		{$Usuario_editcontrol1}&nbsp;
 	</td>
-{END identResg_fieldblock}
+{END Usuario_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_TipoDoc}">
+	{BEGIN TipoDoc_fieldblock}		
+	<td>
+		{$label desaparecidos TipoDoc}
+	</td>
+	<td>
+		<input type="checkbox" {$TipoDoc_notbox}>
+	</td>
+	<td>
+		{$searchtype_TipoDoc}
+	</td>
+	<td>
+		{$TipoDoc_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$TipoDoc_editcontrol1}&nbsp;
+	</td>
+{END TipoDoc_fieldblock}
 	</tr>
 	<tr class="{$fielddispclass_uipj}">
 	{BEGIN uipj_fieldblock}		
@@ -123,6 +142,690 @@
 		{$numFiscal_editcontrol1}&nbsp;
 	</td>
 {END numFiscal_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_a_oInv}">
+	{BEGIN a_oInv_fieldblock}		
+	<td>
+		{$label desaparecidos a_oInv}
+	</td>
+	<td>
+		<input type="checkbox" {$a_oInv_notbox}>
+	</td>
+	<td>
+		{$searchtype_a_oInv}
+	</td>
+	<td>
+		{$a_oInv_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$a_oInv_editcontrol1}&nbsp;
+	</td>
+{END a_oInv_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FCaptura}">
+	{BEGIN FCaptura_fieldblock}		
+	<td>
+		{$label desaparecidos FCaptura}
+	</td>
+	<td>
+		<input type="checkbox" {$FCaptura_notbox}>
+	</td>
+	<td>
+		{$searchtype_FCaptura}
+	</td>
+	<td>
+		{$FCaptura_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FCaptura_editcontrol1}&nbsp;
+	</td>
+{END FCaptura_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FecBaja}">
+	{BEGIN FecBaja_fieldblock}		
+	<td>
+		{$label desaparecidos FecBaja}
+	</td>
+	<td>
+		<input type="checkbox" {$FecBaja_notbox}>
+	</td>
+	<td>
+		{$searchtype_FecBaja}
+	</td>
+	<td>
+		{$FecBaja_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FecBaja_editcontrol1}&nbsp;
+	</td>
+{END FecBaja_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_UsrBaja}">
+	{BEGIN UsrBaja_fieldblock}		
+	<td>
+		{$label desaparecidos UsrBaja}
+	</td>
+	<td>
+		<input type="checkbox" {$UsrBaja_notbox}>
+	</td>
+	<td>
+		{$searchtype_UsrBaja}
+	</td>
+	<td>
+		{$UsrBaja_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$UsrBaja_editcontrol1}&nbsp;
+	</td>
+{END UsrBaja_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Agencia}">
+	{BEGIN Agencia_fieldblock}		
+	<td>
+		{$label desaparecidos Agencia}
+	</td>
+	<td>
+		<input type="checkbox" {$Agencia_notbox}>
+	</td>
+	<td>
+		{$searchtype_Agencia}
+	</td>
+	<td>
+		{$Agencia_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Agencia_editcontrol1}&nbsp;
+	</td>
+{END Agencia_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Ofic}">
+	{BEGIN Ofic_fieldblock}		
+	<td>
+		{$label desaparecidos Ofic}
+	</td>
+	<td>
+		<input type="checkbox" {$Ofic_notbox}>
+	</td>
+	<td>
+		{$searchtype_Ofic}
+	</td>
+	<td>
+		{$Ofic_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Ofic_editcontrol1}&nbsp;
+	</td>
+{END Ofic_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_FRecib}">
+	{BEGIN FRecib_fieldblock}		
+	<td>
+		{$label desaparecidos FRecib}
+	</td>
+	<td>
+		<input type="checkbox" {$FRecib_notbox}>
+	</td>
+	<td>
+		{$searchtype_FRecib}
+	</td>
+	<td>
+		{$FRecib_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$FRecib_editcontrol1}&nbsp;
+	</td>
+{END FRecib_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Tipo}">
+	{BEGIN Tipo_fieldblock}		
+	<td>
+		{$label desaparecidos Tipo}
+	</td>
+	<td>
+		<input type="checkbox" {$Tipo_notbox}>
+	</td>
+	<td>
+		{$searchtype_Tipo}
+	</td>
+	<td>
+		{$Tipo_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Tipo_editcontrol1}&nbsp;
+	</td>
+{END Tipo_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_EstApar}">
+	{BEGIN EstApar_fieldblock}		
+	<td>
+		{$label desaparecidos EstApar}
+	</td>
+	<td>
+		<input type="checkbox" {$EstApar_notbox}>
+	</td>
+	<td>
+		{$searchtype_EstApar}
+	</td>
+	<td>
+		{$EstApar_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$EstApar_editcontrol1}&nbsp;
+	</td>
+{END EstApar_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Oficio}">
+	{BEGIN Oficio_fieldblock}		
+	<td>
+		{$label desaparecidos Oficio}
+	</td>
+	<td>
+		<input type="checkbox" {$Oficio_notbox}>
+	</td>
+	<td>
+		{$searchtype_Oficio}
+	</td>
+	<td>
+		{$Oficio_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Oficio_editcontrol1}&nbsp;
+	</td>
+{END Oficio_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_identResg}">
+	{BEGIN identResg_fieldblock}		
+	<td>
+		{$label desaparecidos identResg}
+	</td>
+	<td>
+		<input type="checkbox" {$identResg_notbox}>
+	</td>
+	<td>
+		{$searchtype_identResg}
+	</td>
+	<td>
+		{$identResg_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$identResg_editcontrol1}&nbsp;
+	</td>
+{END identResg_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Sexo}">
+	{BEGIN Sexo_fieldblock}		
+	<td>
+		{$label desaparecidos Sexo}
+	</td>
+	<td>
+		<input type="checkbox" {$Sexo_notbox}>
+	</td>
+	<td>
+		{$searchtype_Sexo}
+	</td>
+	<td>
+		{$Sexo_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Sexo_editcontrol1}&nbsp;
+	</td>
+{END Sexo_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_EdadA}">
+	{BEGIN EdadA_fieldblock}		
+	<td>
+		{$label desaparecidos EdadA}
+	</td>
+	<td>
+		<input type="checkbox" {$EdadA_notbox}>
+	</td>
+	<td>
+		{$searchtype_EdadA}
+	</td>
+	<td>
+		{$EdadA_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$EdadA_editcontrol1}&nbsp;
+	</td>
+{END EdadA_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_EdadM}">
+	{BEGIN EdadM_fieldblock}		
+	<td>
+		{$label desaparecidos EdadM}
+	</td>
+	<td>
+		<input type="checkbox" {$EdadM_notbox}>
+	</td>
+	<td>
+		{$searchtype_EdadM}
+	</td>
+	<td>
+		{$EdadM_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$EdadM_editcontrol1}&nbsp;
+	</td>
+{END EdadM_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nac}">
+	{BEGIN Nac_fieldblock}		
+	<td>
+		{$label desaparecidos Nac}
+	</td>
+	<td>
+		<input type="checkbox" {$Nac_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nac}
+	</td>
+	<td>
+		{$Nac_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nac_editcontrol1}&nbsp;
+	</td>
+{END Nac_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Origen}">
+	{BEGIN Origen_fieldblock}		
+	<td>
+		{$label desaparecidos Origen}
+	</td>
+	<td>
+		<input type="checkbox" {$Origen_notbox}>
+	</td>
+	<td>
+		{$searchtype_Origen}
+	</td>
+	<td>
+		{$Origen_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Origen_editcontrol1}&nbsp;
+	</td>
+{END Origen_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_MpoOrigen}">
+	{BEGIN MpoOrigen_fieldblock}		
+	<td>
+		{$label desaparecidos MpoOrigen}
+	</td>
+	<td>
+		<input type="checkbox" {$MpoOrigen_notbox}>
+	</td>
+	<td>
+		{$searchtype_MpoOrigen}
+	</td>
+	<td>
+		{$MpoOrigen_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$MpoOrigen_editcontrol1}&nbsp;
+	</td>
+{END MpoOrigen_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Escolaridad}">
+	{BEGIN Escolaridad_fieldblock}		
+	<td>
+		{$label desaparecidos Escolaridad}
+	</td>
+	<td>
+		<input type="checkbox" {$Escolaridad_notbox}>
+	</td>
+	<td>
+		{$searchtype_Escolaridad}
+	</td>
+	<td>
+		{$Escolaridad_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Escolaridad_editcontrol1}&nbsp;
+	</td>
+{END Escolaridad_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Est}">
+	{BEGIN Est_fieldblock}		
+	<td>
+		{$label desaparecidos Est}
+	</td>
+	<td>
+		<input type="checkbox" {$Est_notbox}>
+	</td>
+	<td>
+		{$searchtype_Est}
+	</td>
+	<td>
+		{$Est_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Est_editcontrol1}&nbsp;
+	</td>
+{END Est_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Compl}">
+	{BEGIN Compl_fieldblock}		
+	<td>
+		{$label desaparecidos Compl}
+	</td>
+	<td>
+		<input type="checkbox" {$Compl_notbox}>
+	</td>
+	<td>
+		{$searchtype_Compl}
+	</td>
+	<td>
+		{$Compl_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Compl_editcontrol1}&nbsp;
+	</td>
+{END Compl_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Ojos}">
+	{BEGIN Ojos_fieldblock}		
+	<td>
+		{$label desaparecidos Ojos}
+	</td>
+	<td>
+		<input type="checkbox" {$Ojos_notbox}>
+	</td>
+	<td>
+		{$searchtype_Ojos}
+	</td>
+	<td>
+		{$Ojos_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Ojos_editcontrol1}&nbsp;
+	</td>
+{END Ojos_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Piel}">
+	{BEGIN Piel_fieldblock}		
+	<td>
+		{$label desaparecidos Piel}
+	</td>
+	<td>
+		<input type="checkbox" {$Piel_notbox}>
+	</td>
+	<td>
+		{$searchtype_Piel}
+	</td>
+	<td>
+		{$Piel_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Piel_editcontrol1}&nbsp;
+	</td>
+{END Piel_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Cab}">
+	{BEGIN Cab_fieldblock}		
+	<td>
+		{$label desaparecidos Cab}
+	</td>
+	<td>
+		<input type="checkbox" {$Cab_notbox}>
+	</td>
+	<td>
+		{$searchtype_Cab}
+	</td>
+	<td>
+		{$Cab_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Cab_editcontrol1}&nbsp;
+	</td>
+{END Cab_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_TCab}">
+	{BEGIN TCab_fieldblock}		
+	<td>
+		{$label desaparecidos TCab}
+	</td>
+	<td>
+		<input type="checkbox" {$TCab_notbox}>
+	</td>
+	<td>
+		{$searchtype_TCab}
+	</td>
+	<td>
+		{$TCab_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$TCab_editcontrol1}&nbsp;
+	</td>
+{END TCab_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Cabcol}">
+	{BEGIN Cabcol_fieldblock}		
+	<td>
+		{$label desaparecidos Cabcol}
+	</td>
+	<td>
+		<input type="checkbox" {$Cabcol_notbox}>
+	</td>
+	<td>
+		{$searchtype_Cabcol}
+	</td>
+	<td>
+		{$Cabcol_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Cabcol_editcontrol1}&nbsp;
+	</td>
+{END Cabcol_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nariz}">
+	{BEGIN Nariz_fieldblock}		
+	<td>
+		{$label desaparecidos Nariz}
+	</td>
+	<td>
+		<input type="checkbox" {$Nariz_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nariz}
+	</td>
+	<td>
+		{$Nariz_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nariz_editcontrol1}&nbsp;
+	</td>
+{END Nariz_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Labios}">
+	{BEGIN Labios_fieldblock}		
+	<td>
+		{$label desaparecidos Labios}
+	</td>
+	<td>
+		<input type="checkbox" {$Labios_notbox}>
+	</td>
+	<td>
+		{$searchtype_Labios}
+	</td>
+	<td>
+		{$Labios_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Labios_editcontrol1}&nbsp;
+	</td>
+{END Labios_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Menton}">
+	{BEGIN Menton_fieldblock}		
+	<td>
+		{$label desaparecidos Menton}
+	</td>
+	<td>
+		<input type="checkbox" {$Menton_notbox}>
+	</td>
+	<td>
+		{$searchtype_Menton}
+	</td>
+	<td>
+		{$Menton_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Menton_editcontrol1}&nbsp;
+	</td>
+{END Menton_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Cejas}">
+	{BEGIN Cejas_fieldblock}		
+	<td>
+		{$label desaparecidos Cejas}
+	</td>
+	<td>
+		<input type="checkbox" {$Cejas_notbox}>
+	</td>
+	<td>
+		{$searchtype_Cejas}
+	</td>
+	<td>
+		{$Cejas_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Cejas_editcontrol1}&nbsp;
+	</td>
+{END Cejas_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_VFacial}">
+	{BEGIN VFacial_fieldblock}		
+	<td>
+		{$label desaparecidos VFacial}
+	</td>
+	<td>
+		<input type="checkbox" {$VFacial_notbox}>
+	</td>
+	<td>
+		{$searchtype_VFacial}
+	</td>
+	<td>
+		{$VFacial_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$VFacial_editcontrol1}&nbsp;
+	</td>
+{END VFacial_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Delito}">
+	{BEGIN Delito_fieldblock}		
+	<td>
+		{$label desaparecidos Delito}
+	</td>
+	<td>
+		<input type="checkbox" {$Delito_notbox}>
+	</td>
+	<td>
+		{$searchtype_Delito}
+	</td>
+	<td>
+		{$Delito_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Delito_editcontrol1}&nbsp;
+	</td>
+{END Delito_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Particularidades}">
+	{BEGIN Particularidades_fieldblock}		
+	<td>
+		{$label desaparecidos Particularidades}
+	</td>
+	<td>
+		<input type="checkbox" {$Particularidades_notbox}>
+	</td>
+	<td>
+		{$searchtype_Particularidades}
+	</td>
+	<td>
+		{$Particularidades_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Particularidades_editcontrol1}&nbsp;
+	</td>
+{END Particularidades_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nota}">
+	{BEGIN Nota_fieldblock}		
+	<td>
+		{$label desaparecidos Nota}
+	</td>
+	<td>
+		<input type="checkbox" {$Nota_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nota}
+	</td>
+	<td>
+		{$Nota_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nota_editcontrol1}&nbsp;
+	</td>
+{END Nota_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_DescHechos}">
+	{BEGIN DescHechos_fieldblock}		
+	<td>
+		{$label desaparecidos DescHechos}
+	</td>
+	<td>
+		<input type="checkbox" {$DescHechos_notbox}>
+	</td>
+	<td>
+		{$searchtype_DescHechos}
+	</td>
+	<td>
+		{$DescHechos_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$DescHechos_editcontrol1}&nbsp;
+	</td>
+{END DescHechos_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Obseva}">
+	{BEGIN Obseva_fieldblock}		
+	<td>
+		{$label desaparecidos Obseva}
+	</td>
+	<td>
+		<input type="checkbox" {$Obseva_notbox}>
+	</td>
+	<td>
+		{$searchtype_Obseva}
+	</td>
+	<td>
+		{$Obseva_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Obseva_editcontrol1}&nbsp;
+	</td>
+{END Obseva_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_validacion}">
+	{BEGIN validacion_fieldblock}		
+	<td>
+		{$label desaparecidos validacion}
+	</td>
+	<td>
+		<input type="checkbox" {$validacion_notbox}>
+	</td>
+	<td>
+		{$searchtype_validacion}
+	</td>
+	<td>
+		{$validacion_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$validacion_editcontrol1}&nbsp;
+	</td>
+{END validacion_fieldblock}
 	</tr>
 	<tr class="{$fielddispclass_Estado}">
 	{BEGIN Estado_fieldblock}		

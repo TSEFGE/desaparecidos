@@ -17600,13 +17600,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>1</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>1</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>1</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -17817,13 +17817,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>2</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>2</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>2</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -18039,7 +18039,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>3</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -18256,7 +18256,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>4</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -18473,7 +18473,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>5</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -18690,13 +18690,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>6</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>3</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>6</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -18907,13 +18907,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>7</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>4</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>7</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -19124,13 +19124,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>8</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>5</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>8</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -19558,7 +19558,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>9</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -19775,13 +19775,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>10</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>6</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>10</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -19992,13 +19992,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>11</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>7</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>11</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -20209,13 +20209,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>12</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>8</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>12</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -20413,7 +20413,7 @@ FROM colaboraciones</m_strSQL>
 					<m_strSQLExpression>AMat</m_strSQLExpression>
 					<m_strSQLAlias />
 					<m_strTotalsType />
-					<m_bAddPage>0</m_bAddPage>
+					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
 					<m_bViewPage>1</m_bViewPage>
@@ -20426,13 +20426,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>43</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>9</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>13</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -20643,7 +20643,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>14</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -20860,7 +20860,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>15</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -21077,7 +21077,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>16</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -21294,7 +21294,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>17</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -21511,7 +21511,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>18</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -21728,7 +21728,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>19</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -21950,7 +21950,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>20</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -22167,7 +22167,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>21</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -22384,7 +22384,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>22</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -22601,7 +22601,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>23</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -22818,7 +22818,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>24</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -23035,7 +23035,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>25</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -23252,7 +23252,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>26</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -23469,7 +23469,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>27</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -23686,7 +23686,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>28</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -23903,7 +23903,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>29</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -24120,7 +24120,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>30</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -24337,7 +24337,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>31</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -24554,7 +24554,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>32</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -24771,7 +24771,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>33</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -24988,7 +24988,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>34</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -25205,7 +25205,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>35</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -25422,7 +25422,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>36</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -25639,7 +25639,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>37</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -25856,13 +25856,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>38</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>10</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>38</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -26073,13 +26073,13 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>39</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>11</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>39</m_nPrinterPageOrder>
 					<m_nExportPageOrder>0</m_nExportPageOrder>
@@ -26290,7 +26290,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>40</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -26507,7 +26507,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>41</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -28460,7 +28460,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>42</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -28677,7 +28677,7 @@ FROM colaboraciones</m_strSQL>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
 					<m_bInlineEdit>0</m_bInlineEdit>
-					<m_nAddPageOrder>0</m_nAddPageOrder>
+					<m_nAddPageOrder>13</m_nAddPageOrder>
 					<m_nEditPageOrder>0</m_nEditPageOrder>
 					<m_nViewPageOrder>0</m_nViewPageOrder>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
@@ -29192,295 +29192,302 @@ FROM colaboraciones</m_strSQL>
 				<v>
 					<id>Estado</id>
 					<type>0</type>
-					<order>0</order>
+					<order>1</order>
 					<search>fEstado</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Mun</id>
 					<type>0</type>
-					<order>0</order>
+					<order>2</order>
 					<search>fMun</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>uipj</id>
 					<type>0</type>
-					<order>0</order>
+					<order>3</order>
 					<search>fuipj</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>numFiscal</id>
 					<type>0</type>
-					<order>0</order>
+					<order>4</order>
 					<search>fnumFiscal</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>añoInv</id>
 					<type>0</type>
-					<order>0</order>
+					<order>5</order>
 					<search>fañoInv</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>numInv</id>
 					<type>0</type>
-					<order>0</order>
+					<order>6</order>
 					<search>fnumInv</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>FInicio</id>
 					<type>0</type>
-					<order>0</order>
+					<order>7</order>
 					<search>fFInicio</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>MinPub</id>
 					<type>0</type>
-					<order>0</order>
+					<order>8</order>
 					<search>fMinPub</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Ofic</id>
 					<type>0</type>
-					<order>0</order>
+					<order>9</order>
 					<search>fOfic</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>FExtrav</id>
 					<type>0</type>
-					<order>0</order>
+					<order>10</order>
 					<search>fFExtrav</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Nombre</id>
 					<type>0</type>
-					<order>0</order>
+					<order>11</order>
 					<search>fNombre</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>APat</id>
 					<type>0</type>
-					<order>0</order>
+					<order>12</order>
 					<search>fAPat</search>
+					<tabgroup>0</tabgroup>
+				</v>
+				<v>
+					<id>fotoGrande</id>
+					<type>0</type>
+					<order>13</order>
+					<search>ffotoGrande</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Sexo</id>
 					<type>0</type>
-					<order>0</order>
+					<order>14</order>
 					<search>fSexo</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>EdadA</id>
 					<type>0</type>
-					<order>0</order>
+					<order>15</order>
 					<search>fEdadA</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>EdadM</id>
 					<type>0</type>
-					<order>0</order>
+					<order>16</order>
 					<search>fEdadM</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Nac</id>
 					<type>0</type>
-					<order>0</order>
+					<order>17</order>
 					<search>fNac</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Origen</id>
 					<type>0</type>
-					<order>0</order>
+					<order>18</order>
 					<search>fOrigen</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>MpoOrigen</id>
 					<type>0</type>
-					<order>0</order>
+					<order>19</order>
 					<search>fMpoOrigen</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Escolaridad</id>
 					<type>0</type>
-					<order>0</order>
+					<order>20</order>
 					<search>fEscolaridad</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Est</id>
 					<type>0</type>
-					<order>0</order>
+					<order>21</order>
 					<search>fEst</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Compl</id>
 					<type>0</type>
-					<order>0</order>
+					<order>22</order>
 					<search>fCompl</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Ojos</id>
 					<type>0</type>
-					<order>0</order>
+					<order>23</order>
 					<search>fOjos</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Piel</id>
 					<type>0</type>
-					<order>0</order>
+					<order>24</order>
 					<search>fPiel</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Cab</id>
 					<type>0</type>
-					<order>0</order>
+					<order>25</order>
 					<search>fCab</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>TCab</id>
 					<type>0</type>
-					<order>0</order>
+					<order>26</order>
 					<search>fTCab</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Cabcol</id>
 					<type>0</type>
-					<order>0</order>
+					<order>27</order>
 					<search>fCabcol</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Nariz</id>
 					<type>0</type>
-					<order>0</order>
+					<order>28</order>
 					<search>fNariz</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Labios</id>
 					<type>0</type>
-					<order>0</order>
+					<order>29</order>
 					<search>fLabios</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Menton</id>
 					<type>0</type>
-					<order>0</order>
+					<order>30</order>
 					<search>fMenton</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Cejas</id>
 					<type>0</type>
-					<order>0</order>
+					<order>31</order>
 					<search>fCejas</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>VFacial</id>
 					<type>0</type>
-					<order>0</order>
+					<order>32</order>
 					<search>fVFacial</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Delito</id>
 					<type>0</type>
-					<order>0</order>
+					<order>33</order>
 					<search>fDelito</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Particularidades</id>
 					<type>0</type>
-					<order>0</order>
+					<order>34</order>
 					<search>fParticularidades</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Nota</id>
 					<type>0</type>
-					<order>0</order>
+					<order>35</order>
 					<search>fNota</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>DescHechos</id>
 					<type>0</type>
-					<order>0</order>
+					<order>36</order>
 					<search>fDescHechos</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Obseva</id>
 					<type>0</type>
-					<order>0</order>
+					<order>37</order>
 					<search>fObseva</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Status</id>
 					<type>0</type>
-					<order>0</order>
+					<order>38</order>
 					<search>fStatus</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>FAparicion</id>
 					<type>0</type>
-					<order>0</order>
+					<order>39</order>
 					<search>fFAparicion</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>Oficio</id>
 					<type>0</type>
-					<order>0</order>
+					<order>40</order>
 					<search>fOficio</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>EstApar</id>
 					<type>0</type>
-					<order>0</order>
+					<order>41</order>
 					<search>fEstApar</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
 					<id>fotoChica</id>
 					<type>0</type>
-					<order>0</order>
+					<order>42</order>
 					<search>ffotoChica</search>
 					<tabgroup>0</tabgroup>
 				</v>
 				<v>
-					<id>fotoGrande</id>
+					<id>AMat</id>
 					<type>0</type>
-					<order>0</order>
-					<search>ffotoGrande</search>
+					<order>43</order>
+					<search>fAMat</search>
 					<tabgroup>0</tabgroup>
 				</v>
 			</m_arrAddPageLayout>
@@ -52480,7 +52487,12 @@ FROM unidad </m_sql>
 	<m_layoutManager>
 		<projectLayout>Manchester</projectLayout>
 		<pageTypeOverrides />
-		<pageOverrides />
+		<pageOverrides>
+			<v>
+				<page>colaboraciones_add</page>
+				<layout>basic_2col_center2</layout>
+			</v>
+		</pageOverrides>
 		<tabOverrides />
 	</m_layoutManager>
 	<m_styleManager>
@@ -52508,8 +52520,8 @@ FROM unidad </m_sql>
 				<m_strLanguage>Spanish</m_strLanguage>
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName />
-						<m_strTableLabel />
+						<m_strTableName></m_strTableName>
+						<m_strTableLabel></m_strTableLabel>
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -52520,12 +52532,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabcol</m_strField>
 								<m_strLabel>Idcabcol</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>cabcol</m_strField>
 								<m_strLabel>Cabcol</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52537,12 +52549,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabtam</m_strField>
 								<m_strLabel>Idcabtam</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>cabtam</m_strField>
 								<m_strLabel>Cabtam</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52554,12 +52566,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcejas</m_strField>
 								<m_strLabel>Idcejas</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52571,12 +52583,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabtip</m_strField>
 								<m_strLabel>Idcabtip</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>cabtip</m_strField>
 								<m_strLabel>Cabtip</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52588,12 +52600,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcomp</m_strField>
 								<m_strLabel>Idcomp</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>complexion</m_strField>
 								<m_strLabel>Complexion</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52605,12 +52617,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>delito</m_strField>
 								<m_strLabel>Delito</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52622,17 +52634,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nom_ent</m_strField>
 								<m_strLabel>Nom Ent</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nom_abr</m_strField>
 								<m_strLabel>Nom Abr</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52644,12 +52656,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idescolaridad</m_strField>
 								<m_strLabel>Idescolaridad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52661,12 +52673,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Estatus</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52678,12 +52690,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>estatus</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52695,12 +52707,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idlabios</m_strField>
 								<m_strLabel>Idlabios</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52712,12 +52724,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idmenton</m_strField>
 								<m_strLabel>Idmenton</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52729,32 +52741,32 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fkEdo</m_strField>
 								<m_strLabel>Fk Edo</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>cve_mun</m_strField>
 								<m_strLabel>Cve Mun</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>cve_cab</m_strField>
 								<m_strLabel>Cve Cab</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nom_cab</m_strField>
 								<m_strLabel>Nom Cab</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52766,12 +52778,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idnariz</m_strField>
 								<m_strLabel>Idnariz</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52783,12 +52795,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idojos</m_strField>
 								<m_strLabel>Idojos</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52800,12 +52812,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idpiel</m_strField>
 								<m_strLabel>Idpiel</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52817,12 +52829,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52834,12 +52846,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idValida</m_strField>
 								<m_strLabel>Id Valida</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52851,12 +52863,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idvfacial</m_strField>
 								<m_strLabel>Idvfacial</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>vfacial</m_strField>
 								<m_strLabel>Vfacial</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52868,12 +52880,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Clave</m_strField>
 								<m_strLabel>Clave</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nacionalidad</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52885,7 +52897,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Estado</m_strField>
@@ -52900,37 +52912,37 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>uipj</m_strField>
 								<m_strLabel>UIPJ</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>numFiscal</m_strField>
 								<m_strLabel>Número de Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>añoInv</m_strField>
 								<m_strLabel>Año de Investigación</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>numInv</m_strField>
-								<m_strLabel>Número de Carpeta</m_strLabel>
+								<m_strLabel>Número de Colaboración</m_strLabel>
 								<m_strTooltip>Solo capturar el número correspondiente de la carpeta de investigación</m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FInicio</m_strField>
 								<m_strLabel>Fecha de Inicio</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>MinPub</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Agencia</m_strField>
 								<m_strLabel>Agencia</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Ofic</m_strField>
@@ -52940,57 +52952,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FExtrav</m_strField>
 								<m_strLabel>Fecha de Extravío</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>APat</m_strField>
 								<m_strLabel>Paterno</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>AMat</m_strField>
 								<m_strLabel>Materno</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>EdadA</m_strField>
 								<m_strLabel>Edad Años</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>EdadM</m_strField>
 								<m_strLabel>Edad Meses</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nac</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Origen</m_strField>
 								<m_strLabel>Estado de Origen</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>MpoOrigen</m_strField>
 								<m_strLabel>Municipio de Origen</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Est</m_strField>
@@ -53000,62 +53012,62 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Compl</m_strField>
 								<m_strLabel>Complexión</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Cab</m_strField>
 								<m_strLabel>Cabello</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>TCab</m_strField>
 								<m_strLabel>Tipo de Cabello</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Cabcol</m_strField>
 								<m_strLabel>Color de Cabello</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>VFacial</m_strField>
 								<m_strLabel>Vello Facial</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
 								<m_strLabel>    Tipo de Desaparición</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Particularidades</m_strField>
@@ -53065,12 +53077,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Nota</m_strField>
 								<m_strLabel>Vestimenta</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>DescHechos</m_strField>
 								<m_strLabel>Hechos</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Obseva</m_strField>
@@ -53080,72 +53092,72 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FAparicion</m_strField>
 								<m_strLabel>Fecha de Localizado</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Oficio</m_strField>
 								<m_strLabel>Oficio</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>EstApar</m_strField>
 								<m_strLabel>Estado del Aparecido</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Tipo</m_strField>
 								<m_strLabel>Tipo</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FRecib</m_strField>
 								<m_strLabel>FRecib</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>UsrBaja</m_strField>
 								<m_strLabel>Usr Baja</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FecBaja</m_strField>
 								<m_strLabel>Fec Baja</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>RutFoto</m_strField>
 								<m_strLabel>Rut Foto</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FCaptura</m_strField>
 								<m_strLabel>FCaptura</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>TipoDoc</m_strField>
 								<m_strLabel>Tipo Doc</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Usuario</m_strField>
 								<m_strLabel>Usuario</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fotoChica</m_strField>
 								<m_strLabel>Foto Chica</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fotoGrande</m_strField>
 								<m_strLabel>Foto Grande</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels>
@@ -53162,7 +53174,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Estado</m_strField>
@@ -53177,17 +53189,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>uipj</m_strField>
 								<m_strLabel>UIPJ</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>numFiscal</m_strField>
 								<m_strLabel>Número de Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>añoInv</m_strField>
 								<m_strLabel>Año de Investigación</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>numInv</m_strField>
@@ -53197,17 +53209,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FInicio</m_strField>
 								<m_strLabel>Fecha de Inicio</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>MinPub</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Agencia</m_strField>
 								<m_strLabel>Agencia</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Ofic</m_strField>
@@ -53217,22 +53229,22 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FExtrav</m_strField>
 								<m_strLabel>Fecha de Extravío</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>APat</m_strField>
 								<m_strLabel>Paterno</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>AMat</m_strField>
 								<m_strLabel>Materno</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>identResg</m_strField>
@@ -53242,37 +53254,37 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>EdadA</m_strField>
 								<m_strLabel>Edad Años</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>EdadM</m_strField>
 								<m_strLabel>Edad Meses</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nac</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Origen</m_strField>
 								<m_strLabel>Estado de Origen</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>MpoOrigen</m_strField>
 								<m_strLabel>Municipio de Origen</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Est</m_strField>
@@ -53282,62 +53294,62 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Compl</m_strField>
 								<m_strLabel>Complexión</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Cab</m_strField>
 								<m_strLabel>Cabello</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>TCab</m_strField>
 								<m_strLabel>Tipo de Cabello</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Cabcol</m_strField>
 								<m_strLabel>Color de Cabello</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>VFacial</m_strField>
 								<m_strLabel>Vello Facial</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
 								<m_strLabel>Tipo de Desaparición</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Particularidades</m_strField>
@@ -53347,12 +53359,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Nota</m_strField>
 								<m_strLabel>Vestimenta</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>DescHechos</m_strField>
 								<m_strLabel>Hechos</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Obseva</m_strField>
@@ -53362,77 +53374,77 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FAparicion</m_strField>
 								<m_strLabel>Fecha de Localizado</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Oficio</m_strField>
 								<m_strLabel>Oficio</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>EstApar</m_strField>
 								<m_strLabel>Estado del Aparecido</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Tipo</m_strField>
 								<m_strLabel>Tipo</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FRecib</m_strField>
 								<m_strLabel>FRecib</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>UsrBaja</m_strField>
 								<m_strLabel>Usr Baja</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FecBaja</m_strField>
 								<m_strLabel>Fec Baja</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>RutFoto</m_strField>
 								<m_strLabel>Rut Foto</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>FCaptura</m_strField>
 								<m_strLabel>FCaptura</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>TipoDoc</m_strField>
 								<m_strLabel>Tipo Doc</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Usuario</m_strField>
 								<m_strLabel>Usuario</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fotoChica</m_strField>
 								<m_strLabel>Foto Chica</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fotoGrande</m_strField>
 								<m_strLabel>Foto Grande</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>validacion</m_strField>
 								<m_strLabel>Validación</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels>
@@ -53449,17 +53461,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>TableName</m_strField>
 								<m_strLabel>Table Name</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>AccessMask</m_strField>
 								<m_strLabel>Access Mask</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53471,19 +53483,19 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>Label</m_strField>
 								<m_strLabel>Label</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
 					</v>
 					<v>
-						<m_strTableName />
-						<m_strTableLabel />
+						<m_strTableName></m_strTableName>
+						<m_strTableLabel></m_strTableLabel>
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -53494,57 +53506,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>direccion</m_strField>
 								<m_strLabel>Direccion</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>latitud</m_strField>
 								<m_strLabel>Latitud</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>longitud</m_strField>
 								<m_strLabel>Longitud</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fiscal</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>distrito</m_strField>
 								<m_strLabel>Distrito</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>region</m_strField>
 								<m_strLabel>Region</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>unidad</m_strField>
 								<m_strLabel>Unidad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>idFiscal</m_strField>
 								<m_strLabel>Id Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53552,11 +53564,11 @@ FROM unidad </m_sql>
 				</m_arrTableLabels>
 			</v>
 			<v>
-				<m_strLanguage />
+				<m_strLanguage></m_strLanguage>
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName />
-						<m_strTableLabel />
+						<m_strTableName></m_strTableName>
+						<m_strTableLabel></m_strTableLabel>
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -53567,7 +53579,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53579,7 +53591,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53591,57 +53603,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>direccion</m_strField>
 								<m_strLabel>Direccion</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>latitud</m_strField>
 								<m_strLabel>Latitud</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>longitud</m_strField>
 								<m_strLabel>Longitud</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>fiscal</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>distrito</m_strField>
 								<m_strLabel>Distrito</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>region</m_strField>
 								<m_strLabel>Region</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>unidad</m_strField>
 								<m_strLabel>Unidad</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 							<v>
 								<m_strField>idFiscal</m_strField>
 								<m_strLabel>Id Fiscal</m_strLabel>
-								<m_strTooltip />
+								<m_strTooltip></m_strTooltip>
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53695,8 +53707,8 @@ FROM unidad </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>-1558291984</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30633678</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>1099910688</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30640322</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -56952,6 +56964,30 @@ FROM unidad </m_sql>
 				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\include\runnerJS\events\pageevents_desaparecidos.js</filename>
 				<source>C:\Program Files\PHPRunner8.1\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\pagestyles\basic_2col_center1IE.css</filename>
+				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\tmp\layouts\add~basic_2col_center1.ly</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\pagestyles\basic_2col_center1.css</filename>
+				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\tmp\layouts\add~basic_2col_center1.ly</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\pagestyles\basic_2col_center1RTL.css</filename>
+				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\tmp\layouts\add~basic_2col_center1.ly</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\pagestyles\basic_2col_center2IE.css</filename>
+				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\tmp\layouts\add~basic_2col_center2.ly</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\pagestyles\basic_2col_center2RTL.css</filename>
+				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\tmp\layouts\add~basic_2col_center2.ly</source>
+			</v>
+			<v>
+				<filename>C:\xampp\htdocs\desaparecidos\desaparecidosouput\pagestyles\basic_2col_center2.css</filename>
+				<source>C:\Users\PGJ\Documents\PHPRunnerProjects\Desaparecidos1\tmp\layouts\add~basic_2col_center2.ly</source>
+			</v>
 		</builtFiles>
 		<m_builtDBTables>
 			<v>cat_cabcol</v>
@@ -57042,7 +57078,7 @@ FROM unidad </m_sql>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRConnectionID></m_strWRConnectionID>
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>55</m_projectBuildNumber>
+	<m_projectBuildNumber>65</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
@@ -57137,7 +57173,7 @@ FROM unidad </m_sql>
 	<m_customFiles>
 		<v>
 			<m_name>colaboraciones_add.htm</m_name>
-			<m_origCrc>2492300517</m_origCrc>
+			<m_origCrc>1505882572</m_origCrc>
 		</v>
 		<v>
 			<m_name>header.php</m_name>

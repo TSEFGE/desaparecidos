@@ -235,10 +235,47 @@ $tdatadesaparecidos[".allSearchFields"] = array();
 $tdatadesaparecidos[".filterFields"] = array();
 $tdatadesaparecidos[".requiredSearchFields"] = array();
 
-$tdatadesaparecidos[".allSearchFields"][] = "añoInv";
-	$tdatadesaparecidos[".allSearchFields"][] = "identResg";
+$tdatadesaparecidos[".allSearchFields"][] = "Id";
+	$tdatadesaparecidos[".allSearchFields"][] = "Usuario";
+	$tdatadesaparecidos[".allSearchFields"][] = "TipoDoc";
 	$tdatadesaparecidos[".allSearchFields"][] = "uipj";
 	$tdatadesaparecidos[".allSearchFields"][] = "numFiscal";
+	$tdatadesaparecidos[".allSearchFields"][] = "añoInv";
+	$tdatadesaparecidos[".allSearchFields"][] = "FCaptura";
+	$tdatadesaparecidos[".allSearchFields"][] = "FecBaja";
+	$tdatadesaparecidos[".allSearchFields"][] = "UsrBaja";
+	$tdatadesaparecidos[".allSearchFields"][] = "Agencia";
+	$tdatadesaparecidos[".allSearchFields"][] = "Ofic";
+	$tdatadesaparecidos[".allSearchFields"][] = "FRecib";
+	$tdatadesaparecidos[".allSearchFields"][] = "Tipo";
+	$tdatadesaparecidos[".allSearchFields"][] = "EstApar";
+	$tdatadesaparecidos[".allSearchFields"][] = "Oficio";
+	$tdatadesaparecidos[".allSearchFields"][] = "identResg";
+	$tdatadesaparecidos[".allSearchFields"][] = "Sexo";
+	$tdatadesaparecidos[".allSearchFields"][] = "EdadA";
+	$tdatadesaparecidos[".allSearchFields"][] = "EdadM";
+	$tdatadesaparecidos[".allSearchFields"][] = "Nac";
+	$tdatadesaparecidos[".allSearchFields"][] = "Origen";
+	$tdatadesaparecidos[".allSearchFields"][] = "MpoOrigen";
+	$tdatadesaparecidos[".allSearchFields"][] = "Escolaridad";
+	$tdatadesaparecidos[".allSearchFields"][] = "Est";
+	$tdatadesaparecidos[".allSearchFields"][] = "Compl";
+	$tdatadesaparecidos[".allSearchFields"][] = "Ojos";
+	$tdatadesaparecidos[".allSearchFields"][] = "Piel";
+	$tdatadesaparecidos[".allSearchFields"][] = "Cab";
+	$tdatadesaparecidos[".allSearchFields"][] = "TCab";
+	$tdatadesaparecidos[".allSearchFields"][] = "Cabcol";
+	$tdatadesaparecidos[".allSearchFields"][] = "Nariz";
+	$tdatadesaparecidos[".allSearchFields"][] = "Labios";
+	$tdatadesaparecidos[".allSearchFields"][] = "Menton";
+	$tdatadesaparecidos[".allSearchFields"][] = "Cejas";
+	$tdatadesaparecidos[".allSearchFields"][] = "VFacial";
+	$tdatadesaparecidos[".allSearchFields"][] = "Delito";
+	$tdatadesaparecidos[".allSearchFields"][] = "Particularidades";
+	$tdatadesaparecidos[".allSearchFields"][] = "Nota";
+	$tdatadesaparecidos[".allSearchFields"][] = "DescHechos";
+	$tdatadesaparecidos[".allSearchFields"][] = "Obseva";
+	$tdatadesaparecidos[".allSearchFields"][] = "validacion";
 	$tdatadesaparecidos[".allSearchFields"][] = "Estado";
 	$tdatadesaparecidos[".allSearchFields"][] = "Mun";
 	$tdatadesaparecidos[".allSearchFields"][] = "numInv";
@@ -311,10 +348,47 @@ $tdatadesaparecidos[".googleLikeFields"][] = "validacion";
 
 
 $tdatadesaparecidos[".advSearchFields"] = array();
-$tdatadesaparecidos[".advSearchFields"][] = "añoInv";
-$tdatadesaparecidos[".advSearchFields"][] = "identResg";
+$tdatadesaparecidos[".advSearchFields"][] = "Id";
+$tdatadesaparecidos[".advSearchFields"][] = "Usuario";
+$tdatadesaparecidos[".advSearchFields"][] = "TipoDoc";
 $tdatadesaparecidos[".advSearchFields"][] = "uipj";
 $tdatadesaparecidos[".advSearchFields"][] = "numFiscal";
+$tdatadesaparecidos[".advSearchFields"][] = "añoInv";
+$tdatadesaparecidos[".advSearchFields"][] = "FCaptura";
+$tdatadesaparecidos[".advSearchFields"][] = "FecBaja";
+$tdatadesaparecidos[".advSearchFields"][] = "UsrBaja";
+$tdatadesaparecidos[".advSearchFields"][] = "Agencia";
+$tdatadesaparecidos[".advSearchFields"][] = "Ofic";
+$tdatadesaparecidos[".advSearchFields"][] = "FRecib";
+$tdatadesaparecidos[".advSearchFields"][] = "Tipo";
+$tdatadesaparecidos[".advSearchFields"][] = "EstApar";
+$tdatadesaparecidos[".advSearchFields"][] = "Oficio";
+$tdatadesaparecidos[".advSearchFields"][] = "identResg";
+$tdatadesaparecidos[".advSearchFields"][] = "Sexo";
+$tdatadesaparecidos[".advSearchFields"][] = "EdadA";
+$tdatadesaparecidos[".advSearchFields"][] = "EdadM";
+$tdatadesaparecidos[".advSearchFields"][] = "Nac";
+$tdatadesaparecidos[".advSearchFields"][] = "Origen";
+$tdatadesaparecidos[".advSearchFields"][] = "MpoOrigen";
+$tdatadesaparecidos[".advSearchFields"][] = "Escolaridad";
+$tdatadesaparecidos[".advSearchFields"][] = "Est";
+$tdatadesaparecidos[".advSearchFields"][] = "Compl";
+$tdatadesaparecidos[".advSearchFields"][] = "Ojos";
+$tdatadesaparecidos[".advSearchFields"][] = "Piel";
+$tdatadesaparecidos[".advSearchFields"][] = "Cab";
+$tdatadesaparecidos[".advSearchFields"][] = "TCab";
+$tdatadesaparecidos[".advSearchFields"][] = "Cabcol";
+$tdatadesaparecidos[".advSearchFields"][] = "Nariz";
+$tdatadesaparecidos[".advSearchFields"][] = "Labios";
+$tdatadesaparecidos[".advSearchFields"][] = "Menton";
+$tdatadesaparecidos[".advSearchFields"][] = "Cejas";
+$tdatadesaparecidos[".advSearchFields"][] = "VFacial";
+$tdatadesaparecidos[".advSearchFields"][] = "Delito";
+$tdatadesaparecidos[".advSearchFields"][] = "Particularidades";
+$tdatadesaparecidos[".advSearchFields"][] = "Nota";
+$tdatadesaparecidos[".advSearchFields"][] = "DescHechos";
+$tdatadesaparecidos[".advSearchFields"][] = "Obseva";
+$tdatadesaparecidos[".advSearchFields"][] = "validacion";
 $tdatadesaparecidos[".advSearchFields"][] = "Estado";
 $tdatadesaparecidos[".advSearchFields"][] = "Mun";
 $tdatadesaparecidos[".advSearchFields"][] = "numInv";
@@ -785,7 +859,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "Id"; 
@@ -795,7 +870,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -872,6 +948,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -1967,7 +2048,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "Agencia"; 
@@ -1977,7 +2059,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -2052,6 +2135,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -2080,7 +2168,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -2170,6 +2259,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -2819,7 +2913,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -2932,6 +3027,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -2960,7 +3060,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3048,6 +3149,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -3076,7 +3182,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3164,6 +3271,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -3192,7 +3304,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3305,6 +3418,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -3333,7 +3451,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3447,6 +3566,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -3475,7 +3599,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3589,6 +3714,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -3617,7 +3747,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3728,6 +3859,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -3756,7 +3892,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3845,6 +3982,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -3873,7 +4015,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -3984,6 +4127,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4012,7 +4160,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4123,6 +4272,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4151,7 +4305,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4262,6 +4417,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4290,7 +4450,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4401,6 +4562,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4429,7 +4595,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4540,6 +4707,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4568,7 +4740,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4679,6 +4852,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4707,7 +4885,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4818,6 +4997,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4846,7 +5030,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -4957,6 +5142,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -4985,7 +5175,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5096,6 +5287,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -5124,7 +5320,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5235,6 +5432,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -5263,7 +5465,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5374,6 +5577,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -5402,7 +5610,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5515,6 +5724,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -5543,7 +5757,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5632,6 +5847,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -5660,7 +5880,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5747,6 +5968,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -5775,7 +6001,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5864,6 +6091,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -5892,7 +6124,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -5979,6 +6212,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -6280,7 +6518,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -6368,6 +6607,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -6396,7 +6640,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -6507,6 +6752,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -6532,7 +6782,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "Tipo"; 
@@ -6542,7 +6793,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -6617,6 +6869,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -6642,7 +6899,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "FRecib"; 
@@ -6652,7 +6910,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -6728,6 +6987,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -6753,7 +7017,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "UsrBaja"; 
@@ -6763,7 +7028,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -6838,6 +7104,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -6863,7 +7134,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "FecBaja"; 
@@ -6873,7 +7145,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -6949,6 +7222,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
@@ -7084,7 +7362,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "FCaptura"; 
@@ -7094,7 +7373,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -7169,6 +7449,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -7194,7 +7479,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "TipoDoc"; 
@@ -7204,7 +7490,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -7279,6 +7566,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -7304,7 +7596,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		
 		
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		
 		
 		$fdata["strField"] = "Usuario"; 
@@ -7314,7 +7607,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 		
 		
-				
+				$fdata["FieldPermissions"] = true;
+	
 				$fdata["UploadFolder"] = "files";
 		
 //  Begin View Formats
@@ -7389,6 +7683,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Contains", "Equals", "Empty");
+// the end of search options settings	
 
 	
 
@@ -7661,7 +7960,8 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 		
 		$fdata["bViewPage"] = true; 
 	
-		
+		$fdata["bAdvancedSearch"] = true; 
+	
 		$fdata["bPrinterPage"] = true; 
 	
 		$fdata["bExportPage"] = true; 
@@ -7772,6 +8072,11 @@ $tdatadesaparecidos[".printFields"][] = "validacion";
 	
 	
 	
+// the field's search options settings
+		
+			// the default search options list
+				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between");
+// the end of search options settings	
 
 	
 
