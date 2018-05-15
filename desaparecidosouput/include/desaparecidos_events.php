@@ -6,6 +6,8 @@ class eventclass_desaparecidos  extends eventsBase
 	// fill list of events
 		$this->events["AfterEdit"]=true;
 
+		$this->events["BeforeShowAdd"]=true;
+
 
 //	onscreen events
 
@@ -60,6 +62,74 @@ CustomQuery($sql);
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+								
+		
+		
+			
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				// Before display
+function BeforeShowAdd(&$xt, &$templatefile, &$pageObject)
+{
+
+		if (($_SESSION["UserID"] != "alcantara")or($_SESSION["UserID"] != "csuarez")or($_SESSION["UserID"] != "acallejas"))
+
+  $pageObject->hideField("validacion");
+
+
+
+// Place event code here.
+// Use 
+;		
+} // function BeforeShowAdd
+
 		
 		
 		

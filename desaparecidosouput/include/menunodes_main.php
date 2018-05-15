@@ -16,7 +16,7 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["parent"] = "0";
 	$menuNode["nameType"] = "Text";
 	$menuNode["linkType"] = "Internal";
-	$menuNode["pageType"] = "Add";//
+	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	$menuNode["title"] = "Colaboraciones";
 	$menuNodesObject->menuNodes["main"][] = $menuNode;

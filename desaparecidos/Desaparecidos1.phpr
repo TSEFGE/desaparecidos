@@ -31063,7 +31063,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -31092,7 +31092,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Id</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -31291,7 +31291,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>1</m_nListPageOrder>
+					<m_nListPageOrder>2</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>1</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>1</m_nPrinterPageOrder>
 					<m_nExportPageOrder>1</m_nExportPageOrder>
@@ -31508,7 +31508,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>2</m_nListPageOrder>
+					<m_nListPageOrder>3</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>2</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>2</m_nPrinterPageOrder>
 					<m_nExportPageOrder>2</m_nExportPageOrder>
@@ -32381,7 +32381,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>3</m_nListPageOrder>
+					<m_nListPageOrder>4</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>3</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>6</m_nPrinterPageOrder>
 					<m_nExportPageOrder>6</m_nExportPageOrder>
@@ -32598,7 +32598,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>4</m_nListPageOrder>
+					<m_nListPageOrder>5</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>4</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>7</m_nPrinterPageOrder>
 					<m_nExportPageOrder>7</m_nExportPageOrder>
@@ -32815,7 +32815,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>5</m_nListPageOrder>
+					<m_nListPageOrder>6</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>5</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>8</m_nPrinterPageOrder>
 					<m_nExportPageOrder>8</m_nExportPageOrder>
@@ -33021,7 +33021,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -33050,7 +33050,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Agencia</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -33238,7 +33238,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -33267,7 +33267,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Ofic</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -33466,7 +33466,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>6</m_nListPageOrder>
+					<m_nListPageOrder>7</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>6</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>10</m_nPrinterPageOrder>
 					<m_nExportPageOrder>10</m_nExportPageOrder>
@@ -33683,7 +33683,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>7</m_nListPageOrder>
+					<m_nListPageOrder>8</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>7</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>11</m_nPrinterPageOrder>
 					<m_nExportPageOrder>11</m_nExportPageOrder>
@@ -33900,7 +33900,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>8</m_nListPageOrder>
+					<m_nListPageOrder>9</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>8</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>12</m_nPrinterPageOrder>
 					<m_nExportPageOrder>12</m_nExportPageOrder>
@@ -34117,7 +34117,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>9</m_nListPageOrder>
+					<m_nListPageOrder>10</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>9</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>13</m_nPrinterPageOrder>
 					<m_nExportPageOrder>13</m_nExportPageOrder>
@@ -34334,7 +34334,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>0</m_nListPageOrder>
+					<m_nListPageOrder>1</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>0</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>14</m_nPrinterPageOrder>
 					<m_nExportPageOrder>14</m_nExportPageOrder>
@@ -34540,7 +34540,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -34569,7 +34569,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Sexo</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -34757,7 +34757,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -34786,7 +34786,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>EdadA</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -34974,7 +34974,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -35003,7 +35003,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>EdadM</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -35191,7 +35191,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -35220,7 +35220,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Nac</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -35408,7 +35408,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -35437,7 +35437,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Origen</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -35625,7 +35625,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -35654,7 +35654,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>MpoOrigen</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -35847,7 +35847,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -35876,7 +35876,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Escolaridad</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -36064,7 +36064,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -36093,7 +36093,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Est</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -36281,7 +36281,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -36310,7 +36310,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Compl</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -36498,7 +36498,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -36527,7 +36527,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Ojos</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -36715,7 +36715,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -36744,7 +36744,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Piel</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -36932,7 +36932,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -36961,7 +36961,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Cab</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -37149,7 +37149,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -37178,7 +37178,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>TCab</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -37366,7 +37366,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -37395,7 +37395,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Cabcol</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -37583,7 +37583,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -37612,7 +37612,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Nariz</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -37800,7 +37800,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -37829,7 +37829,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Labios</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -38017,7 +38017,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -38046,7 +38046,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Menton</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -38234,7 +38234,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -38263,7 +38263,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Cejas</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -38451,7 +38451,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -38480,7 +38480,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>VFacial</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -38668,7 +38668,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -38697,7 +38697,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Delito</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -38885,7 +38885,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -38914,7 +38914,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Particularidades</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -39102,7 +39102,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -39131,7 +39131,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Nota</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -39319,7 +39319,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -39348,7 +39348,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>DescHechos</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -39536,7 +39536,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -39565,7 +39565,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Obseva</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -39764,7 +39764,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>10</m_nListPageOrder>
+					<m_nListPageOrder>11</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>10</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>39</m_nPrinterPageOrder>
 					<m_nExportPageOrder>39</m_nExportPageOrder>
@@ -39981,7 +39981,7 @@ FROM desaparecidos</m_strSQL>
 					<m_nAltAddPageOrder>0</m_nAltAddPageOrder>
 					<m_nAltEditPageOrder>0</m_nAltEditPageOrder>
 					<m_nAltViewPageOrder>0</m_nAltViewPageOrder>
-					<m_nListPageOrder>11</m_nListPageOrder>
+					<m_nListPageOrder>12</m_nListPageOrder>
 					<m_nAdvSearchPageOrder>11</m_nAdvSearchPageOrder>
 					<m_nPrinterPageOrder>40</m_nPrinterPageOrder>
 					<m_nExportPageOrder>40</m_nExportPageOrder>
@@ -40187,7 +40187,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -40216,7 +40216,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Oficio</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -40404,7 +40404,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -40433,7 +40433,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>EstApar</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -40621,7 +40621,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -40650,7 +40650,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Tipo</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -40838,7 +40838,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -40867,7 +40867,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>FRecib</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -41055,7 +41055,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -41084,7 +41084,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>UsrBaja</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -41272,7 +41272,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -41301,7 +41301,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>FecBaja</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -41706,7 +41706,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -41735,7 +41735,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>FCaptura</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -41923,7 +41923,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -41952,7 +41952,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>TipoDoc</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -42140,7 +42140,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>0</m_bExportPage>
 					<m_bImportPage>0</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -42169,7 +42169,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>Usuario</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -42791,7 +42791,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bExportPage>1</m_bExportPage>
 					<m_bImportPage>1</m_bImportPage>
 					<m_bSearch>0</m_bSearch>
-					<m_bAdvancedSearch>0</m_bAdvancedSearch>
+					<m_bAdvancedSearch>1</m_bAdvancedSearch>
 					<m_bMasterListPage>1</m_bMasterListPage>
 					<m_bMasterPrintPage>1</m_bMasterPrintPage>
 					<m_bInlineAdd>0</m_bInlineAdd>
@@ -42820,7 +42820,7 @@ FROM desaparecidos</m_strSQL>
 					<m_bAvg>0</m_bAvg>
 					<m_strField>validacion</m_strField>
 					<m_bEncrypted>0</m_bEncrypted>
-					<m_bAdvancedSearchPage>0</m_bAdvancedSearchPage>
+					<m_bAdvancedSearchPage>1</m_bAdvancedSearchPage>
 					<m_bGoogleLikeSearch>1</m_bGoogleLikeSearch>
 					<m_viewFormats>
 						<v>
@@ -52520,8 +52520,8 @@ FROM unidad </m_sql>
 				<m_strLanguage>Spanish</m_strLanguage>
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -52532,12 +52532,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabcol</m_strField>
 								<m_strLabel>Idcabcol</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cabcol</m_strField>
 								<m_strLabel>Cabcol</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52549,12 +52549,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabtam</m_strField>
 								<m_strLabel>Idcabtam</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cabtam</m_strField>
 								<m_strLabel>Cabtam</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52566,12 +52566,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcejas</m_strField>
 								<m_strLabel>Idcejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52583,12 +52583,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcabtip</m_strField>
 								<m_strLabel>Idcabtip</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cabtip</m_strField>
 								<m_strLabel>Cabtip</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52600,12 +52600,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idcomp</m_strField>
 								<m_strLabel>Idcomp</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>complexion</m_strField>
 								<m_strLabel>Complexion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52617,12 +52617,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>delito</m_strField>
 								<m_strLabel>Delito</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52634,17 +52634,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nom_ent</m_strField>
 								<m_strLabel>Nom Ent</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nom_abr</m_strField>
 								<m_strLabel>Nom Abr</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52656,12 +52656,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idescolaridad</m_strField>
 								<m_strLabel>Idescolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52673,12 +52673,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Estatus</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52690,12 +52690,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>estatus</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52707,12 +52707,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idlabios</m_strField>
 								<m_strLabel>Idlabios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52724,12 +52724,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idmenton</m_strField>
 								<m_strLabel>Idmenton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52741,32 +52741,32 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fkEdo</m_strField>
 								<m_strLabel>Fk Edo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cve_mun</m_strField>
 								<m_strLabel>Cve Mun</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cve_cab</m_strField>
 								<m_strLabel>Cve Cab</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nom_cab</m_strField>
 								<m_strLabel>Nom Cab</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52778,12 +52778,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idnariz</m_strField>
 								<m_strLabel>Idnariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52795,12 +52795,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idojos</m_strField>
 								<m_strLabel>Idojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52812,12 +52812,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idpiel</m_strField>
 								<m_strLabel>Idpiel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52829,12 +52829,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52846,12 +52846,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idValida</m_strField>
 								<m_strLabel>Id Valida</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52863,12 +52863,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>idvfacial</m_strField>
 								<m_strLabel>Idvfacial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>vfacial</m_strField>
 								<m_strLabel>Vfacial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52880,12 +52880,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Clave</m_strField>
 								<m_strLabel>Clave</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nacionalidad</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -52897,7 +52897,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Estado</m_strField>
@@ -52912,17 +52912,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>uipj</m_strField>
 								<m_strLabel>UIPJ</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numFiscal</m_strField>
 								<m_strLabel>Número de Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>añoInv</m_strField>
 								<m_strLabel>Año de Investigación</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numInv</m_strField>
@@ -52932,17 +52932,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FInicio</m_strField>
 								<m_strLabel>Fecha de Inicio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MinPub</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Agencia</m_strField>
 								<m_strLabel>Agencia</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ofic</m_strField>
@@ -52952,57 +52952,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FExtrav</m_strField>
 								<m_strLabel>Fecha de Extravío</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>APat</m_strField>
 								<m_strLabel>Paterno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AMat</m_strField>
 								<m_strLabel>Materno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadA</m_strField>
 								<m_strLabel>Edad Años</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadM</m_strField>
 								<m_strLabel>Edad Meses</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nac</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Origen</m_strField>
 								<m_strLabel>Estado de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MpoOrigen</m_strField>
 								<m_strLabel>Municipio de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Est</m_strField>
@@ -53012,62 +53012,62 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Compl</m_strField>
 								<m_strLabel>Complexión</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cab</m_strField>
 								<m_strLabel>Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TCab</m_strField>
 								<m_strLabel>Tipo de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cabcol</m_strField>
 								<m_strLabel>Color de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>VFacial</m_strField>
 								<m_strLabel>Vello Facial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
 								<m_strLabel>    Tipo de Desaparición</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Particularidades</m_strField>
@@ -53077,12 +53077,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Nota</m_strField>
 								<m_strLabel>Vestimenta</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>DescHechos</m_strField>
 								<m_strLabel>Hechos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Obseva</m_strField>
@@ -53092,72 +53092,72 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FAparicion</m_strField>
 								<m_strLabel>Fecha de Localizado</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Oficio</m_strField>
 								<m_strLabel>Oficio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EstApar</m_strField>
 								<m_strLabel>Estado del Aparecido</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Tipo</m_strField>
 								<m_strLabel>Tipo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FRecib</m_strField>
 								<m_strLabel>FRecib</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>UsrBaja</m_strField>
 								<m_strLabel>Usr Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FecBaja</m_strField>
 								<m_strLabel>Fec Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>RutFoto</m_strField>
 								<m_strLabel>Rut Foto</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FCaptura</m_strField>
 								<m_strLabel>FCaptura</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TipoDoc</m_strField>
 								<m_strLabel>Tipo Doc</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Usuario</m_strField>
 								<m_strLabel>Usuario</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoChica</m_strField>
 								<m_strLabel>Foto Chica</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoGrande</m_strField>
 								<m_strLabel>Foto Grande</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels>
@@ -53174,7 +53174,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Estado</m_strField>
@@ -53189,17 +53189,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>uipj</m_strField>
 								<m_strLabel>UIPJ</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numFiscal</m_strField>
 								<m_strLabel>Número de Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>añoInv</m_strField>
 								<m_strLabel>Año de Investigación</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>numInv</m_strField>
@@ -53209,17 +53209,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FInicio</m_strField>
 								<m_strLabel>Fecha de Inicio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MinPub</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Agencia</m_strField>
 								<m_strLabel>Agencia</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ofic</m_strField>
@@ -53229,22 +53229,22 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>FExtrav</m_strField>
 								<m_strLabel>Fecha de Extravío</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>APat</m_strField>
 								<m_strLabel>Paterno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AMat</m_strField>
 								<m_strLabel>Materno</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>identResg</m_strField>
@@ -53254,37 +53254,37 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Sexo</m_strField>
 								<m_strLabel>Sexo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadA</m_strField>
 								<m_strLabel>Edad Años</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EdadM</m_strField>
 								<m_strLabel>Edad Meses</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nac</m_strField>
 								<m_strLabel>Nacionalidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Origen</m_strField>
 								<m_strLabel>Estado de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MpoOrigen</m_strField>
 								<m_strLabel>Municipio de Origen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Escolaridad</m_strField>
 								<m_strLabel>Escolaridad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Est</m_strField>
@@ -53294,62 +53294,62 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Compl</m_strField>
 								<m_strLabel>Complexión</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Ojos</m_strField>
 								<m_strLabel>Ojos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Piel</m_strField>
 								<m_strLabel>Piel</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cab</m_strField>
 								<m_strLabel>Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TCab</m_strField>
 								<m_strLabel>Tipo de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cabcol</m_strField>
 								<m_strLabel>Color de Cabello</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Nariz</m_strField>
 								<m_strLabel>Nariz</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Labios</m_strField>
 								<m_strLabel>Labios</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Menton</m_strField>
 								<m_strLabel>Menton</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Cejas</m_strField>
 								<m_strLabel>Cejas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>VFacial</m_strField>
 								<m_strLabel>Vello Facial</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Delito</m_strField>
 								<m_strLabel>Tipo de Desaparición</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Particularidades</m_strField>
@@ -53359,12 +53359,12 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Nota</m_strField>
 								<m_strLabel>Vestimenta</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>DescHechos</m_strField>
 								<m_strLabel>Hechos</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Obseva</m_strField>
@@ -53374,77 +53374,77 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Estatus</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FAparicion</m_strField>
 								<m_strLabel>Fecha de Localizado</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Oficio</m_strField>
 								<m_strLabel>Oficio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EstApar</m_strField>
 								<m_strLabel>Estado del Aparecido</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Tipo</m_strField>
 								<m_strLabel>Tipo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FRecib</m_strField>
 								<m_strLabel>FRecib</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>UsrBaja</m_strField>
 								<m_strLabel>Usr Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FecBaja</m_strField>
 								<m_strLabel>Fec Baja</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>RutFoto</m_strField>
 								<m_strLabel>Rut Foto</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FCaptura</m_strField>
 								<m_strLabel>FCaptura</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TipoDoc</m_strField>
 								<m_strLabel>Tipo Doc</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Usuario</m_strField>
 								<m_strLabel>Usuario</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoChica</m_strField>
 								<m_strLabel>Foto Chica</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fotoGrande</m_strField>
 								<m_strLabel>Foto Grande</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>validacion</m_strField>
 								<m_strLabel>Validación</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels>
@@ -53461,17 +53461,17 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>TableName</m_strField>
 								<m_strLabel>Table Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AccessMask</m_strField>
 								<m_strLabel>Access Mask</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53483,19 +53483,19 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Label</m_strField>
 								<m_strLabel>Label</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
 					</v>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -53506,57 +53506,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>direccion</m_strField>
 								<m_strLabel>Direccion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>latitud</m_strField>
 								<m_strLabel>Latitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>longitud</m_strField>
 								<m_strLabel>Longitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fiscal</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>distrito</m_strField>
 								<m_strLabel>Distrito</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>region</m_strField>
 								<m_strLabel>Region</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidad</m_strField>
 								<m_strLabel>Unidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>idFiscal</m_strField>
 								<m_strLabel>Id Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53564,11 +53564,11 @@ FROM unidad </m_sql>
 				</m_arrTableLabels>
 			</v>
 			<v>
-				<m_strLanguage></m_strLanguage>
+				<m_strLanguage />
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -53579,7 +53579,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53591,7 +53591,7 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>Id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53603,57 +53603,57 @@ FROM unidad </m_sql>
 							<v>
 								<m_strField>id</m_strField>
 								<m_strLabel>Id</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>direccion</m_strField>
 								<m_strLabel>Direccion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>latitud</m_strField>
 								<m_strLabel>Latitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>longitud</m_strField>
 								<m_strLabel>Longitud</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fiscal</m_strField>
 								<m_strLabel>Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>distrito</m_strField>
 								<m_strLabel>Distrito</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>region</m_strField>
 								<m_strLabel>Region</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidad</m_strField>
 								<m_strLabel>Unidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>idFiscal</m_strField>
 								<m_strLabel>Id Fiscal</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -53707,8 +53707,8 @@ FROM unidad </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>1099910688</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30640322</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>967539072</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30651993</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -57078,7 +57078,7 @@ FROM unidad </m_sql>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRConnectionID></m_strWRConnectionID>
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>65</m_projectBuildNumber>
+	<m_projectBuildNumber>68</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
